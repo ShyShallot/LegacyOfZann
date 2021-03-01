@@ -2,8 +2,10 @@
 require("PGStateMachine")
 require("PGBase")
 require("PGSpawnUnits")
---require("LOZPlanetTechTable.lua") a Unfinished script for a future function
-
+require("LOZPlanetTechTable") 
+require("LOZFunctions")
+-- Please Note this script is a total fucking mess, it works and i dont want to spend 2 more days re-writing it
+-- This script File is the main Function File for the Rebel Slice Mechanic
 function Definitions()
     DebugMessage("%s -- In Definitions", tostring(Script))
     Define_State("State_Init", State_Init);
@@ -38,105 +40,64 @@ function State_Init(message)
             Sleep(5) -- Give Time to Travel to planet
         else
             planetOwner = planet.Get_Owner().Get_Faction_Name() -- Use Faction name as this doesnt error the script when checking for planet owner
+            planet_diff, planet_avail = Calculate_Planet_Slice_Values(planet)
         end
-
-        --if contains(planet_tech_table, planet) then , UNUSED If statement that uses the Planet Table, which doesnt work.
-            
-        --end
-
-        DebugMessage("%s -- Setting Chance Per Tech", tostring(Script))
-        if player.Get_Tech_Level() == 1 then -- Get Slice Chance based of the Players Current Tech Level after Adjustment(?)
-            sliceChanceTech = GameRandom(1.0, 0.75)
-            sliceTechTime = GameRandom(5, 15)
-        elseif player.Get_Tech_Level() == 2 then
-            sliceChanceTech = GameRandom(0.75, 0.50)
-            sliceTechTime = GameRandom(15, 25)
-        elseif player.Get_Tech_Level() == 3 then
-            sliceChanceTech = GameRandom(0.50, 0.45)
-            sliceTechTime = GameRandom(25, 35)
-        elseif player.Get_Tech_Level() == 4 then
-            sliceChanceTech = GameRandom(0.45, 0.35)
-            sliceTechTime = GameRandom(35, 45)
-        end
-
-       DebugMessage("%s -- Setting Chance Per Difficulty", tostring(Script))
-        if player.Get_Difficulty() == "Easy" then -- Get Slice Chance off of Difficulty as a second param
-            sliceChanceDiff = 1.5
-            successchance = GameRandom(0.5, 0.5) -- Compare success chance, do not delete
-        elseif player.Get_Difficulty() == "Normal" then
-            sliceChanceDiff = 1.0
-            successchance = GameRandom(0.3, 0.45) -- Compare success chance, do not delete
-        elseif player.Get_Difficulty() == "Hard" then
-            sliceChanceDiff = 0.5 
-            successchance = GameRandom(0.25, 0.35) -- Compare success chance, do not delete
-        end
-    
-
         DebugMessage("%s -- Running Main Part, Checking Object Runner", tostring(Script))
         if Object == Object.Get_Parent_Object() or Object.Get_Type("Droid_R2D2") then -- A Just In Case to make sure that the Object calling the script is the Droid Team or R2D2
-           DebugMessage("%s -- Getting Total Slice Chance", tostring(Script)) 
-            total_slice_chance = sliceChanceDiff * sliceChanceTech -- Caculate our Total Chance from our Tech and Diff values
-            
            DebugMessage("%s -- Checking if we own the planet", tostring(Script)) 
            DebugMessage("%s -- Planet Owner", tostring(planetOwner))
-
             if planetOwner ~= "REBEL" then -- Make sure we dont own the planet and check if the planet was recently sliced from
-
                 if planetOwner ~= "PIRATES" then -- Prevent Slicing from Pirate Planets
                     if Droid_Team_Fleet_Count == 1  then
                         if player.Get_Credits() >= 2000 then
                             IS_ISD_LOCKED = GlobalValue.Get("IS_REBEL_ISD_LOCKED")
-                        
                             DebugMessage("%s -- Determining if Slice Failed or Not", tostring(Script)) 
                             Droid_Team.Play_SFX_Event("Unit_Move_C3PO") -- Play Sound Effect on Slicing Start
-
                             Game_Message("LOZ_REBEL_SLICE_PROG") -- Show Text telling the player to wait
-
+                            sliceTechTime = Calculate_Sleep_Time(planet_diff, planet_avail)
+                            DebugMessage("Current Time to Sleep: %s", tostring(sliceTechTime))
                             Sleep(sliceTechTime) -- Pause the Script based off of our Tech Level for Slicing 
-
-                            if total_slice_chance <= successchance then -- Total_Slice_Chance is from our Tech and Diff Values, check if its less than our Success Chance
-                                    Droid_Team.Play_SFX_Event("Unit_Defeat_C3PO")
-                                    Sleep(3) -- Give time for Audio to Finish
-                                    Game_Message("LOZ_REBEL_SLICE_FAIL") -- Run the Story Event telling the player that it failed and to Despawn
-                                    DebugMessage("%s -- Slice Failed, Despawning Droids", tostring(Script))
-                                    GlobalValue.Set("Droid_Dead", 1) -- Set Droid_Dead to 1 for Respawn Script
-                                    Droid_Team.Despawn() -- Despawn R2D2 and C3PO 
-                                    Object.Despawn() -- Despawn R2D2 just in case
-                            elseif total_slice_chance >= successchance then
-                                    if planetOwner == "EMPIRE" then -- Make sure Planet is owned by Empire
-                                        DebugMessage("%s -- Starting ISD Unlock", tostring(Script)) 
-                                        kuat = FindPlanet("Kuat") -- Find the planet Kuat
-                                        DebugMessage("%s -- Found Kuat Planet", tostring(Script)) 
-                                        isdUnlockChance = GameRandom(0.2, 0.3) -- First Chance
-                                        successchanceISD = GameRandom(0.25, 0.29) -- Second Chance
-                                        DebugMessage("%s -- Getting Unlock Chances", tostring(Script)) 
-                                        if planet == kuat then -- If Planet is owned by the Empire and the planet is Kuat
-                                            DebugMessage("%s -- found planet Kuat successfully", tostring(Script)) 
-                                            if player.Get_Tech_Level() >= 3 then -- If player is above Tech 3 as an ISD on tech below is broken
-                                                DebugMessage("%s -- Is Tech 3", tostring(Script)) 
-                                                if IS_ISD_LOCKED == 0 then -- Make sure player has never unlocked the Rebel ISD
-                                                    DebugMessage("%s -- ISD is Locked", tostring(Script)) 
-                                                    if isdUnlockChance >= successchanceISD then
-                                                        DebugMessage("%s -- Unlock Chance Successfull", tostring(Script)) 
-                                                        Story_Event("REBEL_SLICE_ISD_UNLOCK")
-                                                        Game_Message("LOZ_REBEL_SLICE_ISD_UNLOCK")
-                                                        GlobalValue.Set("IS_REBEL_ISD_LOCKED", 1) -- Let game know the player Unlocked the Rebel ISD
-                                                    end
+                            if not Calculate_Slice_Chances(planet_diff, planet_avail) then -- Total_Slice_Chance is from our Tech and Diff Values, check if its less than our Success Chance
+                                Droid_Team.Play_SFX_Event("Unit_Defeat_C3PO")
+                                Sleep(3) -- Give time for Audio to Finish
+                                Game_Message("LOZ_REBEL_SLICE_FAIL") -- Run the Story Event telling the player that it failed and to Despawn
+                                DebugMessage("%s -- Slice Failed, Despawning Droids", tostring(Script))
+                                GlobalValue.Set("Droid_Dead", 1) -- Set Droid_Dead to 1 for Respawn Script
+                                Droid_Team.Despawn() -- Despawn R2D2 and C3PO 
+                                Object.Despawn() -- Despawn R2D2 just in case
+                            elseif Calculate_Slice_Chances(planet_diff, planet_avail) then
+                                if planetOwner == "EMPIRE" then -- Make sure Planet is owned by Empire
+                                    DebugMessage("%s -- Starting ISD Unlock", tostring(Script)) 
+                                    kuat = FindPlanet("Kuat") -- Find the planet Kuat
+                                    DebugMessage("%s -- Found Kuat Planet", tostring(Script)) 
+                                    DebugMessage("%s -- Getting Unlock Chances", tostring(Script)) 
+                                    if planet == kuat then -- If Planet is owned by the Empire and the planet is Kuat
+                                        DebugMessage("%s -- found planet Kuat successfully", tostring(Script)) 
+                                        if player.Get_Tech_Level() >= 3 then -- If player is above Tech 3 as an ISD on tech below is broken
+                                            DebugMessage("%s -- Is Tech 3", tostring(Script)) 
+                                            if IS_ISD_LOCKED == 0 then -- Make sure player has never unlocked the Rebel ISD
+                                                DebugMessage("%s -- ISD is Locked", tostring(Script)) 
+                                                if Return_Chance(GameRandom(0.2, 0.6)) then
+                                                    DebugMessage("%s -- Unlock Chance Successfull", tostring(Script)) 
+                                                    Story_Event("REBEL_SLICE_ISD_UNLOCK")
+                                                    Game_Message("LOZ_REBEL_SLICE_ISD_UNLOCK")
+                                                    GlobalValue.Set("IS_REBEL_ISD_LOCKED", 1) -- Let game know the player Unlocked the Rebel ISD
                                                 end
                                             end
                                         end
-                                    end -- Run Rest of successful slice stuff
-                                    DebugMessage("%s -- Slice Sucseesful, Despawning Droids", tostring(Script))
-                                    credits_take = GameRandom(-1000, -650) -- Remove a random amount of credits to compensate for a lack of player control
-                                    player.Give_Money(credits_take) -- It says Give Money but we are adding a Negtive Value so its just subtracting
-                                    Droid_Team.Play_SFX_Event("Unit_Hack_Turret_C3PO")
-                                    Sleep(3) -- Give time for Audio to Finish
-                                    Game_Message("LOZ_REBEL_SLICE_WIN") -- Tell the player the slice succeeded and to Despawn
-                                    GlobalValue.Set("Droid_Dead", 1) -- Set Droid_Dead to 1 for Respawn Script
-                                    Droid_Team.Despawn() -- Despawn R2D2 and C3PO 
-                                    Object.Despawn() -- Despawn R2D2 just in case
-                                    GlobalValue.Set("Total_Slice_Amount", Total_Slice_Amount_S + 1)
-                                    DisplaySliceLeft()
+                                    end
+                                end -- Run Rest of successful slice stuff
+                                DebugMessage("%s -- Slice Sucseesful, Despawning Droids", tostring(Script))
+                                credits_take = GameRandom(-1000, -650) -- Remove a random amount of credits to compensate for a lack of player control
+                                player.Give_Money(credits_take) -- It says Give Money but we are adding a Negtive Value so its just subtracting
+                                Droid_Team.Play_SFX_Event("Unit_Hack_Turret_C3PO")
+                                Sleep(3) -- Give time for Audio to Finish
+                                Game_Message("LOZ_REBEL_SLICE_WIN") -- Tell the player the slice succeeded and to Despawn
+                                GlobalValue.Set("Droid_Dead", 1) -- Set Droid_Dead to 1 for Respawn Script
+                                Droid_Team.Despawn() -- Despawn R2D2 and C3PO 
+                                Object.Despawn() -- Despawn R2D2 just in case
+                                GlobalValue.Set("Total_Slice_Amount", Total_Slice_Amount_S + 1)
+                                DisplaySliceLeft()
                             end
                         elseif player.Get_Credits() <= 2000 then  -- Check if player has less than 2k Credits
                             Game_Message("LOZ_REBEL_SLICE_NCREDITS")

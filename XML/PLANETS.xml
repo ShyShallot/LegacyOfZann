@@ -140,7 +140,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name> TEXT_PLANET_ABREGADORAE_INFO_ADV_01 </Planet_Ability_Name>
 		<Planet_Ability_Description> TEXT_PLANET_ABREGADORAE_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_ABREGADORAE_ENCYC_01 TEXT_PLANET_TECH_AVAIL_3 TEXT_PLANET_TECH_DIFF_2 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_ABREGADORAE_ENCYC_01 TEXT_PLANET_TECH_AVAIL_3 TEXT_PLANET_TECH_DIFF_2 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -225,7 +225,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_BONADAN_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description> TEXT_PLANET_BONADAN_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text> TEXT_PLANET_BONADAN_ENCYC_01 TEXT_PLANET_TECH_AVAIL_0 TEXT_PLANET_TECH_DIFF_3 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_PLANET_BONADAN_ENCYC_01 TEXT_PLANET_TECH_AVAIL_0 TEXT_PLANET_TECH_DIFF_3 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_fire.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_ASH</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_ASH</Encyclopedia_Weather_Info>
@@ -317,7 +317,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_VERGESSO_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_VERGESSO_ENCYC </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_VERGESSO_ENCYC TEXT_PLANET_UNCORRUPTABLE TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_2 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_VERGESSO_ENCYC TEXT_PLANET_UNCORRUPTABLE TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_2 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_none.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -379,7 +379,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_BONADAN_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_BONADAN_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_AETENII_ENCYC_01 TEXT_PLANET_TECH_AVAIL_1 TEXT_PLANET_TECH_DIFF_1 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_AETENII_ENCYC_01 TEXT_PLANET_TECH_AVAIL_1 TEXT_PLANET_TECH_DIFF_1 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_snow.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SNOW</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SNOW</Encyclopedia_Weather_Info>
@@ -463,7 +463,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_ANAXES_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_ANAXES_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_ANAXES_ENCYC_01 TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF_5 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_ANAXES_ENCYC_01 TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF_5 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -571,7 +571,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_ATZERRI_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_ATZERRI_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_ATZERRI_ENCYC_01 TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF_3 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_ATZERRI_ENCYC_01 TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF_3 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -661,7 +661,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_BESPIN_INFO_TAC_00</Planet_Ability_Name>
 		<Planet_Ability_Description> TEXT_PLANET_BESPIN_INFO_ADV_00 </Planet_Ability_Description>
 
-		<Encyclopedia_Text> TEXT_PLANET_BESPIN_ENCYC_00 TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_3 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_PLANET_BESPIN_ENCYC_00 TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_3 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_none.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -847,7 +847,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_BESTINE_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_BESTINE_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_BESTINE_ENCYC_01 TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF_4 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_BESTINE_ENCYC_01 TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF_4 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -942,7 +942,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_BONADAN_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_BONADAN_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text> TEXT_PLANET_BONADAN_ENCYC_01 TEXT_PLANET_TECH_AVAIL_5 TEXT_PLANET_TECH_DIFF_4 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_PLANET_BONADAN_ENCYC_01 TEXT_PLANET_TECH_AVAIL_5 TEXT_PLANET_TECH_DIFF_4 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -1058,7 +1058,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_BOTHAWUI_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_BOTHAWUI_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_BOTHAWUI_ENCYC_01 TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF_5 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_BOTHAWUI_ENCYC_01 TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF_5 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -1153,7 +1153,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_BYSS_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_BYSS_ENCYC_02 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_BYSS_ENCYC_02 TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_1 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_BYSS_ENCYC_02 TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_1 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -1246,7 +1246,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_CARIDA_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_CARIDA_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_CARIDA_ENCYC_01 TEXT_PLANET_TECH_AVAIL_3 TEXT_PLANET_TECH_DIFF_4 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_CARIDA_ENCYC_01 TEXT_PLANET_TECH_AVAIL_3 TEXT_PLANET_TECH_DIFF_4 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -1351,7 +1351,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_CORELLIA_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_CORELLIA_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_CORELLIA_ENCYC_01 TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF_3 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_CORELLIA_ENCYC_01 TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF_3 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -1447,7 +1447,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_CORULAG_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_CORULAG_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_CORULAG_ENCYC_01 TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF3 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_CORULAG_ENCYC_01 TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF3 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -1545,7 +1545,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_BONADAN_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_BONADAN_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text> TEXT_PLANET_BONADAN_ENCYC_01 TEXT_PLANET_TECH_AVAIL_5 TEXT_PLANET_TECH_DIFF_5 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_PLANET_BONADAN_ENCYC_01 TEXT_PLANET_TECH_AVAIL_5 TEXT_PLANET_TECH_DIFF_5 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -1627,7 +1627,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_DATHOMIR_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_DATHOMIR_ENCYC </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_DATHOMIR_ENCYC TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_4 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_DATHOMIR_ENCYC TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_4 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -1719,7 +1719,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_DAGOBAH_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_GROUND_BASE_STEALTH_DESC </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_GROUND_BASE_STEALTH_DESC TEXT_PLANET_TECH_AVAIL_0 TEXT_PLANET_TECH_DIFF_1 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_GROUND_BASE_STEALTH_DESC TEXT_PLANET_TECH_AVAIL_0 TEXT_PLANET_TECH_DIFF_1 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -1789,7 +1789,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_DAGOBAH_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_GROUND_BASE_STEALTH_DESC </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_GROUND_BASE_STEALTH_DESC TEXT_PLANET_TECH_AVAIL_1 TEXT_PLANET_TECH_DIFF_2 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_GROUND_BASE_STEALTH_DESC TEXT_PLANET_TECH_AVAIL_1 TEXT_PLANET_TECH_DIFF_2 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -1874,7 +1874,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_ENDOR_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_ENDOR_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_ENDOR_ENCYC_01 TEXT_PLANET_TECH_AVAIL_0 TEXT_PLANET_TECH_DIFF_0 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_ENDOR_ENCYC_01 TEXT_PLANET_TECH_AVAIL_0 TEXT_PLANET_TECH_DIFF_0 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -1953,7 +1953,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_ERIADU_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_ERIADU_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_ERIADU_ENCYC_01 TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF_3 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_ERIADU_ENCYC_01 TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF_3 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -2046,7 +2046,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_FELUCIA_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_FELUCIA_ENCYC </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_FELUCIA_ENCYC TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_1 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_FELUCIA_ENCYC TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_1 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -2135,7 +2135,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_FONDOR_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_FONDOR_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_FONDOR_ENCYC_01 TEXT_PLANET_CAPITAL_SHIP_PRODUCER TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF_3 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_FONDOR_ENCYC_01 TEXT_PLANET_CAPITAL_SHIP_PRODUCER TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF_3 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_wind.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SAND</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_WIND</Encyclopedia_Weather_Info>
@@ -2234,7 +2234,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_FRESIA_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_FRESIA_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_FRESIA_ENCYC_01 TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF_2 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_FRESIA_ENCYC_01 TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF_2 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -2325,7 +2325,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_GEONOSIS_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_GEONOSIS_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_GEONOSIS_ENCYC_01 TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_2 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_GEONOSIS_ENCYC_01 TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_2 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -2421,7 +2421,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_HONOGHR_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_HONOGHR_ENCYC </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_HONOGHR_ENCYC TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_1 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_HONOGHR_ENCYC TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_1 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -2608,7 +2608,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_HOTH_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_GROUND_BASE_STEALTH_DESC </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_GROUND_BASE_STEALTH_DESC TEXT_PLANET_TECH_AVAIL_1 TEXT_PLANET_TECH_DIFF_2 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_GROUND_BASE_STEALTH_DESC TEXT_PLANET_TECH_AVAIL_1 TEXT_PLANET_TECH_DIFF_2 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_snow.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SNOW</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SNOW</Encyclopedia_Weather_Info>
@@ -2681,7 +2681,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_HYPORI_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_HYPORI_ENCYC </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_HYPORI_ENCYC TEXT_PLANET_CAPITAL_SHIP_PRODUCER TEXT_PLANET_TECH_AVAIL_1 TEXT_PLANET_TECH_DIFF_1 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_HYPORI_ENCYC TEXT_PLANET_CAPITAL_SHIP_PRODUCER TEXT_PLANET_TECH_AVAIL_1 TEXT_PLANET_TECH_DIFF_1 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -2761,7 +2761,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_ILUM_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_ILUM_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_ILUM_ENCYC_01 TEXT_PLANET_TECH_AVAIL_0 TEXT_PLANET_TECH_DIFF_0 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_ILUM_ENCYC_01 TEXT_PLANET_TECH_AVAIL_0 TEXT_PLANET_TECH_DIFF_0 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_snow.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SNOW</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SNOW</Encyclopedia_Weather_Info>
@@ -2897,7 +2897,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_JABIIM_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_JABIIM_RESTRICTION </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_JABIIM_RESTRICTION TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_1 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_JABIIM_RESTRICTION TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_1 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -2977,7 +2977,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Describe_Advantage>TEXT_PLANET_KAMINO_INFO_TAC_00</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_KAMINO_INFO_HIS</Describe_History>
 
-		<Encyclopedia_Text> TEXT_PLANET_KAMINO_ENCYC_00 TEXT_PLANET_TECH_AVAIL_3 TEXT_PLANET_TECH_DIFF_5 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_PLANET_KAMINO_ENCYC_00 TEXT_PLANET_TECH_AVAIL_3 TEXT_PLANET_TECH_DIFF_5 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -3168,7 +3168,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_KASHYYYK_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_GROUND_BASE_STEALTH_DESC </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_GROUND_BASE_STEALTH_DESC TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_1 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_GROUND_BASE_STEALTH_DESC TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_1 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -3250,7 +3250,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_BONADAN_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_BONADAN_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text> TEXT_PLANET_BONADAN_ENCYC_01 TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_3 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_PLANET_BONADAN_ENCYC_01 TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_3 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3335,7 +3335,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_KORRIBAN_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_KORRIBAN_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_KORRIBAN_ENCYC_01 TEXT_PLANET_TECH_AVAIL_1 TEXT_PLANET_TECH_DIFF_2 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_KORRIBAN_ENCYC_01 TEXT_PLANET_TECH_AVAIL_1 TEXT_PLANET_TECH_DIFF_2 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3420,7 +3420,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_KUAT_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_KUAT_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_KUAT_ENCYC_01 TEXT_PLANET_CAPITAL_SHIP_PRODUCER TEXT_PLANET_TECH_AVAIL_5 TEXT_PLANET_TECH_DIFF_5 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_KUAT_ENCYC_01 TEXT_PLANET_CAPITAL_SHIP_PRODUCER TEXT_PLANET_TECH_AVAIL_5 TEXT_PLANET_TECH_DIFF_5 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -3516,7 +3516,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_MANAAN_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_MANAAN_HEAL </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_MANAAN_HEAL TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_3 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_MANAAN_HEAL TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_3 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -3571,7 +3571,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>
-		<Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
+		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
         <Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
@@ -3587,7 +3587,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_MANDALORE_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_MANDALORE_ENCYC </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_MANDALORE_ENCYC TEXT_PLANET_CAPITAL_SHIP_PRODUCER TEXT_PLANET_TECH_AVAIL_5 TEXT_PLANET_TECH_DIFF_4 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_MANDALORE_ENCYC TEXT_PLANET_CAPITAL_SHIP_PRODUCER TEXT_PLANET_TECH_AVAIL_5 TEXT_PLANET_TECH_DIFF_4 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -3873,7 +3873,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_MONCALAMARI_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_MONCALAMARI_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_MONCALAMARI_ENCYC_01 TEXT_PLANET_CAPITAL_SHIP_PRODUCER TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF_3 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_MONCALAMARI_ENCYC_01 TEXT_PLANET_CAPITAL_SHIP_PRODUCER TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF_3 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -3973,7 +3973,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_MUSTAFAR_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_MUSTAFAR_ENCYC </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_MUSTAFAR_ENCYC TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_2 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_MUSTAFAR_ENCYC TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_2 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_fire.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_ASH</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_ASH</Encyclopedia_Weather_Info>
@@ -4067,7 +4067,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_BONADAN_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_BONADAN_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_MUUNILINST_ENCYC TEXT_PLANET_TECH_AVAIL_5 TEXT_PLANET_TECH_DIFF_5 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_MUUNILINST_ENCYC TEXT_PLANET_TECH_AVAIL_5 TEXT_PLANET_TECH_DIFF_5 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -4152,7 +4152,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_MYRKR_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_MYRKR_ENCYC </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_MYRKR_ENCYC TEXT_PLANET_TECH_AVAIL_1 TEXT_PLANET_TECH_DIFF_1 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_MYRKR_ENCYC TEXT_PLANET_TECH_AVAIL_1 TEXT_PLANET_TECH_DIFF_1 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -4227,7 +4227,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_NABOO_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_NABOO_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_NABOO_ENCYC_01 TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF_2 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_NABOO_ENCYC_01 TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF_2 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -4324,7 +4324,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_NALHUTTA_INFO_TAC_00</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_NALHUTTA_INFO_ADV_00 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_NALHUTTA_ENCYC_02 TEXT_PLANET_TECH_AVAIL_5 TEXT_PLANET_TECH_DIFF_5 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_NALHUTTA_ENCYC_02 TEXT_PLANET_TECH_AVAIL_5 TEXT_PLANET_TECH_DIFF_5 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -4659,7 +4659,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_BONADAN_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_BONADAN_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text> TEXT_PLANET_BONADAN_ENCYC_01 TEXT_PLANET_TECH_AVAIL_0 TEXT_PLANET_TECH_DIFF_5 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_PLANET_BONADAN_ENCYC_01 TEXT_PLANET_TECH_AVAIL_0 TEXT_PLANET_TECH_DIFF_5 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_snow.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SNOW</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SNOW</Encyclopedia_Weather_Info>
@@ -4748,7 +4748,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_RYLOTH_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_RYLOTH_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_RYLOTH_ENCYC_01 TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF_3 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_RYLOTH_ENCYC_01 TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF_3 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_wind.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SAND</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_WIND</Encyclopedia_Weather_Info>
@@ -4928,7 +4928,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENCYC </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_SALEUCAMI_ENCYC TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_2 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_SALEUCAMI_ENCYC TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_2 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -5026,7 +5026,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_SHOLA_INFO_TAC</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_SHOLA_ENCYC </Planet_Ability_Description>
 
-		<Encyclopedia_Text> TEXT_PLANET_SHOLA_ENCYC TEXT_PLANET_TECH_AVAIL_0 TEXT_PLANET_TECH_DIFF_0 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_PLANET_SHOLA_ENCYC TEXT_PLANET_TECH_AVAIL_0 TEXT_PLANET_TECH_DIFF_0 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_fire.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_ASH</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_ASH</Encyclopedia_Weather_Info>
@@ -5098,7 +5098,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_SULLUST_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_SULLUST_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_SULLUST_ENCYC_01 TEXT_PLANET_CAPITAL_SHIP_PRODUCER TEXT_PLANET_TECH_AVAIL_5 TEXT_PLANET_TECH_DIFF_4 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_SULLUST_ENCYC_01 TEXT_PLANET_CAPITAL_SHIP_PRODUCER TEXT_PLANET_TECH_AVAIL_5 TEXT_PLANET_TECH_DIFF_4 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_fire.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_ASH</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_ASH</Encyclopedia_Weather_Info>
@@ -5192,7 +5192,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_TARIS_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_TARIS_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_TARIS_ENCYC_01 TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF_2 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_TARIS_ENCYC_01 TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF_2 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -5290,7 +5290,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_TATOOINE_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_TATOOINE_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_TATOOINE_ENCYC_01 TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_1 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_TATOOINE_ENCYC_01 TEXT_PLANET_TECH_AVAIL_2 TEXT_PLANET_TECH_DIFF_1 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_wind.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SAND</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_WIND</Encyclopedia_Weather_Info>
@@ -5370,7 +5370,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 
 		<Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
-		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
         <Planet_Black_Market_Modifier>1000</Planet_Black_Market_Modifier>
 
@@ -5385,7 +5385,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_THEMAW_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_THEMAW_ENCYC </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_THEMAW_ENCYC TEXT_PLANET_UNCORRUPTABLE TEXT_PLANET_TECH_AVAIL_0 TEXT_PLANET_TECH_DIFF_5 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_THEMAW_ENCYC TEXT_PLANET_UNCORRUPTABLE TEXT_PLANET_TECH_AVAIL_0 TEXT_PLANET_TECH_DIFF_5 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_none.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -5452,7 +5452,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_THYFERRA_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_MANAAN_HEAL </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_MANAAN_HEAL TEXT_PLANET_TECH_AVAIL_3 TEXT_PLANET_TECH_DIFF_3 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_MANAAN_HEAL TEXT_PLANET_TECH_AVAIL_3 TEXT_PLANET_TECH_DIFF_3 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
@@ -5539,7 +5539,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_UTAPAU_INFO_ADV</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_UTAPAU_ENCYC </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_UTAPAU_ENCYC TEXT_PLANET_TECH_AVAIL_3 TEXT_PLANET_TECH_DIFF_2 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_UTAPAU_ENCYC TEXT_PLANET_TECH_AVAIL_3 TEXT_PLANET_TECH_DIFF_2 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_wind.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SAND</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_WIND</Encyclopedia_Weather_Info>
@@ -5637,7 +5637,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_VERGESSO_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_VERGESSO_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_VERGESSO_ENCYC_01 TEXT_PLANET_UNCORRUPTABLE TEXT_PLANET_TECH_AVAIL_1 TEXT_PLANET_TECH_DIFF_4 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_VERGESSO_ENCYC_01 TEXT_PLANET_UNCORRUPTABLE TEXT_PLANET_TECH_AVAIL_1 TEXT_PLANET_TECH_DIFF_4 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_none.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -5704,7 +5704,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_WAYLAND_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_WAYLAND_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_WAYLAND_ENCYC_01 TEXT_PLANET_TECH_AVAIL_0 TEXT_PLANET_TECH_DIFF_5 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_WAYLAND_ENCYC_01 TEXT_PLANET_TECH_AVAIL_0 TEXT_PLANET_TECH_DIFF_5 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -5793,7 +5793,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_YAVIN_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_YAVIN_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_YAVIN_ENCYC_01 TEXT_PLANET_TECH_AVAIL_0 TEXT_PLANET_TECH_DIFF_2 TEXT_PLANET_TECH_AVAIL_EXP</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_YAVIN_ENCYC_01 TEXT_PLANET_TECH_AVAIL_0 TEXT_PLANET_TECH_DIFF_2 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>

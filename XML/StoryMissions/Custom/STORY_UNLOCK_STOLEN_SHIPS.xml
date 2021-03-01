@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+
+
+<Story>
+
+    <Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+
+    <Event Name="Build_Underworld_Shipyard">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+		<Event_Param1>Underworld_Shipyard</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>Underworld</Event_Param3>
+		<Prereq>Universal_Story_Start</Prereq>
+    </Event>
+
+	<Event Name="Underworld_Tech_2">
+        <Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+    </Event>
+
+    <Event Name="Underworld_Tech_4">
+        <Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+    </Event>
+
+
+    <!-- Start of Unlock Stolen Star Destroyer -->
+        <Event Name="Unlock_Star_Destroyer_00">
+            <Event_Type>STORY_TRIGGER</Event_Type>
+		    <Story_Chapter>0</Story_Chapter>
+            <Story_Dialog>Custom\Dialog_Unlock_Stolen_Ships</Story_Dialog>
+		    <Story_Dialog_Popup>True</Story_Dialog_Popup>	
+		    <Story_Tag>Unlock_Star_Destroyer_Tag_00</Story_Tag>
+			<Prereq>Underworld_Tech_4 Build_Underworld_Shipyard</Prereq>
+        </Event>
+
+        <Event Name="Unlock_Star_Destroyer_01">
+		    <Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		    <Event_Param1>Star_Destroyer</Event_Param1>
+			<Event_Param3>1</Event_Param3>
+            <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		    <Reward_Param1>Underworld_Star_Destroyer</Reward_Param1>
+		    <Prereq>Unlock_Star_Destroyer_00</Prereq>
+	    </Event>
+
+        <Event Name="Unlock_Star_Destroyer_02">
+		    <Event_Type>STORY_TRIGGER</Event_Type>
+            <Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		    <Reward_Param1>Unlock_Star_Destroyer_Tag_00</Reward_Param1>
+		    <Prereq>Unlock_Star_Destroyer_01</Prereq>
+	    </Event>
+
+		<Event Name="Stolen_Star_Destroyer_Cap_00">
+			<Event_Type>STORY_CONSTRUCT</Event_Type>
+			<Event_Param1>Underworld_Star_Destroyer</Event_Param1>
+			<Event_Param2>3</Event_Param2>
+			<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+			<Reward_Param2>Underworld_Star_Destroyer</Reward_Param2>
+			<Prereq>Unlock_Star_Destroyer_02</Prereq>
+		</Event>
+    <!-- End of Unlock Stolen Star Destroyer -->
+
+    <!-- Start of Unlock Stolen Calamari Cruiser -->
+        <Event Name="Unlock_Calamari_Cruiser_00">
+            <Event_Type>STORY_TRIGGER</Event_Type>
+		    <Story_Chapter>1</Story_Chapter>
+            <Story_Dialog>Custom\Dialog_Unlock_Stolen_Ships</Story_Dialog>
+		    <Story_Dialog_Popup>True</Story_Dialog_Popup>	
+		    <Story_Tag>Unlock_Calamari_Cruiser_Tag_00</Story_Tag>
+			<Prereq>Underworld_Tech_4 Build_Underworld_Shipyard</Prereq>
+        </Event>
+
+        <Event Name="Unlock_Calamari_Cruiser_01">
+		    <Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		    <Event_Param1>Calamari_Cruiser</Event_Param1>
+			<Event_Param3>1</Event_Param3>
+            <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		    <Reward_Param1>Calamari_Cruiser_Underworld</Reward_Param1>
+		    <Prereq>Unlock_Calamari_Cruiser_00</Prereq>
+	    </Event>
+
+        <Event Name="Unlock_Calamari_Cruiser_02">
+		    <Event_Type>STORY_TRIGGER</Event_Type>
+            <Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		    <Reward_Param1>Unlock_Calamari_Cruiser_Tag_00</Reward_Param1>
+		    <Prereq>Unlock_Calamari_Cruiser_01</Prereq>
+	    </Event>
+
+		<Event Name="Stolen_Calamari_Cruiser_Cap_00">
+			<Event_Type>STORY_CONSTRUCT</Event_Type>
+			<Event_Param1>Calamari_Cruiser_Underworld</Event_Param1>
+			<Event_Param2>3</Event_Param2>
+			<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+			<Reward_Param2>Calamari_Cruiser_Underworld</Reward_Param2>
+			<Prereq>Unlock_Calamari_Cruiser_02</Prereq>
+		</Event>
+    <!-- End of Unlock Stolen Calamari Cruiser -->
+
+
+    <!-- Start of Unlock Stolen Acclamator -->
+        <Event Name="Unlock_Victory_00">
+            <Event_Type>STORY_TRIGGER</Event_Type>
+		    <Story_Chapter>2</Story_Chapter>
+            <Story_Dialog>Custom\Dialog_Unlock_Stolen_Ships</Story_Dialog>
+		    <Story_Dialog_Popup>True</Story_Dialog_Popup>	
+		    <Story_Tag>Unlock_Victory_Tag_00</Story_Tag>
+			<Prereq>Underworld_Tech_2 Build_Underworld_Shipyard</Prereq>
+        </Event>
+
+        <Event Name="Unlock_Victory_01">
+		    <Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		    <Event_Param1>Victory_Destroyer</Event_Param1>
+			<Event_Param3>1</Event_Param3>
+            <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		    <Reward_Param1>Stolen_Victory_Destroyer</Reward_Param1>
+		    <Prereq>Unlock_Victory_00</Prereq>
+	    </Event>
+
+        <Event Name="Unlock_Victory_02">
+		    <Event_Type>STORY_TRIGGER</Event_Type>
+            <Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		    <Reward_Param1>Unlock_Victory_Tag_00</Reward_Param1>
+		    <Prereq>Unlock_Victory_01</Prereq>
+	    </Event>
+
+		
+    <!-- End of Unlock Stolen Acclamator -->
+
+	<!-- Start of Unlock Stolen Nebulon_B -->
+        <Event Name="Unlock_Assault_Frigate_00">
+            <Event_Type>STORY_TRIGGER</Event_Type>
+		    <Story_Chapter>3</Story_Chapter>
+            <Story_Dialog>Custom\Dialog_Unlock_Stolen_Ships</Story_Dialog>
+		    <Story_Dialog_Popup>True</Story_Dialog_Popup>	
+		    <Story_Tag>Unlock_Assault_Frigate_Tag_00</Story_Tag>
+			<Prereq>Underworld_Tech_4 Build_Underworld_Shipyard</Prereq>
+        </Event>
+
+        <Event Name="Unlock_Assault_Frigate_01">
+		    <Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		    <Event_Param1>Nebulon_B_Frigate</Event_Param1>
+			<Event_Param3>1</Event_Param3>
+            <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		    <Reward_Param1>Stolen_Alliance_Assault_Frigate</Reward_Param1>
+		    <Prereq>Unlock_Assault_Frigate_00</Prereq>
+	    </Event>
+
+        <Event Name="Unlock_Assault_Frigate_02">
+		    <Event_Type>STORY_TRIGGER</Event_Type>
+            <Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		    <Reward_Param1>Unlock_Assault_Frigate_Tag_00</Reward_Param1>
+		    <Prereq>Unlock_Assault_Frigate_01</Prereq>
+	    </Event>
+
+
+    <!-- End of Unlock Stolen Nebulon_B -->
+    
+
+
+</Story>

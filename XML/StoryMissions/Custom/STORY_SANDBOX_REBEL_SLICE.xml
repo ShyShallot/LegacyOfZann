@@ -1,0 +1,165 @@
+<?xml version="1.0" ?>
+
+<Story>
+
+    <Event Name="Rebel_Slice_Exp">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+        <Story_Dialog>Custom\Dialog_Rebel_Slice_Exp</Story_Dialog>
+        <Story_Chapter>1</Story_Chapter>
+        <Story_Dialog_Popup>True</Story_Dialog_Popup>
+        <Story_Tag>Rebel_Slice_Exp</Story_Tag>
+    </Event>
+
+
+    <Event Name="Rebel_Slice_Credit_1">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>REBEL_SLICE_CREDIT_WARNING_1</Event_Param2>
+        <Story_Dialog>Custom\Dialog_Rebel_Slice_Exp</Story_Dialog>
+        <Story_Chapter>2</Story_Chapter>
+        <Story_Dialog_Popup>True</Story_Dialog_Popup>
+        <Story_Tag>REBEL_CREDIT_POP</Story_Tag>
+    </Event>
+
+    <Event Name="Rebel_Slice_Credit_Remove">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>REBEL_SLICE_CREDIT_WARNING_REMOVE</Event_Param2>
+        <Reward_Type>REMOVE_STORY_GOAL</Reward_Type>
+        <Reward_Param1>REBEL_CREDIT_POP</Reward_Param1>
+    </Event>
+
+    <Event Name="Rebel_Slice_Credit_2">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>REBEL_SLICE_CREDIT_WARNING_2</Event_Param2>
+        <Story_Dialog>Custom\Dialog_Rebel_Slice_Exp</Story_Dialog>
+        <Story_Chapter>3</Story_Chapter>
+        <Story_Dialog_Popup>True</Story_Dialog_Popup>
+        <Story_Tag>REBEL_CREDIT_POP</Story_Tag>
+    </Event>
+
+    <Event Name="Rebel_Slice_Credit_3">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>REBEL_SLICE_CREDIT_WARNING_3</Event_Param2>
+        <Story_Dialog>Custom\Dialog_Rebel_Slice_Exp</Story_Dialog>
+        <Story_Chapter>4</Story_Chapter>
+        <Story_Dialog_Popup>True</Story_Dialog_Popup>
+        <Story_Tag>REBEL_CREDIT_POP</Story_Tag>
+    </Event>
+
+    <Event Name="Rebel_Slice_Credit_4">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>REBEL_SLICE_CREDIT_WARNING_4</Event_Param2>
+        <Story_Dialog>Custom\Dialog_Rebel_Slice_Exp</Story_Dialog>
+        <Story_Chapter>5</Story_Chapter>
+        <Story_Dialog_Popup>True</Story_Dialog_Popup>
+        <Story_Tag>REBEL_CREDIT_POP</Story_Tag>
+    </Event>
+
+    <Event Name="Rebel_Respawn_Droids">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>REBEL_SLICE_RESPAWN</Event_Param2>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Droids_Team_Custom</Reward_Param1>
+        <Reward_Param2>Hoth</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Rebel_Respawn_Droids_Backup">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>REBEL_SLICE_RESPAWN_BACKUP</Event_Param2>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Droids_Team</Reward_Param1>
+        <Reward_Param2>Hoth</Reward_Param2>
+    </Event>
+
+    <Event Name="Rebel_Star_Destroyer_Unlock">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>REBEL_SLICE_ISD_UNLOCK</Event_Param2>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>Rebel_Star_Destroyer</Reward_Param1>
+        <Perpetual>false</Perpetual>
+    </Event>
+
+    <Event Name="Rebel_Slice_Left_1">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>REBEL_SLICE_LEFT_4</Event_Param2>
+        <Story_Dialog>Custom\Dialog_Rebel_Slice_Exp</Story_Dialog>
+        <Story_Chapter>6</Story_Chapter>
+        <Story_Dialog_Popup>True</Story_Dialog_Popup>
+        <Story_Tag>REBEL_SLICE_POP_1</Story_Tag>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Rebel_Slice_Left_1_Remove">	
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_STORY_GOAL</Reward_Type>
+		<Reward_Param1>REBEL_SLICE_POP_1</Reward_Param1>
+		<Prereq>Rebel_Slice_Left_2</Prereq>
+	</Event>
+
+    <Event Name="Rebel_Slice_Left_2">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>REBEL_SLICE_LEFT_3</Event_Param2>
+        <Story_Dialog>Custom\Dialog_Rebel_Slice_Exp</Story_Dialog>
+        <Story_Chapter>7</Story_Chapter>
+        <Story_Dialog_Popup>True</Story_Dialog_Popup>
+        <Story_Tag>REBEL_SLICE_POP_2</Story_Tag>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Rebel_Slice_Left_2_Remove">	
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_STORY_GOAL</Reward_Type>
+		<Reward_Param1>REBEL_SLICE_POP_2</Reward_Param1>
+		<Prereq>Rebel_Slice_Left_3</Prereq>
+	</Event>
+
+    <Event Name="Rebel_Slice_Left_3">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>REBEL_SLICE_LEFT_2</Event_Param2>
+        <Story_Dialog>Custom\Dialog_Rebel_Slice_Exp</Story_Dialog>
+        <Story_Chapter>8</Story_Chapter>
+        <Story_Dialog_Popup>True</Story_Dialog_Popup>
+        <Story_Tag>REBEL_SLICE_POP_3</Story_Tag>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Rebel_Slice_Left_3_Remove">	
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_STORY_GOAL</Reward_Type>
+		<Reward_Param1>REBEL_SLICE_POP_3</Reward_Param1>
+		<Prereq>Rebel_Slice_Left_4</Prereq>
+	</Event>
+
+    <Event Name="Rebel_Slice_Left_4">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>REBEL_SLICE_LEFT_1</Event_Param2>
+        <Story_Dialog>Custom\Dialog_Rebel_Slice_Exp</Story_Dialog>
+        <Story_Chapter>9</Story_Chapter>
+        <Story_Dialog_Popup>True</Story_Dialog_Popup>
+        <Story_Tag>REBEL_SLICE_POP_4</Story_Tag>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Rebel_Slice_Left_5">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>REBEL_SLICE_LEFT_HIDE</Event_Param2>
+        <Reward_Type>REMOVE_STORY_GOAL</Reward_Type>
+        <Reward_Param1>REBEL_SLICE_POP_4</Reward_Param1>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Rebel_Slice_Backup_Button">
+        <Event_Type>STORY_CLICK_GUI</Event_Type>
+        <Event_Param1>b_fix_slice</Event_Param1>
+    </Event>
+
+    <Event Name="Rebel_Slice_Backup_Button_01">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>REBEL_SLICE_FIX_PRESSED</Event_Param2>
+        <Prereq>Rebel_Slice_Backup_Button</Prereq>
+    </Event>
+
+
+
+</Story>

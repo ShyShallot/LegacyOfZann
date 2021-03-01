@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+
+<Story_Mode_Plots>
+	<Lua_Script></Lua_Script>
+	<Active_Plot>StoryMissions\Custom\STORY_SANDBOX_LEGACY_EMPIRE.XML</Active_Plot>
+    <Active_Plot>StoryMissions\Custom\STORY_UNLOCK_ECLIPSE.XML</Active_Plot>
+	<Suspended_Plot>StoryMissions\Custom\STORY_CREDIT_BUILD_ONE_E.XML</Suspended_Plot>
+</Story_Mode_Plots>

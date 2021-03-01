@@ -1,0 +1,202 @@
+<?xml version="1.0" ?>
+
+
+
+<!--********************************************************-->
+<!--***** Underworld Simple Tech Display by ShyShallot *****-->
+<!--********************************************************-->
+
+
+
+<Story>
+	
+	<!-- Universal Story Start for knowladge of when the GC Starts, We Remove the Story Dialog to avoid Repeat intro texts on start -->
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+
+	<!-- Start of Tech 1 Events -->
+
+
+	<!-- Not needed as you start on Tech 1 but kept just in-case -->
+	<Event Name="Underworld_Tech_1">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+
+	<!-- Main Tech Display for Tech 1, No Known fix for text bug when starting on tech thats not 1 -->
+	<Event Name="Tech_Display">
+        <Event_Type>STORY_ELAPSED</Event_Type>
+        <Event_Param1>1</Event_Param1>
+        <Story_Dialog>Custom\Dialog_Underworld_Tech</Story_Dialog>
+        <Story_Chapter>1</Story_Chapter>
+        <Story_Dialog_Popup>True</Story_Dialog_Popup>
+        <Story_Tag>Tech_Display</Story_Tag>
+		<Prereq>Underworld_Tech_1</Prereq>
+    </Event>
+
+	<!-- Remove Tech 1 Story Goal when the Tech 2 Mission/Display Pops Up to avoid any issues, setting it to tech might cause a delay between
+	removal -->
+	<Event Name="Tech_Display_1_Comp">	
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_STORY_GOAL</Reward_Type>
+		<Reward_Param1>Tech_Display</Reward_Param1>
+		<Prereq>Tech_Display_2</Prereq>
+	</Event>
+
+	<!-- End of Tech 1 Events | Start of Tech 2 Events -->
+
+	<!-- Knowladge of when Tech 2 Starts, used for Display -->
+	<Event Name="Underworld_Tech_2">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+
+
+	<!-- Main Tech Display for Tech 2 -->
+	<Event Name="Tech_Display_2">
+        <Event_Type>STORY_ELAPSED</Event_Type>
+        <Event_Param1>1</Event_Param1>
+        <Story_Dialog>Custom\Dialog_Underworld_Tech</Story_Dialog>
+        <Story_Chapter>2</Story_Chapter>
+        <Story_Dialog_Popup>True</Story_Dialog_Popup>
+        <Story_Tag>Tech_Display_2</Story_Tag>
+		<Prereq>Underworld_Tech_2</Prereq>
+    </Event>
+
+	<!-- Remove Tech 2 Story Goal when the Tech 2 Mission/Display Pops Up to avoid any issues, setting it to tech might cause a a delay between
+	removal -->
+	<Event Name="Tech_Display_2_Comp">	
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_STORY_GOAL</Reward_Type>
+		<Reward_Param1>Tech_Display_2</Reward_Param1>
+		<Prereq>Tech_Display_3</Prereq>
+	</Event>
+
+	<!-- Give an Empty/Dummy Space Station as a workaround for adding Pop Cap for each Tech Level -->
+	<Event Name="Underworld_Tech_Pop_Cap_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Underworld_Dummmy_Star_Base_2</Reward_Param1>
+		<Reward_Param2>Hypori</Reward_Param2>
+		<Prereq>Underworld_Tech_2</Prereq>
+	
+	</Event>
+
+
+	<!-- End of Tech 2 Events | Start of Tech 3 Events -->
+
+
+	<!-- Knowladge of when Tech 3 Starts, used for Display -->
+	<Event Name="Underworld_Tech_3">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+
+	<!-- Main Tech Display for Tech 3 -->
+	<Event Name="Tech_Display_3">
+        <Event_Type>STORY_ELAPSED</Event_Type>
+        <Event_Param1>1</Event_Param1>
+        <Story_Dialog>Custom\Dialog_Underworld_Tech</Story_Dialog>
+        <Story_Chapter>3</Story_Chapter>
+        <Story_Dialog_Popup>True</Story_Dialog_Popup>
+        <Story_Tag>Tech_Display_3</Story_Tag>
+		<Prereq>Underworld_Tech_3</Prereq>
+    </Event>
+
+	<!-- Remove Tech 3 Story Goal when the Tech 3 Mission/Display Pops Up to avoid any issues, setting it to tech might cause a a delay between
+	removal -->
+	<Event Name="Tech_Display_3_Comp">	
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_STORY_GOAL</Reward_Type>
+		<Reward_Param1>Tech_Display_3</Reward_Param1>
+		<Prereq>Tech_Display_4</Prereq>
+	</Event>
+
+
+	<!-- Give an Empty/Dummy Space Station as a workaround for adding Pop Cap for each Tech Level -->
+	<Event Name="Underworld_Tech_Pop_Cap_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Underworld_Dummmy_Star_Base_3</Reward_Param1>
+		<Reward_Param2>Hypori</Reward_Param2>
+		<Prereq>Underworld_Tech_3</Prereq>
+	
+	</Event>
+
+	<!-- End of Tech 3 Events | Start of Tech 4 Events -->
+
+	<!-- Knowladge of when Tech 4 Starts, used for Display -->
+	<Event Name="Underworld_Tech_4">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+
+	<!-- Main Tech Display for Tech 4 -->
+	<Event Name="Tech_Display_4">
+        <Event_Type>STORY_ELAPSED</Event_Type>
+        <Event_Param1>1</Event_Param1>
+        <Story_Dialog>Custom\Dialog_Underworld_Tech</Story_Dialog>
+        <Story_Chapter>4</Story_Chapter>
+        <Story_Dialog_Popup>True</Story_Dialog_Popup>
+        <Story_Tag>Tech_Display_4</Story_Tag>
+		<Prereq>Underworld_Tech_4</Prereq>
+    </Event>
+
+	<!-- Remove Tech 4 Story Goal when the Tech 4 Mission/Display Pops Up to avoid any issues, setting it to tech might cause a a delay between
+	removal -->
+	<Event Name="Tech_Display_4_Comp">	
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_STORY_GOAL</Reward_Type>
+		<Reward_Param1>Tech_Display_4</Reward_Param1>
+		<Prereq>Tech_Display_5</Prereq>
+	</Event>
+
+
+	<!-- Give an Empty/Dummy Space Station as a workaround for adding Pop Cap for each Tech Level -->
+	<Event Name="Underworld_Tech_Pop_Cap_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Underworld_Dummmy_Star_Base_4</Reward_Param1>
+		<Reward_Param2>Hypori</Reward_Param2>
+		<Prereq>Underworld_Tech_4</Prereq>
+	
+	</Event>
+
+
+	<!-- End of Tech 4 Events | Start of Tech 5 Events -->
+
+
+	<!-- Knowladge of when Tech 4 Starts, used for Display -->
+	<Event Name="Underworld_Tech_5">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>5</Event_Param1>
+	</Event>
+
+	<!-- Main Tech Display for Tech 5, Do Not add a Completion or Remove Event as we want this to stay in the Current Tab -->
+	<Event Name="Tech_Display_5">
+        <Event_Type>STORY_ELAPSED</Event_Type>
+        <Event_Param1>1</Event_Param1>
+        <Story_Dialog>Custom\Dialog_Underworld_Tech</Story_Dialog>
+        <Story_Chapter>5</Story_Chapter>
+        <Story_Dialog_Popup>True</Story_Dialog_Popup>
+        <Story_Tag>Tech_Display_5</Story_Tag>
+		<Prereq>Underworld_Tech_5</Prereq>
+    </Event>
+
+
+	<!-- Give an Empty/Dummy Space Station as a workaround for adding Pop Cap for each Tech Level -->
+	<Event Name="Underworld_Tech_Pop_Cap_05">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Underworld_Dummmy_Star_Base_5</Reward_Param1>
+		<Reward_Param2>Hypori</Reward_Param2>
+		<Prereq>Underworld_Tech_5</Prereq>
+	
+	</Event>
+
+
+
+
+</Story>

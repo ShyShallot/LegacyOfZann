@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+
+<Story_Mode_Plots>
+	<Lua_Script/>
+	<Active_Plot>StoryMissions\Custom\STORY_SANDBOX_LEGACY_UNDERWORLD.XML</Active_Plot>
+    <Active_Plot>StoryMissions\Custom\STORY_SANDBOX_UNDERWORLD_TECH_MASTER.XML</Active_Plot>
+	<Active_Plot>StoryMissions\Custom\STORY_UNLOCK_STOLEN_SHIPS.XML</Active_Plot>
+
+
+</Story_Mode_Plots>

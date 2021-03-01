@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+
+<Story_Mode_Plots>
+	<Lua_Script>Rebel_Slice_Respawn</Lua_Script>
+	<Active_Plot>StoryMissions\Custom\STORY_SANDBOX_LEGACY_REBELS.XML</Active_Plot>
+	<Active_Plot>StoryMissions\Custom\STORY_SANDBOX_REBEL_SLICE.XML</Active_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Upgrade_Space_Station.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Build_Ion_Cannons.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Build_Light_Vehicle_Factories.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Build_Heavy_Vehicle_Factories.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Accumulate_Credits.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Build_Space_Units.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Build_Land_Units.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Conquer_Pirate_Planet.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Scout.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Credit_Windfall.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Land_Unit_Windfall.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Space_Unit_Windfall.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Tech_Windfall.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Indigenous_Revolt.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Planet_Windfall.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Hunt_Capital_Ships.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Rebel_Smuggler.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Pirate_Ambush.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Vader_Favor.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Imperial_Traitor.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Rebel_Sabotage.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Rebel_Revolt.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Pirate_Defection.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Refugee_Escort.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Confront_Boba.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Pirate_Rescue.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Pirate_Enlightenment.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Pirate_Enlightenment_b.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Fleet_Rescue.XML</Suspended_Plot>
+	<Suspended_Plot>StoryMissions\Intervention_Empire_Oppression.XML</Suspended_Plot>
+	
+</Story_Mode_Plots>

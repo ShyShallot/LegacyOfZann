@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+
+<Story>
+
+    <Event Name="Empire_Pol_Control_Exp">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+        <Story_Dialog>Custom\Dialog_Empire_Poli</Story_Dialog>
+        <Story_Chapter>1</Story_Chapter>
+        <Story_Dialog_Popup>False</Story_Dialog_Popup>
+        <Story_Tag>Empire_Pol_Control_Tag</Story_Tag>
+    </Event>
+
+
+    <Event Name="Empire_Pol_Control_Display">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>POLITICAL_CONTROL_NOTIFICATION</Event_Param2>
+        <Story_Dialog>Custom\Dialog_Empire_Poli</Story_Dialog>
+        <Story_Chapter>2</Story_Chapter>
+        <Story_Dialog_Popup>False</Story_Dialog_Popup>
+        <Story_Tag>Empire_Pol_Control_Display_Tag</Story_Tag>
+    </Event>
+
+</Story>

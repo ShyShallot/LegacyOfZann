@@ -1,0 +1,69 @@
+[CHAPTER 0]
+
+# Mission 1 dialog display
+TITLE TEXT_STORY_TRANSMISSION_TYBER
+TEXTCOLOR 219 167 149 255
+TEXT TEXT_TITLE_BM_TUTORIAL_00
+MOVIE Tyber_Loop
+
+# Main Text
+WAIT 500
+SFX Button_Press
+NEWLINE 1
+TEXTCOLOR 181 181 181 255
+TEXT TEXT_UW_ACT01_G05_06
+
+# Main Text
+WAIT 500
+SFX Button_Press
+NEWLINE 1
+TEXTCOLOR 181 181 181 255
+TEXT TEXT_UW_ACT01_G05_07
+
+# Main Text
+WAIT 500
+SFX Button_Press
+NEWLINE 1
+TEXTCOLOR 181 181 181 255
+TEXT TEXT_UW_ACT01_G05_08
+
+# Wait 10 seconds and then unpause the game
+WAIT 100
+
+# Play the Symbol movie
+# MOVIE_ONCE Rebel_Symbol
+
+
+
+            
+
+[CHAPTER 1]
+
+# Mission 1 dialog display
+TITLE TEXT_STORY_TRANSMISSION_TYBER
+TEXTCOLOR 219 167 149 255
+TEXT TEXT_TITLE_BM_TUTORIAL_01
+MOVIE Tyber_Loop
+
+# Main Text
+WAIT 500
+SFX Button_Press
+NEWLINE 1
+TEXTCOLOR 181 181 181 255
+TEXT TEXT_UW_ACT01_G05_09
+
+# Main Text
+WAIT 500
+SFX Button_Press
+NEWLINE 1
+TEXTCOLOR 181 181 181 255
+TEXT TEXT_UW_ACT01_G05_10
+
+# Wait 10 seconds and then unpause the game
+WAIT 100
+
+# Play the Symbol movie
+# MOVIE_ONCE Rebel_Symbol
+
+
+

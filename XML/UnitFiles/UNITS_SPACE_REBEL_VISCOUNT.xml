@@ -1,0 +1,310 @@
+<?xml version="1.0"?>
+<Viscount_Files>
+
+
+
+
+	<UniqueUnit Name="Viscount_Star_Defender">
+		<GUI_Bounds_Scale>0.01</GUI_Bounds_Scale>
+		<Text_ID>TEXT_UNIT_VISCOUNT</Text_ID>
+		
+		<Encyclopedia_Good_Against> Executor_Super_Star_Destroyer Imperial_Star_Base_5 Krayt_Class_Destroyer </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Y-wing B-Wing Skipray_Blastboat </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text> TEXT_TOOLTIP_VISCOUNT </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SSD </Encyclopedia_Unit_Class>
+
+        <Custom_Hard_XExtent> 100.0 </Custom_Hard_XExtent>
+        <Custom_Hard_YExtent> 100.0 </Custom_Hard_YExtent>
+
+		<Icon_Name>i_button_Viscount.tga</Icon_Name>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Space_Model_Name>Viscount.ALO</Space_Model_Name>
+
+		<Ranking_In_Category>5</Ranking_In_Category>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+
+		<Select_Box_Scale>800</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+
+		<Scale_Factor>3.0</Scale_Factor>
+		<Mass>0.999</Mass>
+		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		
+		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Armor_Type> Armor_SSD </Armor_Type>
+		<Shield_Armor_Type> Shield_SSD </Shield_Armor_Type>
+
+		<Max_Speed>0.5</Max_Speed>
+		<Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> SuperCapital </Space_Layer>
+		<Layer_Z_Adjust>-500.0</Layer_Z_Adjust>
+		<Max_Rate_Of_Roll>0.3</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>3</Bank_Turn_Angle>
+		<OverrideAcceleration> .02 </OverrideAcceleration>
+		<OverrideDeceleration> .02 </OverrideDeceleration>
+		
+		<Max_Thrust>0.05</Max_Thrust>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1</Hyperspace_Speed>
+		<Maintenance_Cost>0.3</Maintenance_Cost>
+
+		<Affiliation>Rebel</Affiliation>
+		<Tech_Level>3</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>5</Required_Star_Base_Level>
+		<Required_Planets>MonCalimari</Required_Planets>
+		<Damage>70</Damage>
+		<Autoresolve_Health>18000</Autoresolve_Health>
+		<Shield_Points>13500</Shield_Points>
+		
+		<Tactical_Health>25000</Tactical_Health>
+		
+		<Shield_Refresh_Rate>150</Shield_Refresh_Rate>
+		<Energy_Capacity>99000</Energy_Capacity>
+		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+		<Ship_Class>super</Ship_Class>
+		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+
+		<Political_Faction>Rebel</Political_Faction>
+		<Squadron_Capacity>40</Squadron_Capacity>
+		<Build_Cost_Credits>350000</Build_Cost_Credits>
+		<AI_Combat_Power>45000</AI_Combat_Power>
+		<Build_Time_Seconds>210</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Size_Value>8</Size_Value>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> TEXT_VISCOUNT_COUNTDOWN_TIMER </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 242, 67, 51, 255 </Build_Countdown_Text_RGBA>
+		<Build_Speech_Underway> RHD_Build_Vehicle </Build_Speech_Underway>
+		<Build_Speech_Completed> Unit_Complete_Calamari </Build_Speech_Completed>
+		<Build_Speech_Stopped> RHD_Unit_Canceled </Build_Speech_Stopped>
+		<!-- Intentially called "Speech_Death_Star_Build_" (with trailing underscore)  for varied countdown references in SpeechEvents.xml -->
+		<Build_Speech_Countdowns> Speech_Death_Star_Build_ </Build_Speech_Countdowns>
+		<Build_Music_Completed> Galactic_Death_Star_Complete_Music_Event </Build_Music_Completed>
+		
+		<!-- Fighter Spawners -->
+		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 16</Reserve_Spawned_Units_Tech_0>
+			
+		<Starting_Spawned_Units_Tech_0>A_Wing_Squadron 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>A_Wing_Squadron, 16</Reserve_Spawned_Units_Tech_0>
+		
+		<Spawned_Squadron_Delay_Seconds>8</Spawned_Squadron_Delay_Seconds>
+
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN,SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, REVEAL, TARGETING, UNIT_AI, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<Death_Clone>Damage_Normal, Viscount_Death_Clone</Death_Clone>
+		<Space_FOW_Reveal_Range>3150.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>4500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>550.0</Targeting_Min_Attack_Distance>
+
+		<HardPoints>
+			HP_VISCOUNT_TURBO_01,
+			HP_VISCOUNT_TURBO_02,
+			HP_VISCOUNT_TURBO_03,
+			HP_VISCOUNT_TURBO_04,
+			HP_VISCOUNT_TURBO_05,
+			HP_VISCOUNT_TURBO_06,
+			HP_VISCOUNT_TURBO_07,
+			HP_VISCOUNT_TURBO_08,
+			HP_VISCOUNT_TURBO_09,
+			HP_VISCOUNT_TURBO_10,
+			HP_VISCOUNT_TURBO_11,
+			HP_VISCOUNT_TURBO_12,
+			HP_VISCOUNT_TURBO_13,
+			HP_VISCOUNT_TURBO_14,
+			HP_VISCOUNT_TURBO_15,
+			HP_VISCOUNT_TURBO_16,
+			HP_VISCOUNT_TURBO_17,
+			HP_VISCOUNT_TURBO_18,
+			HP_VISCOUNT_TURBO_19,
+			HP_VISCOUNT_TURBO_20,
+			HP_VISCOUNT_LASER_01,
+			HP_VISCOUNT_LASER_02,
+			HP_VISCOUNT_LASER_03,
+			HP_VISCOUNT_LASER_04,
+			HP_VISCOUNT_LASER_05,
+			HP_VISCOUNT_LASER_06,
+			HP_VISCOUNT_LASER_07,
+			HP_VISCOUNT_LASER_08,
+			HP_VISCOUNT_LASER_09,
+			HP_VISCOUNT_LASER_10,
+			HP_VISCOUNT_LASER_11,
+			HP_VISCOUNT_LASER_12,
+			HP_VISCOUNT_LASER_13,
+			HP_VISCOUNT_LASER_14,
+			HP_VISCOUNT_ION_01,			
+			HP_VISCOUNT_ION_02,
+			HP_VISCOUNT_ION_03,
+			HP_VISCOUNT_ION_04,
+			HP_VISCOUNT_ION_05,
+			HP_VISCOUNT_ION_06,
+			HP_VISCOUNT_ION_07,
+			HP_VISCOUNT_ION_08,
+			HP_VISCOUNT_ION_09,
+			HP_VISCOUNT_ION_10,
+			HP_VISCOUNT_ION_11,
+			HP_VISCOUNT_ION_12,
+			HP_VISCOUNT_TORP_01,
+			HP_VISCOUNT_TORP_02,
+			HP_VISCOUNT_TORP_03,
+			HP_VISCOUNT_TORP_04,
+			HP_VISCOUNT_CONM_01,
+			HP_VISCOUNT_CONM_02,
+			HP_VISCOUNT_CONM_03,
+			HP_VISCOUNT_CONM_04,
+			HP_VISCOUNT_FIGHTER_BAY_01,
+			HP_VISCOUNT_FIGHTER_BAY_02,
+			HP_VISCOUNT_SHIELD_01,
+			HP_VISCOUNT_SHIELD_02,
+			HP_VISCOUNT_ENGINES_01,
+			HP_VISCOUNT_ENGINES_02,
+			HP_VISCOUNT_ENGINES_03,
+			HP_VISCOUNT_ENGINES_04,
+			HP_VISCOUNT_ENGINES_05
+		</HardPoints>
+
+
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Calamari</SFXEvent_Build_Complete>
+		<SFXEvent_Ambient_Loop>Unit_Calamari_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+
+		<SFXEvent_Select>Unit_Select_Calamari</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Calamari</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Calamari</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Calamari</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Calamari</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Stop_Calamari</SFXEvent_Stop>
+		<SFXEvent_Barrage>Unit_Barrage_Calamari</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Calamari </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Calamari </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Bombard_Select_Target>	RHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming> RHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Calamari </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Calamari </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Calamari </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Calamari </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Calamari </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Calamari </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Calamari </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Calamari </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Calamari </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Calamari </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Calamari_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Calamari_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Calamari_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+
+		<CategoryMask> Capital | AntiFrigate </CategoryMask>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		 
+		<Guard_Chase_Range>450.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Name>i_radar_capital_ship.tga</Radar_Icon_Name>
+		<Radar_Icon_Size>0.15  0.15</Radar_Icon_Size>
+
+		<Space_Override_Population_Value>20</Space_Override_Population_Value>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>DEFEND</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.4f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.3f</Mod_Multiplier>
+				<Recharge_Seconds>40</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+				
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Calamari</SFXEvent_GUI_Unit_Ability_Activated>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
+		<Score_Cost_Credits> 100000</Score_Cost_Credits>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>50000</Tactical_Build_Cost_Multiplayer> 
+		<Tactical_Build_Time_Seconds>90</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</UniqueUnit>
+
+	<UniqueUnit Name="Viscount_Death_Clone">
+		<Text_ID>TEXT_UNIT_VISCOUNT</Text_ID>
+		<Space_Model_Name>Viscount_D.alo</Space_Model_Name>
+		<Death_SFXEvent_Start_Die>SFX_Death_Bombard</Death_SFXEvent_Start_Die>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+		<Max_Speed>0.25</Max_Speed>
+		<Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
+		<Max_Thrust>0.05</Max_Thrust>
+		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>5</Bank_Turn_Angle>
+		<Affiliation>Rebel</Affiliation>
+		<Ship_Class>super</Ship_Class>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+	</UniqueUnit>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+</Viscount_Files>

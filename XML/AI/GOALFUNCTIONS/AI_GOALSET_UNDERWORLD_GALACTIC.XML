@@ -11,6 +11,11 @@
 		<Goal>Black_Market_Purchase</Goal>
 		<Function>Should_Make_Black_Market_Purchase</Function>
 	</Black_Market_Purchase>
+
+	<Advance_Tech_Underworld>
+		<Goal>Advance_Tech_Underworld</Goal>
+		<Function>One</Function>
+	</Advance_Tech_Underworld>
 	
 	<Hack_Super_Weapon>
 		<Goal>Hack_Super_Weapon</Goal>

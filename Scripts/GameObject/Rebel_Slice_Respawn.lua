@@ -6,9 +6,7 @@ require("PGSpawnUnits")
 function Definitions()
     --DebugMessage("%s -- In Definitions", tostring(Script))
     Define_State("State_Init", State_Init);
-    ServiceRate = 1.0 -- Wait some time before looping
-
- 
+    ServiceRate = 2.0 -- Wait some time before looping
 end
 
 function State_Init(message)
@@ -20,10 +18,6 @@ function State_Init(message)
 
 
     elseif message == OnUpdate then -- This is Ran based off of the Service Rate
-
-        
-        
-       
         --DebugMessage("%s -- Defining Plots and Events", tostring(Script))
         plot = Get_Story_Plot("StoryMissions\\Custom\\STORY_SANDBOX_REBEL_SLICE.XML") -- Get Plot file for Text Event
         --DebugMessage("%s -- Finding Player", tostring(Script))
@@ -33,9 +27,7 @@ function State_Init(message)
             --DebugMessage("%s -- Wrong Player Found, Setting it to proper player", tostring(Script))
             player = Find_Player("REBEL") -- Set Player String as correct if needed, This is a Back up to prevent errors DO NOT DELETE
         end
-   
 
-        
         --DebugMessage("%s -- Setting Respawn Time Per Tech", tostring(Script))
         if player.Get_Tech_Level() == 0 then -- Get Respawn Time Per each Tech Level
             respawnPerTech = 45 -- Was 85
@@ -62,8 +54,5 @@ function State_Init(message)
             Story_Event("REBEL_SLICE_RESPAWN")
             Game_Message("LOZ_REBEL_SLICE_RESPAWN")
         end
-              
-    
     end
-
 end

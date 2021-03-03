@@ -29,8 +29,7 @@
 
     <!-- Begin the Actual part of the Mission on Tech 5 and Unrestrict The Maw to allow the planet to be taken. -->
 	<Event Name="Empire_Eclispe_Conquer_01">
-		<Event_Type>STORY_ELAPSED</Event_Type>
-		<Event_Param1>0</Event_Param1>
+		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
 		<Reward_Param1>The_Maw</Reward_Param1>
 		<Reward_Param2>0</Reward_Param2>
@@ -39,8 +38,7 @@
 
     <!-- Show the Dialog to alert the Player that they can take the Maw -->
 	<Event Name="Empire_Eclispe_Conquer_02">
-		<Event_Type>STORY_ELAPSED</Event_Type>
-		<Event_Param1>0</Event_Param1>
+		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Story_Dialog>Custom\Dialog_E_Eclipse_Unlock</Story_Dialog>
 		<Story_Chapter>0</Story_Chapter>
 		<Story_Dialog_Popup>True</Story_Dialog_Popup>
@@ -59,8 +57,7 @@
 
     <!-- Give the Player a Level 5 Station after taking The_Maw to allow production faster -->
     <Event Name="Empire_Eclipse_Conquer_04">
-        <Event_Type>STORY_ELAPSED</Event_Type>    
-        <Event_Param1>0</Event_Param1>
+        <Event_Type>STORY_TRIGGER</Event_Type>
         <Reward_Type>UNIQUE_UNIT</Reward_Type>
         <Reward_Param1>Empire_Star_Base_5</Reward_Param1>
         <Reward_Param2>The_Maw</Reward_Param2>
@@ -70,8 +67,7 @@
 
     <!-- Set the Objective as completed to give player statisfaction -->
 	<Event Name="Empire_Eclipse_Conquer_05">	
-		<Event_Type>STORY_ELAPSED</Event_Type>
-        <Event_Param1>0</Event_Param1>
+		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
 		<Reward_Param1>Empire_Eclispe_Conquer_Tag_00</Reward_Param1>
 		<Prereq>Empire_Eclipse_Conquer_04</Prereq>

@@ -2,7 +2,6 @@
 -- Lua Doc: https://stargate-eaw.de/media/kunena/attachments/92/LuacommandsinFoC.pdf
 
 
-
 function Return_Chance(value_to_check) -- Returns true or false
     if value_to_check > 1 then
         DebugMessage("%s -- ERROR Value to Check cannot be greater than 1, please fix yo shit", tostring(Script))
@@ -55,4 +54,12 @@ function Object_Firepower(object) -- Easier then Object.Get_Type().Get_Combat_Ra
         firepower = object.Get_Type().Get_Combat_Rating()
     end
     return firepower
+end
+
+function Return_Faction(obj) -- Too Lazy to do type the below
+    return obj.Get_Owner().Get_Faction_Name()
+end
+
+function Return_Name(obj)
+    return obj.Get_Type().Get_Name() -- Return the XML Name
 end

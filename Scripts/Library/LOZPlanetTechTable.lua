@@ -122,15 +122,15 @@ function Define_Planet_Table()
 
 end
 
-function Calculate_Planet_Slice_Values(planetCompare)
+function Calculate_Planet_Slice_Values(planetC)
     tech_diff, tech_avail = Define_Planet_Table()
     for planet, diff in pairs(tech_diff) do
-        if planetCompare.Get_Type().Get_Name() == planet then
+        if planetC.Get_Type().Get_Name() == planet then
             planet_diff = diff
         end
     end
     for planet, avail in pairs(tech_avail) do
-        if planetCompare.Get_Type().Get_Name() == planet then
+        if planetC.Get_Type().Get_Name() == planet then
             planet_avail = avail
         end
     end
@@ -206,4 +206,3 @@ function Calculate_Sleep_Time(diff, avail)
     final_sleep_time = sleepTime * mutliplier
     return final_sleep_time
 end
-

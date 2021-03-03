@@ -2,6 +2,127 @@
 
 <Story>
 
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+    <Event Name="Lock_Rebel_Tech_Upgrade_1">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param2>Rebel_Slice_To_Two</Reward_Param2>
+        <Prereq>Universal_Story_Start</Prereq>
+    </Event>
+
+    <Event Name="Lock_Rebel_Tech_Upgrade_2">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param2>Rebel_Slice_To_Three</Reward_Param2>
+        <Prereq>Universal_Story_Start</Prereq>
+    </Event>
+
+    <Event Name="Lock_Rebel_Tech_Upgrade_3">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param2>Rebel_Slice_To_Four</Reward_Param2>
+        <Prereq>Universal_Story_Start</Prereq>
+    </Event>
+
+    <Event Name="Lock_Rebel_Tech_Upgrade_4">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param2>Rebel_Slice_To_Five</Reward_Param2>
+        <Prereq>Universal_Story_Start</Prereq>
+    </Event>
+
+    <Event Name="Unlock_Rebel_Tech_Upgrade_1">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>UNLOCK_TECH_UPGRADE_1</Event_Param2>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>Rebel_Slice_To_Two</Reward_Param1>
+    </Event>
+
+    <Event Name="Unlock_Rebel_Tech_Upgrade_2">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>UNLOCK_TECH_UPGRADE_2</Event_Param2>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>Rebel_Slice_To_Three</Reward_Param1>
+    </Event>
+
+    <Event Name="Unlock_Rebel_Tech_Upgrade_3">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>UNLOCK_TECH_UPGRADE_3</Event_Param2>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>Rebel_Slice_To_Four</Reward_Param1>
+    </Event>
+
+    <Event Name="Unlock_Rebel_Tech_Upgrade_4">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>UNLOCK_TECH_UPGRADE_4</Event_Param2>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>Rebel_Slice_To_Five</Reward_Param1>
+    </Event>
+
+    <Event Name="Advance_Tech_Level_To_2">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+        <Event_Param1>Rebel_Slice_To_Two</Event_Param1>
+        <Reward_Type>SET_TECH_LEVEL</Reward_Type>
+        <Reward_Param1>Rebel</Reward_Param1>
+        <Reward_Param2>1</Reward_Param2>
+    </Event>
+
+    <Event Name="Lock_Rebel_Tech_Upgrade_2_After">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param2>Rebel_Slice_To_Two</Reward_Param2>
+        <Prereq>Advance_Tech_Level_To_2</Prereq>
+    </Event>
+
+    <Event Name="Advance_Tech_Level_To_3">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+        <Event_Param1>Rebel_Slice_To_Three</Event_Param1>
+        <Reward_Type>SET_TECH_LEVEL</Reward_Type>
+        <Reward_Param1>Rebel</Reward_Param1>
+        <Reward_Param2>2</Reward_Param2>
+    </Event>
+
+    <Event Name="Lock_Rebel_Tech_Upgrade_3_After">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param2>Rebel_Slice_To_Three</Reward_Param2>
+        <Prereq>Advance_Tech_Level_To_3</Prereq>
+    </Event>
+
+    <Event Name="Advance_Tech_Level_To_4">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+        <Event_Param1>Rebel_Slice_To_Four</Event_Param1>
+        <Reward_Type>SET_TECH_LEVEL</Reward_Type>
+        <Reward_Param1>Rebel</Reward_Param1>
+        <Reward_Param2>3</Reward_Param2>
+    </Event>
+
+    <Event Name="Lock_Rebel_Tech_Upgrade_4_After">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param2>Rebel_Slice_To_Four</Reward_Param2>
+        <Prereq>Advance_Tech_Level_To_4</Prereq>
+    </Event>
+
+    <Event Name="Advance_Tech_Level_To_5">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+        <Event_Param1>Rebel_Slice_To_Five</Event_Param1>
+        <Reward_Type>SET_TECH_LEVEL</Reward_Type>
+        <Reward_Param1>Rebel</Reward_Param1>
+        <Reward_Param2>4</Reward_Param2>
+    </Event>
+
+    <Event Name="Lock_Rebel_Tech_Upgrade_5_After">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param2>Rebel_Slice_To_Five</Reward_Param2>
+        <Prereq>Advance_Tech_Level_To_5</Prereq>
+    </Event>
+
     <Event Name="Rebel_Slice_Exp">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>0</Event_Param1>
@@ -10,7 +131,6 @@
         <Story_Dialog_Popup>True</Story_Dialog_Popup>
         <Story_Tag>Rebel_Slice_Exp</Story_Tag>
     </Event>
-
 
     <Event Name="Rebel_Slice_Credit_1">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
@@ -26,33 +146,6 @@
 		<Event_Param2>REBEL_SLICE_CREDIT_WARNING_REMOVE</Event_Param2>
         <Reward_Type>REMOVE_STORY_GOAL</Reward_Type>
         <Reward_Param1>REBEL_CREDIT_POP</Reward_Param1>
-    </Event>
-
-    <Event Name="Rebel_Slice_Credit_2">
-		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
-		<Event_Param2>REBEL_SLICE_CREDIT_WARNING_2</Event_Param2>
-        <Story_Dialog>Custom\Dialog_Rebel_Slice_Exp</Story_Dialog>
-        <Story_Chapter>3</Story_Chapter>
-        <Story_Dialog_Popup>True</Story_Dialog_Popup>
-        <Story_Tag>REBEL_CREDIT_POP</Story_Tag>
-    </Event>
-
-    <Event Name="Rebel_Slice_Credit_3">
-		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
-		<Event_Param2>REBEL_SLICE_CREDIT_WARNING_3</Event_Param2>
-        <Story_Dialog>Custom\Dialog_Rebel_Slice_Exp</Story_Dialog>
-        <Story_Chapter>4</Story_Chapter>
-        <Story_Dialog_Popup>True</Story_Dialog_Popup>
-        <Story_Tag>REBEL_CREDIT_POP</Story_Tag>
-    </Event>
-
-    <Event Name="Rebel_Slice_Credit_4">
-		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
-		<Event_Param2>REBEL_SLICE_CREDIT_WARNING_4</Event_Param2>
-        <Story_Dialog>Custom\Dialog_Rebel_Slice_Exp</Story_Dialog>
-        <Story_Chapter>5</Story_Chapter>
-        <Story_Dialog_Popup>True</Story_Dialog_Popup>
-        <Story_Tag>REBEL_CREDIT_POP</Story_Tag>
     </Event>
 
     <Event Name="Rebel_Respawn_Droids">

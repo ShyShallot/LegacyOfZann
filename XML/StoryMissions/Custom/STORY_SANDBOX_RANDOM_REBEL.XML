@@ -1,0 +1,202 @@
+<?xml version="1.0" ?>
+
+
+
+<!--****** This story file is used to automatically set some things that would normally happen ******-->
+<!--****** in story mode for the full campaign.  This file should be generic enough to use for  ******-->
+<!--****** any sandbox campaign set.                                                           ******-->
+
+<!-- Sandbox Campaign: Legacy of Zann -->
+
+<Story>
+
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+        <Event_Param1>0</Event_Param1>
+		<Event_Param1>0</Event_Param1>
+		<Story_Dialog>Custom\Dialog_Random_Start_GC</Story_Dialog>
+		<Story_Chapter>21</Story_Chapter>
+		<Story_Tag>Intro_Tag</Story_Tag>
+	</Event>
+
+	<Event Name="Disable_Victory">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Universal_Story_Start</Prereq>
+		<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+	</Event>
+	
+	<Event Name="Disable_Advisor">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SET_ADVISOR</Reward_Type>
+        <Reward_Param1>0</Reward_Param1>
+        <Prereq>Universal_Story_Start</Prereq>
+    </Event>
+
+    <Event Name="Galactic_Conquest_Started">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Spawning_Done</Event_Param2>
+    </Event>
+
+	<Event Name="No_Touchy_Touchy">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_CONTROLS</Reward_Type>
+		<Reward_Param1>1</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+    <Event Name="Galactic_Conquest_Started">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Spawning_Done</Event_Param2>
+    </Event>
+
+	<Event Name="Enable_Victory">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Galactic_Conquest_Started</Prereq>
+		<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1>1</Reward_Param1>
+	</Event>
+
+	<Event Name="Yes_Touchy_Touchy">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_CONTROLS</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+		<Prereq>Galactic_Conquest_Started</Prereq>
+	</Event>
+
+	<Event Name="Enable_Advisor">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SET_ADVISOR</Reward_Type>
+        <Reward_Param1>1</Reward_Param1>
+        <Prereq>Galactic_Conquest_Started</Prereq>
+    </Event>
+
+<!-- Rebel Hero Release -->
+
+
+	<!-- Spawn Starting Heroes -->
+
+	<Event Name="Rebel_AI_Heroes_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Mon_Mothma_Team</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Galactic_Conquest_Started</Prereq>
+	</Event>
+
+	<Event Name="Rebel_AI_Heroes_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Droids_Team_Custom</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Galactic_Conquest_Started</Prereq>
+	</Event>
+
+
+	<!-- Spawn Tech 1 Heroes -->
+
+	<Event Name="Rebel_AI_Heroes_03">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+
+	<Event Name="Rebel_AI_Heroes_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Han_Solo_Team</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebel_AI_Heroes_03 Galactic_Conquest_Started</Prereq>
+	</Event>
+
+	<Event Name="Rebel_Tech_Pop_Cap_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Rebel_Dummmy_Star_Base_1</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebel_AI_Heroes_03 Galactic_Conquest_Started</Prereq>
+	
+	</Event>
+
+
+	<!-- Spawn Tech 2 Heroes -->
+
+	<Event Name="Rebel_AI_Heroes_05">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+
+	<Event Name="Rebel_AI_Heroes_06">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Sundered_Heart</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebel_AI_Heroes_05 Galactic_Conquest_Started</Prereq>
+	</Event>
+
+	<Event Name="Rebel_Tech_Pop_Cap_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Rebel_Dummmy_Star_Base_2</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebel_AI_Heroes_05 Galactic_Conquest_Started</Prereq>
+	
+	</Event>
+
+	<!-- Spawn Tech 3 Heroes -->
+
+	<Event Name="Rebel_AI_Heroes_07">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+
+	<Event Name="Rebel_AI_Heroes_08">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Home_One</Reward_Param1>
+        <Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebel_AI_Heroes_07 Galactic_Conquest_Started</Prereq>
+	</Event>
+
+	<Event Name="Rebel_Tech_Pop_Cap_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Rebel_Dummmy_Star_Base_3</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebel_AI_Heroes_07 Galactic_Conquest_Started</Prereq>
+	
+	</Event>
+
+	<!-- Spawn Tech 4 Heroes -->
+
+	<Event Name="Rebel_AI_Heroes_09">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+
+	<Event Name="Rebel_AI_Heroes_10">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Obi_Wan_Team</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebel_AI_Heroes_09 Galactic_Conquest_Started</Prereq>
+	</Event>
+
+	<Event Name="Rebel_AI_Heroes_11">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Red_Squadron</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebel_AI_Heroes_09 Galactic_Conquest_Started</Prereq>
+	</Event>
+
+	<Event Name="Rebel_Tech_Pop_Cap_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Rebel_Dummmy_Star_Base_4</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebel_AI_Heroes_09 Galactic_Conquest_Started</Prereq>
+	 
+	</Event>
+
+
+</Story>

@@ -142,7 +142,7 @@
 		<Armor_Type> Armor_Tartan </Armor_Type>
 		<Max_Thrust>0.8</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>0.9</Hyperspace_Speed>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 
 		<Affiliation>Empire</Affiliation>

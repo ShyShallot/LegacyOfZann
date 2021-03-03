@@ -30,7 +30,7 @@
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>	
 		<Max_Thrust>0.4</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1</Hyperspace_Speed>
+		<Hyperspace_Speed>0.7</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
 		<Death_Clone>Damage_Normal, Calamari_Cruiser_Death_Clone</Death_Clone>

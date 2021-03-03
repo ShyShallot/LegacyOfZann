@@ -56,7 +56,7 @@
 		
 		<Max_Thrust>0.05</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1</Hyperspace_Speed>
+		<Hyperspace_Speed>0.7</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
 		<Affiliation>Empire, Rebel, Underworld</Affiliation>

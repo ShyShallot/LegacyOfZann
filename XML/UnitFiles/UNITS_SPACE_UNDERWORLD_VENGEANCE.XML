@@ -36,7 +36,7 @@
 		<Bank_Turn_Angle>40</Bank_Turn_Angle>
 		<Max_Thrust>4.5</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>0.9</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<OverrideAcceleration> .04 </OverrideAcceleration>
 		<OverrideDeceleration> .04 </OverrideDeceleration>

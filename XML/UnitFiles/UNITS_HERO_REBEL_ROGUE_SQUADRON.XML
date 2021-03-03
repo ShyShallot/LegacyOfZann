@@ -310,7 +310,7 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>5</Tech_Level>
 		<Hyperspace>yes</Hyperspace>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>0.9</Hyperspace_Speed>
 		
 		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
 		<SpaceBehavior> REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>

@@ -31,7 +31,7 @@
 		<Max_Lift>1</Max_Lift>
 		<Begin_Turn_Towards_Distance>150.0</Begin_Turn_Towards_Distance>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>0.9</Hyperspace_Speed>
 		
 		<Affiliation>Underworld</Affiliation>
 		<Shield_Points>0</Shield_Points>

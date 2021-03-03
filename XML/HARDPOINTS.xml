@@ -17648,7 +17648,7 @@
 		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-
+    <!-- DO NOT ADD ANY MORE HARDPOINTS TO THIS FILE, USE HardPointsTwo.xml or create another Hardpoint File-->
 
 
 

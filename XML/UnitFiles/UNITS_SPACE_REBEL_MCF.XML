@@ -37,7 +37,7 @@
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>	
 		<Max_Thrust>0.2</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1</Hyperspace_Speed>
+		<Hyperspace_Speed>0.7</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
 		<Death_Clone>Damage_Normal, Home_One_Death_Clone</Death_Clone>

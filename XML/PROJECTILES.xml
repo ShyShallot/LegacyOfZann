@@ -462,7 +462,48 @@
 		<Projectile_Rocket_Curve_Distance>350</Projectile_Rocket_Curve_Distance>
         <Projectile_Rocket_Curve_Offset>50</Projectile_Rocket_Curve_Offset>
         <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance>
-		<Explode_When_Reached_Target_Radius> True </Explode_When_Reached_Target_Radius>
+		<Explode_When_Reached_Target_Radius> False </Explode_When_Reached_Target_Radius>
+		
+		<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+		<Projectile_Blast_Area_Dropoff_Tiers>5</Projectile_Blast_Area_Dropoff_Tiers>
+		<Projectile_Blast_Area_Damage> 8 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 200 </Projectile_Blast_Area_Range>
+		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Concussion_Missile_Heavy">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Damage_Type> Damage_Con_Missile </Damage_Type>
+		<Max_Speed>6.0</Max_Speed>
+		<Max_Rate_Of_Turn>25.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>ROCKET</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
+		<Projectile_Damage>90</Projectile_Damage>
+		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Dud</Projectile_Lifetime_Detonation_Particle>
+		<AI_Combat_Power>300</AI_Combat_Power>
+		<Projectile_Rocket_Curve_Distance>350</Projectile_Rocket_Curve_Distance>
+        <Projectile_Rocket_Curve_Offset>50</Projectile_Rocket_Curve_Offset>
+        <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance>
+		<Explode_When_Reached_Target_Radius> False </Explode_When_Reached_Target_Radius>
+
+		<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+		<Projectile_Blast_Area_Dropoff_Tiers>5</Projectile_Blast_Area_Dropoff_Tiers>
+		<Projectile_Blast_Area_Damage> 60 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 350 </Projectile_Blast_Area_Range>
+		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 	</Projectile>
 
 	<Projectile Name="Proj_Ship_Concussion_Missile_Large">
@@ -491,7 +532,13 @@
 		<Projectile_Rocket_Curve_Distance>350</Projectile_Rocket_Curve_Distance>
         <Projectile_Rocket_Curve_Offset>50</Projectile_Rocket_Curve_Offset>
         <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance>
-		<Explode_When_Reached_Target_Radius> True </Explode_When_Reached_Target_Radius>
+		<Explode_When_Reached_Target_Radius> False </Explode_When_Reached_Target_Radius>
+
+		<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+		<Projectile_Blast_Area_Dropoff_Tiers>5</Projectile_Blast_Area_Dropoff_Tiers>
+		<Projectile_Blast_Area_Damage> 16 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 200 </Projectile_Blast_Area_Range>
+		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 	</Projectile>
 	
 	<Projectile Name="Proj_Ship_Concussion_Missile_Dummy">
@@ -517,8 +564,13 @@
 	<Projectile Name="Proj_Ship_Concussion_Missile_SSD">
 		<Variant_Of_Existing_Type>Proj_Ship_Concussion_Missile</Variant_Of_Existing_Type>
 		<Scale_Factor>1.5</Scale_Factor>
-		<Projectile_Damage>35.0</Projectile_Damage>
+		<Projectile_Damage>100.0</Projectile_Damage>
 		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+		<Projectile_Blast_Area_Dropoff_Tiers>5</Projectile_Blast_Area_Dropoff_Tiers>
+		<Projectile_Blast_Area_Damage> 90 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 400 </Projectile_Blast_Area_Range>
+		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 	</Projectile>
 
 

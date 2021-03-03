@@ -34,7 +34,7 @@
 		<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>40</Bank_Turn_Angle>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>0.9</Hyperspace_Speed>
 		<Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
 		<Fires_Forward>no</Fires_Forward>
 

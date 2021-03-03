@@ -30,7 +30,7 @@
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>	
 		<Max_Thrust>0.2</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1</Hyperspace_Speed>
+		<Hyperspace_Speed>0.7</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
 		<Death_Clone>Damage_Normal, Calamari_Cruiser_Death_Clone</Death_Clone>
@@ -228,7 +228,7 @@
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>	
 		<Max_Thrust>0.2</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1</Hyperspace_Speed>
+		<Hyperspace_Speed>0.7</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
 		<Death_Clone>Damage_Normal, Calamari_Cruiser_Death_Clone</Death_Clone>
@@ -402,7 +402,7 @@
 		
 		<Max_Thrust>0.1</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1</Hyperspace_Speed>
+		<Hyperspace_Speed>0.7</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
 		<Affiliation>Empire</Affiliation>
@@ -609,7 +609,7 @@
 		
 		<Max_Thrust>0.1</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1</Hyperspace_Speed>
+		<Hyperspace_Speed>0.7</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
 		<Affiliation>Underworld</Affiliation>
@@ -820,7 +820,7 @@
 		
 		<Max_Thrust>0.1</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1</Hyperspace_Speed>
+		<Hyperspace_Speed>0.7</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
 		<Affiliation>Rebel</Affiliation>
@@ -1047,7 +1047,7 @@
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>0.9</Hyperspace_Speed>
 		<OverrideAcceleration> .1 </OverrideAcceleration>
 		<OverrideDeceleration> .1 </OverrideDeceleration>
 		<Layer_Z_Adjust> -90 </Layer_Z_Adjust>
@@ -1626,7 +1626,7 @@
 		
 		<Max_Thrust>0.5</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1</Hyperspace_Speed>
+		<Hyperspace_Speed>0.7</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
 		<Affiliation>Empire</Affiliation>

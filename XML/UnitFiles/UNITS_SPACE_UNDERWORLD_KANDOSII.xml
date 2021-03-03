@@ -37,7 +37,7 @@
 		<Select_Box_Scale>300</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
-		<Hyperspace_Speed>1</Hyperspace_Speed>
+		<Hyperspace_Speed>0.7</Hyperspace_Speed>
 		<Maintenance_Cost>0.6</Maintenance_Cost>
 		<Affiliation>Underworld</Affiliation>
 		<Build_Initially_Locked>No</Build_Initially_Locked>

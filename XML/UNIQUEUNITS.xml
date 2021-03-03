@@ -432,7 +432,7 @@
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>15</Bank_Turn_Angle>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>0.9</Hyperspace_Speed>
 		<Space_Full_Stop_Command>yes</Space_Full_Stop_Command>
 		<OverrideAcceleration> .1 </OverrideAcceleration>
 		<OverrideDeceleration> .1 </OverrideDeceleration>
@@ -644,7 +644,7 @@
 		<Bank_Turn_Angle>60</Bank_Turn_Angle>
 		<Begin_Turn_Towards_Distance>300.0</Begin_Turn_Towards_Distance>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>0.9</Hyperspace_Speed>
 
 		<Armor_Type> Armor_Hero_Transport </Armor_Type>
 
@@ -812,7 +812,7 @@
 		<Max_Rate_Of_Roll>3.0</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>40</Bank_Turn_Angle>
 		<Hyperspace>yes</Hyperspace>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>0.9</Hyperspace_Speed>
 		<Begin_Turn_Towards_Distance>200.0</Begin_Turn_Towards_Distance>
 
 		<Armor_Type> Armor_Hero_Transport </Armor_Type>
@@ -1216,7 +1216,7 @@
 		<Bank_Turn_Angle>60</Bank_Turn_Angle>
 		<Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>0.9</Hyperspace_Speed>
 
 		<Armor_Type> Armor_Hero_Transport </Armor_Type>
 
@@ -1422,7 +1422,7 @@
 		<Armor_Type> Armor_Corellian_Gunboat </Armor_Type>
 		<Max_Thrust>0.5</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>0.9</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Min_Speed>2.0</Min_Speed>
 		<Max_Lift>0.0</Max_Lift>
@@ -1626,7 +1626,7 @@
 		<Select_Box_Scale>400</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>0.9</Hyperspace_Speed>
 		<Affiliation>Empire,Rebel,Pirates</Affiliation>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -1839,7 +1839,7 @@
 		<Select_Box_Scale>200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>0.9</Hyperspace_Speed>
 		<Affiliation>Underworld</Affiliation>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -1983,7 +1983,7 @@
 		<Select_Box_Scale>200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>0.9</Hyperspace_Speed>
 		<Affiliation>Rebel</Affiliation>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
@@ -2836,7 +2836,7 @@
 		<Max_Rate_Of_Roll>0.8</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>30</Bank_Turn_Angle>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>0.9</Hyperspace_Speed>
 		<OverrideAcceleration> .2 </OverrideAcceleration>
 		<OverrideDeceleration> .2 </OverrideDeceleration>
 		<Layer_Z_Adjust> -20 </Layer_Z_Adjust>
@@ -2999,7 +2999,7 @@
 
 	<Max_Lift>0.0f</Max_Lift>
 	<Hyperspace>Yes</Hyperspace>
-	<Hyperspace_Speed>1.5</Hyperspace_Speed>
+	<Hyperspace_Speed>0.9</Hyperspace_Speed>
 	<Affiliation>Empire</Affiliation>
 	<Shield_Points>150</Shield_Points>
 	<Tactical_Health>180</Tactical_Health>

@@ -247,7 +247,7 @@
 		<Bank_Turn_Angle>45</Bank_Turn_Angle>
 		<Begin_Turn_Towards_Distance>500.0</Begin_Turn_Towards_Distance>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>0.9</Hyperspace_Speed>
 
 		<Armor_Type> Armor_Hero_Transport </Armor_Type>
 

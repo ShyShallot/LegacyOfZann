@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+
+<Story_Mode_Plots>
+	<Lua_Script>Story_Sandbox_Random_Unit_Spawn_Nun</Lua_Script>
+	<Lua_Script>Rebel_Slice_Respawn</Lua_Script>
+	<Active_Plot>StoryMissions\Custom\STORY_SANDBOX_RANDOM_REBEL.XML</Active_Plot>
+	<Active_Plot>StoryMissions\Custom\STORY_SANDBOX_REBEL_SLICE.XML</Active_Plot>
+</Story_Mode_Plots>

@@ -8,7 +8,7 @@
 		
             <Point_A>Coruscant</Point_A>
             <Point_B>Corellia</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             <Visible_Line_Name>DEFAULT</Visible_Line_Name>
@@ -19,7 +19,7 @@
 		
             <Point_A>Corellia</Point_A>
             <Point_B>Ryloth</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -31,7 +31,7 @@
 		
             <Point_A>Thyferra</Point_A>
             <Point_B>Fondor</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -41,7 +41,7 @@
 		
             <Point_A>Fondor</Point_A>
             <Point_B>Abregado_Rae</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -51,7 +51,7 @@
 		
             <Point_A>Abregado_Rae</Point_A>
             <Point_B>Sullust</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -61,7 +61,7 @@
 		
             <Point_A>Sullust</Point_A>
             <Point_B>Eriadu</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -71,7 +71,7 @@
 		
             <Point_A>Eriadu</Point_A>
             <Point_B>Dagobah</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -83,7 +83,7 @@
 		
             <Point_A>Anaxes</Point_A>
             <Point_B>Coruscant</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -93,7 +93,7 @@
 		
             <Point_A>Coruscant</Point_A>
             <Point_B>Corulag</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -108,7 +108,7 @@
 		
             <Point_A>Bespin</Point_A>
             <Point_B>Hoth</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -121,7 +121,7 @@
 		
             <Point_A>Corellia</Point_A>
             <Point_B>Kessel</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.85</Credit_Gain_Factor>
         
@@ -133,7 +133,7 @@
 		
             <Point_A>Thyferra</Point_A>
             <Point_B>Abregado_Rae</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -143,7 +143,7 @@
 		
             <Point_A>Bespin</Point_A>
             <Point_B>Sullust</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -153,7 +153,7 @@
 		
             <Point_A>Coruscant</Point_A>
             <Point_B>Abregado_Rae</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -165,7 +165,7 @@
 		
             <Point_A>Coruscant</Point_A>
             <Point_B>Bespin</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -175,7 +175,7 @@
 		
             <Point_A>Coruscant</Point_A>
             <Point_B>Tatooine</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -185,7 +185,7 @@
 		
             <Point_A>Alderaan</Point_A>
             <Point_B>Yavin</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -198,7 +198,7 @@
 		
             <Point_A>Abregado_Rae</Point_A>
             <Point_B>Coruscant</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -211,7 +211,7 @@
 		
             <Point_A>Coruscant</Point_A>
             <Point_B>Byss</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -221,7 +221,7 @@
 		
             <Point_A>Corellia</Point_A>
             <Point_B>NalHutta</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -231,7 +231,7 @@
 		
             <Point_A>Geonosis</Point_A>
             <Point_B>Bespin</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -241,7 +241,7 @@
 		
             <Point_A>Coruscant</Point_A>
             <Point_B>Kuat</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -251,7 +251,7 @@
 		
             <Point_A>Fondor</Point_A>
             <Point_B>Sullust</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -261,7 +261,7 @@
 		
             <Point_A>Naboo</Point_A>
             <Point_B>Corellia</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -271,7 +271,7 @@
 		
             <Point_A>Byss</Point_A>
             <Point_B>Wayland</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             <Visible_Line_Name>DEFAULT</Visible_Line_Name>
@@ -282,7 +282,7 @@
 		
             <Point_A>NalHutta</Point_A>
             <Point_B>Ryloth</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -292,7 +292,7 @@
 		
             <Point_A>Corellia</Point_A>
             <Point_B>Tatooine</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -302,7 +302,7 @@
 		
             <Point_A>Abregado_Rae</Point_A>
             <Point_B>Tatooine</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -312,7 +312,7 @@
 		
             <Point_A>Carida</Point_A>
             <Point_B>Manaan</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             <Visible_Line_Name>DEFAULT</Visible_Line_Name>
@@ -323,7 +323,7 @@
 		
             <Point_A>Jabiim</Point_A>
             <Point_B>Manaan</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             <Visible_Line_Name>DEFAULT</Visible_Line_Name>
@@ -334,7 +334,7 @@
 		
             <Point_A>AlzocIII</Point_A>
             <Point_B>Manaan</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.85</Credit_Gain_Factor>
             <Visible_Line_Name>DEFAULT</Visible_Line_Name>
@@ -345,7 +345,7 @@
 		
             <Point_A>Carida</Point_A>
             <Point_B>Abregado_Rae</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             <Visible_Line_Name>DEFAULT</Visible_Line_Name>
@@ -356,7 +356,7 @@
 		
             <Point_A>Alderaan</Point_A>
             <Point_B>Kashyyyk</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -366,7 +366,7 @@
 		
             <Point_A>Bothawui</Point_A>
             <Point_B>Eriadu</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -376,7 +376,7 @@
 		
             <Point_A>Carida</Point_A>
             <Point_B>Jabiim</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             <Visible_Line_Name>DEFAULT</Visible_Line_Name>
@@ -387,7 +387,7 @@
 		
             <Point_A>Geonosis</Point_A>
             <Point_B>VergessoAsteroids</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -397,7 +397,7 @@
 		
             <Point_A>Byss</Point_A>
             <Point_B>Corellia</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -407,7 +407,7 @@
 		
             <Point_A>Corellia</Point_A>
             <Point_B>Kashyyyk</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -417,7 +417,7 @@
 		
             <Point_A>Bespin</Point_A>
             <Point_B>VergessoAsteroids</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -427,7 +427,7 @@
 		
             <Point_A>Dagobah</Point_A>
             <Point_B>Hoth</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -437,7 +437,7 @@
 		
             <Point_A>Endor</Point_A>
             <Point_B>Sullust</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.85</Credit_Gain_Factor>
         
@@ -447,7 +447,7 @@
 		
             <Point_A>Corellia</Point_A>
             <Point_B>Sullust</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.85</Credit_Gain_Factor>
         
@@ -457,7 +457,7 @@
 		
             <Point_A>Tatooine</Point_A>
             <Point_B>Kashyyyk</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -467,7 +467,7 @@
 		
             <Point_A>Dagobah</Point_A>
             <Point_B>Geonosis</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -477,7 +477,7 @@
 		
             <Point_A>Kamino</Point_A>
             <Point_B>Geonosis</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -487,7 +487,7 @@
 		
             <Point_A>Ryloth</Point_A>
             <Point_B>VergessoAsteroids</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -497,7 +497,7 @@
 		
             <Point_A>Bespin</Point_A>
             <Point_B>Dagobah</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -507,7 +507,7 @@
 		
             <Point_A>Tatooine</Point_A>
             <Point_B>Dagobah</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -517,7 +517,7 @@
 		
             <Point_A>Atzerri</Point_A>
             <Point_B>Sullust</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.85</Credit_Gain_Factor>
             <Visible_Line_Name>DEFAULT</Visible_Line_Name>
@@ -528,7 +528,7 @@
 		
             <Point_A>Corellia</Point_A>
             <Point_B>Alderaan</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -538,7 +538,7 @@
 		
             <Point_A>Alderaan</Point_A>
             <Point_B>Kessel</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.85</Credit_Gain_Factor>
         
@@ -548,7 +548,7 @@
 		
             <Point_A>Kashyyyk</Point_A>
             <Point_B>Kessel</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.85</Credit_Gain_Factor>
         
@@ -558,7 +558,7 @@
 		
             <Point_A>Kashyyyk</Point_A>
             <Point_B>Naboo</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -568,7 +568,7 @@
 		
             <Point_A>Byss</Point_A>
             <Point_B>Alderaan</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -578,7 +578,7 @@
 		
             <Point_A>Dantooine</Point_A>
             <Point_B>Alderaan</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -588,7 +588,7 @@
 		
             <Point_A>Endor</Point_A>
             <Point_B>Thyferra</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -599,7 +599,7 @@
 		
             <Point_A>Coruscant</Point_A>
             <Point_B>Alderaan</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -610,7 +610,7 @@
 		
             <Point_A>Endor</Point_A>
             <Point_B>Bestine</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -620,7 +620,7 @@
 		
             <Point_A>Coruscant</Point_A>
             <Point_B>Sullust</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.85</Credit_Gain_Factor>
         
@@ -630,7 +630,7 @@
 		
             <Point_A>Tatooine</Point_A>
             <Point_B>NalHutta</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -640,7 +640,7 @@
 		
             <Point_A>Tatooine</Point_A>
             <Point_B>Geonosis</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -651,7 +651,7 @@
 		
             <Point_A>Corellia</Point_A>
             <Point_B>Geonosis</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -661,7 +661,7 @@
 		
             <Point_A>Coruscant</Point_A>
             <Point_B>Wayland</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             <Visible_Line_Name>DEFAULT</Visible_Line_Name>
@@ -672,7 +672,7 @@
 		
             <Point_A>Dantooine</Point_A>
             <Point_B>Wayland</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             <Visible_Line_Name>DEFAULT</Visible_Line_Name>
@@ -683,7 +683,7 @@
 		
             <Point_A>MonCalimari</Point_A>
             <Point_B>Wayland</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             <Visible_Line_Name>DEFAULT</Visible_Line_Name>
@@ -694,7 +694,7 @@
 		
             <Point_A>Bothawui</Point_A>
             <Point_B>Dagobah</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -704,7 +704,7 @@
 		
             <Point_A>Kashyyyk</Point_A>
             <Point_B>Coruscant</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -714,7 +714,7 @@
 		
             <Point_A>Coruscant</Point_A>
             <Point_B>Ilum</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -724,7 +724,7 @@
 		
             <Point_A>Jabiim</Point_A>
             <Point_B>Dantooine</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             <Visible_Line_Name>DEFAULT</Visible_Line_Name>
@@ -735,7 +735,7 @@
 		
             <Point_A>Bestine</Point_A>
             <Point_B>Corulag</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -745,7 +745,7 @@
 		
             <Point_A>Byss</Point_A>
             <Point_B>Sullust</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.85</Credit_Gain_Factor>
             <Visible_Line_Name>DEFAULT</Visible_Line_Name>
@@ -756,7 +756,7 @@
 		
             <Point_A>MonCalimari</Point_A>
             <Point_B>Yavin</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             <Visible_Line_Name>DEFAULT</Visible_Line_Name>
@@ -767,7 +767,7 @@
 		
             <Point_A>Dantooine</Point_A>
             <Point_B>Yavin</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             <Visible_Line_Name>DEFAULT</Visible_Line_Name>
@@ -779,7 +779,7 @@
 		
             <Point_A>Bestine</Point_A>
             <Point_B>Atzerri</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -789,7 +789,7 @@
 		
             <Point_A>Jabiim</Point_A>
             <Point_B>Wayland</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -799,7 +799,7 @@
 		
             <Point_A>AetenII</Point_A>
             <Point_B>Jabiim</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -809,7 +809,7 @@
 		
             <Point_A>Eriadu</Point_A>
             <Point_B>Geonosis</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -819,7 +819,7 @@
 		
             <Point_A>Bespin</Point_A>
             <Point_B>Eriadu</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -829,7 +829,7 @@
 		
             <Point_A>Dagobah</Point_A>
             <Point_B>VergessoAsteroids</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -839,7 +839,7 @@
 		
             <Point_A>Byss</Point_A>
             <Point_B>Tatooine</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -849,7 +849,7 @@
 		
             <Point_A>Corulag</Point_A>
             <Point_B>Taris</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -859,7 +859,7 @@
 		
             <Point_A>Coruscant</Point_A>
             <Point_B>Dantooine</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -869,7 +869,7 @@
 		
             <Point_A>Dantooine</Point_A>
             <Point_B>Tatooine</Point_B>
-            <HS_Speed_Factor>10.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -879,7 +879,7 @@
 		
             <Point_A>Taris</Point_A>
             <Point_B>Tatooine</Point_B>
-            <HS_Speed_Factor>10.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -889,7 +889,7 @@
 		
             <Point_A>Dantooine</Point_A>
             <Point_B>Taris</Point_B>
-            <HS_Speed_Factor>10.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -899,7 +899,7 @@
 		
             <Point_A>Alderaan</Point_A>
             <Point_B>Shola</Point_B>
-            <HS_Speed_Factor>10.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -909,7 +909,7 @@
 		
             <Point_A>Alderaan</Point_A>
             <Point_B>Korriban</Point_B>
-            <HS_Speed_Factor>10.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -919,7 +919,7 @@
 		
             <Point_A>Shola</Point_A>
             <Point_B>Yavin</Point_B>
-            <HS_Speed_Factor>10.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -929,7 +929,7 @@
 		
             <Point_A>Alderaan</Point_A>
             <Point_B>MonCalimari</Point_B>
-            <HS_Speed_Factor>10.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -939,7 +939,7 @@
 		
             <Point_A>Alderaan</Point_A>
             <Point_B>NalHutta</Point_B>
-            <HS_Speed_Factor>10.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -949,7 +949,7 @@
 		
             <Point_A>Naboo</Point_A>
             <Point_B>NalHutta</Point_B>
-            <HS_Speed_Factor>10.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -959,7 +959,7 @@
 		
             <Point_A>MonCalimari</Point_A>
             <Point_B>Naboo</Point_B>
-            <HS_Speed_Factor>10.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -969,7 +969,7 @@
 		
             <Point_A>Ilum</Point_A>
             <Point_B>Tatooine</Point_B>
-            <HS_Speed_Factor>10.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -979,7 +979,7 @@
 		
             <Point_A>Abregado_Rae</Point_A>
             <Point_B>Alderaan</Point_B>
-            <HS_Speed_Factor>10.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -989,7 +989,7 @@
 		
             <Point_A>Geonosis</Point_A>
             <Point_B>Sullust</Point_B>
-            <HS_Speed_Factor>10.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.85</Credit_Gain_Factor>
         
@@ -999,7 +999,7 @@
 		
             <Point_A>Alderaan</Point_A>
             <Point_B>Geonosis</Point_B>
-            <HS_Speed_Factor>10.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -1009,7 +1009,7 @@
 		
             <Point_A>Byss</Point_A>
             <Point_B>Dantooine</Point_B>
-            <HS_Speed_Factor>10.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -1019,7 +1019,7 @@
 		
             <Point_A>Byss</Point_A>
             <Point_B>MonCalimari</Point_B>
-            <HS_Speed_Factor>10.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -1031,7 +1031,7 @@
    
             <Point_A>Bothawui</Point_A>
             <Point_B>Atzerri</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1043,7 +1043,7 @@
    
             <Point_A>Coruscant</Point_A>
             <Point_B>Eriadu</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1055,7 +1055,7 @@
    
             <Point_A>AlzocIII</Point_A>
             <Point_B>Dantooine</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1065,7 +1065,7 @@
    
             <Point_A>Bespin</Point_A>
             <Point_B>Naboo</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1075,7 +1075,7 @@
    
             <Point_A>Endor</Point_A>
             <Point_B>Hoth</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1085,7 +1085,7 @@
    
             <Point_A>Endor</Point_A>
             <Point_B>Polus</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1095,7 +1095,7 @@
    
             <Point_A>Jabiim</Point_A>
             <Point_B>Polus</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1105,7 +1105,7 @@
    
             <Point_A>Kashyyyk</Point_A>
             <Point_B>Yavin</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1115,7 +1115,7 @@
    
             <Point_A>Ryloth</Point_A>
             <Point_B>Tatooine</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1125,7 +1125,7 @@
    
             <Point_A>AetenII</Point_A>
             <Point_B>Coruscant</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.85</Credit_Gain_Factor>
             
@@ -1135,7 +1135,7 @@
    
             <Point_A>Corellia</Point_A>
             <Point_B>Corulag</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1145,7 +1145,7 @@
    
             <Point_A>Corellia</Point_A>
             <Point_B>Coruscant</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1155,7 +1155,7 @@
    
             <Point_A>Corulag</Point_A>
             <Point_B>Ilum</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1165,7 +1165,7 @@
    
             <Point_A>Abregado_Rae</Point_A>
             <Point_B>Fondor</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1175,7 +1175,7 @@
    
             <Point_A>Corulag</Point_A>
             <Point_B>Coruscant</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1185,7 +1185,7 @@
    
             <Point_A>Dagobah</Point_A>
             <Point_B>Eriadu</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1195,7 +1195,7 @@
    
             <Point_A>Eriadu</Point_A>
             <Point_B>Sullust</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.85</Credit_Gain_Factor>
             
@@ -1205,7 +1205,7 @@
    
             <Point_A>Fondor</Point_A>
             <Point_B>Thyferra</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1215,7 +1215,7 @@
    
             <Point_A>Alderaan</Point_A>
             <Point_B>Eriadu</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1225,7 +1225,7 @@
    
             <Point_A>Eriadu</Point_A>
             <Point_B>VergessoAsteroids</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1235,7 +1235,7 @@
    
             <Point_A>AetenII</Point_A>
             <Point_B>AlzocIII</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.85</Credit_Gain_Factor>
             
@@ -1245,7 +1245,7 @@
    
             <Point_A>Anaxes</Point_A>
             <Point_B>Corulag</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1255,7 +1255,7 @@
    
             <Point_A>Bonadan</Point_A>
             <Point_B>Wayland</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1265,7 +1265,7 @@
    
             <Point_A>Corellia</Point_A>
             <Point_B>Fresia</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1275,7 +1275,7 @@
    
             <Point_A>Corulag</Point_A>
             <Point_B>Eriadu</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1285,7 +1285,7 @@
    
             <Point_A>Corulag</Point_A>
             <Point_B>Jabiim</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1295,7 +1295,7 @@
    
             <Point_A>Fresia</Point_A>
             <Point_B>Kuat</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1305,7 +1305,7 @@
    
             <Point_A>Kessel</Point_A>
             <Point_B>Wayland</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1315,7 +1315,7 @@
    
             <Point_A>Abregado_Rae</Point_A>
             <Point_B>Bestine</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1325,7 +1325,7 @@
    
             <Point_A>AlzocIII</Point_A>
             <Point_B>Thyferra</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1335,7 +1335,7 @@
    
             <Point_A>Anaxes</Point_A>
             <Point_B>Byss</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1345,7 +1345,7 @@
    
             <Point_A>Bothawui</Point_A>
             <Point_B>Geonosis</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1355,7 +1355,7 @@
    
             <Point_A>Ilum</Point_A>
             <Point_B>Thyferra</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1365,7 +1365,7 @@
    
             <Point_A>Korriban</Point_A>
             <Point_B>MonCalimari</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1375,7 +1375,7 @@
    
             <Point_A>Manaan</Point_A>
             <Point_B>Wayland</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1385,7 +1385,7 @@
    
             <Point_A>Bestine</Point_A>
             <Point_B>Eriadu</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1395,7 +1395,7 @@
    
             <Point_A>Bestine</Point_A>
             <Point_B>Ilum</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1405,7 +1405,7 @@
    
             <Point_A>Byss</Point_A>
             <Point_B>Kuat</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1415,7 +1415,7 @@
    
             <Point_A>Dantooine</Point_A>
             <Point_B>Fresia</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1425,7 +1425,7 @@
    
             <Point_A>Dantooine</Point_A>
             <Point_B>Manaan</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1435,7 +1435,7 @@
    
             <Point_A>Kamino</Point_A>
             <Point_B>Yavin</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1445,7 +1445,7 @@
    
             <Point_A>Kashyyyk</Point_A>
             <Point_B>Ryloth</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1455,7 +1455,7 @@
    
             <Point_A>Dagobah</Point_A>
             <Point_B>Naboo</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1465,7 +1465,7 @@
    
             <Point_A>Dagobah</Point_A>
             <Point_B>Sullust</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.85</Credit_Gain_Factor>
             
@@ -1475,7 +1475,7 @@
    
             <Point_A>Abregado_Rae</Point_A>
             <Point_B>Byss</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1485,7 +1485,7 @@
    
             <Point_A>Byss</Point_A>
             <Point_B>Eriadu</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1495,7 +1495,7 @@
    
             <Point_A>Geonosis</Point_A>
             <Point_B>Naboo</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1505,7 +1505,7 @@
    
             <Point_A>Geonosis</Point_A>
             <Point_B>NalHutta</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1515,7 +1515,7 @@
    
             <Point_A>Geonosis</Point_A>
             <Point_B>Kessel</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.85</Credit_Gain_Factor>
             
@@ -1525,7 +1525,7 @@
    
             <Point_A>Abregado_Rae</Point_A>
             <Point_B>Carida</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1535,7 +1535,7 @@
    
             <Point_A>Carida</Point_A>
             <Point_B>Dantooine</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1545,7 +1545,7 @@
    
             <Point_A>MonCalimari</Point_A>
             <Point_B>NalHutta</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1555,7 +1555,7 @@
    
             <Point_A>Abregado_Rae</Point_A>
             <Point_B>Fresia</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1565,7 +1565,7 @@
    
             <Point_A>Fresia</Point_A>
             <Point_B>Geonosis</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1575,7 +1575,7 @@
    
             <Point_A>Byss</Point_A>
             <Point_B>Fresia</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1585,7 +1585,7 @@
    
             <Point_A>Byss</Point_A>
             <Point_B>Kessel</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.85</Credit_Gain_Factor>
             
@@ -1595,7 +1595,7 @@
    
             <Point_A>Bothawui</Point_A>
             <Point_B>Kessel</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.85</Credit_Gain_Factor>
             
@@ -1605,7 +1605,7 @@
    
             <Point_A>Bothawui</Point_A>
             <Point_B>MonCalimari</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1615,7 +1615,7 @@
    
             <Point_A>Bothawui</Point_A>
             <Point_B>Dantooine</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1625,7 +1625,7 @@
    
             <Point_A>Kessel</Point_A>
             <Point_B>Yavin</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1635,7 +1635,7 @@
    
             <Point_A>Kashyyyk</Point_A>
             <Point_B>Shola</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1645,7 +1645,7 @@
    
             <Point_A>Kashyyyk</Point_A>
             <Point_B>NalHutta</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1655,7 +1655,7 @@
    
             <Point_A>Abregado_Rae</Point_A>
             <Point_B>Taris</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1665,7 +1665,7 @@
    
             <Point_A>Bestine</Point_A>
             <Point_B>Tatooine</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1675,7 +1675,7 @@
    
             <Point_A>Alderaan</Point_A>
             <Point_B>Dantooine</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1685,7 +1685,7 @@
    
             <Point_A>Anaxes</Point_A>
             <Point_B>Dantooine</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1695,7 +1695,7 @@
    
             <Point_A>Naboo</Point_A>
             <Point_B>Sullust</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.85</Credit_Gain_Factor>
             
@@ -1706,7 +1706,7 @@
 		
             <Point_A>Atzerri</Point_A>
             <Point_B>Eriadu</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -1716,7 +1716,7 @@
 		
             <Point_A>MonCalimari</Point_A>
             <Point_B>Shola</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -1726,7 +1726,7 @@
 		
             <Point_A>Kessel</Point_A>
             <Point_B>Korriban</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -1736,7 +1736,7 @@
 		
             <Point_A>Kuat</Point_A>
             <Point_B>Kessel</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.85</Credit_Gain_Factor>
         
@@ -1746,7 +1746,7 @@
 		
             <Point_A>Eriadu</Point_A>
             <Point_B>Naboo</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -1756,7 +1756,7 @@
 		
             <Point_A>Anaxes</Point_A>
             <Point_B>Carida</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -1766,7 +1766,7 @@
 		
             <Point_A>Anaxes</Point_A>
             <Point_B>Carida</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -1776,7 +1776,7 @@
 		
             <Point_A>AlzocIII</Point_A>
             <Point_B>Carida</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.85</Credit_Gain_Factor>
         
@@ -1786,7 +1786,7 @@
 		
             <Point_A>AlzocIII</Point_A>
             <Point_B>Fondor</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.85</Credit_Gain_Factor>
         
@@ -1796,7 +1796,7 @@
 		
             <Point_A>Sullust</Point_A>
             <Point_B>Tatooine</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.85</Credit_Gain_Factor>
         
@@ -1806,7 +1806,7 @@
 		
             <Point_A>Alderaan</Point_A>
             <Point_B>Sullust</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.85</Credit_Gain_Factor>
         
@@ -1816,7 +1816,7 @@
 		
             <Point_A>Hoth</Point_A>
             <Point_B>Naboo</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -1826,7 +1826,7 @@
 		
             <Point_A>Bespin</Point_A>
             <Point_B>Bestine</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -1836,7 +1836,7 @@
 		
             <Point_A>Corulag</Point_A>
             <Point_B>Fondor</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -1846,7 +1846,7 @@
 		
             <Point_A>Bothawui</Point_A>
             <Point_B>Coruscant</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -1857,7 +1857,7 @@
 		
             <Point_A>Wayland</Point_A>
             <Point_B>AlzocIII</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.85</Credit_Gain_Factor>
         
@@ -1867,7 +1867,7 @@
 		
             <Point_A>Atzerri</Point_A>
             <Point_B>Thyferra</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -1877,7 +1877,7 @@
    
             <Point_A>Fondor</Point_A>
             <Point_B>Anaxes</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1887,7 +1887,7 @@
    
             <Point_A>Dagobah</Point_A>
             <Point_B>Byss</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1897,7 +1897,7 @@
    
             <Point_A>Kuat</Point_A>
             <Point_B>Bothawui</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1907,7 +1907,7 @@
 		
             <Point_A>Atzerri</Point_A>
             <Point_B>Taris</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -1917,7 +1917,7 @@
 		
             <Point_A>Atzerri</Point_A>
             <Point_B>Hoth</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -1927,7 +1927,7 @@
 		
             <Point_A>Tatooine</Point_A>
             <Point_B>Naboo</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -1937,7 +1937,7 @@
    
             <Point_A>Tatooine</Point_A>
             <Point_B>Bothawui</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1947,7 +1947,7 @@
    
             <Point_A>Corulag</Point_A>
             <Point_B>Bothawui</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1957,7 +1957,7 @@
 		
             <Point_A>Taris</Point_A>
             <Point_B>Sullust</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.85</Credit_Gain_Factor>
         
@@ -1967,7 +1967,7 @@
    
             <Point_A>Corulag</Point_A>
             <Point_B>Hoth</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1977,7 +1977,7 @@
    
             <Point_A>Bothawui</Point_A>
             <Point_B>Ryloth</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1987,7 +1987,7 @@
    
             <Point_A>Hoth</Point_A>
             <Point_B>VergessoAsteroids</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -1997,7 +1997,7 @@
    
             <Point_A>Tatooine</Point_A>
             <Point_B>VergessoAsteroids</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -2010,7 +2010,7 @@
    
             <Point_A>Kashyyyk</Point_A>
             <Point_B>NalHutta_Tutorial_4</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -2020,7 +2020,7 @@
    
             <Point_A>NalHutta_Tutorial_4</Point_A>
             <Point_B>Ryloth</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -2030,7 +2030,7 @@
    
             <Point_A>Corellia</Point_A>
             <Point_B>NalHutta_Tutorial_4</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -2040,7 +2040,7 @@
    
             <Point_A>Ryloth</Point_A>
             <Point_B>Shola</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -2050,7 +2050,7 @@
    
             <Point_A>Fondor</Point_A>
             <Point_B>Polus</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -2060,7 +2060,7 @@
    
             <Point_A>Fondor</Point_A>
             <Point_B>Endor</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -2070,7 +2070,7 @@
    
             <Point_A>Bespin</Point_A>
             <Point_B>Endor</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -2080,7 +2080,7 @@
    
             <Point_A>Bespin</Point_A>
             <Point_B>Bothawui</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -2090,7 +2090,7 @@
    
             <Point_A>NalHutta</Point_A>
             <Point_B>Bothawui</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -2100,7 +2100,7 @@
    
             <Point_A>Kuat</Point_A>
             <Point_B>NalHutta</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -2110,7 +2110,7 @@
    
             <Point_A>AlzocIII</Point_A>
             <Point_B>Taris</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -2120,7 +2120,7 @@
 		
             <Point_A>Corulag</Point_A>
             <Point_B>Carida</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2130,7 +2130,7 @@
 		
             <Point_A>Fondor</Point_A>
             <Point_B>Carida</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2140,7 +2140,7 @@
 		
             <Point_A>Fondor</Point_A>
             <Point_B>Atzerri</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2150,7 +2150,7 @@
    
             <Point_A>Atzerri</Point_A>
             <Point_B>Geonosis</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -2160,7 +2160,7 @@
     <TradeRoute Name="Hypori_NalHutta">
             <Point_A>Hypori</Point_A>
             <Point_B>NalHutta</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2168,7 +2168,7 @@
     <TradeRoute Name="Hypori_Mandalore">
             <Point_A>Hypori</Point_A>
             <Point_B>Mandalore</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2176,7 +2176,7 @@
     <TradeRoute Name="Vergesso_Mandalore">
             <Point_A>VergessoAsteroids</Point_A>
             <Point_B>Mandalore</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2184,7 +2184,7 @@
     <TradeRoute Name="Mustafar_Hoth">
             <Point_A>Mustafar</Point_A>
             <Point_B>Hoth</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2192,7 +2192,7 @@
     <TradeRoute Name="AlzocIII_Dathomir">
             <Point_A>AlzocIII</Point_A>
             <Point_B>Dathomir</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2200,7 +2200,7 @@
     <TradeRoute Name="Anaxes_Dathomir">
             <Point_A>Anaxes</Point_A>
             <Point_B>Dathomir</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2208,7 +2208,7 @@
     <TradeRoute Name="Muunilinst_Myrkr">
             <Point_A>Muunilinst</Point_A>
             <Point_B>Myrkr</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2216,7 +2216,7 @@
     <TradeRoute Name="Felucia_Byss">
             <Point_A>Felucia</Point_A>
             <Point_B>Byss</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2224,7 +2224,7 @@
     <TradeRoute Name="Bespin_Tatooine">
             <Point_A>Bespin</Point_A>
             <Point_B>Tatooine</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2232,7 +2232,7 @@
     <TradeRoute Name="Yavin_Saleucami">
             <Point_A>Yavin</Point_A>
             <Point_B>Saleucami</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2240,7 +2240,7 @@
     <TradeRoute Name="Naboo_Utapau">
             <Point_A>Naboo</Point_A>
             <Point_B>Utapau</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2248,7 +2248,7 @@
     <TradeRoute Name="Utapau_Mandalore">
             <Point_A>Utapau</Point_A>
             <Point_B>Mandalore</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2256,7 +2256,7 @@
     <TradeRoute Name="Wayland_Saleucami">
             <Point_A>Wayland</Point_A>
             <Point_B>Saleucami</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2264,7 +2264,7 @@
     <TradeRoute Name="Honoghr_NalHutta">
             <Point_A>Honoghr</Point_A>
             <Point_B>NalHutta</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2273,7 +2273,7 @@
 		
             <Point_A>Byss</Point_A>
             <Point_B>Bothawui</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2285,7 +2285,7 @@
 		
             <Point_A>Hoth</Point_A>
             <Point_B>Mustafar</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2295,7 +2295,7 @@
 		
             <Point_A>Mustafar</Point_A>
             <Point_B>VergessoAsteroids</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2305,7 +2305,7 @@
 		
             <Point_A>Bestine</Point_A>
             <Point_B>Fondor</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2315,7 +2315,7 @@
 		
             <Point_A>AetenII</Point_A>
             <Point_B>Anaxes</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2325,7 +2325,7 @@
 		
             <Point_A>AetenII</Point_A>
             <Point_B>Dantooine</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2335,7 +2335,7 @@
 		
             <Point_A>Bothawui</Point_A>
             <Point_B>Corellia</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2345,7 +2345,7 @@
 		
             <Point_A>MonCalimari</Point_A>
             <Point_B>Saleucami</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2355,7 +2355,7 @@
 		
             <Point_A>Kamino</Point_A>
             <Point_B>MonCalimari</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2365,7 +2365,7 @@
 		
             <Point_A>Kamino</Point_A>
             <Point_B>Shola</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2375,7 +2375,7 @@
 		
             <Point_A>Mandalore</Point_A>
             <Point_B>Utapau</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2385,7 +2385,7 @@
 		
             <Point_A>Bespin</Point_A>
             <Point_B>Byss</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2395,7 +2395,7 @@
 		
             <Point_A>Byss</Point_A>
             <Point_B>Coruscant</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2405,7 +2405,7 @@
 		
             <Point_A>Bothawui</Point_A>
             <Point_B>Byss</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2415,7 +2415,7 @@
 		
             <Point_A>Byss</Point_A>
             <Point_B>Felucia</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2425,7 +2425,7 @@
 		
             <Point_A>Bothawui</Point_A>
             <Point_B>Tatooine</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2435,7 +2435,7 @@
 		
             <Point_A>Bothawui</Point_A>
             <Point_B>Mandalore</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2445,7 +2445,7 @@
 		
             <Point_A>Bothawui</Point_A>
             <Point_B>The_Maw</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2455,7 +2455,7 @@
 		
             <Point_A>Bothawui</Point_A>
             <Point_B>Kuat</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2465,7 +2465,7 @@
 		
             <Point_A>Anaxes</Point_A>
             <Point_B>Kuat</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2475,7 +2475,7 @@
 		
             <Point_A>Felucia</Point_A>
             <Point_B>Kuat</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2485,7 +2485,7 @@
 		
             <Point_A>Korriban</Point_A>
             <Point_B>Kuat</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2495,7 +2495,7 @@
 		
             <Point_A>Honoghr</Point_A>
             <Point_B>Korriban</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2505,7 +2505,7 @@
 		
             <Point_A>Saleucami</Point_A>
             <Point_B>The_Maw</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2515,7 +2515,7 @@
 		
             <Point_A>Bonadan</Point_A>
             <Point_B>Saleucami</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2525,7 +2525,7 @@
 		
             <Point_A>Dathomir</Point_A>
             <Point_B>Myrkr</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2535,7 +2535,7 @@
 		
             <Point_A>Bonadan</Point_A>
             <Point_B>Dathomir</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2545,7 +2545,7 @@
 		
             <Point_A>Bonadan</Point_A>
             <Point_B>Muunilinst</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2555,7 +2555,7 @@
 		
             <Point_A>Mandalore</Point_A>
             <Point_B>Naboo</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2565,7 +2565,7 @@
 		
             <Point_A>Abregado_Rae</Point_A>
             <Point_B>Jabiim</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2575,7 +2575,7 @@
 		
             <Point_A>Bothawui</Point_A>
             <Point_B>Honoghr</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2585,7 +2585,7 @@
 		
             <Point_A>Muunilinst</Point_A>
             <Point_B>Wayland</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2595,7 +2595,7 @@
 		
             <Point_A>Muunilinst</Point_A>
             <Point_B>Saleucami</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2605,7 +2605,7 @@
 		
             <Point_A>Dathomir</Point_A>
             <Point_B>Wayland</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2614,7 +2614,7 @@
     <TradeRoute Name="Honoghr_Felucia">
             <Point_A>Honoghr</Point_A>
             <Point_B>Felucia</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2622,7 +2622,7 @@
     <TradeRoute Name="Honoghr_Kamino">
             <Point_A>Honoghr</Point_A>
             <Point_B>Kamino</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2630,7 +2630,7 @@
     <TradeRoute Name="Myrkr_Yavin">
             <Point_A>Myrkr</Point_A>
             <Point_B>Yavin</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2638,7 +2638,7 @@
 	<TradeRoute Name="Muunilinst_Yavin">
             <Point_A>Muunilinst</Point_A>
             <Point_B>Yavin</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2646,7 +2646,7 @@
     <TradeRoute Name="Honoghr_Kuat">
             <Point_A>Honoghr</Point_A>
             <Point_B>Kuat</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2654,7 +2654,7 @@
     <TradeRoute Name="Bothawui_Hypori">
             <Point_A>Bothawui</Point_A>
             <Point_B>Hypori</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2662,7 +2662,7 @@
     <TradeRoute Name="Hypori_The_Maw">
             <Point_A>Hypori</Point_A>
             <Point_B>The_Maw</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2670,7 +2670,7 @@
 	<TradeRoute Name="Kessel_Kuat">
             <Point_A>Kessel</Point_A>
             <Point_B>Kuat</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2678,7 +2678,7 @@
     <TradeRoute Name="Honoghr_Kessel">
             <Point_A>Honoghr</Point_A>
             <Point_B>Kessel</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2686,7 +2686,7 @@
     <TradeRoute Name="Felucia_Honoghr">
             <Point_A>Felucia</Point_A>
             <Point_B>Honoghr</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2694,7 +2694,7 @@
     <TradeRoute Name="Felucia_NalHutta">
             <Point_A>Felucia</Point_A>
             <Point_B>NalHutta</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2702,7 +2702,7 @@
     <TradeRoute Name="Felucia_The_Maw">
             <Point_A>Felucia</Point_A>
             <Point_B>The_Maw</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2710,7 +2710,7 @@
     <TradeRoute Name="NalHutta_The_Maw">
             <Point_A>NalHutta</Point_A>
             <Point_B>The_Maw</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2718,7 +2718,7 @@
     <TradeRoute Name="Felucia_Kashyyyk">
             <Point_A>Felucia</Point_A>
             <Point_B>Kashyyyk</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2726,7 +2726,7 @@
     <TradeRoute Name="Fresia_Wayland">
             <Point_A>Fresia</Point_A>
             <Point_B>Wayland</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2734,7 +2734,7 @@
     <TradeRoute Name="NalHutta_Kashyyyk">
             <Point_A>NalHutta</Point_A>
             <Point_B>Kashyyyk</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2742,7 +2742,7 @@
     <TradeRoute Name="Corellia_Kuat">
             <Point_A>Corellia</Point_A>
             <Point_B>Kuat</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2750,7 +2750,7 @@
     <TradeRoute Name="Geonosis_Hypori">
             <Point_A>Geonosis</Point_A>
             <Point_B>Hypori</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2758,7 +2758,7 @@
     <TradeRoute Name="The_Maw_Yavin">
             <Point_A>The_Maw</Point_A>
             <Point_B>Yavin</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2766,7 +2766,7 @@
     <TradeRoute Name="Wayland_Yavin">
             <Point_A>Wayland</Point_A>
             <Point_B>Yavin</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -2776,7 +2776,7 @@
 		
             <Point_A>Coruscant</Point_A>
             <Point_B>Carida</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2786,7 +2786,7 @@
 		
             <Point_A>Bonadan</Point_A>
             <Point_B>Yavin</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2797,7 +2797,7 @@
 		
             <Point_A>Kuat</Point_A>
             <Point_B>Carida</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2807,7 +2807,7 @@
 		
             <Point_A>Polus</Point_A>
             <Point_B>Thyferra</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2817,7 +2817,7 @@
 		
             <Point_A>Bestine</Point_A>
             <Point_B>Endor</Point_B>
-            <HS_Speed_Factor>7.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2827,7 +2827,7 @@
 		
             <Point_A>Naboo</Point_A>
             <Point_B>VergessoAsteroids</Point_B>
-            <HS_Speed_Factor>7.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2837,7 +2837,7 @@
 		
             <Point_A>Geonosis</Point_A>
             <Point_B>Shola</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2847,7 +2847,7 @@
 		
             <Point_A>Kashyyyk</Point_A>
             <Point_B>Kuat</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2857,7 +2857,7 @@
 		
             <Point_A>Shola</Point_A>
             <Point_B>The_Maw</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2867,7 +2867,7 @@
 		
             <Point_A>Fondor</Point_A>
             <Point_B>Geonosis</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2877,7 +2877,7 @@
 		
             <Point_A>Fondor</Point_A>
             <Point_B>Jabiim</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2887,7 +2887,7 @@
 		
             <Point_A>Fondor</Point_A>
             <Point_B>Myrkr</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2897,7 +2897,7 @@
 		
             <Point_A>Geonosis</Point_A>
             <Point_B>Myrkr</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2907,7 +2907,7 @@
 		
             <Point_A>Korriban</Point_A>
             <Point_B>Myrkr</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2917,7 +2917,7 @@
 		
             <Point_A>Mandalore</Point_A>
             <Point_B>Utapau</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2927,7 +2927,7 @@
 		
             <Point_A>Saleucami</Point_A>
             <Point_B>Yavin</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2937,7 +2937,7 @@
 		
             <Point_A>Alderaan</Point_A>
             <Point_B>Honoghr</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2947,7 +2947,7 @@
 		
             <Point_A>Bestine</Point_A>
             <Point_B>Taris</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2957,7 +2957,7 @@
 		
             <Point_A>Bestine</Point_A>
             <Point_B>Dagobah</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2967,7 +2967,7 @@
 		
             <Point_A>Bothawui</Point_A>
             <Point_B>Kashyyyk</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2977,7 +2977,7 @@
 		
             <Point_A>Byss</Point_A>
             <Point_B>Naboo</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2987,7 +2987,7 @@
 		
             <Point_A>Carida</Point_A>
             <Point_B>Ilum</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -2997,7 +2997,7 @@
 		
             <Point_A>Honoghr</Point_A>
             <Point_B>Kashyyyk</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -3007,7 +3007,7 @@
 		
             <Point_A>Honoghr</Point_A>
             <Point_B>MonCalimari</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -3017,7 +3017,7 @@
 		
             <Point_A>Honoghr</Point_A>
             <Point_B>Wayland</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -3027,7 +3027,7 @@
 		
             <Point_A>Ilum</Point_A>
             <Point_B>Taris</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -3037,7 +3037,7 @@
 		
             <Point_A>Mustafar</Point_A>
             <Point_B>Utapau</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -3047,7 +3047,7 @@
 		
             <Point_A>Alderaan</Point_A>
             <Point_B>The_Maw</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -3057,7 +3057,7 @@
 		
             <Point_A>The_Maw</Point_A>
             <Point_B>Kashyyyk</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -3067,7 +3067,7 @@
 		
             <Point_A>The_Maw</Point_A>
             <Point_B>MonCalimari</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -3077,7 +3077,7 @@
 		
             <Point_A>The_Maw</Point_A>
             <Point_B>Wayland</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -3087,7 +3087,7 @@
 		
             <Point_A>Mandalore</Point_A>
             <Point_B>Ryloth</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -3097,7 +3097,7 @@
    
             <Point_A>The_Maw</Point_A>
             <Point_B>Yavin</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -3107,7 +3107,7 @@
    
             <Point_A>Bothawui</Point_A>
             <Point_B>Naboo</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -3117,7 +3117,7 @@
    
             <Point_A>Carida</Point_A>
             <Point_B>Thyferra</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -3127,7 +3127,7 @@
    
             <Point_A>Kessel</Point_A>
             <Point_B>Saleucami</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -3137,7 +3137,7 @@
    
             <Point_A>Felucia</Point_A>
             <Point_B>NalHutta_Prologue</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -3147,7 +3147,7 @@
    
             <Point_A>Mandalore_Prologue</Point_A>
             <Point_B>Ryloth</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -3157,7 +3157,7 @@
    
             <Point_A>NalHutta_Prologue</Point_A>
             <Point_B>Ryloth</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -3167,7 +3167,7 @@
     <TradeRoute Name="Vergesso_Mandalore_Story">
             <Point_A>VergessoAsteroids</Point_A>
             <Point_B>Mandalore_Story</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -3175,7 +3175,7 @@
     <TradeRoute Name="Utapau_Mandalore_Story">
             <Point_A>Utapau</Point_A>
             <Point_B>Mandalore_Story</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -3184,7 +3184,7 @@
     <TradeRoute Name="Tatooine_NalHutta_Story">
 			<Point_A>Tatooine</Point_A>
             <Point_B>NalHutta_Story</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -3193,7 +3193,7 @@
     <TradeRoute Name="Felucia_Kamino">
             <Point_A>Felucia</Point_A>
             <Point_B>Kamino</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -3201,7 +3201,7 @@
     <TradeRoute Name="Kamino_NalHutta_Prologue">
             <Point_A>Kamino</Point_A>
             <Point_B>NalHutta_Prologue</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -3210,7 +3210,7 @@
     <TradeRoute Name="Bespin_Story_Tatooine">
             <Point_A>Bespin_Story</Point_A>
             <Point_B>Tatooine</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -3219,7 +3219,7 @@
    
             <Point_A>Kuat</Point_A>
             <Point_B>NalHutta_Story</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -3228,7 +3228,7 @@
     <TradeRoute Name="Felucia_Kamino_Prologue">
             <Point_A>Felucia</Point_A>
             <Point_B>Kamino_Prologue</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
     </TradeRoute>
@@ -3237,7 +3237,7 @@
    
             <Point_A>Kamino_Prologue</Point_A>
             <Point_B>NalHutta_Prologue</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -3246,7 +3246,7 @@
 	<TradeRoute Name="Shola_Naboo">
             <Point_A>Shola</Point_A>
             <Point_B>Naboo</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
@@ -3256,7 +3256,7 @@
    
             <Point_A>Mandalore_Prologue</Point_A>
             <Point_B>Ryloth_Prologue</Point_B>
-            <HS_Speed_Factor>6.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.5</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
             
@@ -3265,7 +3265,7 @@
 	<TradeRoute Name="NalHutta_Prologue_Ryloth_Prologue">
             <Point_A>NalHutta_Prologue</Point_A>
             <Point_B>Ryloth_Prologue</Point_B>
-            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         

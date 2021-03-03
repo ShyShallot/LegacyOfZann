@@ -33,7 +33,7 @@
 		
 		<Max_Thrust>0.8</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>0.9</Hyperspace_Speed>
 
 		<Affiliation>Underworld</Affiliation>
 		<Ship_Class>Transport</Ship_Class>
@@ -243,7 +243,7 @@
 
 		<Max_Thrust>0.8</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>0.9</Hyperspace_Speed>
 
 		<Affiliation>Underworld</Affiliation>
 		<Ship_Class>Transport</Ship_Class>
@@ -398,7 +398,7 @@
 
 		<Max_Thrust>0.8</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>0.9</Hyperspace_Speed>
 
 		<Affiliation>Underworld</Affiliation>
 		<Ship_Class>Transport</Ship_Class>

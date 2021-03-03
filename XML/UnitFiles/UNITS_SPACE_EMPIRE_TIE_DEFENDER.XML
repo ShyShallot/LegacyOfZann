@@ -33,7 +33,7 @@
 		<Fires_Forward>no</Fires_Forward>
 
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>0.9</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Max_Lift>4</Max_Lift>
 		<Affiliation>Empire</Affiliation>
@@ -305,7 +305,7 @@
 		<Max_Speed>5.0</Max_Speed>
 		<Min_Speed>3.5</Min_Speed>
 		<Hyperspace>yes</Hyperspace>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>0.9</Hyperspace_Speed>
 
  		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">

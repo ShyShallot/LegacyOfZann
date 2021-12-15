@@ -8,7 +8,7 @@ function Return_Chance(value_to_check) -- Returns true or false
         DebugMessage("Current Value to Check: %s", tostring(value_to_check))
         ScriptExit()
     end
-    Chance = GameRandom(0, 1) 
+    Chance = GameRandom.Get_Float(0, 1) 
     if Chance >= value_to_check then 
         return true
     end
@@ -56,10 +56,37 @@ function Object_Firepower(object) -- Easier then Object.Get_Type().Get_Combat_Ra
     return firepower
 end
 
-function Return_Faction(obj) -- Too Lazy to do type the below
+function Return_Faction(obj)
     return obj.Get_Owner().Get_Faction_Name()
 end
 
 function Return_Name(obj)
     return obj.Get_Type().Get_Name() -- Return the XML Name
+end
+
+function Combat_Power_From_List(list)
+    local combat_power = 0
+    for k, unit in pairs(list) do
+        if TestValid(unit) then
+            combat_power = combat_power + Object_Firepower(unit)
+        end
+    end
+    if combat_power >= 1 then
+        return combat_power
+    end
+end
+
+function tableMerge(t1, t2) -- Credit to RCIX for this function: https://stackoverflow.com/a/1283608
+    for k,v in pairs(t2) do
+        if type(v) == "table" then
+            if type(t1[k] or false) == "table" then
+                tableMerge(t1[k] or {}, t2[k] or {})
+            else
+                t1[k] = v
+            end
+        else
+            t1[k] = v
+        end
+    end
+    return t1
 end

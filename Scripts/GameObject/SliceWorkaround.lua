@@ -73,42 +73,40 @@ function Slice_Mechanic(planet, player)
         if Droid_Team_Fleet_Count == 1  then
             DebugMessage("%s -- Droids are alone", tostring(Script))
             if player.Get_Credits() >= 2000 then
-                slicing_active = true
-                while slicing_active == true do
-                    DebugMessage("%s -- Player has enough credits", tostring(Script))
-                    IS_ISD_LOCKED = GlobalValue.Get("IS_REBEL_ISD_LOCKED")
-                    DebugMessage("%s -- Determining if Slice Failed or Not", tostring(Script)) 
-                    Droid_Team.Play_SFX_Event("Unit_Move_C3PO") -- Play Sound Effect on Slicing Start
-                    Game_Message("LOZ_REBEL_SLICE_PROG") -- Show Text telling the player to wait
-                    sliceTechTime = Calculate_Sleep_Time(planet_diff, planet_avail)
-                    DebugMessage("Current Time to Sleep: %s", tostring(sliceTechTime))
-                    Sleep(sliceTechTime) -- Pause the Script based off of our Tech Level for Slicing 
-                    if not Calculate_Slice_Chances(planet_diff, planet_avail) then -- Total_Slice_Chance is from our Tech and Diff Values, check if its less than our Success Chance
-                        sliced_planet = Object.Get_Planet_Location()
-                        Droid_Team.Play_SFX_Event("Unit_Defeat_C3PO")
-                        Sleep(3) -- Give time for Audio to Finish
-                        Game_Message("LOZ_REBEL_SLICE_FAIL") -- Run the Story Event telling the player that it failed and to Despawn
-                        DebugMessage("%s -- Slice Failed, Despawning Droids", tostring(Script))
-                        GlobalValue.Set("Droid_Dead", 1) -- Set Droid_Dead to 1 for Respawn Script
-                        slicing_active = false
-                        Droid_Team.Despawn() -- Despawn R2D2 and C3PO 
-                        Object.Despawn() -- Despawn R2D2 just in case
-                    elseif Calculate_Slice_Chances(planet_diff, planet_avail) then
-                        sliced_planet = Object.Get_Planet_Location()
-                        Unlock_Rebel_Star_Destroyer(planet, player)
-                        DebugMessage("%s -- Slice Sucseesful, Despawning Droids", tostring(Script))
-                        slicing_active = false
-                        GlobalValue.Set("Total_Slice_Amount", Total_Slice_Amount_S + 1)
-                        DisplaySliceLeft()
-                        credits_take = GameRandom(-1000, -650) -- Remove a random amount of credits to compensate for a lack of player control
-                        player.Give_Money(credits_take) -- It says Give Money but we are adding a Negtive Value so its just subtracting
-                        Droid_Team.Play_SFX_Event("Unit_Hack_Turret_C3PO")
-                        Sleep(3) -- Give time for Audio to Finish
-                        Game_Message("LOZ_REBEL_SLICE_WIN") -- Tell the player the slice succeeded and to Despawn
-                        GlobalValue.Set("Droid_Dead", 1) -- Set Droid_Dead to 1 for Respawn Script
-                        Droid_Team.Despawn() -- Despawn R2D2 and C3PO 
-                        Object.Despawn() -- Despawn R2D2 just in case
-                    end
+                DebugMessage("%s -- Player has enough credits", tostring(Script))
+                IS_ISD_LOCKED = GlobalValue.Get("IS_REBEL_ISD_LOCKED")
+                DebugMessage("%s -- Determining if Slice Failed or Not", tostring(Script)) 
+                Droid_Team.Play_SFX_Event("Unit_Move_C3PO") -- Play Sound Effect on Slicing Start
+                Game_Message("LOZ_REBEL_SLICE_PROG") -- Show Text telling the player to wait
+                sliceTechTime = Calculate_Sleep_Time(planet_diff, planet_avail)
+                DebugMessage("Current Time to Sleep: %s", tostring(sliceTechTime))
+                Sleep(sliceTechTime) -- Pause the Script based off of our Tech Level for Slicing 
+                if not Calculate_Slice_Chances(planet_diff, planet_avail) then -- Total_Slice_Chance is from our Tech and Diff Values, check if its less than our Success Chance
+                    sliced_planet = Object.Get_Planet_Location()
+                    Droid_Team.Play_SFX_Event("Unit_Defeat_C3PO")
+                    Sleep(3) -- Give time for Audio to Finish
+                    Game_Message("LOZ_REBEL_SLICE_FAIL") -- Run the Story Event telling the player that it failed and to Despawn
+                    DebugMessage("%s -- Slice Failed, Despawning Droids", tostring(Script))
+                    GlobalValue.Set("Droid_Dead", 1) -- Set Droid_Dead to 1 for Respawn Script
+                    slicing_active = false
+                    Droid_Team.Despawn() -- Despawn R2D2 and C3PO 
+                    Object.Despawn() -- Despawn R2D2 just in case
+                else
+                    sliced_planet = Object.Get_Planet_Location()
+                    Unlock_Rebel_Star_Destroyer(planet, player)
+                    DebugMessage("%s -- Slice Sucseesful, Despawning Droids", tostring(Script))
+                    slicing_active = false
+                    GlobalValue.Set("Total_Slice_Amount", Total_Slice_Amount_S + 1)
+                    DisplaySliceLeft()
+                    credits_take = GameRandom(-1000, -650) -- Remove a random amount of credits to compensate for a lack of player control
+                    player.Give_Money(credits_take) -- It says Give Money but we are adding a Negtive Value so its just subtracting
+                    Droid_Team.Play_SFX_Event("Unit_Hack_Turret_C3PO")
+                    Sleep(3) -- Give time for Audio to Finish
+                    Game_Message("LOZ_REBEL_SLICE_WIN") -- Tell the player the slice succeeded and to Despawn
+                    GlobalValue.Set("Droid_Dead", 1) -- Set Droid_Dead to 1 for Respawn Script
+                    Droid_Team.Despawn() -- Despawn R2D2 and C3PO 
+                    lastplanet = Object.Get_Planet_Location()
+                    Object.Despawn() -- Despawn R2D2 just in case
                 end
             elseif player.Get_Credits() <= 2000 then  -- Check if player has less than 2k Credits
                 Game_Message("LOZ_REBEL_SLICE_NCREDITS")
@@ -183,7 +181,7 @@ end
 function Slices_Left_Till_Tech(player)
     player_credits = player.Get_Credits()
     tech_Level = player.Get_Tech_Level()
-    slices_Required = 1
+    slices_Required = 5
     DebugMessage("%s -- Checking Slice Amount", tostring(Script))
     DebugMessage("%s -- Slice Amount", tostring(Total_Slice_Amount_S))
     if Total_Slice_Amount_S == slices_Required then -- Player Has to slice this many times to tech-up

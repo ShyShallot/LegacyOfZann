@@ -1,12 +1,6 @@
 <?xml version="1.0"?>
 <BWing_Files>
-
-
-
-<!-- **** BASE SHIP INFORMATION **** -->
-
-
-
+	<!-- **** BASE SHIP INFORMATION **** -->
 	<SpaceUnit Name="B-Wing">
 		<LOD_Bias>10</LOD_Bias>
 
@@ -150,14 +144,7 @@
 
 	</SpaceUnit>
 
-
-
-
-
-<!-- **** SQUADRON INFORMATION **** -->
-
-
-
+	<!-- **** SQUADRON INFORMATION **** -->
 
 	<Squadron Name="B-Wing_Squadron">
 		<LOD_Bias>10</LOD_Bias>
@@ -229,7 +216,7 @@
 	
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -242,14 +229,5 @@
 		<Variant_Of_Existing_Type>B-Wing_Squadron</Variant_Of_Existing_Type>
 		<Tech_Level>6</Tech_Level>
 	</Squadron>
-
-
-
-
-
-
-
-
-
 
 </BWing_Files>

@@ -189,27 +189,9 @@
 	</Projectile>
 	
 	<Projectile Name="Proj_Ship_Medium_Laser_Cannon_Green">
+		<Variant_Of_Existing_Type>Proj_Ship_Medium_Laser_Cannon_Red</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>w_laser_g.ALO</Space_Model_Name>
-		<Scale_Factor>0.25</Scale_Factor>
-		<Max_Speed>25.0</Max_Speed>
-		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>Laser</Projectile_Category>
-		<Projectile_Max_Flight_Distance>1000.0</Projectile_Max_Flight_Distance>
-		<Projectile_Damage>9.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Energy_Per_Shot>10</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Medium_Damage_Space </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle />
-		<Projectile_Absorbed_By_Shields_Particle> Projectile_Shield_Absorb_Medium </Projectile_Absorbed_By_Shields_Particle>
-		<AI_Combat_Power>160</AI_Combat_Power>
-		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	</Projectile>
 	
 	<Projectile Name="Proj_Ship_Large_Laser_Cannon_Red">
@@ -262,27 +244,9 @@
 	</Projectile>
 	
 	<Projectile Name="Proj_Ship_Large_Laser_Cannon_Green">
+		<Variant_Of_Existing_Type>Proj_Ship_Large_Laser_Cannon_Red</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>w_laser_g.ALO</Space_Model_Name>
-		<Scale_Factor>0.25</Scale_Factor>
-		<Max_Speed>25.0</Max_Speed>
-		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>Laser</Projectile_Category>
-		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
-		<Projectile_Damage>11.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Energy_Per_Shot>15</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Medium_Damage_Space </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle />
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
-		<AI_Combat_Power>200</AI_Combat_Power>
-		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	</Projectile>
 	
 	<Projectile Name="Proj_Ship_Large_Laser_Cannon_Green_Dummy">

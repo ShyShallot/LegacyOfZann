@@ -55,6 +55,18 @@ function Definitions()
 		,"MinimumTotalSize = 5"		-- SoaFE was 4
 		,"MinimumTotalForce = 1000"
 		,"Vehicle | Infantry | Air = 100%"
+	},
+	{
+		"BackupSpaceForce"
+		,"MinimumTotalSize = 5"	-- SoaFE was 4
+		,"MinimumTotalForce = 4000"	-- SoaFE was 2500
+		,"Frigate | Capital | Corvette | Bomber | Fighter = 100%"
+	},
+	{
+		"BackupGroundForce"
+		,"MinimumTotalSize = 5"	-- SoaFE was 4
+		,"MinimumTotalForce = 4000"	-- SoaFE was 2500
+		,"Vehicle | Infantry | Air = 100%"
 	}
 	}
 	RequiredCategories = { "Infantry", "Corvette | Frigate | Capital | Super" }		--Must have at least one ground unit, also make sure space force is reasonable
@@ -89,6 +101,11 @@ function SpaceForce_Thread()
 		AssembleForce(SpaceForce)
 	else
 		BlockOnCommand(SpaceForce.Produce_Force());
+		return
+	end
+
+	if Is_Player_Turtling() then
+		BlockOnCommand(BackupSpaceForce.Produce_Force());
 		return
 	end
 
@@ -128,6 +145,11 @@ function GroundForce_Thread()
 	else
 		
 		BlockOnCommand(GroundForce.Produce_Force());
+		return
+	end
+
+	if Is_Player_Turtling() then
+		BlockOnCommand(BackupGroundForce.Produce_Force());
 		return
 	end
 
@@ -221,4 +243,60 @@ function GroundForce_No_Units_Remaining()
 		GroundForce.Set_Plan_Result(false) 
 		--Don't exit since we need to sleep to enforce delays between AI attacks (can't be done inside an event handler)
 	end
+end
+
+function Is_Player_Turtling()
+	if PlayerObject.Get_Faction_Name() == "REBEL" then
+		empire_units = Find_All_Objects_Of_Type(Find_Player("EMPIRE"))
+	elseif PlayerObject.Get_Faction_Name() == "EMPIRE" then
+		rebel_units = Find_All_Objects_Of_Type(Find_Player("REBEL"))
+	end
+	if TestValid(Find_Player("UNDERWORLD")) and PlayerObject.Get_Faction_Name() ~= "UNDERWORLD" then
+		underworld_units = Find_All_Objects_Of_Type("UNDERWORLD")
+	end
+	target_planet_unit_list = GrabUnitsOverPlanet(Target)
+
+	if Planet_Combat_Power(target_planet_unit_list) >= CB_Threshold() then
+		return true
+	else
+		return false
+	end
+end
+
+function Planet_Combat_Power(table)
+	total_combat_power = 0
+	if table.getn(table) >= 1 then
+		for k, unit in pairs(table) do 
+			total_combat_power = total_combat_power + Object_Firepower(unit)
+		end
+	end
+	if total_combat_power > 0 then
+		return total_combat_power
+	end
+end
+
+function CB_Threshold()
+	local diff = PlayerObject.Get_Difficulty()
+	threshold = 4000
+	diff_multi = 0.85
+	if diff == "Normal" then
+		diff_multi = 1
+	elseif diff == "Hard" then
+		diff_multi = 1.5
+	end
+	ai_unit_list = Find_All_Objects_Of_Type(PlayerObject)
+	military_unit_power = Combat_Power_From_List(ai_unit_list)
+	return threshold * diff_multi * (military_power / 1000)
+end
+
+function GrabUnitsOverPlanet(planet) -- Credit to Kiwi of the EaWX Team
+    planetFleet = {}
+    planetOwner = planet.Get_Owner()
+    allUnits = Find_All_Objects_Of_Type(planetOwner)
+    for i, unit in pairs(allUnits) do
+        if unit.Get_Planet_Location() == planet then
+            table.insert(unit,planetFleet)
+        end
+    end
+    return planetFleet
 end

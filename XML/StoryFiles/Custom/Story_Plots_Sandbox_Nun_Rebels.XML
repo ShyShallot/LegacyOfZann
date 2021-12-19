@@ -4,6 +4,7 @@
 	<Lua_Script>Rebel_Slice_Respawn</Lua_Script>
 	<Active_Plot>StoryMissions\Custom\STORY_SANDBOX_NUN_REBELS.XML</Active_Plot>
 	<Active_Plot>StoryMissions\Custom\STORY_SANDBOX_REBEL_SLICE.XML</Active_Plot>
+	<Active_Plot>GALACTIC_FUNCTIONS.XML</Active_Plot>
 	<Suspended_Plot>StoryMissions\Intervention_Upgrade_Space_Station.XML</Suspended_Plot>
 	<Suspended_Plot>StoryMissions\Intervention_Build_Ion_Cannons.XML</Suspended_Plot>
 	<Suspended_Plot>StoryMissions\Intervention_Build_Light_Vehicle_Factories.XML</Suspended_Plot>

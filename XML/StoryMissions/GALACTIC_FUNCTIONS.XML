@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<Story>
+    <Event Name="Spawn_Station">
+    		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+            <Event_Param2>SPAWN_STATION</Event_Param2>
+            <Reward_Type>UNIQUE_UNIT</Reward_Type>
+            <Reward_Param1></Reward_Param1>
+            <Reward_Param2></Reward_Param2>
+    </Event>
+</Story>    

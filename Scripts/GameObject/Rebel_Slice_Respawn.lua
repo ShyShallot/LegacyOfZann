@@ -41,6 +41,7 @@ function State_Init(message)
 
         if are_droids_Dead == 1 then
             --DebugMessage("%s -- Droid Team is dead, sleeping per Tech Level for Respawn", tostring(Script))
+            Game_Message("Tech Slice Failed, C3PO and R2D2 will return in " .. respawnPerTech .. " Seconds.")
             Sleep(respawnPerTech)
            -- DebugMessage("%s -- Respawned the Droids", tostring(Script))
             Story_Event("REBEL_SLICE_RESPAWN")

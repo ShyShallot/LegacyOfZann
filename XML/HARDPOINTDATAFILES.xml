@@ -5,4 +5,28 @@
 	<File>HardPointsTwo.xml</File>
 	<File>CIN_HardPoints.xml</File>
 	<File>HardPoints_Underworld.xml</File>
+
+	<!-- Rebel Hardpoints-->
+	<File>HardPoints\Rebels\HARDPOINTS_CALIMARI_CRUISER.xml</File>
+	<File>HardPoints\Rebels\HARDPOINTS_CCorvette.xml</File>
+	<File>HardPoints\Rebels\HARDPOINTS_CGunboat.xml</File>
+	<File>HardPoints\Rebels\HARDPOINTS_HOME_ONE.xml</File>
+	<File>HardPoints\Rebels\HARDPOINTS_MC75.xml</File>
+	<File>HardPoints\Rebels\HARDPOINTS_NEBULON.xml</File>
+	<File>HardPoints\Rebels\HARDPOINTS_QUASAR.xml</File>
+	<File>HardPoints\Rebels\HARDPOINTS_VISCOUNT.xml</File>
+	<File>HardPoints\Rebels\HARDPOINTS_ALLIANCE_ASSAULT.xml</File>
+	<File>HardPoints\Rebels\HARDPOINTS_BWING.xml</File>
+	<File>HardPoints\Rebels\HARDPOINTS_MC30.xml</File>
+
+	<!-- Empire Hardpoints-->
+	<File>HardPoints\Empire\HARDPOINTS_ACCLAMATOR_FRIGATE.xml</File>
+	<File>HardPoints\Empire\HARDPOINTS_ADMONITOR.xml</File>
+	<File>HardPoints\Empire\HARDPOINTS_EXECUTOR.xml</File>
+	<File>HardPoints\Empire\HARDPOINTS_INTERDICTOR_CRUISER.xml</File>
+	<File>HardPoints\Empire\HARDPOINTS_STAR_DESTROYER.xml</File>
+	<File>HardPoints\Empire\HARDPOINTS_TARTAN_CRUISER.xml</File>
+	<File>HardPoints\Empire\HARDPOINTS_TIE_DEFENDER.xml</File>
+	<File>HardPoints\Empire\HARDPOINTS_TITAN_ISD.xml</File>
+	<File>HardPoints\Empire\HARDPOINTS_VICTORY_DESTROYER.xml</File>
 </Hard_Point_Files>

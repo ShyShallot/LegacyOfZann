@@ -1,9 +1,5 @@
 <?xml version="1.0"?>
 <Viscount_Files>
-
-
-
-
 	<UniqueUnit Name="Viscount_Star_Defender">
 		<GUI_Bounds_Scale>0.01</GUI_Bounds_Scale>
 		<Text_ID>TEXT_UNIT_VISCOUNT</Text_ID>
@@ -27,7 +23,7 @@
 		<Select_Box_Scale>800</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Scale_Factor>3.0</Scale_Factor>
+		<Scale_Factor>1.5</Scale_Factor>
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>

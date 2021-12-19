@@ -18,7 +18,7 @@
 		<Select_Box_Scale>800</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Scale_Factor>1.5</Scale_Factor>
+		<Scale_Factor>0.95</Scale_Factor>
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -51,9 +51,9 @@
 		<Required_Planets>MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>10000</Shield_Points>
+		<Shield_Points>13500</Shield_Points>
 		<Tactical_Health>7500</Tactical_Health>
-		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>250</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
 		<Ship_Class>capital</Ship_Class>
@@ -61,7 +61,7 @@
 		<!--<Political_Control>1</Political_Control>-->
 		<Political_Faction>Empire</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>11000</Build_Cost_Credits>
+		<Build_Cost_Credits>15000</Build_Cost_Credits>
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
 		<AI_Combat_Power>5900</AI_Combat_Power>
 		<Build_Time_Seconds>100</Build_Time_Seconds>
@@ -198,7 +198,7 @@
 
 	   	</Abilities>
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_STAR_DESTROYER_TITAN LOZ_MUST_BE_RESEARCHED TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_STAR_DESTROYER_TITAN TEXT_SPACE LOZ_MUST_BE_RESEARCHED TEXT_SPACE TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BATTLESHIP </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
 

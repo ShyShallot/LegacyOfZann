@@ -14,9 +14,6 @@
 		<Event_Type>STORY_ELAPSED</Event_Type>
         <Event_Param1>0</Event_Param1>
 		<Event_Param1>0</Event_Param1>
-		<Story_Dialog>Custom\Dialog_Random_Start_GC</Story_Dialog>
-		<Story_Chapter>21</Story_Chapter>
-		<Story_Tag>Intro_Tag</Story_Tag>
 	</Event>
 
 	<Event Name="Disable_Victory">
@@ -26,13 +23,6 @@
 		<Reward_Param1>0</Reward_Param1>
 	</Event>
 	
-	<Event Name="Disable_Advisor">
-        <Event_Type>STORY_TRIGGER</Event_Type>
-        <Reward_Type>SET_ADVISOR</Reward_Type>
-        <Reward_Param1>0</Reward_Param1>
-        <Prereq>Universal_Story_Start</Prereq>
-    </Event>
-
 	<Event Name="No_Touchy_Touchy">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_CONTROLS</Reward_Type>
@@ -43,6 +33,9 @@
     <Event Name="Galactic_Conquest_Started">
         <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
         <Event_Param2>Spawning_Done</Event_Param2>
+		<Story_Dialog>Custom\Dialog_Random_Start_GC</Story_Dialog>
+		<Story_Chapter>21</Story_Chapter>
+		<Story_Tag>Intro_Tag</Story_Tag>
     </Event>
 
 	<Event Name="Enable_Victory">
@@ -59,17 +52,24 @@
 		<Prereq>Galactic_Conquest_Started</Prereq>
 	</Event>
 
-	<Event Name="Enable_Advisor">
-        <Event_Type>STORY_TRIGGER</Event_Type>
-        <Reward_Type>SET_ADVISOR</Reward_Type>
-        <Reward_Param1>1</Reward_Param1>
-        <Prereq>Galactic_Conquest_Started</Prereq>
-    </Event>
+	<Event Name="Give_Pop_Cap">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Empire_Pop_Cap_Increase_250</Reward_Param1>
+		<Prereq>Galactic_Conquest_Started</Prereq>
+	</Event>
 
 <!-- Empire Hero Release -->
 
 
 	<!-- Spawn Starting Heroes -->
+
+	<Event Name="Spawn_Station">
+    		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+            <Event_Param2>SPAWN_STATION</Event_Param2>
+            <Reward_Type>UNIQUE_UNIT</Reward_Type>
+            <Reward_Param1>Empire_Star_Base_5</Reward_Param1>
+    </Event>
 
 	<Event Name="Empire_AI_Unlock_Research_Facility">
 		<Event_Type>STORY_TRIGGER</Event_Type>

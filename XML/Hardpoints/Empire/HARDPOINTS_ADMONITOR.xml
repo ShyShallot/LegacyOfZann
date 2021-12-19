@@ -1,0 +1,347 @@
+<?xml version="1.0"?>
+<ADMONITOR_Hardpoints>
+        <HardPoint Name="HP_Thrawn_SD_Weapon_FL">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Health>400.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+		<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+        <Model_To_Attach>EV_StarDestroyer_Thrawn_HP00_L-F.alo</Model_To_Attach>
+        <Attachment_Bone>HP_F-L_BONE</Attachment_Bone>
+        <Collision_Mesh>HP_F-L_COLL</Collision_Mesh>
+        <Damage_Decal>HP_F-L_BLAST</Damage_Decal>
+        <Damage_Particles>HP_F-L_EMITDAMAGE</Damage_Particles>
+
+		<Death_Breakoff_Prop> Hardpoint_Breakoff_Thrawn_SD_Weapon_FL </Death_Breakoff_Prop>
+
+        <Fire_Bone_A>FP_F-L_00</Fire_Bone_A>
+        <Fire_Bone_B>FP_F-L_01</Fire_Bone_B>
+        <Fire_Cone_Width>160</Fire_Cone_Width>
+        <Fire_Cone_Height>130.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>7</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 8.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        	<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+        <Power_To_Weapons_Mode_Weapon_Delay_Multiplier> .5 </Power_To_Weapons_Mode_Weapon_Delay_Multiplier>
+        <Fire_When_In_Power_To_Weapons_Mode> Yes </Fire_When_In_Power_To_Weapons_Mode>
+    </HardPoint>
+
+    <HardPoint Name="HP_Thrawn_SD_Weapon_FR">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Health>400.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+		<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+        <Model_To_Attach>EV_StarDestroyer_Thrawn_HP00_F-R.alo</Model_To_Attach>
+        <Attachment_Bone>HP_F-R_BONE</Attachment_Bone>
+        <Collision_Mesh>HP_F-R_COLL</Collision_Mesh>
+        <Damage_Decal>HP_F-R_BLAST</Damage_Decal>
+        <Damage_Particles>HP_F-R_EMITDAMAGE</Damage_Particles>
+
+		<Death_Breakoff_Prop> Hardpoint_Breakoff_Thrawn_SD_Weapon_FR </Death_Breakoff_Prop>
+
+        <Fire_Bone_A>FP_F-R_00</Fire_Bone_A>
+        <Fire_Bone_B>FP_F-R_01</Fire_Bone_B>
+        <Fire_Cone_Width>160</Fire_Cone_Width>
+        <Fire_Cone_Height>130.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>7</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 8.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        	<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+        <Power_To_Weapons_Mode_Weapon_Delay_Multiplier> .5 </Power_To_Weapons_Mode_Weapon_Delay_Multiplier>
+        <Fire_When_In_Power_To_Weapons_Mode> Yes </Fire_When_In_Power_To_Weapons_Mode>
+    </HardPoint>
+
+    <HardPoint Name="HP_Thrawn_SD_Weapon_BL">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Health>400.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+		<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+        <Model_To_Attach>EV_StarDestroyer_Thrawn_HP00_B-L.alo</Model_To_Attach>
+        <Attachment_Bone>HP_B-L_BONE</Attachment_Bone>
+        <Collision_Mesh>HP_B-L_COLL</Collision_Mesh>
+        <Damage_Decal>HP_B-L_BLAST</Damage_Decal>
+        <Damage_Particles>HP_B-L_EMITDAMAGE</Damage_Particles>
+
+		<Death_Breakoff_Prop> Hardpoint_Breakoff_Thrawn_SD_Weapon_BL </Death_Breakoff_Prop>
+			
+        <Fire_Bone_A>FP_B-L_00</Fire_Bone_A>
+        <Fire_Bone_B>FP_B-L_01</Fire_Bone_B>
+        <Fire_Cone_Width>160</Fire_Cone_Width>
+        <Fire_Cone_Height>130.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 8.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        	<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+        <Power_To_Weapons_Mode_Weapon_Delay_Multiplier> .5 </Power_To_Weapons_Mode_Weapon_Delay_Multiplier>
+        <Fire_When_In_Power_To_Weapons_Mode> Yes </Fire_When_In_Power_To_Weapons_Mode>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Thrawn_SD_Weapon_BR">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Health>400.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+		<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+        <Model_To_Attach>EV_StarDestroyer_Thrawn_HP00_B-R.alo</Model_To_Attach>
+        <Attachment_Bone>HP_B-R_BONE</Attachment_Bone>
+        <Collision_Mesh>HP_B-R_COLL</Collision_Mesh>
+        <Damage_Decal>HP_B-R_BLAST</Damage_Decal>
+        <Damage_Particles>HP_B-R_EMITDAMAGE</Damage_Particles>
+
+		<Death_Breakoff_Prop> Hardpoint_Breakoff_Thrawn_SD_Weapon_BR </Death_Breakoff_Prop>
+
+        <Fire_Bone_A>FP_B-R_00</Fire_Bone_A>
+        <Fire_Bone_B>FP_B-R_01</Fire_Bone_B>
+        <Fire_Cone_Width>160</Fire_Cone_Width>
+        <Fire_Cone_Height>130.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 8.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        	<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+        <Power_To_Weapons_Mode_Weapon_Delay_Multiplier> .5 </Power_To_Weapons_Mode_Weapon_Delay_Multiplier>
+        <Fire_When_In_Power_To_Weapons_Mode> Yes </Fire_When_In_Power_To_Weapons_Mode>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Thrawn_SD_Weapon_ML">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Health>400.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>EV_StarDestroyer_Thrawn_HP00_M-L.alo</Model_To_Attach>
+        <Attachment_Bone>HP_M-L_BONE</Attachment_Bone>
+        <Collision_Mesh>HP_M-L_COLL</Collision_Mesh>
+        <Damage_Decal>HP_M-L_BLAST</Damage_Decal>
+        <Damage_Particles>HP_M-L_EMITDAMAGE</Damage_Particles>
+
+        <Fire_Bone_A>FP_M-L_00</Fire_Bone_A>
+        <Fire_Bone_B>FP_M-L_01</Fire_Bone_B>
+        <Fire_Cone_Width>120.0</Fire_Cone_Width>
+        <Fire_Cone_Height>70.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Large</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 8.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        	<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+        <Power_To_Weapons_Mode_Weapon_Delay_Multiplier> .5 </Power_To_Weapons_Mode_Weapon_Delay_Multiplier>
+        <Fire_When_In_Power_To_Weapons_Mode> Yes </Fire_When_In_Power_To_Weapons_Mode>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Thrawn_SD_Weapon_MR">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Health>400.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>EV_StarDestroyer_Thrawn_HP00_M-R.alo</Model_To_Attach>
+        <Attachment_Bone>HP_M-R_BONE</Attachment_Bone>
+        <Collision_Mesh>HP_M-R_COLL</Collision_Mesh>
+        <Damage_Decal>HP_M-R_BLAST</Damage_Decal>
+        <Damage_Particles>HP_M-R_EMITDAMAGE</Damage_Particles>
+
+        <Fire_Bone_A>FP_M-R_00</Fire_Bone_A>
+        <Fire_Bone_B>FP_M-R_01</Fire_Bone_B>
+        <Fire_Cone_Width>120.0</Fire_Cone_Width>
+        <Fire_Cone_Height>70.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Large</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+
+		<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 8.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        	<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+        <Power_To_Weapons_Mode_Weapon_Delay_Multiplier> .5 </Power_To_Weapons_Mode_Weapon_Delay_Multiplier>
+        <Fire_When_In_Power_To_Weapons_Mode> Yes </Fire_When_In_Power_To_Weapons_Mode>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_Thrawn_SD_Shield_Generator">
+		<Type> HARD_POINT_SHIELD_GENERATOR </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+        <Health>400.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
+
+		<Death_Breakoff_Prop> Hardpoint_Breakoff_Thrawn_SD_Shield_Gen </Death_Breakoff_Prop>
+
+        <Model_To_Attach>EV_StarDestroyer_Thrawn_HP00_M-C.alo</Model_To_Attach>
+        <Attachment_Bone>HP_M-C_BONE</Attachment_Bone>
+        <Collision_Mesh>HP_M-C_COLL</Collision_Mesh>
+        <Damage_Decal>HP_M-C_BLAST</Damage_Decal>
+        <Damage_Particles>HP_M-C_EMITDAMAGE</Damage_Particles>
+    </HardPoint>
+
+    <HardPoint Name="HP_Thrawn_SD_Engines">
+		<Type> HARD_POINT_ENGINE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+        <Health>400.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>EV_StarDestroyer_Thrawn_HP00_E.alo</Model_To_Attach>
+        <Attachment_Bone>HP_E_BONE</Attachment_Bone>
+        <Collision_Mesh>HP_E_COLL</Collision_Mesh>
+        <Damage_Decal />
+        <Damage_Particles>HP_E_EMITDAMAGE</Damage_Particles>
+        <Engine_Particles>HP_E_MAINENGINES</Engine_Particles>
+    </HardPoint>
+
+    <HardPoint Name="HP_Thrawn_SD_Engines_No_Target">
+		<Type> HARD_POINT_ENGINE </Type>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+        <Health>10000.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>EV_StarDestroyer_Thrawn_HP00_E.alo</Model_To_Attach>
+        <Attachment_Bone>HP_E_BONE</Attachment_Bone>
+        <Collision_Mesh>HP_E_COLL</Collision_Mesh>
+        <Damage_Decal />
+        <Damage_Particles>HP_E_EMITDAMAGE</Damage_Particles>
+        <Engine_Particles>HP_E_MAINENGINES</Engine_Particles>
+    </HardPoint>
+
+	<HardPoint Name="HP_Thrawn_SD_Fighter_Bay">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Attachment_Bone>SPAWN_00</Attachment_Bone>             
+		<Collision_Mesh>SPAWN_00</Collision_Mesh>
+		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+		<Health>400.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
+	</HardPoint>
+
+    <HardPoint Name="HP_Thrawn_SD_Tractor_Beam">
+		<Type> HARD_POINT_TRACTOR_BEAM </Type>
+		<Tooltip_Text>TEXT_TRACTOR_BEAM_HARDPOINT</Tooltip_Text>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Health>400.0</Health>
+		
+		<Attachment_Bone>HP_trac_bone</Attachment_Bone>             
+		<Collision_Mesh>HP_trac_bone</Collision_Mesh>
+		<Damage_Decal>HP_TRAC_BLAST</Damage_Decal>
+		<Damage_Particles>HP_TRAC_EMITDAMAGE</Damage_Particles>
+
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
+	</HardPoint>
+</ADMONITOR_Hardpoints>

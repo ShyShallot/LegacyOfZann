@@ -15,7 +15,6 @@ function Definitions()
     DebugMessage("%s -- Defining Plots and Events", tostring(Script))
     plot = Get_Story_Plot("StoryMissions\\Custom\\STORY_SANDBOX_REBEL_SLICE.XML") -- Get Plot file for Text Event
     sliced_planet = nil
-    slicing_active = false
 end
 
 function State_Init(message)
@@ -77,25 +76,22 @@ function Slice_Mechanic(planet, player)
                 IS_ISD_LOCKED = GlobalValue.Get("IS_REBEL_ISD_LOCKED")
                 DebugMessage("%s -- Determining if Slice Failed or Not", tostring(Script)) 
                 Droid_Team.Play_SFX_Event("Unit_Move_C3PO") -- Play Sound Effect on Slicing Start
-                Game_Message("LOZ_REBEL_SLICE_PROG") -- Show Text telling the player to wait
                 sliceTechTime = Calculate_Sleep_Time(planet_diff, planet_avail)
                 DebugMessage("Current Time to Sleep: %s", tostring(sliceTechTime))
+                Game_Message("Tech Slicing In Progress, Please Wait " .. sliceTechTime .. " Seconds") -- Show Text telling the player to wait
                 Sleep(sliceTechTime) -- Pause the Script based off of our Tech Level for Slicing 
                 if not Calculate_Slice_Chances(planet_diff, planet_avail) then -- Total_Slice_Chance is from our Tech and Diff Values, check if its less than our Success Chance
                     sliced_planet = Object.Get_Planet_Location()
                     Droid_Team.Play_SFX_Event("Unit_Defeat_C3PO")
                     Sleep(3) -- Give time for Audio to Finish
-                    Game_Message("LOZ_REBEL_SLICE_FAIL") -- Run the Story Event telling the player that it failed and to Despawn
                     DebugMessage("%s -- Slice Failed, Despawning Droids", tostring(Script))
                     GlobalValue.Set("Droid_Dead", 1) -- Set Droid_Dead to 1 for Respawn Script
-                    slicing_active = false
                     Droid_Team.Despawn() -- Despawn R2D2 and C3PO 
                     Object.Despawn() -- Despawn R2D2 just in case
                 else
                     sliced_planet = Object.Get_Planet_Location()
                     Unlock_Rebel_Star_Destroyer(planet, player)
                     DebugMessage("%s -- Slice Sucseesful, Despawning Droids", tostring(Script))
-                    slicing_active = false
                     GlobalValue.Set("Total_Slice_Amount", Total_Slice_Amount_S + 1)
                     DisplaySliceLeft()
                     credits_take = GameRandom(-1000, -650) -- Remove a random amount of credits to compensate for a lack of player control

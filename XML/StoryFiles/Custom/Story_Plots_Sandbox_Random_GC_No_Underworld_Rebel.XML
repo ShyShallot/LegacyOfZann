@@ -5,4 +5,5 @@
 	<Lua_Script>Rebel_Slice_Respawn</Lua_Script>
 	<Active_Plot>StoryMissions\Custom\STORY_SANDBOX_RANDOM_REBEL.XML</Active_Plot>
 	<Active_Plot>StoryMissions\Custom\STORY_SANDBOX_REBEL_SLICE.XML</Active_Plot>
+	<Active_Plot>GALACTIC_FUNCTIONS.XML</Active_Plot>
 </Story_Mode_Plots>

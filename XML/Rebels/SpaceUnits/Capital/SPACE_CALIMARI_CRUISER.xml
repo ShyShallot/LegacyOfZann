@@ -1,34 +1,33 @@
 <?xml version="1.0"?>
-<MC75_File>
-
-    <SpaceUnit Name="MC75DV">
-		<Text_ID>TEXT_UNIT_MC75_DVARIANT</Text_ID>
-		<Encyclopedia_Good_Against> Star_Destroyer Krayt_Class_Destroyer </Encyclopedia_Good_Against>
+<Captial_Ship>
+    <SpaceUnit Name="Calamari_Cruiser">
+		<Text_ID>TEXT_UNIT_CALAMARI_CRUISER</Text_ID>
+		<Encyclopedia_Good_Against> Victory_Destroyer Acclamator_Assault_Ship Interceptor4_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Bomber Skipray_Blastboat </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
-		<Space_Model_Name>RV_MC75.ALO</Space_Model_Name>
-		<Select_Box_Scale>550</Select_Box_Scale>
+		<Space_Model_Name>RV_MONCALCRUISER.ALO</Space_Model_Name>
+		<Select_Box_Scale>600</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Mass>0.995</Mass>
-		<Scale_Factor>1.75</Scale_Factor>
+		<Scale_Factor>1.1</Scale_Factor>
 		<Damage>60</Damage>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
-		<Max_Speed>1.2</Max_Speed>
-		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+		<Max_Speed>1.5</Max_Speed>
+		<Max_Rate_Of_Turn>0.8</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
-		<Layer_Z_Adjust>-350.0</Layer_Z_Adjust>
+		<Layer_Z_Adjust>-290.0</Layer_Z_Adjust>
 		<OverrideAcceleration> .02 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
 
 		<Armor_Type> Armor_Calamari_Cruiser </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
-		<Max_Rate_Of_Roll>0.7</Max_Rate_Of_Roll>
+		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>	
-		<Max_Thrust>0.4</Max_Thrust>
+		<Max_Thrust>0.2</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>0.7</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
@@ -36,18 +35,18 @@
 		<Death_Clone>Damage_Normal, Calamari_Cruiser_Death_Clone</Death_Clone>
 
 		<Affiliation>Rebel</Affiliation>
-		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
-		<Tech_Level>5</Tech_Level>
+		<Slice_Cost_Credits>4500</Slice_Cost_Credits>
+		<Tech_Level>3</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets>MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore</Required_Planets>
-		<Autoresolve_Health>10500</Autoresolve_Health>
-		<Tactical_Health>10500</Tactical_Health>
-		<Shield_Points>8850</Shield_Points>
+		<Autoresolve_Health>8500</Autoresolve_Health>
+		<Tactical_Health>8500</Tactical_Health>
+		<Shield_Points>5500</Shield_Points>
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
@@ -55,10 +54,10 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>7850</Build_Cost_Credits>
-		<Piracy_Value_Credits>550</Piracy_Value_Credits>
-		<AI_Combat_Power>7500</AI_Combat_Power>
-		<Build_Time_Seconds>110</Build_Time_Seconds>
+		<Build_Cost_Credits>6500</Build_Cost_Credits>
+		<Piracy_Value_Credits>250</Piracy_Value_Credits>
+		<AI_Combat_Power>5200</AI_Combat_Power>
+		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
@@ -69,17 +68,18 @@
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
-		<Space_FOW_Reveal_Range>1800.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2850.0</Targeting_Max_Attack_Distance>
-		<Targeting_Min_Attack_Distance>285.0</Targeting_Min_Attack_Distance>
+		<Space_FOW_Reveal_Range>1350.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>1250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>200.0</Targeting_Min_Attack_Distance>
+		<Death_Clone />
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
 
 		<HardPoints> 
-			HP_MC75_TP_01, HP_MC75_HIC_01, HP_MC75_HIC_02, HP_MC75_IC_01, HP_MC75_IC_02, HP_MC75_IC_03, HP_MC75_IC_04, HP_MC75_TB_01, HP_MC75_TB_02, HP_MC75_TB_03, HP_MC75_TB_04, HP_MC75_EG_01, HP_MC75_SHD,
+			HP_Calamari_Cruiser_Weapon_FL, HP_Calamari_Cruiser_Weapon_FR, HP_Calamari_Cruiser_Weapon_BL, HP_Calamari_Cruiser_Weapon_BR, HP_Calamari_Cruiser_Weapon_ML, HP_Calamari_Cruiser_Weapon_MR, HP_Calamari_Cruiser_Engines
 		</HardPoints>
 
-		<Icon_Name>I_BUTTON_MC75.tga</Icon_Name>
-		<GUI_Model_Name>RV_MC75.ALO</GUI_Model_Name>
+		<Icon_Name>i_button_mon_calimari_cruiser.tga</Icon_Name>
+		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
 		<GUI_Distance>1650</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
@@ -136,7 +136,7 @@
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>i_radar_capital_ship.tga</Radar_Icon_Name>
 		
-		<Guard_Chase_Range>450.0</Guard_Chase_Range>
+		<Guard_Chase_Range>400.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -149,14 +149,14 @@
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>DEFEND</Type>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	2.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	2.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.05f</Mod_Multiplier> <!-- make it faster to recharge -->
-				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.05f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	2.5f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.4f</Mod_Multiplier>
 				<Recharge_Seconds>40</Recharge_Seconds>
-				<Expiration_Seconds>15</Expiration_Seconds>
+				<Expiration_Seconds>10</Expiration_Seconds>
 				
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Calamari</SFXEvent_GUI_Unit_Ability_Activated>
 				<Supports_Autofire>True</Supports_Autofire>
@@ -164,27 +164,27 @@
 			
 		</Unit_Abilities_Data>
        
-		<Encyclopedia_Text> TEXT_TOOLTIP_MC75_DVARIENT TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_MON_CALAMARI_CRUISER TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS LOZ_CAN_BE_STOLEN</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>7500</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>5120</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>34</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>17</Population_Value>
+		<Population_Value>12</Population_Value>
 		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
 	</SpaceUnit>
 
-	<SpaceUnit Name="MC75_Death_Clone">
-		<Text_ID> TEXT_UNIT_MC75_DVARIANT </Text_ID>
-		<Space_Model_Name>RV_MC75.ALO</Space_Model_Name>
+	<SpaceUnit Name="Calamari_Cruiser_Death_Clone">
+		<Text_ID> TEXT_UNIT_CALAMARI_CRUISER </Text_ID>
+		<Space_Model_Name>RV_MONCALCRUISER_D.ALO</Space_Model_Name>
 		<Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>
-		<Scale_Factor> 1.4 </Scale_Factor>
+		<Scale_Factor> 1.6 </Scale_Factor>
 		<Layer_Z_Adjust> -290.0 </Layer_Z_Adjust>
 		<Max_Speed> 0.25 </Max_Speed>
 		<Max_Rate_Of_Turn> 0.4 </Max_Rate_Of_Turn>
@@ -196,5 +196,4 @@
 		<Glory_Cinematics> CAM_Calamari_Cruiser_Die.tec </Glory_Cinematics>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceUnit>
-
-</MC75_File>
+</Captial_Ship>

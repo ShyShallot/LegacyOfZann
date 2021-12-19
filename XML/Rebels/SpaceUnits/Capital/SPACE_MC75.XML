@@ -1,32 +1,31 @@
 <?xml version="1.0"?>
+<MC75_File>
 
-<Rebel_Quasar>
-
-<SpaceUnit Name="Quasar_Carrier">
-		<Text_ID>TEXT_UNIT_QUASAR</Text_ID>
-		<Encyclopedia_Good_Against> TIE_Bomber TIE_Fighter Starviper_Fighter</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Bomber Interceptor4_Frigate Acclamator_Assault_Ship</Encyclopedia_Vulnerable_To>
+    <SpaceUnit Name="MC75DV">
+		<Text_ID>TEXT_UNIT_MC75_DVARIANT</Text_ID>
+		<Encyclopedia_Good_Against> Star_Destroyer Krayt_Class_Destroyer </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> TIE_Bomber Skipray_Blastboat </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
-		<Space_Model_Name>RV_Quasar.ALO</Space_Model_Name>
+		<Space_Model_Name>RV_MC75.ALO</Space_Model_Name>
 		<Select_Box_Scale>550</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
-		<Mass>1.0</Mass>
-		<Scale_Factor>1.25</Scale_Factor>
+		<Mass>0.995</Mass>
+		<Scale_Factor>0.9</Scale_Factor>
 		<Damage>60</Damage>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
-		<Max_Speed>1.6</Max_Speed>
-		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+		<Max_Speed>1.2</Max_Speed>
+		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
-		<Space_Layer> Frigate </Space_Layer>
-		<Layer_Z_Adjust>-50.0</Layer_Z_Adjust>
+		<Space_Layer> Capital </Space_Layer>
+		<Layer_Z_Adjust>-350.0</Layer_Z_Adjust>
 		<OverrideAcceleration> .02 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
 
-		<Armor_Type> Armor_MC30_Frigate </Armor_Type>
-		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+		<Armor_Type> Armor_Calamari_Cruiser </Armor_Type>
+		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		<Max_Rate_Of_Roll>0.7</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>	
 		<Max_Thrust>0.4</Max_Thrust>
@@ -34,60 +33,53 @@
 		<Hyperspace_Speed>0.7</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
-		<Death_Clone>Damage_Normal, Quasar_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Normal, Calamari_Cruiser_Death_Clone</Death_Clone>
 
 		<Affiliation>Rebel</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>5</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Required_Planets/>
-		<Autoresolve_Health>3600</Autoresolve_Health>
-		<Tactical_Health>3600</Tactical_Health>
-		<Shield_Points>4500</Shield_Points>
+		<Required_Planets>MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore</Required_Planets>
+		<Autoresolve_Health>10500</Autoresolve_Health>
+		<Tactical_Health>10500</Tactical_Health>
+		<Shield_Points>8850</Shield_Points>
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
-		<Ship_Class>frigate</Ship_Class>
+		<Ship_Class>capital</Ship_Class>
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>4450</Build_Cost_Credits>
+		<Build_Cost_Credits>7850</Build_Cost_Credits>
 		<Piracy_Value_Credits>550</Piracy_Value_Credits>
-		<AI_Combat_Power>4500</AI_Combat_Power>
-		<Build_Time_Seconds>45</Build_Time_Seconds>
+		<AI_Combat_Power>7500</AI_Combat_Power>
+		<Build_Time_Seconds>110</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, TARGETING, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, REVEAL, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
-
-        <!-- Set to spawn all units once and then not continue - no reserves -->
-		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 4</Reserve_Spawned_Units_Tech_0> 
-		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, 4</Reserve_Spawned_Units_Tech_0>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, TARGETING, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Medium_Explosion_Space</Death_Explosions>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
-		<Space_FOW_Reveal_Range>1250.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1850.0</Targeting_Max_Attack_Distance>
-		<Targeting_Min_Attack_Distance>70.0</Targeting_Min_Attack_Distance>
+		<Space_FOW_Reveal_Range>1750.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>1600.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>285.0</Targeting_Min_Attack_Distance>
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
 
 		<HardPoints> 
-			HP_QUASAR_01, HP_QUASAR_02, HP_QUASAR_03, HP_QUASAR_04, HP_QUASAR_05, HP_QUASAR_06, HP_QUASAR_ENGINES, HP_QUASAR_HG_00, HP_QUASAR_HG_01, HP_QUASAR_HG_02, HP_QUASAR_HG_03, HP_QUASAR_SHD, 
+			HP_MC75_TP_01, HP_MC75_HIC_01, HP_MC75_HIC_02, HP_MC75_IC_01, HP_MC75_IC_02, HP_MC75_IC_03, HP_MC75_IC_04, HP_MC75_TB_01, HP_MC75_TB_02, HP_MC75_TB_03, HP_MC75_TB_04, HP_MC75_EG_01, HP_MC75_SHD,
 		</HardPoints>
 
-		<Icon_Name>I_BUTTON_QUASAR.tga</Icon_Name>
-		<GUI_Model_Name>RV_Quasar.ALO</GUI_Model_Name>
+		<Icon_Name>I_BUTTON_MC75.tga</Icon_Name>
+		<GUI_Model_Name>RV_MC75.ALO</GUI_Model_Name>
 		<GUI_Distance>1650</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
@@ -142,9 +134,9 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
-		<Radar_Icon_Name/>
+		<Radar_Icon_Name>i_radar_capital_ship.tga</Radar_Icon_Name>
 		
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Guard_Chase_Range>450.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -153,55 +145,44 @@
 		<Tactical_Bribe_Cost>3000</Tactical_Bribe_Cost>
 
 		<!-- Non-Hero unit abilities description -->
-		<Abilities SubObjectList="Yes">
-			<Force_Healing_Ability Name="Repair_Facility_Healing">
-				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Heal_Range>150.0</Heal_Range>
-				<Heal_Amount>25.0</Heal_Amount>
-				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
-				<Single_Target_Heal>Yes</Single_Target_Heal>
-				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
-				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette</Applicable_Unit_Categories>
-				<Applicable_Unit_Types/>
-				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
-				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
-				<Target_Particle_Bone_Name/>
-				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
-				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
-				<Target_Light_Effect_Color2 />
-				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
-				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
-				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
-				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
-				<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
-				<Owner_Light_Effect_Color2 />
-				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
-				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
-				<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
-			</Force_Healing_Ability>
-		</Abilities>
-	
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>DEFEND</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	2.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	2.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.05f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.05f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
+				<Recharge_Seconds>40</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+				
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Calamari</SFXEvent_GUI_Unit_Ability_Activated>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
        
-		<Encyclopedia_Text> TEXT_TOOLTIP_QUASAR</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPPORT_FRIGATE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_MC75_DVARIENT TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>4560</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>5850</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>11</Population_Value>
+		<Population_Value>17</Population_Value>
 		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
 	</SpaceUnit>
 
-	<SpaceUnit Name="Quasar_Death_Clone">
+	<SpaceUnit Name="MC75_Death_Clone">
 		<Text_ID> TEXT_UNIT_MC75_DVARIANT </Text_ID>
-		<Space_Model_Name>RV_Quasar_d.ALO</Space_Model_Name>
+		<Space_Model_Name>RV_MC75.ALO</Space_Model_Name>
 		<Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>
 		<Scale_Factor> 1.4 </Scale_Factor>
 		<Layer_Z_Adjust> -290.0 </Layer_Z_Adjust>
@@ -216,10 +197,4 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceUnit>
 
-
-
-
-
-
-
-</Rebel_Quasar>
+</MC75_File>

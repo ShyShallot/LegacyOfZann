@@ -8,6 +8,7 @@
 
 
 	<File>TransportUnits.xml</File>
+	<File>UpgradeUnitTest.xml</File>
 
 	<File>TechBuilding.xml</File>		<!-- AJA 10/12/2005 - Moved to the top so that tech upgrades always show up on the left of the build bar. -->
 	<File>TechBuilding_UNDERWORLD.xml</File>
@@ -94,16 +95,46 @@
 
 
 
-	<!-- Expansion Units: Empire -->
+	<!-- Empire Units -->
 
-	<File>UnitFiles\Units_Hero_Empire_Thrawn.xml</File>
+	<!-- Space Units-->
+	<File>Empire\Space_Station.xml</File>
 
-	<File>UnitFiles\Units_Space_Empire_TIE_Defender.xml</File>
-	<File>UnitFiles\Units_Space_Empire_TIE_Interceptor.xml</File>
-	<File>UnitFiles\Units_Space_Empire_TIE_Phantom.xml</File>
-	<File>UnitFiles\Units_Space_Empire_Executor.xml</File>
-	<File>UnitFiles\Units_Space_Empire_MCF.xml</File>
-	<File>UnitFiles\Units_Space_Empire_Gladiator.xml</File>
+	<!-- Space Heros -->
+	<File>Empire\Heros\SPACE_HERO_THRAWN.xml</File>
+	<File>Empire\Heros\SPACE_HERO_DARTH_VADER.xml</File>
+	<File>Empire\Heros\SPACE_HERO_BOBA_FETT.xml</File>
+	<File>Empire\Heros\SPACE_HERO_PIETT.xml</File>
+	<File>Empire\Heros\LAND_HERO_VEERS_AT_AT.xml</File>
+
+	<!-- SSD Class-->
+	<File>Empire\SpaceUnits\Supers\SPACE_EXECUTOR_SSD.xml</File>
+	
+	<!-- Capital Ships-->
+	<File>Empire\SpaceUnits\Capitals\SPACE_STAR_DESTROYER.xml</File>
+	<File>Empire\SpaceUnits\Capitals\SPACE_TITAN_CLASS_ISD.xml</File>
+	<File>Empire\SpaceUnits\Capitals\SPACE_VENATOR.xml</File>
+
+	<!-- Special -->
+	<File>Empire\SpaceUnits\Special\SPACE_MOBILE_COMMAND_STATION.xml</File>
+
+	<!-- Frigates-->
+	<File>Empire\SpaceUnits\Frigates\SPACE_ACCLAMATOR.xml</File>
+	<File>Empire\SpaceUnits\Frigates\SPACE_GLADIATOR_CARRIER.xml</File>
+	<File>Empire\SpaceUnits\Frigates\SPACE_INTERDICTOR_CRUISER.xml</File>
+	<File>Empire\SpaceUnits\Frigates\SPACE_VICTORY_DESTROYER.xml</File>
+
+	<!--Corvettes-->
+	<File>Empire\SpaceUnits\Corvettes\SPACE_BROADSIDE_CRUISER.xml</File>
+	<File>Empire\SpaceUnits\Corvettes\SPACE_TARTAN_CORVETTE.xml</File>
+
+	<!-- Fighters -->
+	<File>Empire\SpaceUnits\Fighters\SPACE_TIE_BOMBER.xml</File>
+	<File>Empire\SpaceUnits\Fighters\SPACE_TIE_DEFENDER.xml</File>
+	<File>Empire\SpaceUnits\Fighters\SPACE_TIE_FIGHTER.xml</File>
+	<File>Empire\SpaceUnits\Fighters\SPACE_TIE_INTERCEPTOR.xml</File>
+	<File>Empire\SpaceUnits\Fighters\SPACE_TIE_PHANTOM.xml</File>
+	<File>Empire\SpaceUnits\Fighters\SPACE_TIE_SCOUT.xml</File>
 	
 	<File>UnitFiles\Units_Land_Empire_DarkTroopers.xml</File>
 	<File>UnitFiles\Units_Land_Empire_Lancet.xml</File>
@@ -115,25 +146,44 @@
 
 
 	<!-- Expansion Units: Rebel -->
-	
-	<File>UnitFiles\Units_Hero_Rebel_Yoda.xml</File>
-	<File>UnitFiles\Units_Hero_Rebel_LukeSkywalker.xml</File>
-	<File>UnitFiles\Units_Hero_Rebel_Gargantuan.xml</File>
-	<File>UnitFiles\Units_Hero_Rebel_Rogue_Squadron.xml</File>
+	<File>Rebels\Space_Station.xml</File>
 
-	<File>UnitFiles\Units_Land_Rebel_Gallofree_HTT.xml</File>
-
-	<File>UnitFiles\Units_Space_Rebel_BWing.xml</File>	
-	<File>UnitFiles\Units_Space_Rebel_MCF.xml</File>
-	<File>UnitFiles\Units_Space_Rebel_MC30_Frigate.xml</File>
-	<File>UnitFiles\Units_Space_Rebel_Quasar.xml</File>
-	<File>UnitFiles\Units_Space_Rebel_MC75.xml</File>
-	<File>UnitFiles\Units_Space_Rebel_Viscount.xml</File>
-
-
+	<File>Rebels\SpaceUnits\Super\SPACE_VISCOUNT.xml</File>
+	<File>Rebels\SpaceUnits\Capital\SPACE_CALIMARI_CRUISER.xml</File>
+	<File>Rebels\SpaceUnits\Capital\SPACE_MC75.xml</File>
+	<File>Rebels\SpaceUnits\Capital\SPACE_MCF.xml</File>
+	<File>Rebels\SpaceUnits\Capital\SPACE_REBEL_STAR_DESTROYER.xml</File>
+	<File>Rebels\SpaceUnits\Corvettes\SPACE_CORELLIAN_CORVETTE.xml</File>
+	<File>Rebels\SpaceUnits\Corvettes\SPACE_CORELLIAN_GUNBOAT.xml</File>
+	<File>Rebels\SpaceUnits\Corvettes\SPACE_MARAUDER.xml</File>
+	<File>Rebels\SpaceUnits\Fighters\SPACE_A_WING.xml</File>
+	<File>Rebels\SpaceUnits\Fighters\SPACE_BWING.xml</File>
+	<File>Rebels\SpaceUnits\Fighters\SPACE_X_WING.xml</File>
+	<File>Rebels\SpaceUnits\Fighters\SPACE_Y_WING.xml</File>
+	<File>Rebels\SpaceUnits\Fighters\SPACE_Z95_HEADHUNTER.xml</File>
+	<File>Rebels\SpaceUnits\Frigates\SPACE_ALLIANCE_FRIGATES.xml</File>
+	<File>Rebels\SpaceUnits\Frigates\SPACE_MC30_FRIGATE.xml</File>
+	<File>Rebels\SpaceUnits\Frigates\SPACE_NEBULON_B.xml</File>
+	<File>Rebels\SpaceUnits\Frigates\SPACE_QUASAR.xml</File>
+	<File>Rebels\Heros\SPACE_HERO_HOME_ONE.xml</File>
+	<File>Rebels\Heros\SPACE_HERO_LUKE.xml</File>
+	<File>Rebels\Heros\SPACE_HERO_ROUGUE_SQUADRON.xml</File>
+	<File>Rebels\Heros\GROUND_HERO_GARGANTUAN.xml</File>
+	<File>Rebels\Heros\GROUND_HERO_YODA.xml</File>
+	<File>Rebels\Heros\GROUND_HERO_LUKESKYWALKER.xml</File>
+	<File>Rebels\GroundUnits\Vehicles\LAND_GALLOFREE_HTT.xml</File>
+	<File>Rebels\GroundUnits\Vehicles\LAND_MPTL.xml</File>
+	<File>Rebels\GroundUnits\Vehicles\LAND_SNOWSPEEDER.xml</File>
+	<File>Rebels\GroundUnits\Vehicles\LAND_T2B_TANK.xml</File>
+	<File>Rebels\GroundUnits\Vehicles\LAND_T4B_TANK.xml</File>
+	<File>Rebels\GroundUnits\Infantry\LAND_BASE_TROOPER.xml</File>
+	<File>Rebels\GroundUnits\Infantry\LAND_INFILTRATOR.xml</File>
+	<File>Rebels\GroundUnits\Infantry\LAND_PILOT.xml</File>
+	<File>Rebels\GroundUnits\Infantry\LAND_PLEX_TROOPER.xml</File>
+	<File>Rebels\GroundUnits\Infantry\LAND_TECH_TROOPER.xml</File>
 
 	<!-- Expansion Units: Underworld -->
-
+	<File>UnitFiles\Units_Land_Pirates.xml</File>
 	<File>UnitFiles\Units_Hero_Underworld_IG88.xml</File>
 	<File>UnitFiles\Units_Hero_Underworld_Bossk.xml</File>
 	<File>UnitFiles\Units_Hero_Underworld_Tyber_Zann.xml</File>
@@ -178,7 +228,7 @@
 	<File>UnitFiles\Units_Space_Neutral_Eclipse.xml</File>
 	<File>Hutt_Faction_Units.xml</File>
 	<File>GroundBuildablesHutts.xml</File>
-
+	<File>UnitFiles\UNITS_SPACE_NETURAL_POP_CAP.xml</File>
 
 	<!-- Expansion General Files -->
 	

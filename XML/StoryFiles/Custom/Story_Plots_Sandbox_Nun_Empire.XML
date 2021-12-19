@@ -4,6 +4,7 @@
 	<Lua_Script></Lua_Script>
 	<Active_Plot>StoryMissions\Custom\STORY_SANDBOX_NUN_EMPIRE.XML</Active_Plot>
 	<Active_Plot>StoryMissions\Custom\STORY_UNLOCK_ECLIPSE.XML</Active_Plot>
+	<Active_Plot>STORY_SANDBOX_UNIT_UPGRADE.XML</Active_Plot>
 
 
 </Story_Mode_Plots>

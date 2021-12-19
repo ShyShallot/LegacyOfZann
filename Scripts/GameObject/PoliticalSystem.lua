@@ -48,15 +48,15 @@ function State_Init(message)
                 player = Find_Player("EMPIRE")
                 DebugMessage("%s -- Player not Found doing 2nd Check", tostring(Script))
             end
-            GlobalValue.Set("Political_Control", politicalControl)
+            GlobalValue.Set("Political_Control", 0)
             DebugMessage("%s -- Setting Global Control", tostring(Script))
             Update_Dialog()
-    elseif  message == OnUpdate then -- This is Ran based off of the Service Rate
+    end
+	if message == OnUpdate then -- This is Ran based off of the Service Rate
         if is_intervention_active == false then
             Interventions()
         end
     end
-
 end
 
 

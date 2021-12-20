@@ -1276,8 +1276,6 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-                Titan_Star_Destroyer,
-				TIE_Interceptor_Squadron,
 				TIE_Fighter_Squadron,
 				TIE_Bomber_Squadron,
 				ES_Enhanced_Reactors_L1_Upgrade,
@@ -1534,6 +1532,7 @@
 				Boba_Fett_Team_Space_MP,
 				Darth_Team_Space_MP,
 				Star_Destroyer,
+				Titan_Star_Destroyer,
 				ES_Enhanced_Reactors_L1_Upgrade,
 				ES_Enhanced_Reactors_L2_Upgrade,
 				ES_Reinforced_Armor_L1_Upgrade,
@@ -1647,6 +1646,7 @@
 				Darth_Team_Space_MP,
 				Accuser_Star_Destroyer,
 				Admonitor_Star_Destroyer,
+				Titan_Star_Destroyer,
 				Executor_Super_Star_Destroyer,
 				ES_Enhanced_Reactors_L1_Upgrade,
 				ES_Enhanced_Reactors_L2_Upgrade,

@@ -190,7 +190,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_Titan_MISSILE_01">
-			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE_HEAVY</Tooltip_Text>
@@ -228,7 +228,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_Titan_MISSILE_02">
-			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
@@ -830,10 +830,10 @@
     </HardPoint>
 
     <HardPoint Name="HP_Titan_OTL_01">
-			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+            <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
             <Health>1100.0</Health>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -849,9 +849,9 @@
             <Fire_Bone_B>FP_01</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
             <Fire_Cone_Height>130.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
+            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Large</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.6</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>8</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2600.0</Fire_Range_Distance>
@@ -865,22 +865,20 @@
             <Turret_Bone_Name> Turret </Turret_Bone_Name>
             <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
 
-			<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+
+			<Fire_Inaccuracy_Distance> Corvette, 45.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
     </HardPoint>
 
     <HardPoint Name="HP_Titan_OTL_02">
-			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+            <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
             <Health>1100.0</Health>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -896,9 +894,9 @@
             <Fire_Bone_B>FP_01</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
             <Fire_Cone_Height>130.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
+            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Large</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.6</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>8</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2600.0</Fire_Range_Distance>
@@ -912,22 +910,19 @@
             <Turret_Bone_Name> Turret </Turret_Bone_Name>
             <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
 
-			<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 45.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
     </HardPoint>
 
     <HardPoint Name="HP_Titan_OTL_03">
-			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+            <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
             <Health>1100.0</Health>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -943,9 +938,9 @@
             <Fire_Bone_B>FP_01</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
             <Fire_Cone_Height>130.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
+            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Large</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.6</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>8</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2600.0</Fire_Range_Distance>
@@ -959,22 +954,19 @@
             <Turret_Bone_Name> Turret </Turret_Bone_Name>
             <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
 
-			<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 45.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
     </HardPoint>
 
     <HardPoint Name="HP_Titan_OTL_04">
-			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+            <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
             <Health>1100.0</Health>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -990,9 +982,9 @@
             <Fire_Bone_B>FP_01</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
             <Fire_Cone_Height>130.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
+            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Large</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.6</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>8</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2600.0</Fire_Range_Distance>
@@ -1006,22 +998,19 @@
             <Turret_Bone_Name> Turret </Turret_Bone_Name>
             <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
 
-			<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 45.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
     </HardPoint>
 
     <HardPoint Name="HP_Titan_OTL_05">
-			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+            <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
             <Health>1100.0</Health>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -1037,9 +1026,9 @@
             <Fire_Bone_B>FP_01</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
             <Fire_Cone_Height>130.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
+            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Large</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.6</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>8</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2600.0</Fire_Range_Distance>
@@ -1053,22 +1042,19 @@
             <Turret_Bone_Name> Turret </Turret_Bone_Name>
             <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
 
-			<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 45.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
     </HardPoint>
 
     <HardPoint Name="HP_Titan_OTL_06">
-			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+            <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
             <Health>1100.0</Health>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -1084,9 +1070,9 @@
             <Fire_Bone_B>FP_01</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
             <Fire_Cone_Height>130.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
+            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Large</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.6</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>8</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2600.0</Fire_Range_Distance>
@@ -1100,22 +1086,19 @@
             <Turret_Bone_Name> Turret </Turret_Bone_Name>
             <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
 
-			<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 45.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
     </HardPoint>
 
     <HardPoint Name="HP_Titan_OTL_07">
-			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+            <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
             <Health>1100.0</Health>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -1131,9 +1114,9 @@
             <Fire_Bone_B>FP_01</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
             <Fire_Cone_Height>130.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
+            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Large</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.6</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>8</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2600.0</Fire_Range_Distance>
@@ -1147,22 +1130,19 @@
             <Turret_Bone_Name> Turret </Turret_Bone_Name>
             <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
 
-			<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 45.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
     </HardPoint>
 
     <HardPoint Name="HP_Titan_OTL_08">
-			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+            <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
             <Health>1100.0</Health>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -1178,9 +1158,9 @@
             <Fire_Bone_B>FP_01</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
             <Fire_Cone_Height>130.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.6</Fire_Max_Recharge_Seconds>
+            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Large</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.6</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>8</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2600.0</Fire_Range_Distance>
@@ -1194,12 +1174,9 @@
             <Turret_Bone_Name> Turret </Turret_Bone_Name>
             <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
 
-			<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 45.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 

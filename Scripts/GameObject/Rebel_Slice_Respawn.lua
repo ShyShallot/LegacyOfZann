@@ -23,26 +23,42 @@ function State_Init(message)
         --DebugMessage("%s -- Finding Player", tostring(Script))
         player = Find_Player("Rebel") -- Find Rebel Player, will 99% of the time not be AI
         are_droids_Dead = GlobalValue.Get("Droid_Dead") -- Global Value to check if C3PO and R2D2 are dead
+        last_planet_diff = GlobalValue.Get("Death_Planet_Diff")
         if player == nil then -- If the wrong player string is found run this 
             --DebugMessage("%s -- Wrong Player Found, Setting it to proper player", tostring(Script))
             player = Find_Player("REBEL") -- Set Player String as correct if needed, This is a Back up to prevent errors DO NOT DELETE
         end
 
         --DebugMessage("%s -- Setting Respawn Time Per Tech", tostring(Script))
-        if player.Get_Tech_Level() == 0 then -- Get Respawn Time Per each Tech Level
-            respawnPerTech = 45 -- Was 85
+        -- Because the way Rebel Tech works: 0 is Tech Level 1 and so on
+        if player.Get_Tech_Level() == 0 then -- Get Respawn Time Per each Tech Level 
+            respawnPerTech = 25 -- Was 85
         elseif player.Get_Tech_Level() == 1 then
-            respawnPerTech = 90 -- Was 125
+            respawnPerTech = 45 -- Was 125
         elseif player.Get_Tech_Level() == 2 then
-            respawnPerTech = 135 -- Was 195
+            respawnPerTech = 60 -- Was 195
         elseif player.Get_Tech_Level() == 3 then
-            respawnPerTech = 180 -- Was 245
+            respawnPerTech = 110 -- Was 245
+        end
+
+        if last_planet_diff == 0 then
+            respawnMulti = 0.75
+        elseif last_planet_diff == 1 then
+            respawnMulti = 0.85
+        elseif last_planet_diff == 2 then
+            respawnMulti = 1
+        elseif last_planet_diff == 3 then
+            respawnMulti = 1.15
+        elseif last_planet_diff == 4 then
+            respawnMulti = 1.25
+        elseif last_planet_diff == 5 then
+            respawnMulti = 1.4
         end
 
         if are_droids_Dead == 1 then
             --DebugMessage("%s -- Droid Team is dead, sleeping per Tech Level for Respawn", tostring(Script))
-            Game_Message("Tech Slice Failed, C3PO and R2D2 will return in " .. respawnPerTech .. " Seconds.")
-            Sleep(respawnPerTech)
+            Game_Message("Tech Slice Failed, C3PO and R2D2 will return in " .. respawnPerTech * respawnMulti .. " Seconds.")
+            Sleep(respawnPerTech * respawnMulti)
            -- DebugMessage("%s -- Respawned the Droids", tostring(Script))
             Story_Event("REBEL_SLICE_RESPAWN")
             Game_Message("LOZ_REBEL_SLICE_RESPAWN")

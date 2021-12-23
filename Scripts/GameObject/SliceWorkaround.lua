@@ -22,6 +22,7 @@ function State_Init(message)
     if message == OnEnter then -- This is Ran when the script starts
         DebugMessage("%s -- In OnEnter, Defining", tostring(Script))
         GlobalValue.Set("Droid_Dead", 0) -- Droid_Dead value for custom Tech Based Respawn
+        GlobalValue.Set("Death_Planet_Diff", 0)
         player = Object.Get_Owner() -- Get the Droids Owner
         Droid_Team = Object.Get_Parent_Object() -- Find Hero Company of R2D2 for sound and despawn purposes 
         
@@ -86,6 +87,7 @@ function Slice_Mechanic(planet, player)
                     Sleep(3) -- Give time for Audio to Finish
                     DebugMessage("%s -- Slice Failed, Despawning Droids", tostring(Script))
                     GlobalValue.Set("Droid_Dead", 1) -- Set Droid_Dead to 1 for Respawn Script
+                    GlobalValue.Set("Death_Planet_Diff", planet_diff)
                     Droid_Team.Despawn() -- Despawn R2D2 and C3PO 
                     Object.Despawn() -- Despawn R2D2 just in case
                 else
@@ -100,6 +102,7 @@ function Slice_Mechanic(planet, player)
                     Sleep(3) -- Give time for Audio to Finish
                     Game_Message("LOZ_REBEL_SLICE_WIN") -- Tell the player the slice succeeded and to Despawn
                     GlobalValue.Set("Droid_Dead", 1) -- Set Droid_Dead to 1 for Respawn Script
+                    GlobalValue.Set("Death_Planet_Diff", planet_diff)
                     Droid_Team.Despawn() -- Despawn R2D2 and C3PO 
                     lastplanet = Object.Get_Planet_Location()
                     Object.Despawn() -- Despawn R2D2 just in case

@@ -164,6 +164,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
         <Ship_Class>frigate</Ship_Class>
+		<Lua_Script>Corona_Anim_Handler</Lua_Script>
     </SpaceUnit>
 
 	<SpaceUnit Name="Pirate_Corona_Frigate">
@@ -329,5 +330,6 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
         <Ship_Class>frigate</Ship_Class>
+		<Lua_Script>Corona_Anim_Handler</Lua_Script>
     </SpaceUnit>	
 </Corona_SU_Files>   

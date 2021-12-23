@@ -358,7 +358,7 @@
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 		<Death_Clone>Damage_Normal, Corona_Death_Clone </Death_Clone>
 		<Landing_Transport_Variant>Corona_Landing</Landing_Transport_Variant>
-
+		<Lua_Script>Corona_Anim_Handler</Lua_Script>
 	
 
 	
@@ -528,7 +528,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
         <Ship_Class>frigate</Ship_Class>
-
+		<Lua_Script>Corona_Anim_Handler</Lua_Script>
 
 	</UniqueUnit>
 

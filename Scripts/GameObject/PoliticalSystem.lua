@@ -12,7 +12,7 @@ function Definitions()
     politicalControl = 1
     DebugMessage("%s -- politicalControl Value", tostring(politicalControl))
     is_intervention_active = false
-	intervention_sleep_time = 60 -- Wait every x seconds to call another intervention
+	intervention_sleep_time = 120 -- Wait every x seconds to call another intervention
 
     reward_table_space = { 			
 					Find_Object_Type("Broadside_Class_Cruiser"), 

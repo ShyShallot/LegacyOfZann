@@ -315,7 +315,7 @@
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
-		<Projectile_Damage>85.0</Projectile_Damage>
+		<Projectile_Damage>125.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
@@ -327,6 +327,12 @@
 		<AI_Combat_Power>200</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate>SFX_Ion_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Ion_Stun_On_Detonation>Yes</Projectile_Ion_Stun_On_Detonation>
+		<Projectile_Disables_Engines_When_Power_Drained>Yes</Projectile_Disables_Engines_When_Power_Drained>
+		<Projectile_Ion_Stun_Duration>1.0</Projectile_Ion_Stun_Duration>
+		<Projectile_Ion_Stun_Speed_Reduction_Percent>0.05</Projectile_Ion_Stun_Speed_Reduction_Percent>
+		<Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>0.15</Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>
+		<Projectile_Ion_Stun_Stack_Duration>No</Projectile_Ion_Stun_Stack_Duration>
 
 	</Projectile>
 	

@@ -10,4 +10,37 @@
         <Story_Tag>EMPIRE_SCIENCE_DIS</Story_Tag>
     </Event>
 
+    <Event Name="Empire_Science_Fell_Behind">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>SCIENCE_FELL_BEHIND</Event_Param2>
+        <Story_Dialog>Custom\Dialog_Empire_Science</Story_Dialog>
+        <Story_Chapter>2</Story_Chapter>
+        <Story_Dialog_Popup>True</Story_Dialog_Popup>
+        <Story_Tag>EMPIRE_SCIENCE_DIS_BEHIND</Story_Tag>
+    </Event>
+
+    <Event Name="Empire_Science_Fell_Behind_Clear">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>REMOVE_FELL_BEHIND</Event_Param2>
+        <Story_Tag>EMPIRE_SCIENCE_DIS_BEHIND_CLEAR</Story_Tag>
+        <Reward_Type>REMOVE_STORY_GOAL</Reward_Type>
+        <Reward_Param1>EMPIRE_SCIENCE_DIS_BEHIND</Reward_Param1>
+    </Event>
+
+    <Event Name="Empire_Science_Falling_Behind">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>SCIENCE_FALLING_BEHIND</Event_Param2>
+        <Story_Dialog>Custom\Dialog_Empire_Science</Story_Dialog>
+        <Story_Chapter>3</Story_Chapter>
+        <Story_Dialog_Popup>True</Story_Dialog_Popup>
+        <Story_Tag>EMPIRE_SCIENCE_DIS_FALLING</Story_Tag>
+    </Event>
+
+    <Event Name="Empire_Science_Falling_Behind_Clear">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>REMOVE_FALLING_BEHIND</Event_Param2>
+        <Story_Tag>EMPIRE_SCIENCE_DIS_FALLING_CLEAR</Story_Tag>
+        <Reward_Type>REMOVE_STORY_GOAL</Reward_Type>
+        <Reward_Param1>EMPIRE_SCIENCE_DIS_FALLING</Reward_Param1>
+    </Event>
 </Story>

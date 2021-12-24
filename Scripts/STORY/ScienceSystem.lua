@@ -2,12 +2,16 @@ require("PGStateMachine")
 require("PGBase")
 require("PGSpawnUnits")
 require("LOZFunctions")
-science_research_lock_time = 70
-science_research_locked = false
+require("LOZGalacticFuncs")
+
 function Definitions()
     DebugMessage("%s -- In Definitions", tostring(Script))
 	ServiceRate = 1
 	Define_State("State_Init", State_Init);
+    science_research_lock_time = 70
+    science_research_locked = false
+    last_researched_week = 0
+    fall_behind_threshold = 20
 end
 
 function State_Init(message)
@@ -23,6 +27,8 @@ function State_Init(message)
             ScriptExit()
         end
         plot = Get_Story_Plot("StoryMissions\\Custom\\STORY_SANDBOX_EMPIRE_SCIENCE_LIB.XML")
+        event = plot.Get_Event("Empire_Science_Dis")
+        event.Add_Dialog_Text("TEXT_STORY_EMPIRE_SCIENCE_BODY", fall_behind_threshold)
         Sleep(1)
         Set_Level()
         Sleep(1)
@@ -31,6 +37,9 @@ function State_Init(message)
 	end
     if message == OnUpdate then
         DebugMessage("%s -- In OnUpdate", tostring(Script))
+        DebugMessage("Current Week: %s", tostring(CurrentWeekRounded()))
+        DebugMessage("Last Researched Week: %s", tostring(last_researched_week))
+        Is_Player_Falling_Behind()
         tech_level = player.Get_Tech_Level()
         if(tech_level == 5) then
             ScriptExit()
@@ -38,8 +47,16 @@ function State_Init(message)
         cur_level = GlobalValue.Get("Science_Level")
         next_level = GlobalValue.Get("Next_Tech_Up_At")
         DebugMessage("%s -- Current Level: %s, Next Level: %s", tostring(Script), tostring(cur_level), tostring(next_level))
+        if GlobalValue.Get("Tech_Upgrade_Dones") == 1 then
+            DebugMessage("%s -- Tech Upgrade Finished setting level vals", tostring(Script))
+            Set_Level()
+            Sleep(1)
+            Set_Display_Level(GlobalValue.Get("Science_Level"), GlobalValue.Get("Next_Tech_Up_At"))
+            GlobalValue.Set("Tech_Upgrade_Dones", 0)
+        end
         if GlobalValue.Get("Science_Increased") == 1 then
             DebugMessage("%s -- Science Was Advanced", tostring(Script))
+            last_researched_week = CurrentWeek()
             Game_Message("Next Research will be available in " .. science_research_lock_time .. " Seconds.")
             GlobalValue.Set("Science_Increased", 0)
             Set_Display_Level(cur_level, next_level)
@@ -51,7 +68,6 @@ function State_Init(message)
         if cur_level == next_level then
             Make_Finalizer_Avail()
         end
-        Set_Level()
     end
 end
 
@@ -92,6 +108,17 @@ function Set_Display_Level(level, next_level)
     event.Clear_Dialog_Text()
     event.Add_Dialog_Text("Current Science Level: " .. tostring(level))
     event.Add_Dialog_Text("Next Level Until Tech Level Increase: " .. tostring(next_level))
+    if last_researched_week == 0 then
+        last_researched_week_s = "None"
+        event.Add_Dialog_Text("Weeks Since Last Research: ".. tostring(last_researched_week_s))
+    else
+        event.Add_Dialog_Text("Weeks Since Last Research: ".. tostring(last_researched_week))
+    end
+    if tech_level == 1 then
+        Story_Event("ACTIVATE_SCIENCE_DISPLAY")
+        return
+    end
+    event.Add_Dialog_Text("Weeks Until Tech Behind: " .. tostring(last_researched_week + fall_behind_threshold))
 
     Story_Event("ACTIVATE_SCIENCE_DISPLAY")
 end
@@ -123,5 +150,27 @@ function Unlock_Science_Research() -- This code is modified from the AOTR Interv
         end
         Sleep(1)
         counter = counter + 1
+    end
+end
+
+function Is_Player_Falling_Behind()
+    if (last_researched_week +  fall_behind_threshold) >= CurrentWeek() then
+        previous_tech_level = tech_level - 1
+        if previous_tech_level <= 1 then
+            return
+        end
+        player.Set_Tech_Level(previous_tech_level)
+        Sleep(1)
+        Set_Level()
+        Sleep(1)
+        Set_Display_Level(GlobalValue.Get("Science_Level"), GlobalValue.Get("Next_Tech_Up_At"))
+        Story_Event("SCIENCE_FELL_BEHIND")
+        Sleep(10)
+        Story_Event("REMOVE_FELL_BEHIND")
+    end
+    if (last_researched_week + (fall_behind_threshold / 2)) >= CurrentWeek() then
+        Story_Event("SCIENCE_FALLING_BEHIND")
+        Sleep(10)
+        Story_Event("REMOVE_FALLING_BEHIND")
     end
 end

@@ -90,11 +90,3 @@ function tableMerge(t1, t2) -- Credit to RCIX for this function: https://stackov
     end
     return t1
 end
-
-function Get_GC_Week_Time()
-    if Get_Game_Mode() ~= "Galactic" then
-        DebugMessage("%s -- This Func is only avail in GC", tostring(Script))
-    end
-    local week_time = 60
-    return week_time 
-end

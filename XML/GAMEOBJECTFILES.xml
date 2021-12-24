@@ -117,6 +117,7 @@
 
 	<!-- Special -->
 	<File>Empire\SpaceUnits\Special\SPACE_MOBILE_COMMAND_STATION.xml</File>
+	<File>Empire\SpaceUnits\Special\SPACE_SCIENCE_RESEARCH.xml</File>
 
 	<!-- Frigates-->
 	<File>Empire\SpaceUnits\Frigates\SPACE_ACCLAMATOR.xml</File>

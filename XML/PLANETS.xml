@@ -1447,7 +1447,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Ability_Name>TEXT_PLANET_CORULAG_INFO_ADV_01</Planet_Ability_Name>
 		<Planet_Ability_Description>TEXT_PLANET_CORULAG_ENCYC_01 </Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_PLANET_CORULAG_ENCYC_01 TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF3 </Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_CORULAG_ENCYC_01 TEXT_PLANET_TECH_AVAIL_4 TEXT_PLANET_TECH_DIFF_3 </Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>

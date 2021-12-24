@@ -33,7 +33,7 @@
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TECH_UPGRADE_02 </Encyclopedia_Text>
 
 		
-	</TechBuilding>
+	</TechBuilding> 
 	
 	
 	<TechBuilding Name="DS_Shield_Gen">
@@ -66,7 +66,7 @@
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TECH_UPGRADE_03 </Encyclopedia_Text>
 
 		
-	</TechBuilding>
+	</TechBuilding> 
 	
 	
 	<TechBuilding Name="DS_Superlaser_Core">
@@ -99,8 +99,8 @@
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TECH_UPGRADE_04 </Encyclopedia_Text>
 
 		
-	</TechBuilding>
-	
+	</TechBuilding> 
+
 	
 	<TechBuilding Name="DS_Durasteel">
 		<Text_ID>TEXT_DEATHSTAR_PART_HYPERMATTER</Text_ID>
@@ -132,7 +132,7 @@
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TECH_UPGRADE_05 </Encyclopedia_Text>
 		
 		
-	</TechBuilding>
+	</TechBuilding> 
 	
 	
 	<!-- Currently Empire tech levels run from 0 to 4, so this tech is unused. -->
@@ -161,4 +161,5 @@
 	</TechBuilding> -->
 	
 	
+
 </TechBuildings>

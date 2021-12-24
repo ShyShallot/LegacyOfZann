@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<Science_Research_Data>
+    <SpaceUnit Name="Science_Research">
+		<Text_ID>TEXT_IMPERIAL_SCIENCE_RESEARCH</Text_ID>
+		<Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text> TEXT_IMPERIAL_SCIENCE_RESEARCH_TOOLTIP </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_RESEACH </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_death_star_build.tga</Icon_Name>
+		<Affiliation>Empire</Affiliation>
+        <Is_Dummy>Yes</Is_Dummy>
+		<Tech_Level>0</Tech_Level>
+		<Build_Cost_Credits>5500</Build_Cost_Credits>
+		<Build_Time_Seconds>95</Build_Time_Seconds>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+        <Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> TEXT_TECH_E_SCIENCE_RESEARCH </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 73, 116, 191, 255 </Build_Countdown_Text_RGBA>
+		<Build_Speech_Underway> EHD_Upgrade_Progress </Build_Speech_Underway>
+		<Build_Speech_Completed> EHD_Upgrade_Complete </Build_Speech_Completed>
+		<Build_Speech_Stopped> EHD_Tech_Upgrade_Canceled </Build_Speech_Stopped>
+		<!-- Intentially called "Speech_Death_Star_Build_" (with trailing underscore)  for varied countdown references in SpeechEvents.xml -->
+		<Build_Speech_Countdowns> Speech_Death_Star_Build_ </Build_Speech_Countdowns>
+		<Build_Music_Completed> Galactic_Death_Star_Complete_Music_Event </Build_Music_Completed>
+        <Lua_Script>Science_Research</Lua_Script>
+
+        <!-- MISC stuff that is only there so game doesnt freak out-->
+        <Space_Model_Name>NV_JEDICRUISER.ALO</Space_Model_Name>
+		<Scale_Factor>1.65</Scale_Factor>
+		<Mass>0.999</Mass>
+		<Select_Box_Scale>400</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Size_Value>8</Size_Value>
+        <Max_Thrust>1.6</Max_Thrust>
+		<Max_Speed>2.2</Max_Speed>
+		
+		<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>5</Bank_Turn_Angle>
+		<Hyperspace>No</Hyperspace>
+		<Hyperspace_Speed>0.9</Hyperspace_Speed>
+		<OverrideAcceleration> .1 </OverrideAcceleration>
+		<OverrideDeceleration> .1 </OverrideDeceleration>
+		<Layer_Z_Adjust> -90 </Layer_Z_Adjust>
+
+		<Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED </Behavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SPAWN_SQUADRON, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<Armor_Type> Armor_Star_Destroyer </Armor_Type>
+		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+
+		<Autoresolve_Health>5200</Autoresolve_Health>
+		<Tactical_Health>5200</Tactical_Health>
+		<Shield_Points>3500</Shield_Points>
+		<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+		<Damage>30</Damage>
+		<Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
+		<AI_Combat_Power>4500</AI_Combat_Power>
+
+		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
+		<Targeting_Max_Attack_Distance>1600.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>100.0</Targeting_Min_Attack_Distance>
+		
+		<HardPoints>
+			HP_Jedi_Cruiser_Shield_Gen,
+			HP_Jedi_Cruiser_Engines,
+			HP_Jedi_Cruiser_Hangar,
+			HP_Jedi_Cruiser_TM,
+			HP_Jedi_Cruiser_ML,
+			HP_Jedi_Cruiser_MR,
+			HP_Jedi_Cruiser_T_B_01,
+			HP_Jedi_Cruiser_T_B_02,
+			HP_Jedi_Cruiser_T_B_03,
+			HP_Jedi_Cruiser_T_B_04,
+			HP_Jedi_Cruiser_I_B_01,
+			HP_Jedi_Cruiser_I_B_02,
+			HP_Jedi_Cruiser_I_B_03,
+			HP_Jedi_Cruiser_I_B_04
+		</HardPoints>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Death_Clone>Damage_Normal, Jedi_Cruiser_Death_Clone</Death_Clone>
+
+		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Ambient_Loop>Unit_Acclamator_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+		<SFXEvent_Select>Unit_Select_Jedi_Cruiser</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Jedi_Cruiser</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Jedi_Cruiser</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Jedi_Cruiser</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Jedi_Cruiser</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Stop_Jedi_Cruiser</SFXEvent_Stop>
+		<SFXEvent_Barrage>Unit_Barrage_Jedi_Cruiser</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Jedi_Cruiser </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Jedi_Cruiser </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+		
+		<SFXEvent_Engine_Idle_Loop> Unit_Acclamator_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Acclamator_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Acclamator_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<CategoryMask> Frigate | AntiCorvette </CategoryMask>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Frigate </Space_Layer>
+		<Guard_Chase_Range>450.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+
+		<Ship_Class>frigate</Ship_Class>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Squadron_Capacity>20</Squadron_Capacity>
+		<Transport_Capacity>20</Transport_Capacity>
+		<Number_per_Squadron>1</Number_per_Squadron>
+
+		<Score_Cost_Credits> 12000 </Score_Cost_Credits>
+		<Cheap_Bribe_Cost>1500</Cheap_Bribe_Cost>
+		<Tactical_Bribe_Cost>3000</Tactical_Bribe_Cost>
+
+		<Defend_Mode_Weapon_Delay_Multiplier>3.0</Defend_Mode_Weapon_Delay_Multiplier>
+		<Defend_Mode_Shield_Regen_Multiplier>5.0</Defend_Mode_Shield_Regen_Multiplier>
+		<Defend_Mode_Energy_Regen_Multiplier>5.0</Defend_Mode_Energy_Regen_Multiplier>
+		<Defend_Mode_Speed_Multiplier>0.5</Defend_Mode_Speed_Multiplier>
+    </SpaceUnit>
+
+</Science_Research_Data>

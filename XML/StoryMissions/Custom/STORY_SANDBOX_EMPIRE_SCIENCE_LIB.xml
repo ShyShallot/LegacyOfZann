@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<Story>
+
+    <Event Name="Empire_Science_Dis">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ACTIVATE_SCIENCE_DISPLAY</Event_Param2>
+        <Story_Dialog>Custom\Dialog_Empire_Science</Story_Dialog>
+        <Story_Chapter>1</Story_Chapter>
+        <Story_Dialog_Popup>False</Story_Dialog_Popup>
+        <Story_Tag>EMPIRE_SCIENCE_DIS</Story_Tag>
+    </Event>
+
+</Story>

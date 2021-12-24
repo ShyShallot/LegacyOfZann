@@ -86,7 +86,7 @@
 		<!-- Intentially called "Speech_Death_Star_Build_" (with trailing underscore)  for varied countdown references in SpeechEvents.xml -->
 		<Build_Speech_Countdowns> Speech_Death_Star_Build_ </Build_Speech_Countdowns>
 		<Build_Music_Completed> Galactic_Death_Star_Complete_Music_Event </Build_Music_Completed>
-		<Lua_Script>SliceAdvanceUpgrade</Lua_Script>
+		<Lua_Script>UpgradeObject</Lua_Script>
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_SLICE_UPGRADE_TWO </Encyclopedia_Text>
 
 		
@@ -117,7 +117,7 @@
 		<!-- Intentially called "Speech_Death_Star_Build_" (with trailing underscore)  for varied countdown references in SpeechEvents.xml -->
 		<Build_Speech_Countdowns> Speech_Death_Star_Build_ </Build_Speech_Countdowns>
 		<Build_Music_Completed> Galactic_Death_Star_Complete_Music_Event </Build_Music_Completed>
-		<Lua_Script>SliceAdvanceUpgrade</Lua_Script>
+		<Lua_Script>UpgradeObject</Lua_Script>
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_SLICE_UPGRADE_THREE </Encyclopedia_Text>
 
 		
@@ -147,7 +147,7 @@
 		<!-- Intentially called "Speech_Death_Star_Build_" (with trailing underscore)  for varied countdown references in SpeechEvents.xml -->
 		<Build_Speech_Countdowns> Speech_Death_Star_Build_ </Build_Speech_Countdowns>
 		<Build_Music_Completed> Galactic_Death_Star_Complete_Music_Event </Build_Music_Completed>
-		<Lua_Script>SliceAdvanceUpgrade</Lua_Script>
+		<Lua_Script>UpgradeObject</Lua_Script>
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_SLICE_UPGRADE_FOUR </Encyclopedia_Text>
 
 		
@@ -177,7 +177,7 @@
 		<!-- Intentially called "Speech_Death_Star_Build_" (with trailing underscore)  for varied countdown references in SpeechEvents.xml -->
 		<Build_Speech_Countdowns> Speech_Death_Star_Build_ </Build_Speech_Countdowns>
 		<Build_Music_Completed> Galactic_Death_Star_Complete_Music_Event </Build_Music_Completed>
-		<Lua_Script>SliceAdvanceUpgrade</Lua_Script>
+		<Lua_Script>UpgradeObject</Lua_Script>
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_SLICE_UPGRADE_FIVE </Encyclopedia_Text>
 
 		

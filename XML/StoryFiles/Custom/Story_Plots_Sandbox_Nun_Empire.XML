@@ -1,9 +1,10 @@
 <?xml version="1.0" ?>
 
 <Story_Mode_Plots>
-	<Lua_Script></Lua_Script>
+	<Lua_Script>ScienceSystem</Lua_Script>
 	<Active_Plot>StoryMissions\Custom\STORY_SANDBOX_NUN_EMPIRE.XML</Active_Plot>
 	<Active_Plot>StoryMissions\Custom\STORY_UNLOCK_ECLIPSE.XML</Active_Plot>
+	<Active_Plot>StoryMissions\Custom\STORY_SANDBOX_EMPIRE_SCIENCE_LIB.XML</Active_Plot>
 	<Active_Plot>STORY_SANDBOX_UNIT_UPGRADE.XML</Active_Plot>
 
 

@@ -16,7 +16,7 @@ function State_Init(message)
     DebugMessage("%s -- In Inital State, Running Script", tostring(Script))
     if message == OnEnter then -- This is Ran when the script starts
         DebugMessage("%s -- In OnEnter, Defining", tostring(Script))
-        Sleep(2)
+        Sleep(1)
         Object.Despawn()
     end
 end

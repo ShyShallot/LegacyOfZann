@@ -12,6 +12,12 @@ function Definitions()
     science_research_locked = false
     last_researched_week = 0
     fall_behind_threshold = 20
+    tech_upgrades = {
+        ["tech_2_upgrade"] = Find_Object_Type("DS_Primary_Hyperdrive"), 
+        ["tech_3_upgrade"] = Find_Object_Type("DS_Shield_Gen"),
+        ["tech_4_upgrade"] = Find_Object_Type("DS_Superlaser_Core"),
+        ["tech_5_upgrade"] = Find_Object_Type("DS_Durasteel")
+    }
 end
 
 function State_Init(message)
@@ -56,7 +62,7 @@ function State_Init(message)
         end
         if GlobalValue.Get("Science_Increased") == 1 then
             DebugMessage("%s -- Science Was Advanced", tostring(Script))
-            last_researched_week = CurrentWeek()
+            last_researched_week = CurrentWeekRounded()
             Game_Message("Next Research will be available in " .. science_research_lock_time .. " Seconds.")
             GlobalValue.Set("Science_Increased", 0)
             Set_Display_Level(cur_level, next_level)
@@ -68,6 +74,8 @@ function State_Init(message)
         if cur_level == next_level then
             Make_Finalizer_Avail()
         end
+        Set_Display_Level(GlobalValue.Get("Science_Level"), GlobalValue.Get("Next_Tech_Up_At")) -- we update the display level cause of other functions in it that update last research time and stuff
+        Sleep(1)
     end
 end
 
@@ -118,25 +126,17 @@ function Set_Display_Level(level, next_level)
         Story_Event("ACTIVATE_SCIENCE_DISPLAY")
         return
     end
-    event.Add_Dialog_Text("Weeks Until Tech Behind: " .. tostring(last_researched_week + fall_behind_threshold))
+    event.Add_Dialog_Text("Weeks Until Tech Behind: " .. tostring((last_researched_week + fall_behind_threshold) - CurrentWeekRounded()))
 
     Story_Event("ACTIVATE_SCIENCE_DISPLAY")
 end
 
 function Make_Finalizer_Avail()
-    if tech_level == 1 then
-        local tech_2_upgrade = Find_Object_Type("DS_Primary_Hyperdrive")
-        player.Unlock_Tech(tech_2_upgrade)
-    elseif tech_level == 2 then
-        local tech_3_upgrade = Find_Object_Type("DS_Shield_Gen")
-        player.Unlock_Tech(tech_3_upgrade)
-    elseif tech_level == 3 then
-        local tech_4_upgrade = Find_Object_Type("DS_Superlaser_Core")
-        player.Unlock_Tech(tech_4_upgrade)
-    elseif tech_level == 4 then
-        local tech_5_upgrade = Find_Object_Type("DS_Durasteel")
-        player.Unlock_Tech(tech_5_upgrade)
+    if tech_level == 5 then
+        return
     end
+    next_tech = tech_level + 1
+    player.Unlock_Tech(tech_upgrades["tech_" .. next_tech.. "_upgrade"])
 end
 
 -- Credit to MaxiM
@@ -154,23 +154,30 @@ function Unlock_Science_Research() -- This code is modified from the AOTR Interv
 end
 
 function Is_Player_Falling_Behind()
-    if (last_researched_week +  fall_behind_threshold) >= CurrentWeek() then
-        previous_tech_level = tech_level - 1
-        if previous_tech_level <= 1 then
-            return
-        end
-        player.Set_Tech_Level(previous_tech_level)
+    DebugMessage("%s -- Fall Behind Week: %s", tostring(Script), tostring(last_researched_week +  fall_behind_threshold))
+    if Dirty_Floor(last_researched_week +  fall_behind_threshold) == CurrentWeekRounded() or Dirty_Floor(last_researched_week + fall_behind_threshold) - CurrentWeekRounded() < 1 then
+        DebugMessage("%s -- Player Has Fell Behind", tostring(Script))
+        Story_Event("SCIENCE_FELL_BEHIND")
+        Fall_Tech_Level()
         Sleep(1)
         Set_Level()
         Sleep(1)
         Set_Display_Level(GlobalValue.Get("Science_Level"), GlobalValue.Get("Next_Tech_Up_At"))
-        Story_Event("SCIENCE_FELL_BEHIND")
         Sleep(10)
         Story_Event("REMOVE_FELL_BEHIND")
     end
-    if (last_researched_week + (fall_behind_threshold / 2)) >= CurrentWeek() then
+    if Dirty_Floor(last_researched_week + (fall_behind_threshold / 2)) == CurrentWeekRounded() then
+        DebugMessage("%s -- Player is Falling Behind", tostring(Script))
         Story_Event("SCIENCE_FALLING_BEHIND")
         Sleep(10)
         Story_Event("REMOVE_FALLING_BEHIND")
     end
+end
+
+function Fall_Tech_Level()
+    previous_tech_level = tech_level - 1
+    if previous_tech_level == 0 then
+        return
+    end
+    Story_Event("SET_TO_TECH_LEVEL_".. tostring(previous_tech_level))
 end

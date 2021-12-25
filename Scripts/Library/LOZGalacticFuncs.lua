@@ -1,7 +1,8 @@
 require("LOZFunctions")
 require("PGBase")
+weekTime = 45 -- this should match <Fiscal_Cycle_Time_In_Secs> Found in the GameConstants.xml
 function CurrentWeek()
-    week = (GetCurrentTime.Galactic_Time() / 60)
+    week = (GetCurrentTime.Galactic_Time() / weekTime)
     if week < 1 then
         week = 1
     end
@@ -9,6 +10,6 @@ function CurrentWeek()
 end
 
 function CurrentWeekRounded()
-    local GCTime = GetCurrentTime.Galactic_Time() / 60
-    return Dirty_Floor(GCTime)
+    local GCTime = (GetCurrentTime.Galactic_Time() / weekTime) + 0.7
+    return Dirty_Floor(GCTime) 
 end

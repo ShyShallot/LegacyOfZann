@@ -43,4 +43,45 @@
         <Reward_Type>REMOVE_STORY_GOAL</Reward_Type>
         <Reward_Param1>EMPIRE_SCIENCE_DIS_FALLING</Reward_Param1>
     </Event>
+
+    <!-- Tech Level Set-->
+    <Event Name="Set_To_Tech_1">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>SET_TO_TECH_LEVEL_1</Event_Param2>
+        <Reward_Type>SET_TECH_LEVEL</Reward_Type>
+        <Reward_Param1>Empire</Reward_Param1>
+        <Reward_Param2>1</Reward_Param2>
+    </Event>
+
+    <Event Name="Set_To_Tech_2">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>SET_TO_TECH_LEVEL_2</Event_Param2>
+        <Reward_Type>SET_TECH_LEVEL</Reward_Type>
+        <Reward_Param1>Empire</Reward_Param1>
+        <Reward_Param2>2</Reward_Param2>
+    </Event>
+
+    <Event Name="Set_To_Tech_3">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>SET_TO_TECH_LEVEL_3</Event_Param2>
+        <Reward_Type>SET_TECH_LEVEL</Reward_Type>
+        <Reward_Param1>Empire</Reward_Param1>
+        <Reward_Param2>3</Reward_Param2>
+    </Event>
+
+    <Event Name="Set_To_Tech_4">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>SET_TO_TECH_LEVEL_4</Event_Param2>
+        <Reward_Type>SET_TECH_LEVEL</Reward_Type>
+        <Reward_Param1>Empire</Reward_Param1>
+        <Reward_Param2>4</Reward_Param2>
+    </Event>
+
+    <Event Name="Set_To_Tech_5">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>SET_TO_TECH_LEVEL_5</Event_Param2>
+        <Reward_Type>SET_TECH_LEVEL</Reward_Type>
+        <Reward_Param1>Empire</Reward_Param1>
+        <Reward_Param2>5</Reward_Param2>
+    </Event>
 </Story>

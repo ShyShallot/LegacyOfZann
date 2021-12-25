@@ -3,8 +3,8 @@ require("PGStateMachine")
 require("PGBase")
 require("PGSpawnUnits")
 require("PGInterventions")
-
-
+-- This shit dont event work but it will be an even bigger project, it might work similar to the fear system of AOTR but
+-- I dont know the plans for this script so it just kinda sits here staring blankly at who ever dare opens this script
 function Definitions()
     DebugMessage("%s -- In Definitions", tostring(Script))
     Define_State("State_Init", State_Init);

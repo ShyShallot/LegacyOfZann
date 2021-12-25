@@ -3,8 +3,7 @@ require("PGStateMachine")
 require("PGBase")
 require("PGSpawnUnits")
 require("LOZFunctions")
--- Please Note this script is a total fucking mess, it works and i dont want to spend 2 more days re-writing it
--- This script File is the main Function File for the Rebel Slice Mechanic
+-- Im not entirley sure if this script gets ran cause its on the Tech Upgrade
 function Definitions()
     DebugMessage("%s -- In Definitions", tostring(Script))
     Define_State("State_Init", State_Init);

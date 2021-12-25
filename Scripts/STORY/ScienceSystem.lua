@@ -80,14 +80,9 @@ function State_Init(message)
 end
 
 function Lock_Tech_Levels()
-    local tech_2 = Find_Object_Type("DS_Primary_Hyperdrive")
-    player.Lock_Tech(tech_2)
-    local tech_3 = Find_Object_Type("DS_Shield_Gen")
-    player.Lock_Tech(tech_3)
-    local tech_4 = Find_Object_Type("DS_Superlaser_Core")
-    player.Lock_Tech(tech_4)
-    local tech_5 = Find_Object_Type("DS_Durasteel")
-    player.Lock_Tech(tech_5)
+    for i=2,5,1 do
+        player.Lock_Tech(tech_upgrades["tech_" .. i .. "_upgrade"])
+    end
 end
 
 function Set_Level()

@@ -84,4 +84,29 @@
         <Reward_Param1>Empire</Reward_Param1>
         <Reward_Param2>5</Reward_Param2>
     </Event>
+
+    <!-- Actual Missions -->
+    <Event Name="Send_Tarkin_To_Planet_Start">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>START_TARKIN_MISSION</Event_Param2>
+        <Story_Dialog>Custom\Dialog_Empire_Science</Story_Dialog>
+        <Story_Chapter>4</Story_Chapter>
+        <Story_Dialog_Popup>False</Story_Dialog_Popup>
+        <Story_Tag>Send_Tarkin_To_Planet_Start</Story_Tag>
+    </Event>
+    
+    <Event Name="Send_Tarkin_Succeed">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>SEND_TARKIN_COMPLETE</Event_Param2>
+        <Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+        <Reward_Param1>Send_Tarkin_To_Planet_Start</Reward_Param1>
+    </Event>
+
+    <Event Name="Send_Tarkin_Mission_Remove">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>SEND_TARKIN_MISSION_REMOVE</Event_Param2>
+        <Reward_Type>REMOVE_STORY_GOAL</Reward_Type>
+        <Reward_Param1>Send_Tarkin_To_Planet_Start</Reward_Param1>
+    </Event>
+    
 </Story>

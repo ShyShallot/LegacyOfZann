@@ -10,7 +10,7 @@ function CurrentWeek()
 end
 
 function CurrentWeekRounded()
-    local GCTime = (GetCurrentTime.Galactic_Time() / weekTime) + 0.7
+    local GCTime = (GetCurrentTime.Galactic_Time() / weekTime) + 0.4
     return tonumber(Dirty_Floor(GCTime))
 end
 

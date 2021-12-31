@@ -11,7 +11,7 @@ function Definitions()
     DebugMessage("%s -- In Definitions", tostring(Script))
 	ServiceRate = 1 
 	Define_State("State_Init", State_Init);
-    science_research_data = {
+    science_research_data = { -- simplified the science funding data into array, dont know why i didnt do this in the first place
         ["lock_time"] = WeekTime() * 3,
         ["locked"] = false,
         ["active"] = false,
@@ -27,7 +27,7 @@ function Definitions()
         ["research_upgrade"] = Find_Object_Type("Science_Research")
     }
     research_mission_data = {
-        ["chance"] = 0.55, -- 55% chance for a mission
+        ["chance"] = 0.65, -- 55% chance for a mission
         ["active"] = false,
         ["missions"] = {
             "Send_Tarkin_To_Planet"
@@ -88,7 +88,6 @@ function State_Init(message)
             Set_Display_Level(cur_level, next_level)
             Toggle_Research_Upgrade(true)
             Create_Thread("Unlock_Science_Research")
-            any_research_cooldown = true
             Create_Thread("Research_Cooldown")
         end
         if cur_level == next_level then
@@ -116,7 +115,6 @@ function Toggle_Research_Upgrade(bool)
         player.Unlock_Tech(tech_upgrades["research_upgrade"])
         science_research_data["active"] = true
         science_research_data["locked"] = false
-        Game_Message("Science Funding is Now Available")
     end
 end
 
@@ -277,12 +275,12 @@ function Calculate_Credit_Return(factor)
     end -- We dont need one for Tech 5 as the script doesnt run at that point
     local diff = player.Get_Difficulty()
     local multi = 1
-    if diff == "Easy" then
+    if diff == "Easy" then -- Since we had the multiplier set to 1 on normal diff no need to check if we on that difficulty only modify it if its another one
         multi = 0.8
     elseif diff == "Hard" then
         multi = 1.5
     end
-    if not factor then
+    if not factor then -- Set a default factor if the func was not fed one
         factor = 1
     end
     return tonumber(Dirty_Floor(credits * multi * factor))
@@ -297,7 +295,7 @@ function Check_Current_Mission()
         DebugMessage("%s -- Mission Status: %s", tostring(Script), tostring(Check_Mission_Status(current_mission["flag"])))
         if Check_Mission_Status(current_mission["flag"]) and CurrentWeekRounded() <= current_mission["start"] + current_mission["timetocomplete"] then
             DebugMessage("%s -- Player Has Completed the Mission", tostring(Script))
-            local credits_to_give = Calculate_Credit_Return(1)
+            local credits_to_give = Calculate_Credit_Return(1) -- Calculate the amount of Credits to give based off Difficulty, Tech Level, and a given Factor
             if current_mission["winfunc"] then
                 _G[current_mission["winfunc"]](credits_to_give)
             end
@@ -311,7 +309,6 @@ function Check_Current_Mission()
             research_mission_data["active"] = false
             Mission_Cooldown()
             last_researched_week = CurrentWeekRounded()
-            any_research_cooldown = true
             Create_Thread("Research_Cooldown")
             return -- since we reset current_mission we have to return so that the if statement for checking if we failed the mission gets canceled
         end
@@ -324,7 +321,6 @@ function Check_Current_Mission()
             current_mission = {}
             research_mission_data["active"] = false
             Mission_Cooldown()
-            any_research_cooldown = true
             Create_Thread("Research_Cooldown")
         end
     end
@@ -343,7 +339,7 @@ function Mission_Cooldown()
     end
 end
 
-function Unlock_Missions()
+function Unlock_Missions() -- Cooldown Thread thing
     Game_Message("Missions On Cooldown for " .. research_mission_data["cooldown_time"] / WeekTime() .. " Weeks")
     research_mission_data["cooldown_active"] = true
     Sleep(research_mission_data["cooldown_time"])
@@ -351,9 +347,10 @@ function Unlock_Missions()
     Game_Message("Missions No Longer on Cooldown")
 end
 
-function Science_Level_Chooser()
+function Science_Level_Chooser() -- This function is a fucking mess and i dont fully understand it but it works so whatever
     Sleep(1)
     if any_research_cooldown and last_researched_week ~= 0 then
+        DebugMessage("%s -- Research and Funding is on Cooldown", tostring(Script))
         return
     end
     if science_research_data["cooldown_active"] and research_mission_data["cooldown_active"] then
@@ -381,7 +378,7 @@ function Science_Level_Chooser()
     end
 end
 
-function Check_Mission_Status(mission_flag)
+function Check_Mission_Status(mission_flag) -- Seperate Function as it gets checked in an If Statement
     if(_G[mission_flag]()) then
         return true
     else
@@ -390,18 +387,18 @@ function Check_Mission_Status(mission_flag)
 end
 
 function Has_Tarkin_Arrived() -- this func is a mess cause Story Scripting was being a pain in the ass
-    local tarkin = Find_First_Object("Grand_Moff_Tarkin")
-    local tarkin_planet = tarkin.Get_Planet_Location()
-    if TestValid(tarkin_planet) then
-        if tarkin.Get_Planet_Location().Get_Type().Get_Name() == current_mission["goal"] then
-            DebugMessage("%s -- Tarkin Has Arrived to Goal Planet", tostring(Script))
+    local tarkin = Find_First_Object("Grand_Moff_Tarkin") -- Trying to find the Team Returned Nil, so if you want the team Object copy below with the Get_Parent_Object
+    local tarkin_planet = tarkin.Get_Planet_Location() -- Get his planet location
+    if TestValid(tarkin_planet) then -- if he is on a planet
+        if tarkin.Get_Planet_Location().Get_Type().Get_Name() == current_mission["goal"] then 
             DebugMessage("%s -- Tarkins Parent Object: %s", tostring(Script), tostring(tarkin.Get_Parent_Object()))
             local tarkin_parent = tarkin.Get_Parent_Object()
-            if TestValid(tarkin_parent) then
-                local tarkin_planet = tarkin_parent.Get_Parent_Object()
+            if TestValid(tarkin_parent) then -- If we got Tarkins Parent Object successfully
+                local tarkin_planet = tarkin_parent.Get_Parent_Object() -- Get Tarkins Parent Object Parent Object, this is a weird ass workaround to a CTD i was too frustrated to figure out
                 if TestValid(tarkin_planet) then
                     DebugMessage("%s -- Tarkin Teams Parent Object: %s", tostring(Script), tostring(tarkin_planet))
-                    if tarkin_planet.Get_Type().Get_Name() == current_mission["goal"] then
+                    if tarkin_planet.Get_Type().Get_Name() == current_mission["goal"] then -- This is to make sure he is on the Ground, as the Parent Object of a Land Team returns the Planet, if the team object is in Space it Returns Galactic Fleet
+                        DebugMessage("%s -- Tarkin Has Arrived to Goal Planet", tostring(Script))
                         return true
                     end
                 end
@@ -425,7 +422,7 @@ function Tarkin_Fail()
     tarkin_event_text.Add_Dialog_Text("TEXT_STORY_EMPIRE_SCIENCE_MISSION_STATUS", "Failed")
 end
 
-function Remove_Story_Mission(story_event)
+function Remove_Story_Mission(story_event) -- Gets Ran in a Thread so it doesnt interupt any other script function
     DebugMessage("%s -- Starting Remove Event Timer", tostring(Script))
     Sleep(10)
     Story_Event(story_event)
@@ -433,6 +430,7 @@ function Remove_Story_Mission(story_event)
 end
 
 function Research_Cooldown()
+    any_research_cooldown = true
     if any_research_cooldown then
         Sleep(research_cooldown)
         any_research_cooldown = false

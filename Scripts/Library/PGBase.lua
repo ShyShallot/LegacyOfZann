@@ -178,7 +178,7 @@ function Clamp(value, min, max)
 end
 
 -- Nasty hack of a floor function to be replaced if a math library floor funciton is exposed
-function Dirty_Floor(val)
+function Dirty_Floor(val) -- I was blind and you may be too but this func returns a string not a number
 	return string.format("%d", val) -- works on implicit string to int conversion
 end
 

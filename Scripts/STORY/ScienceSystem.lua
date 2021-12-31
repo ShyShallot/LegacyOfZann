@@ -11,10 +11,12 @@ function Definitions()
     DebugMessage("%s -- In Definitions", tostring(Script))
 	ServiceRate = 1 
 	Define_State("State_Init", State_Init);
-    science_research_lock_time = WeekTime() * 3 -- Lock it for 3 weeks
-    science_research_locked = false
-    science_research_active = false
-    science_research_cooldown_active = false
+    science_research_data = {
+        ["lock_time"] = WeekTime() * 3,
+        ["locked"] = false,
+        ["active"] = false,
+        ["cooldown_active"] = false
+    }
     last_researched_week = 0 -- You cant have this 1 as it might fuck with things :)
     fall_behind_threshold = 20 -- The amount of Weeks the player has to do any Research tasks
     tech_upgrades = { -- Create an Array with data values so that we dont have to have like 5 billion if else statements
@@ -24,14 +26,18 @@ function Definitions()
         ["tech_5_upgrade"] = Find_Object_Type("DS_Durasteel"),
         ["research_upgrade"] = Find_Object_Type("Science_Research")
     }
-    mission_chance = 0.55 -- 55% chance for a mission
-    research_mission_active = false
-    research_missions = {
-        "Send_Tarkin_To_Planet"
+    research_mission_data = {
+        ["chance"] = 0.55, -- 55% chance for a mission
+        ["active"] = false,
+        ["missions"] = {
+            "Send_Tarkin_To_Planet"
+        },
+        ["cooldown_active"] = false,
+        ["cooldown_time"] = WeekTime() * 5 -- lock missions for 5 weeks
     }
     current_mission = {}
-    missions_on_cooldown = false
-    mission_cooldown_time = WeekTime() * 5 -- lock missions for 5 weeks
+    any_research_cooldown = false 
+    research_cooldown = WeekTime() * 3
 end
 
 function State_Init(message)
@@ -77,11 +83,13 @@ function State_Init(message)
         if GlobalValue.Get("Science_Increased") == 1 then
             DebugMessage("%s -- Science Was Advanced", tostring(Script))
             last_researched_week = CurrentWeekRounded()
-            Game_Message("Next Research will be available in " .. science_research_lock_time .. " Seconds.")
+            Game_Message("Next Research will be available in " .. science_research_data["lock_time"] / WeekTime()  .. " Weeks.")
             GlobalValue.Set("Science_Increased", 0)
             Set_Display_Level(cur_level, next_level)
             Toggle_Research_Upgrade(true)
             Create_Thread("Unlock_Science_Research")
+            any_research_cooldown = true
+            Create_Thread("Research_Cooldown")
         end
         if cur_level == next_level then
             Make_Finalizer_Avail()
@@ -102,12 +110,13 @@ end
 function Toggle_Research_Upgrade(bool)
     if bool then
         player.Lock_Tech(tech_upgrades["research_upgrade"])
-        science_research_active = false
-        science_research_locked = true
+        science_research_data["active"] = false
+        science_research_data["locked"] = true
     else
         player.Unlock_Tech(tech_upgrades["research_upgrade"])
-        science_research_active = true
-        science_research_locked = false
+        science_research_data["active"] = true
+        science_research_data["locked"] = false
+        Game_Message("Science Funding is Now Available")
     end
 end
 
@@ -138,8 +147,7 @@ function Set_Display_Level(level, next_level)
     event.Add_Dialog_Text("Current Science Level: " .. tostring(level)) -- I know that the concat shit auto converts numbers to string but programming paranoia hits when you have to restart the game over and over
     event.Add_Dialog_Text("Next Level Until Tech Level Increase: " .. tostring(next_level))
     if last_researched_week == 0 then
-        last_researched_week_s = "None"
-        event.Add_Dialog_Text("Last Week Research Happened: ".. tostring(last_researched_week_s))
+        event.Add_Dialog_Text("Last Week Research Happened: None")
     else
         event.Add_Dialog_Text("Last Week Research Happened: ".. tostring(last_researched_week))
     end
@@ -148,10 +156,12 @@ function Set_Display_Level(level, next_level)
         return
     end
     event.Add_Dialog_Text("Weeks Until Tech Behind: " .. tostring((last_researched_week + fall_behind_threshold) - CurrentWeekRounded()))
-    if science_research_active then
-        event.Add_Dialog_Text("Science Research Funding is Now Available")
+    if science_research_data["active"] then
+        event.Add_Dialog_Text("Science Research Funding is Now Available.")
+    elseif any_research_cooldown then
+        event.Add_Dialog_Text("Research Funding and Missions are On Cooldown for " .. (last_researched_week + (research_cooldown / WeekTime()) - CurrentWeekRounded()) .. " Weeks.")
     else
-        event.Add_Dialog_Text("Science Research Funding is Not Available, Check for any Active Science Missions")
+        event.Add_Dialog_Text("Science Research Funding is Not Available, Check for any Active Science Missions.")
     end
     Story_Event("ACTIVATE_SCIENCE_DISPLAY")
 end
@@ -164,18 +174,11 @@ function Make_Finalizer_Avail()
     player.Unlock_Tech(tech_upgrades["tech_" .. next_tech.. "_upgrade"])
 end
 
--- Credit to MaxiM
-function Unlock_Science_Research() -- This code is modified from the AOTR Interventions Timer, cause using Sleep would pause our entire script for a long period of time which we dont wanna do
-    local counter = 0
-    science_research_cooldown_active = true
-    while science_research_locked do
-        if counter == science_research_lock_time then
-            Toggle_Research_Upgrade()
-            science_research_cooldown_active = false
-        end
-        Sleep(1)
-        counter = counter + 1
-    end
+function Unlock_Science_Research()
+    science_research_data["cooldown_active"] = true
+    Sleep(science_research_data["lock_time"])
+    Toggle_Research_Upgrade()
+    science_research_data["cooldown_active"] = false
 end
 
 function Is_Player_Falling_Behind()
@@ -208,10 +211,10 @@ function Fall_Tech_Level()
 end
 
 function Research_Mission_Handler() -- Todo, cause just having research upgrade stuff would be boring and too linear with less chances of fucking up :)
-    DebugMessage("%s -- Research Missions Table Length: %s", tostring(Script), tostring(table.getn(research_missions)))
-    local random_mission = GameRandom(1, table.getn(research_missions))
+    DebugMessage("%s -- Research Missions Table Length: %s", tostring(Script), tostring(table.getn(research_mission_data["missions"])))
+    local random_mission = GameRandom(1, table.getn(research_mission_data["missions"]))
     DebugMessage("%s -- Random Mission: %s", tostring(Script), tostring(random_mission))
-    _G[research_missions[random_mission]]()
+    _G[research_mission_data["missions"][random_mission]]()
 end
 
 function Build_A_Unit()
@@ -220,7 +223,7 @@ end
 
 function Send_Tarkin_To_Planet()
     DebugMessage("%s -- Running Sending Tarkin to Planet Mission", tostring(Script))
-    research_mission_active = true
+    research_mission_data["active"] = true
     local tarkin = Find_First_Object("Grand_Moff_Tarkin")
     local planets = FindPlanet.Get_All_Planets()
     DebugMessage("%s -- Planets: %s", tostring(Script), tostring(planets))
@@ -287,7 +290,7 @@ end
 
 function Check_Current_Mission()
     DebugMessage("%s -- Checking Mission Status", tostring(Script))
-    if research_mission_active then
+    if research_mission_data["active"] then
         DebugMessage("%s -- Mission Active Checking Story Flag", tostring(Script))
         --DebugMessage("%s -- CurrentWeek Type: %s, Mission Start Time Type: %s, Mission Time to Complete Type: %s", tostring(Script), tostring(type(CurrentWeekRounded())), tostring(type(current_mission["start"])), tostring(type(current_mission["timetocomplete"])))
         DebugMessage("%s -- Week Threshold to Complete Mission: %s", tostring(Script), tostring(current_mission["start"] + current_mission["timetocomplete"]))
@@ -305,9 +308,11 @@ function Check_Current_Mission()
             local add_science = science + 1
             GlobalValue.Set("Science_Level", add_science)
             current_mission = {}
-            research_mission_active = false
+            research_mission_data["active"] = false
             Mission_Cooldown()
             last_researched_week = CurrentWeekRounded()
+            any_research_cooldown = true
+            Create_Thread("Research_Cooldown")
             return -- since we reset current_mission we have to return so that the if statement for checking if we failed the mission gets canceled
         end
         if CurrentWeekRounded() > (current_mission["start"] + current_mission["timetocomplete"]) then
@@ -317,8 +322,10 @@ function Check_Current_Mission()
             end
             Mission_Fail()
             current_mission = {}
-            research_mission_active = false
+            research_mission_data["active"] = false
             Mission_Cooldown()
+            any_research_cooldown = true
+            Create_Thread("Research_Cooldown")
         end
     end
 end
@@ -331,35 +338,46 @@ function Mission_Fail()
 end
 
 function Mission_Cooldown()
-    if not missions_on_cooldown then
-        missions_on_cooldown = true
+    if not research_mission_data["cooldown_active"] then
         Create_Thread("Unlock_Missions")
     end
 end
 
 function Unlock_Missions()
-    local counter = 0
-    while missions_on_cooldown do
-        if counter == mission_cooldown_time then
-            missions_on_cooldown = false
-        end
-        Sleep(1)
-        counter = counter + 1
-    end
+    Game_Message("Missions On Cooldown for " .. research_mission_data["cooldown_time"] / WeekTime() .. " Weeks")
+    research_mission_data["cooldown_active"] = true
+    Sleep(research_mission_data["cooldown_time"])
+    research_mission_data["cooldown_active"] = false
+    Game_Message("Missions No Longer on Cooldown")
 end
 
 function Science_Level_Chooser()
-    if not missions_on_cooldown and not research_mission_active and not science_research_active and science_research_locked and not science_research_cooldown_active then
-        if Return_Chance(mission_chance, 1) then
+    Sleep(1)
+    if any_research_cooldown and last_researched_week ~= 0 then
+        return
+    end
+    if science_research_data["cooldown_active"] and research_mission_data["cooldown_active"] then
+        return
+    end
+    if research_mission_data["cooldown_active"] and not science_research_data["cooldown_active"] and not research_mission_data["active"] and not science_research_data["active"] then
+        Game_Message("Research Funding is now Available, Check a planet with a Research Facility")
+        Toggle_Research_Upgrade()
+        return
+    end
+    if not research_mission_data["cooldown_active"] and not research_mission_data["active"] and not science_research_data["active"] and science_research_data["cooldown_active"] then
+        Research_Mission_Handler()
+        return
+    end
+    if not science_research_data["cooldown_active"] and not research_mission_data["cooldown_active"] and not research_mission_data["active"] and science_research_data["locked"] then
+        if Return_Chance(research_mission_data["chance"], 1) then
             Game_Message("A Science Mission is now Available, Check your Mission Logs")
             Research_Mission_Handler()
+            return
         else 
             Game_Message("Research Funding is now Available, Check a planet with a Research Facility")
             Toggle_Research_Upgrade()
+            return
         end
-    end
-    if missions_on_cooldown and not research_mission_active and not science_research_active and science_research_locked and not science_research_cooldown_active then -- if we recently completed a mission and no research funding is active
-        Toggle_Research_Upgrade()
     end
 end
 
@@ -412,4 +430,11 @@ function Remove_Story_Mission(story_event)
     Sleep(10)
     Story_Event(story_event)
     DebugMessage("%s -- Removed Story Mission Dialog", tostring(Script))
+end
+
+function Research_Cooldown()
+    if any_research_cooldown then
+        Sleep(research_cooldown)
+        any_research_cooldown = false
+    end
 end

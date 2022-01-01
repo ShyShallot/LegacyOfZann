@@ -349,6 +349,7 @@ end
 
 function Science_Level_Chooser() -- This function is a fucking mess and i dont fully understand it but it works so whatever
     Sleep(1)
+    DebugMessage("%s -- Current Status's: General Cooldown: %s, Mission Active: %s, Missions On Cooldown: %s, Research Funding Locked: %s, Research Funding Active: %s, Research Funding on Cooldown: %s", tostring(Script), tostring(any_research_cooldown), tostring(research_mission_data["active"]), tostring(research_mission_data["cooldown_active"]), tostring(science_research_data["locked"]), tostring(science_research_data["active"]), tostring(science_research_data["cooldown_active"]))
     if any_research_cooldown and last_researched_week ~= 0 then
         DebugMessage("%s -- Research and Funding is on Cooldown", tostring(Script))
         return
@@ -366,7 +367,7 @@ function Science_Level_Chooser() -- This function is a fucking mess and i dont f
         return
     end
     if not science_research_data["cooldown_active"] and not research_mission_data["cooldown_active"] and not research_mission_data["active"] and science_research_data["locked"] then
-        if Return_Chance(research_mission_data["chance"], 1) then
+        if Return_Chance(research_mission_data["chance"], 1.25) then
             Game_Message("A Science Mission is now Available, Check your Mission Logs")
             Research_Mission_Handler()
             return

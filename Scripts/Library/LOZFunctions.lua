@@ -9,7 +9,9 @@ function Return_Chance(value_to_check, factor) -- Returns true or false
     if value_to_check <= 1 then
         chance = GameRandom.Get_Float(0, 1) 
         chance = chance / factor
+        DebugMessage("%s -- Generated Chance: %s", tostring(Script), tostring(chance))
         if chance <= value_to_check then -- the value to check is the threshold to our chance, so if you input 0.65 as long as its greater than or equal to it succeeds
+            DebugMessage("%s -- %s was Smaller or Equal to: %s", tostring(Script), tostring(value_to_check), tostring(value_to_check))
             return true 
         end
     elseif value_to_check <= 100 and value_to_check >= 1 then

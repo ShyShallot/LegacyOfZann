@@ -176,6 +176,7 @@ function Unlock_Science_Research()
     science_research_data["cooldown_active"] = true
     Sleep(science_research_data["lock_time"])
     Toggle_Research_Upgrade()
+    Game_Message("Research Funding is now Available, Check a planet with a Research Facility")
     science_research_data["cooldown_active"] = false
 end
 

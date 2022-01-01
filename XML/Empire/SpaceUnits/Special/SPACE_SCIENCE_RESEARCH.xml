@@ -6,7 +6,7 @@
 		<Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text> TEXT_IMPERIAL_SCIENCE_RESEARCH_TOOLTIP </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_RESEACH </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_death_star_build.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_SCIENCE_FUNDING.TGA</Icon_Name>
 		<Affiliation>Empire</Affiliation>
         <Is_Dummy>Yes</Is_Dummy>
 		<Tech_Level>0</Tech_Level>

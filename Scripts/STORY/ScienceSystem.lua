@@ -3,6 +3,7 @@ require("PGBase")
 require("PGSpawnUnits")
 require("LOZFunctions")
 require("LOZGalacticFuncs")
+require("LOZSTORYFUNCS")
 -- Author: ShyShallot
 -- This Script Handles the Science System for the Empire
 -- Do not use the Science system with the AI as thats a fuck ton of more bullshit, we can just have the AI tech normally via upgrades
@@ -30,10 +31,59 @@ function Definitions()
         ["chance"] = 0.65, -- 55% chance for a mission
         ["active"] = false,
         ["missions"] = {
-            "Send_Tarkin_To_Planet"
+            "Send_Tarkin_To_Planet",
+            "Build_A_Unit"
         },
         ["cooldown_active"] = false,
         ["cooldown_time"] = WeekTime() * 5 -- lock missions for 5 weeks
+    }
+    research_mission_units = {
+        ["Prototype_Titan_ISD"] = Find_Object_Type("Titan_Star_Destroyer_Prototype"),
+        ["MK2_Star_Destroyer"] = Find_Object_Type("Star_Destroyer_2_Prototype"),
+        ["Prototype_Frigate"] = Find_Object_Type("Arquentins_MK2_Prototype"),
+        ["Stealth_TIE_Prototype"] = Find_Object_Type("TIE_Phantom_Squadron_Prototype")
+    }
+    level_data = {
+        [1] = {
+            ["Science_Level"] = 0,
+            ["Next_Tech_Up_At"] = 5
+        },
+        [2] = {
+            ["Science_Level"] = 5,
+            ["Next_Tech_Up_At"] = 10
+        },
+        [3] = {
+            ["Science_Level"] = 10,
+            ["Next_Tech_Up_At"] = 15
+        },
+        [4] = {
+            ["Science_Level"] = 15,
+            ["Next_Tech_Up_At"] = 20
+        },
+        [5] = {
+            ["Science_Level"] = 20,
+            ["Next_Tech_Up_At"] = 25 -- Unused, only to not break any system
+        },
+        level = function()
+            return GlobalValue.Get("Science_Level")
+        end,
+        Next_Level = function()
+            return GlobalValue.Get("Next_Tech_Up_At")
+        end,
+        Add_Level = function(inc)
+            if not inc then
+                inc = level_data["Mission_Increase"]
+            end
+            local newLevel = level_data.level() + inc
+            GlobalValue.Set("Science_Level", newLevel)
+        end,
+        Set_Level = function(tech_level)
+            GlobalValue.Set("Science_Level", level_data[tech_level]["Science_Level"])
+        end,
+        Set_Next_Level = function(tech_level)
+            GlobalValue.Set("Next_Tech_Up_At", level_data[tech_level]["Next_Tech_Up_At"])
+        end,
+        ["Mission_Increase"] = 1 -- Just to have a default global value
     }
     current_mission = {}
     any_research_cooldown = false 
@@ -44,9 +94,9 @@ function State_Init(message)
 	if message == OnEnter then
         DebugMessage("%s -- Setting Init Values", tostring(Script))
         GlobalValue.Set("Science_Level", 0) -- We need these as global values, 1 so that we can set them from any other script and 2 so that they can be as easily changes as a normal var
-        GlobalValue.Set("Next_Tech_Up_At", 0)
+        GlobalValue.Set("Next_Tech_Up_At", 0) -- Although we a func for this in our level_data we dont have one to init
         GlobalValue.Set("Science_Increased", 0)
-        GlobalValue.Set("Tech_Upgrade_Dones", 0)
+        GlobalValue.Set("Tech_Upgrade_Done", 0)
         player = Find_Player("Empire") -- define are player so that we can actually do things :) Also i think the Faction Name has to be exact from the XML definiton but too lazy to check
         tech_level = player.Get_Tech_Level() -- Get our Tech Level so that we can properly define our starting Science Level
         if(tech_level == 5) then
@@ -57,7 +107,7 @@ function State_Init(message)
         Sleep(1)
         Set_Level()
         Sleep(1)
-        Set_Display_Level(GlobalValue.Get("Science_Level"), GlobalValue.Get("Next_Tech_Up_At"))
+        Set_Display_Level(level_data.level(), level_data.Next_Level())
         Lock_Tech_Levels()
         Toggle_Research_Upgrade(true)
 	end
@@ -70,15 +120,15 @@ function State_Init(message)
         if(tech_level == 5) then
             ScriptExit()
         end
-        cur_level = GlobalValue.Get("Science_Level")
-        next_level = GlobalValue.Get("Next_Tech_Up_At")
+        cur_level = level_data.level()
+        next_level = level_data.Next_Level()
         DebugMessage("%s -- Current Level: %s, Next Level: %s", tostring(Script), tostring(cur_level), tostring(next_level))
-        if GlobalValue.Get("Tech_Upgrade_Dones") == 1 then
+        if GlobalValue.Get("Tech_Upgrade_Done") == 1 then
             DebugMessage("%s -- Tech Upgrade Finished setting level vals", tostring(Script))
             Set_Level()
             Sleep(1)
-            Set_Display_Level(GlobalValue.Get("Science_Level"), GlobalValue.Get("Next_Tech_Up_At"))
-            GlobalValue.Set("Tech_Upgrade_Dones", 0)
+            Set_Display_Level(level_data.level(), level_data.Next_Level())
+            GlobalValue.Set("Tech_Upgrade_Done", 0)
         end
         if GlobalValue.Get("Science_Increased") == 1 then
             DebugMessage("%s -- Science Was Advanced", tostring(Script))
@@ -93,7 +143,7 @@ function State_Init(message)
         if cur_level == next_level then
             Make_Finalizer_Avail()
         end
-        Set_Display_Level(GlobalValue.Get("Science_Level"), GlobalValue.Get("Next_Tech_Up_At")) -- we update the display level cause of other functions in it that update last research time and stuff
+        Set_Display_Level(level_data.level(), level_data.Next_Level()) -- we update the display level cause of other functions in it that update last research time and stuff
         Science_Level_Chooser()
         Check_Current_Mission()
         Sleep(1)
@@ -120,18 +170,8 @@ end
 
 function Set_Level() -- Function for Handeling Science Value shit whenever our Tech Level changes, also gets run on script startup
     DebugMessage("%s -- Setting up Science Level Vals", tostring(Script))
-    if tech_level == 1 then
-        GlobalValue.Set("Next_Tech_Up_At", 5)
-    elseif tech_level == 2 then
-        GlobalValue.Set("Science_Level", 5)
-        GlobalValue.Set("Next_Tech_Up_At", 10)
-    elseif tech_level == 3 then
-        GlobalValue.Set("Science_Level", 10)
-        GlobalValue.Set("Next_Tech_Up_At", 15)
-    elseif tech_level == 4 then
-        GlobalValue.Set("Science_Level", 15)
-        GlobalValue.Set("Next_Tech_Up_At", 20)
-    end
+    level_data.Set_Next_Level(tech_level)
+    level_data.Set_Level(tech_level)
     DebugMessage("%s -- Science Vals: %s, %s", tostring(Script), GlobalValue.Get("Science_Level"), GlobalValue.Get("Next_Tech_Up_At"))
 end
 
@@ -148,10 +188,6 @@ function Set_Display_Level(level, next_level)
         event.Add_Dialog_Text("Last Week Research Happened: None")
     else
         event.Add_Dialog_Text("Last Week Research Happened: ".. tostring(last_researched_week))
-    end
-    if tech_level == 1 then
-        Story_Event("ACTIVATE_SCIENCE_DISPLAY")
-        return
     end
     event.Add_Dialog_Text("Weeks Until Tech Behind: " .. tostring((last_researched_week + fall_behind_threshold) - CurrentWeekRounded()))
     if science_research_data["active"] then
@@ -218,6 +254,28 @@ end
 
 function Build_A_Unit()
     DebugMessage("%s -- Running Build A Unit Mission", tostring(Script))
+    research_mission_data["active"] = Toggle_Research_Upgrade
+    local randomUnitIndex = Game_Random(1, table.getn(research_mission_units))
+    local randomUnit = research_mission_units[randomUnitIndex]
+    if type(randomUnit) == nil or type(randomUnit) == "nil" then
+        ScriptError("%s -- Error Cant Find Unit: %s, either unit doesnt exist in files or is miss-spelled in the array.", tostring(Script), tostring(randomUnit))
+        return
+    end
+    local build_amount = 1
+    DebugMessage("%s -- Selected Random Unit: %s", tostring(Script), tostring(randomUnit))
+    local curWeek = CurrentWeekRounded()
+    current_mission = {["mission"] = "Build_Prototype_Unit_00", ["flag"] = "Build_Prototype_Unit_01", ["goal"] = randomUnit, ["start"] = curWeek, ["timetocomplete"] = 20, ["reward"] = "Build_Prototype_Unit_03", ["failfunc"] = "Proto_Fail", ["winfunc"] = "Proto_Complete"}
+    proto_dialog = plot.Get_Event(current_mission["mission"])
+    proto_dialog.Clear_Dialog_Text()
+    proto_dialog.Add_Dialog_Text("Prototype Unit to Contruct: " .. tostring(Return_Name(randomUnit)))
+    proto_dialog.Add_Dialog_Text("Amount to Construct: " .. build_amount)
+    proto_dialog.Add_Dialog_Text("TEXT_STORY_EMPIRE_SCIENCE_TIME_LIMIT", tostring(current_mission["timetocomplete"]))
+    proto_dialog.Add_Dialog_Text("TEXT_STORY_EMPIRE_SCIENCE_MISSION_STATUS", "In Progress")
+    proto_mission = plot.Get_Event(current_mission["flag"])
+    proto_mission.Set_Event_Parameter(0, randomUnit)
+    proto_mission.Set_Event_Parameter(1, build_amount)
+    Sleep(1)
+    Story_Event("START_PROTOUNIT_MISSION")
 end
 
 function Send_Tarkin_To_Planet()
@@ -247,7 +305,7 @@ function Send_Tarkin_To_Planet()
     tarkin_event_text = plot.Get_Event("Send_Tarkin_To_Planet_Start")
     tarkin_dialog = "Custom\\Dialog_Empire_Science"
     curWeek = CurrentWeekRounded()
-    current_mission = {["flag"] = "Has_Tarkin_Arrived", ["goal"] = Return_Name(random_planet), ["start"] = curWeek, ["timetocomplete"] = 15, ["reward"] = "SEND_TARKIN_COMPLETE", ["failfunc"] = "Tarkin_Fail", ["winfunc"] = "Tarkin_Succeed", ["remove"] = "SEND_TARKIN_MISSION_REMOVE"}
+    current_mission = {["mission"] = "Send_Tarkin_To_Planet_Start", ["flag"] = "Has_Tarkin_Arrived", ["goal"] = Return_Name(random_planet), ["start"] = curWeek, ["timetocomplete"] = 12, ["reward"] = "SEND_TARKIN_COMPLETE", ["failfunc"] = "Tarkin_Fail", ["winfunc"] = "Tarkin_Succeed"}
     DebugMessage("%s -- Current Mission Array: %s", tostring(Script), tostring(current_mission))
     tarkin_event_text.Set_Dialog(tarkin_dialog)
     tarkin_event_text.Clear_Dialog_Text()
@@ -301,11 +359,11 @@ function Check_Current_Mission()
                 _G[current_mission["winfunc"]](credits_to_give)
             end
             player.Give_Money(credits_to_give)
-            Story_Event(current_mission["reward"])
-            Create_Thread("Remove_Story_Mission", current_mission["remove"])
-            local science = GlobalValue.Get("Science_Level")
-            local add_science = science + 1
-            GlobalValue.Set("Science_Level", add_science)
+            if current_mission["reward"] then
+                Story_Event(current_mission["reward"])
+            end
+            Create_Thread("Remove_Story_Mission", current_mission["mission"])
+            level_data.Add_Level() -- Due to the way the function works if there is no value provided it falls back to the default increase value which is defined in the level_data array
             current_mission = {}
             research_mission_data["active"] = false
             Mission_Cooldown()
@@ -328,10 +386,8 @@ function Check_Current_Mission()
 end
 
 function Mission_Fail()
-    Create_Thread("Remove_Story_Mission", current_mission["remove"])
-    local science = GlobalValue.Get("Science_Level")
-    local minus_science = science - 1
-    GlobalValue.Set("Science_Level", minus_science)
+    Create_Thread("Remove_Story_Mission", current_mission["mission"])
+    level_data.Add_Level(-1)
 end
 
 function Mission_Cooldown()
@@ -409,10 +465,26 @@ function Has_Tarkin_Arrived() -- this func is a mess cause Story Scripting was b
     end
 end
 
+function Remove_Story_Mission(story_event) -- Gets Ran in a Thread so it doesnt interupt any other script function
+    DebugMessage("%s -- Starting Remove Event Timer", tostring(Script))
+    Sleep(10)
+    Remove_Mission(story_event)
+    DebugMessage("%s -- Removed Story Mission Dialog", tostring(Script))
+end
+
+function Research_Cooldown()
+    any_research_cooldown = true
+    if any_research_cooldown then
+        Sleep(research_cooldown)
+        any_research_cooldown = false
+    end
+end
+
+-- Missio Specific Funs
+
 function Tarkin_Succeed(credits_to_give)
     tarkin_event_text.Clear_Dialog_Text()
     tarkin_event_text.Add_Dialog_Text("TEXT_STORY_EMPIRE_SCIENCE_PLANET_LOCATION", current_mission["goal"])
-    tarkin_event_text.Add_Dialog_Text("TEXT_STORY_EMPIRE_SCIENCE_TIME_LIMIT", tostring(current_mission["timetocomplete"]))
     tarkin_event_text.Add_Dialog_Text("TEXT_STORY_EMPIRE_SCIENCE_MISSION_STATUS", "Complete")
     tarkin_event_text.Add_Dialog_Text("TEXT_STORY_EMPIRE_SCIENCE_MISSION_CREDITS", tostring(credits_to_give))
 end
@@ -424,17 +496,17 @@ function Tarkin_Fail()
     tarkin_event_text.Add_Dialog_Text("TEXT_STORY_EMPIRE_SCIENCE_MISSION_STATUS", "Failed")
 end
 
-function Remove_Story_Mission(story_event) -- Gets Ran in a Thread so it doesnt interupt any other script function
-    DebugMessage("%s -- Starting Remove Event Timer", tostring(Script))
-    Sleep(10)
-    Story_Event(story_event)
-    DebugMessage("%s -- Removed Story Mission Dialog", tostring(Script))
+function Proto_Complete(credits_to_give)
+    proto_dialog.Clear_Dialog_Text()
+    proto_dialog.Add_Dialog_Text("Prototype Unit to Contruct: " .. tostring(Return_Name(randomUnit)))
+    proto_dialog.Add_Dialog_Text("Amount to Construct: " .. build_amount)
+    proto_dialog.Add_Dialog_Text("TEXT_STORY_EMPIRE_SCIENCE_MISSION_STATUS", "Complete")
+    proto_dialog.Add_Dialog_Text("TEXT_STORY_EMPIRE_SCIENCE_MISSION_CREDITS", credits_to_give)
 end
 
-function Research_Cooldown()
-    any_research_cooldown = true
-    if any_research_cooldown then
-        Sleep(research_cooldown)
-        any_research_cooldown = false
-    end
+function Proto_Fail()
+    tarkin_event_text.Clear_Dialog_Text()
+    tarkin_event_text.Add_Dialog_Text("TEXT_STORY_EMPIRE_SCIENCE_PLANET_LOCATION", Return_Name(random_planet))
+    tarkin_event_text.Add_Dialog_Text("TEXT_STORY_EMPIRE_SCIENCE_TIME_LIMIT", tostring(current_mission["timetocomplete"]))
+    tarkin_event_text.Add_Dialog_Text("TEXT_STORY_EMPIRE_SCIENCE_MISSION_STATUS", "Failed")
 end

@@ -212,4 +212,18 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</SpaceUnit>
 
+	<SpaceUnit Name="Titan_Star_Destroyer_Prototype">
+		<Variant_Of_Existing_Type>Titan_Star_Destroyer</Variant_Of_Existing_Type>
+		<Max_Speed>1.85</Max_Speed>
+		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+		<Shield_Points>9850</Shield_Points>
+		<Tech_Level>5</Tech_Level>
+		<Build_Cost_Credits>17750</Build_Cost_Credits>
+		<AI_Combat_Power>4500</AI_Combat_Power>
+		<Build_Time_Seconds>125</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Text_ID>TEXT_UNIT_TITAN_STAR_DESTROYER_PROTO</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_STAR_DESTROYER_TITAN_PROTO TEXT_SPACE LOZ_MUST_BE_RESEARCHED TEXT_SPACE TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS</Encyclopedia_Text>
+	</SpaceUnit>
+
 </Titan_ISD_Files>

@@ -1,10 +1,7 @@
 <?xml version="1.0"?>
-<StarBases>
+<Underworld_Stations>
 
-
-
-
-	<StarBase Name="Underworld_Star_Base_1">
+    <StarBase Name="Underworld_Star_Base_1">
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
 		<Text_ID>TEXT_REBEL_STAR_BASE_1</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION1 TEXT_TOOLTIP_GARRISON_US_01</Encyclopedia_Text>
@@ -988,11 +985,6 @@
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
 
-
-
-
-
-
 	<StarBase Name="Underworld_Star_Base_5">
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
 		<Text_ID>TEXT_REBEL_STAR_BASE_5</Text_ID>
@@ -1260,12 +1252,6 @@
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
 
-
-
-	
-	
-	
-	
 	<!-- Underworld Skirmish Starbases -->
 	<StarBase Name="Skirmish_Underworld_Star_Base_1">
 		<Variant_Of_Existing_Type>Underworld_Star_Base_1</Variant_Of_Existing_Type>
@@ -1290,6 +1276,7 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Underworld,
+                Tri_Fighter_Squadron,
 				StarViper_Squadron, 
 				Skipray_Squadron,
 				US_Reinforced_Structure_L1_Upgrade,
@@ -1765,7 +1752,4 @@
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 	</StarBase>
 
-
-
-
-</StarBases>
+</Underworld_Stations>

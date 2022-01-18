@@ -2,10 +2,6 @@
 
 
 <Interceptor_IV_Frigate>
-
-
-
-
 	<SpaceUnit Name="Interceptor4_Frigate">
 		<Text_ID>TEXT_UNIT_INTERCEPTOR4_FRIGATE</Text_ID>
 		<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Corellian_Corvette Nebulon_B_Frigate  </Encyclopedia_Good_Against>
@@ -151,8 +147,8 @@
 		<Death_Clone>Damage_Normal, Interceptor4_Frigate_Death_Clone</Death_Clone>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2520</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>22</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1550</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -192,60 +188,4 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceUnit>
 	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </Interceptor_IV_Frigate>

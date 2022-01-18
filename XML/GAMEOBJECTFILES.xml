@@ -2,11 +2,6 @@
 
 <Game_Object_Files>
 
-
-
-
-
-
 	<File>TransportUnits.xml</File>
 	<File>UpgradeUnitTest.xml</File>
 
@@ -184,6 +179,7 @@
 	<File>Rebels\GroundUnits\Infantry\LAND_TECH_TROOPER.xml</File>
 
 	<!-- Expansion Units: Underworld -->
+	<File>Underworld\Space_Station.xml</File>
 	<File>UnitFiles\Units_Land_Pirates.xml</File>
 	<File>UnitFiles\Units_Hero_Underworld_IG88.xml</File>
 	<File>UnitFiles\Units_Hero_Underworld_Bossk.xml</File>
@@ -205,22 +201,21 @@
 	<File>UnitFiles\Units_Land_Underworld_Ewok_Bomber.xml</File>
 	<File>UnitFiles\UNITS_LAND_UNDERWORLD_MANDO.xml</File>
 
-	<File>UnitFiles\Units_Space_Underworld_StarViper.xml</File>
-	<File>UnitFiles\Units_Space_Underworld_Skipray.xml</File>
-	<File>UnitFiles\Units_Space_Underworld_Crusader_Gunship.xml</File>
-	<File>UnitFiles\Units_Space_Underworld_Interceptor4.xml</File>
-	<File>UnitFiles\Units_Space_Underworld_Vengeance.xml</File>	
-	<File>UnitFiles\Units_Space_Underworld_Kadalbe_Battleship.xml</File>
-	<File>UnitFiles\Units_Space_Underworld_Krayt_Destroyer.xml</File>
-	<File>UnitFiles\Units_Space_Underworld_Buzz_Droids.xml</File>
-	<File>UnitFiles\Units_Space_Underworld_Corona.xml</File>
-	<File>UnitFiles\Units_Space_Underworld_Munificent.xml</File>
-	<File>UnitFiles\Units_Space_Underworld_Providence.XML</File>
-	<File>UnitFiles\Units_Space_Underworld_KANDOSII.xml</File>
-	<File>UnitFiles\Units_Space_Underworld_Tri_Fighter.xml</File>
+	<File>Underworld\Fighters\Units_Space_Underworld_StarViper.xml</File>
+	<File>Underworld\Fighters\Units_Space_Underworld_Skipray.xml</File>
+	<File>Underworld\Corvette\Units_Space_Underworld_Crusader_Gunship.xml</File>
+	<File>Underworld\Frigate\Units_Space_Underworld_Interceptor4.xml</File>
+	<File>Underworld\Frigate\Units_Space_Underworld_Vengeance.xml</File>	
+	<File>Underworld\Capital\Units_Space_Underworld_Kadalbe_Battleship.xml</File>
+	<File>Underworld\Capital\Units_Space_Underworld_Krayt_Destroyer.xml</File>
+	<File>Underworld\Misc\Units_Space_Underworld_Buzz_Droids.xml</File>
+	<File>Underworld\Frigate\Units_Space_Underworld_Corona.xml</File>
+	<File>Underworld\Frigate\Units_Space_Underworld_Munificent.xml</File>
+	<File>Underworld\Capital\Units_Space_Underworld_Providence.XML</File>
+	<File>Underworld\Super\Units_Space_Underworld_KANDOSII.xml</File>
+	<File>Underworld\Fighters\Units_Space_Underworld_Tri_Fighter.xml</File>
 
 	<File>SpecialStructures_Underworld.xml</File>
-	<File>SpaceFiles\StarBases_Underworld.xml</File>
 
 
 

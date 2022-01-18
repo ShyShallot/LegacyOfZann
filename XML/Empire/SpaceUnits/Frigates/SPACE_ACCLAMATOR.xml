@@ -69,7 +69,7 @@
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
 
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
-		<Targeting_Max_Attack_Distance>1650.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1200.0</Targeting_Max_Attack_Distance>
 		<Targeting_Min_Attack_Distance>210.0</Targeting_Min_Attack_Distance>
 		
 		<!-- Set to spawn all units once and then not continue - no reserves -->
@@ -172,8 +172,8 @@
 		<Score_Cost_Credits> 1800</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>3150</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>2350</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

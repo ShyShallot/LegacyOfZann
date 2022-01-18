@@ -2,10 +2,6 @@
 
 
 <Pirate_Fighter_Data>
-
-
-
-
 	<SpaceUnit Name="Tri_Fighter">
 		<Text_ID>TEXT_UNIT_TRI_FIGHTER</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_TRI_FIGHTER</Encyclopedia_Text>
@@ -184,20 +180,7 @@
 
 	</SpaceUnit>
 
-
-
-
-
-
-
-
-
-
-
 <!-- **** SQUADRON INFORMATION **** -->
-
-
-
 
 	<Squadron Name="Tri_Fighter_Squadron">
 		<Text_ID>TEXT_TRI_FIGHTER_SQUADRON</Text_ID>
@@ -255,7 +238,7 @@
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>350</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -274,9 +257,6 @@
 
 
 <!-- **** Container INFORMATION **** -->
-
-
-
 
 	<Container Name="Tri_Fighter_Team">
 		<Text_ID>TEXT_TRI_FIGHTER_SQUADRON</Text_ID>

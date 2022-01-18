@@ -3,7 +3,6 @@ require("PGBase")
 require("PGSpawnUnits")
 require("LOZFunctions")
 require("LOZGalacticFuncs")
-require("LOZSTORYFUNCS")
 -- Author: ShyShallot
 -- This Script Handles the Science System for the Empire
 -- Do not use the Science system with the AI as thats a fuck ton of more bullshit, we can just have the AI tech normally via upgrades

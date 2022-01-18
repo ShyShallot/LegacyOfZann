@@ -3,8 +3,6 @@
 
 <Crusader_Gunship_Data>
 
-
-
 	<SpaceUnit Name="Crusader_Gunship">
 		<Text_ID>TEXT_UNIT_CRUSADER_GUNSHIP</Text_ID>
 		<Encyclopedia_Good_Against> X-wing TIE_Fighter </Encyclopedia_Good_Against>
@@ -63,7 +61,7 @@
 		<Tech_Level>1</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<Build_Cost_Credits>1400</Build_Cost_Credits>
+		<Build_Cost_Credits>1005</Build_Cost_Credits>
 		<AI_Combat_Power>1250</AI_Combat_Power>
 		<Build_Time_Seconds>8</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -205,7 +203,7 @@
 		</Abilities>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1650</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1005</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>9</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>

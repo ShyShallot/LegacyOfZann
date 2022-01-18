@@ -1,0 +1,6 @@
+<Event Name="REMOVE_MISSION">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>REMOVE_STORY_EVENT</Event_Param2>
+        <Reward_Type>REMOVE_STORY_GOAL</Reward_Type>
+        <Reward_Param1/>
+</Event>

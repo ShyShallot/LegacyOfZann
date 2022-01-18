@@ -55,7 +55,7 @@
 			
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>7</Damage>
-        <Damage_Type>Damage_AWing</Damage_Type>
+        <Damage_Type>Damage_Fighter</Damage_Type>
 		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Red</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>

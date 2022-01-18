@@ -18,7 +18,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_Nebulon_Weapon_FL </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Nebulon_B </Damage_Type>
+			<Damage_Type> Damage_Frigate </Damage_Type>
             <Fire_Bone_A>FP_F-L_00</Fire_Bone_A>
             <Fire_Bone_B>FP_F-L_01</Fire_Bone_B>
             <Fire_Cone_Width>175.0</Fire_Cone_Width>
@@ -73,7 +73,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_Nebulon_Weapon_FR </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Nebulon_B </Damage_Type>
+			<Damage_Type> Damage_Frigate </Damage_Type>
             <Fire_Bone_A>FP_F-R_00</Fire_Bone_A>
             <Fire_Bone_B>FP_F-R_01</Fire_Bone_B>
             <Fire_Cone_Width>175.0</Fire_Cone_Width>
@@ -116,7 +116,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_Nebulon_Weapon_BL </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Nebulon_B </Damage_Type>
+			<Damage_Type> Damage_Frigate </Damage_Type>
             <Fire_Bone_A>FP_B-L_00</Fire_Bone_A>
             <Fire_Bone_B>FP_B-L_01</Fire_Bone_B>
             <Fire_Cone_Width>175.0</Fire_Cone_Width>
@@ -158,7 +158,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_Nebulon_Weapon_BR </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Nebulon_B </Damage_Type>
+			<Damage_Type> Damage_Frigate </Damage_Type>
             <Fire_Bone_A>FP_B-R_00</Fire_Bone_A>
             <Fire_Bone_B>FP_B-R_01</Fire_Bone_B>
             <Fire_Cone_Width>175.0</Fire_Cone_Width>

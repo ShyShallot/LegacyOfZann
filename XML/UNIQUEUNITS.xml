@@ -69,7 +69,7 @@
 		<OverrideDeceleration> .1 </OverrideDeceleration>
 		<Layer_Z_Adjust> -90 </Layer_Z_Adjust>
 
-		<Armor_Type> Armor_Nebulon_B </Armor_Type>
+		<Armor_Type> Armor_Frigate </Armor_Type>
 
 		<Max_Thrust>1.6</Max_Thrust>
 		<Select_Box_Scale>400</Select_Box_Scale>
@@ -282,7 +282,7 @@
 		<OverrideDeceleration> .1 </OverrideDeceleration>
 		<Layer_Z_Adjust> -90 </Layer_Z_Adjust>
 
-		<Armor_Type> Armor_Nebulon_B </Armor_Type>
+		<Armor_Type> Armor_Frigate </Armor_Type>
 
 		<Max_Thrust>1.2</Max_Thrust>
 		<Select_Box_Scale>200</Select_Box_Scale>
@@ -426,7 +426,7 @@
 		<OverrideDeceleration> .1 </OverrideDeceleration>
 		<Layer_Z_Adjust> -90 </Layer_Z_Adjust>
 
-		<Armor_Type> Armor_Nebulon_B </Armor_Type>
+		<Armor_Type> Armor_Frigate </Armor_Type>
 
 		<Max_Thrust>1.2</Max_Thrust>
 		<Select_Box_Scale>200</Select_Box_Scale>

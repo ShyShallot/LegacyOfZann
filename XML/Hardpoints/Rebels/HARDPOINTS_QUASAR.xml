@@ -15,7 +15,7 @@
         <Collision_Mesh>HP_01</Collision_Mesh>
         <Damage_Particles>HP_01_EMITDAMAGE</Damage_Particles>
 
-        <Damage_Type>Damage_Assault_Frigate</Damage_Type>
+        <Damage_Type>Damage_Light</Damage_Type>
 
         <Fire_Bone_A>FB_01</Fire_Bone_A>
         <Fire_Bone_B>FB_01</Fire_Bone_B>
@@ -63,7 +63,7 @@
         <Collision_Mesh>HP_02</Collision_Mesh>
         <Damage_Particles>HP_02_EMITDAMAGE</Damage_Particles>
 
-        <Damage_Type>Damage_Assault_Frigate</Damage_Type>
+        <Damage_Type>Damage_Light</Damage_Type>
 
         <Fire_Bone_A>FB_01</Fire_Bone_A>
         <Fire_Bone_B>FB_01</Fire_Bone_B>
@@ -111,7 +111,7 @@
         <Collision_Mesh>HP_03</Collision_Mesh>
         <Damage_Particles>HP_03_EMITDAMAGE</Damage_Particles>
 
-        <Damage_Type>Damage_Assault_Frigate</Damage_Type>
+        <Damage_Type>Damage_Light</Damage_Type>
 
         <Fire_Bone_A>FB_01</Fire_Bone_A>
         <Fire_Bone_B>FB_01</Fire_Bone_B>
@@ -158,7 +158,7 @@
         <Collision_Mesh>HP_04</Collision_Mesh>
         <Damage_Particles>HP_04_EMITDAMAGE</Damage_Particles>
 
-        <Damage_Type>Damage_Assault_Frigate</Damage_Type>
+        <Damage_Type>Damage_Light</Damage_Type>
 
         <Fire_Bone_A>FB_01</Fire_Bone_A>
         <Fire_Bone_B>FB_01</Fire_Bone_B>
@@ -204,7 +204,7 @@
         <Attachment_Bone>HP_05</Attachment_Bone>
         <Collision_Mesh>HP_05</Collision_Mesh>
 
-        <Damage_Type>Damage_Assault_Frigate</Damage_Type>
+        <Damage_Type>Damage_Light</Damage_Type>
 
         <Fire_Bone_A>FB_01</Fire_Bone_A>
         <Fire_Bone_B>FB_01</Fire_Bone_B>
@@ -251,7 +251,7 @@
         <Attachment_Bone>HP_06</Attachment_Bone>
         <Collision_Mesh>HP_06</Collision_Mesh>
 
-        <Damage_Type>Damage_Assault_Frigate</Damage_Type>
+        <Damage_Type>Damage_Light</Damage_Type>
 
         <Fire_Bone_A>FB_01</Fire_Bone_A>
         <Fire_Bone_B>FB_01</Fire_Bone_B>

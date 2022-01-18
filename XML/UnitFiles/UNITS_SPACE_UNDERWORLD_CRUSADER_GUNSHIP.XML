@@ -40,7 +40,7 @@
 		<Hyperspace_Speed>2.0</Hyperspace_Speed>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 
-		<Armor_Type> Armor_Tartan </Armor_Type>
+		<Armor_Type> Armor_Corvette </Armor_Type>
 		<Shield_Armor_Type>Shield_Corvette</Shield_Armor_Type>
 
 		<Shield_Points>700</Shield_Points>

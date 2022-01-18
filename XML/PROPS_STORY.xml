@@ -196,7 +196,7 @@
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Affiliation>Empire</Affiliation>
 		<Base_Level_Available>0</Base_Level_Available>
-		<Armor_Type> Armor_Corellian_Corvette </Armor_Type>
+		<Armor_Type> Armor_Corvette </Armor_Type>
 		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -2857,7 +2857,7 @@
 		<OverrideDeceleration> .06 </OverrideDeceleration>
 
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
-		<Armor_Type> Armor_Corellian_Corvette </Armor_Type>
+		<Armor_Type> Armor_Corvette </Armor_Type>
         <Shield_Armor_Type>Shield_Corvette</Shield_Armor_Type>
 		<Max_Thrust>0.8</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>

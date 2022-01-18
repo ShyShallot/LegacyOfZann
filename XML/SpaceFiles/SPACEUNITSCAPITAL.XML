@@ -27,7 +27,7 @@
 		<OverrideAcceleration> .02 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
 
-		<Armor_Type> Armor_Calamari_Cruiser </Armor_Type>
+		<Armor_Type> Armor_Capital </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>	
@@ -194,7 +194,7 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
-		<Armor_Type> Armor_Star_Destroyer </Armor_Type>
+		<Armor_Type> Armor_Capital </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 
 		<Max_Speed>1.4</Max_Speed>
@@ -393,7 +393,7 @@
 		<OverrideAcceleration> .02 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
 
-		<Armor_Type> Armor_Acclamator </Armor_Type>
+		<Armor_Type> Armor_Frigate </Armor_Type>
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
         
 		<Max_Thrust>1.0</Max_Thrust>

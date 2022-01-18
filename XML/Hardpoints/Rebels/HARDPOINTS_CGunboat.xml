@@ -44,7 +44,7 @@
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
-			<Damage_Type> Damage_Corellian_Gunboat </Damage_Type>
+			<Damage_Type> Damage_Corvette </Damage_Type>
             <Fire_Bone_A>MuzzleA_02</Fire_Bone_A>
             <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
             <Fire_Cone_Width>45.0</Fire_Cone_Width>
@@ -73,7 +73,7 @@
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
-			<Damage_Type> Damage_Corellian_Gunboat </Damage_Type>
+			<Damage_Type> Damage_Corvette </Damage_Type>
             <Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
             <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
             <Fire_Cone_Width>45.0</Fire_Cone_Width>
@@ -102,7 +102,7 @@
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
-			<Damage_Type> Damage_Corellian_Gunboat </Damage_Type>
+			<Damage_Type> Damage_Corvette </Damage_Type>
             <Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
             <Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
             <Fire_Cone_Width>45.0</Fire_Cone_Width>
@@ -132,7 +132,7 @@
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
-			<Damage_Type> Damage_Corellian_Gunboat </Damage_Type>
+			<Damage_Type> Damage_Corvette </Damage_Type>
             <Fire_Bone_A>MuzzleA_05</Fire_Bone_A>
             <Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
             <Fire_Cone_Width>45.0</Fire_Cone_Width>

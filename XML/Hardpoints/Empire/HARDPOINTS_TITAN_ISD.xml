@@ -10,7 +10,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>HP_01</Attachment_Bone>
             <Collision_Mesh>HP_01</Collision_Mesh>
             <Damage_Particles>HP_01_FIRE</Damage_Particles>
@@ -48,7 +48,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>HP_02</Attachment_Bone>
             <Collision_Mesh>HP_02</Collision_Mesh>
             <Damage_Particles>HP_02_FIRE</Damage_Particles>
@@ -86,7 +86,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>HP_03</Attachment_Bone>
             <Collision_Mesh>HP_03</Collision_Mesh>
             <Damage_Particles>HP_03_FIRE</Damage_Particles>
@@ -124,7 +124,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>HP_04</Attachment_Bone>
             <Collision_Mesh>HP_04</Collision_Mesh>
             <Damage_Particles>HP_04_FIRE</Damage_Particles>
@@ -162,7 +162,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>HP_07</Attachment_Bone>
             <Collision_Mesh>HP_07</Collision_Mesh>
 
@@ -199,7 +199,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>HP_05</Attachment_Bone>
             <Collision_Mesh>HP_05</Collision_Mesh>
             <Damage_Particles>HP_05_FIRE</Damage_Particles>
@@ -237,7 +237,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>HP_06</Attachment_Bone>
             <Collision_Mesh>HP_06</Collision_Mesh>
             <Damage_Particles>HP_06_FIRE</Damage_Particles>
@@ -275,7 +275,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>QTL_01</Attachment_Bone>
             <Collision_Mesh>QTL_01</Collision_Mesh>
             <Damage_Particles>QTL_01_FIRE</Damage_Particles>
@@ -322,7 +322,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>QTL_02</Attachment_Bone>
             <Collision_Mesh>QTL_02</Collision_Mesh>
             <Damage_Particles>QTL_02_FIRE</Damage_Particles>
@@ -369,7 +369,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>QTL_03</Attachment_Bone>
             <Collision_Mesh>QTL_03</Collision_Mesh>
             <Damage_Particles>QTL_03_FIRE</Damage_Particles>
@@ -416,7 +416,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>QTL_04</Attachment_Bone>
             <Collision_Mesh>QTL_04</Collision_Mesh>
             <Damage_Particles>QTL_04_FIRE</Damage_Particles>
@@ -463,7 +463,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>QTL_05</Attachment_Bone>
             <Collision_Mesh>QTL_05</Collision_Mesh>
             <Damage_Particles>QTL_05_FIRE</Damage_Particles>
@@ -510,7 +510,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>QTL_06</Attachment_Bone>
             <Collision_Mesh>QTL_06</Collision_Mesh>
             <Damage_Particles>QTL_06_FIRE</Damage_Particles>
@@ -557,7 +557,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>QTL_07</Attachment_Bone>
             <Collision_Mesh>QTL_07</Collision_Mesh>
             <Damage_Particles>QTL_07_FIRE</Damage_Particles>
@@ -604,7 +604,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>QTL_08</Attachment_Bone>
             <Collision_Mesh>QTL_08</Collision_Mesh>
             <Damage_Particles>QTL_08_FIRE</Damage_Particles>
@@ -651,7 +651,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>QTL_09</Attachment_Bone>
             <Collision_Mesh>QTL_09</Collision_Mesh>
             <Damage_Particles>QTL_09_FIRE</Damage_Particles>
@@ -698,7 +698,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>QTL_10</Attachment_Bone>
             <Collision_Mesh>QTL_10</Collision_Mesh>
             <Damage_Particles>QTL_10_FIRE</Damage_Particles>
@@ -745,7 +745,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>QTL_11</Attachment_Bone>
             <Collision_Mesh>QTL_11</Collision_Mesh>
             <Damage_Particles>QTL_11_FIRE</Damage_Particles>
@@ -792,7 +792,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>QTL_12</Attachment_Bone>
             <Collision_Mesh>QTL_12</Collision_Mesh>
             <Damage_Particles>QTL_12_FIRE</Damage_Particles>
@@ -839,7 +839,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>OTL_09</Attachment_Bone>
             <Collision_Mesh>OTL_09</Collision_Mesh>
             <Damage_Particles>OTL_01_FIRE01</Damage_Particles>
@@ -884,7 +884,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>OTL_10</Attachment_Bone>
             <Collision_Mesh>OTL_10</Collision_Mesh>
             <Damage_Particles>OTL_02_FIRE01</Damage_Particles>
@@ -928,7 +928,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>OTL_11</Attachment_Bone>
             <Collision_Mesh>OTL_11</Collision_Mesh>
             <Damage_Particles/>
@@ -972,7 +972,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>OTL_12</Attachment_Bone>
             <Collision_Mesh>OTL_12</Collision_Mesh>
             <Damage_Particles>OTL_04_FIRE01</Damage_Particles>
@@ -1016,7 +1016,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>OTL_13</Attachment_Bone>
             <Collision_Mesh>OTL_13</Collision_Mesh>
             <Damage_Particles/>
@@ -1060,7 +1060,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>OTL_14</Attachment_Bone>
             <Collision_Mesh>OTL_14</Collision_Mesh>
             <Damage_Particles>OTL_06_FIRE01</Damage_Particles>
@@ -1104,7 +1104,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>OTL_15</Attachment_Bone>
             <Collision_Mesh>OTL_15</Collision_Mesh>
             <Damage_Particles/>
@@ -1148,7 +1148,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>OTL_16</Attachment_Bone>
             <Collision_Mesh>OTL_16</Collision_Mesh>
             <Damage_Particles>OTL_08_FIRE01</Damage_Particles>
@@ -1192,7 +1192,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>STA_01</Attachment_Bone>
             <Collision_Mesh>STA_01</Collision_Mesh>
             <Damage_Particles>STA_01_FIRE</Damage_Particles>
@@ -1238,7 +1238,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>STA_02</Attachment_Bone>
             <Collision_Mesh>STA_02</Collision_Mesh>
             <Damage_Particles>STA_02_FIRE</Damage_Particles>
@@ -1284,7 +1284,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>STA_03</Attachment_Bone>
             <Collision_Mesh>STA_03</Collision_Mesh>
             <Damage_Particles>STA_03_FIRE</Damage_Particles>
@@ -1330,7 +1330,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>STA_04</Attachment_Bone>
             <Collision_Mesh>STA_04</Collision_Mesh>
             <Damage_Particles>STA_04_FIRE</Damage_Particles>
@@ -1376,7 +1376,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>STA_05</Attachment_Bone>
             <Collision_Mesh>STA_05</Collision_Mesh>
             <Damage_Particles>STA_05_FIRE</Damage_Particles>
@@ -1422,7 +1422,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>STA_06</Attachment_Bone>
             <Collision_Mesh>STA_06</Collision_Mesh>
             <Damage_Particles>STA_06_FIRE</Damage_Particles>
@@ -1468,7 +1468,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>STA_07</Attachment_Bone>
             <Collision_Mesh>STA_07</Collision_Mesh>
             <Damage_Particles>STA_07_FIRE</Damage_Particles>
@@ -1514,7 +1514,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>STA_08</Attachment_Bone>
             <Collision_Mesh>STA_08</Collision_Mesh>
             <Damage_Particles>STA_08_FIRE</Damage_Particles>
@@ -1560,7 +1560,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>QL_01</Attachment_Bone>
             <Collision_Mesh>QL_01</Collision_Mesh>
             <Fire_Bone_A>QL_01</Fire_Bone_A>
@@ -1596,7 +1596,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>QL_02</Attachment_Bone>
             <Collision_Mesh>QL_02</Collision_Mesh>
             <Fire_Bone_A>QL_02</Fire_Bone_A>
@@ -1632,7 +1632,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>QL_03</Attachment_Bone>
             <Collision_Mesh>QL_03</Collision_Mesh>
             <Fire_Bone_A>QL_03</Fire_Bone_A>
@@ -1668,7 +1668,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>QL_04</Attachment_Bone>
             <Collision_Mesh>QL_04</Collision_Mesh>
             <Fire_Bone_A>QL_04</Fire_Bone_A>
@@ -1704,7 +1704,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>QL_05</Attachment_Bone>
             <Collision_Mesh>QL_05</Collision_Mesh>
             <Fire_Bone_A>QL_05</Fire_Bone_A>
@@ -1740,7 +1740,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>QL_06</Attachment_Bone>
             <Collision_Mesh>QL_06</Collision_Mesh>
             <Fire_Bone_A>QL_06</Fire_Bone_A>
@@ -1776,7 +1776,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>QL_07</Attachment_Bone>
             <Collision_Mesh>QL_07</Collision_Mesh>
             <Fire_Bone_A>QL_07</Fire_Bone_A>
@@ -1812,7 +1812,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>QL_08</Attachment_Bone>
             <Collision_Mesh>QL_08</Collision_Mesh>
             <Fire_Bone_A>QL_08</Fire_Bone_A>
@@ -1848,7 +1848,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>QL_09</Attachment_Bone>
             <Collision_Mesh>QL_09</Collision_Mesh>
             <Fire_Bone_A>QL_09</Fire_Bone_A>
@@ -1884,7 +1884,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>QL_10</Attachment_Bone>
             <Collision_Mesh>QL_10</Collision_Mesh>
             <Fire_Bone_A>QL_10</Fire_Bone_A>

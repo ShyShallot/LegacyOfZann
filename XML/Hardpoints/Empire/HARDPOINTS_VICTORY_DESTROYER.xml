@@ -175,7 +175,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_Victory_Weapon_MR </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Victory_SD </Damage_Type>
+			<Damage_Type> Damage_Frigate </Damage_Type>
             <Projectile_Damage>20.0</Projectile_Damage>
             <Fire_Bone_A>FP_M-R_00</Fire_Bone_A>
             <Fire_Bone_B>FP_M-R_01</Fire_Bone_B>
@@ -209,7 +209,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_Victory_Weapon_MR </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Victory_SD </Damage_Type>
+			<Damage_Type> Damage_Frigate </Damage_Type>
             <Fire_Bone_A>FP_M-R_00</Fire_Bone_A>
             <Fire_Bone_B>FP_M-R_01</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
@@ -252,7 +252,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_Victory_Weapon_ML </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Victory_SD </Damage_Type>
+			<Damage_Type> Damage_Frigate </Damage_Type>
             <Projectile_Damage>20.0</Projectile_Damage>
             <Fire_Bone_A>FP_M-L_00</Fire_Bone_A>
             <Fire_Bone_B>FP_M-L_01</Fire_Bone_B>
@@ -287,7 +287,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_Victory_Weapon_ML </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Victory_SD </Damage_Type>
+			<Damage_Type> Damage_Frigate </Damage_Type>
             <Projectile_Damage>20.0</Projectile_Damage>
             <Fire_Bone_A>FP_M-L_00</Fire_Bone_A>
             <Fire_Bone_B>FP_M-L_01</Fire_Bone_B>
@@ -327,7 +327,7 @@
             <Collision_Mesh>HP_B_L_COLL</Collision_Mesh>
 
 
-			<Damage_Type> Damage_Victory_SD </Damage_Type>
+			<Damage_Type> Damage_Frigate </Damage_Type>
             <Projectile_Damage>20.0</Projectile_Damage>
             <Fire_Bone_A>HP_B_L_BONE</Fire_Bone_A>
             <Fire_Bone_B>HP_B_L_BONE</Fire_Bone_B>
@@ -368,7 +368,7 @@
             <Damage_Particles>HP_B_R_BONE</Damage_Particles>
 
 
-			<Damage_Type> Damage_Victory_SD </Damage_Type>
+			<Damage_Type> Damage_Frigate </Damage_Type>
             <Projectile_Damage>20.0</Projectile_Damage>
             <Fire_Bone_A>HP_B_R_BONE</Fire_Bone_A>
             <Fire_Bone_B>HP_B_R_BONE</Fire_Bone_B>

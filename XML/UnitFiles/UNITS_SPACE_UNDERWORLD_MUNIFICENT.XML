@@ -29,7 +29,7 @@
 		<Hyperspace_Speed>0.9</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 
-		<Armor_Type> Armor_Acclamator </Armor_Type>
+		<Armor_Type> Armor_Frigate </Armor_Type>
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Damage>30</Damage>
 		<Autoresolve_Health>2000</Autoresolve_Health>

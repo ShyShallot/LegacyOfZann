@@ -21,7 +21,7 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
-		<Armor_Type> Armor_Star_Destroyer </Armor_Type>
+		<Armor_Type> Armor_Capital </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 
 		<Max_Speed>1.4</Max_Speed>
@@ -318,7 +318,7 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
-		<Armor_Type> Armor_Star_Destroyer </Armor_Type>
+		<Armor_Type> Armor_Capital </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 
 		<Max_Speed>0.9</Max_Speed>

@@ -37,7 +37,7 @@
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
-		<Armor_Type> Armor_Star_Destroyer </Armor_Type>
+		<Armor_Type> Armor_Capital </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 
 		<Max_Speed>0.3</Max_Speed>
@@ -210,7 +210,7 @@
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
-		<Armor_Type> Armor_Star_Destroyer </Armor_Type>
+		<Armor_Type> Armor_Capital </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 
 		<Max_Speed>0.6</Max_Speed>

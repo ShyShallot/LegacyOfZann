@@ -56,7 +56,7 @@
 		<Expensive_Bribe_Cost>400</Expensive_Bribe_Cost>
 		<Tactical_Bribe_Cost>3200</Tactical_Bribe_Cost>
 
-		<Armor_Type> Armor_Star_Destroyer </Armor_Type>
+		<Armor_Type> Armor_Capital </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		<Autoresolve_Health>7500</Autoresolve_Health>
 		<Tactical_Health>8000</Tactical_Health>

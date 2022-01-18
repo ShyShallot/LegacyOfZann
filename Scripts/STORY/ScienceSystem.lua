@@ -40,7 +40,6 @@ function Definitions()
     research_mission_units = {
         ["Prototype_Titan_ISD"] = Find_Object_Type("Titan_Star_Destroyer_Prototype"),
         ["MK2_Star_Destroyer"] = Find_Object_Type("Star_Destroyer_2_Prototype"),
-        ["Prototype_Frigate"] = Find_Object_Type("Arquentins_MK2_Prototype"),
         ["Stealth_TIE_Prototype"] = Find_Object_Type("TIE_Phantom_Squadron_Prototype")
     }
     level_data = {
@@ -83,7 +82,7 @@ function Definitions()
         Set_Next_Level = function(tech_level)
             GlobalValue.Set("Next_Tech_Up_At", level_data[tech_level]["Next_Tech_Up_At"])
         end,
-        ["Mission_Increase"] = 1 -- Just to have a default global value
+        ["Mission_Increase"] = 1 -- Just to have a default global value, if you want you can change this var to whatever u want
     }
     current_mission = {}
     any_research_cooldown = false 

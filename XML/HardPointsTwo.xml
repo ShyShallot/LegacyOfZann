@@ -11,7 +11,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>HP_TURRET</Attachment_Bone>
             <Collision_Mesh>HP_TURRET</Collision_Mesh>
             <Damage_Particles>HP_TURRET_EMITDAMAGE</Damage_Particles>

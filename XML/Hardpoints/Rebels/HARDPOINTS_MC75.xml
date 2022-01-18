@@ -269,7 +269,7 @@
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 		    <Projectile_Damage>25.0</Projectile_Damage>
-			<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>HP_MC75_TB_BONE_01</Attachment_Bone>
             <Collision_Mesh>HP_MC75_TB_BONE_01</Collision_Mesh>
 
@@ -307,7 +307,7 @@
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 		    <Projectile_Damage>25.0</Projectile_Damage>
-			<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>HP_MC75_TB_BONE_02</Attachment_Bone>
             <Collision_Mesh>HP_MC75_TB_BONE_02</Collision_Mesh>
 
@@ -345,7 +345,7 @@
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 		    <Projectile_Damage>25.0</Projectile_Damage>
-			<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>HP_MC75_TB_BONE_03</Attachment_Bone>
             <Collision_Mesh>HP_MC75_TB_BONE_03</Collision_Mesh>
 
@@ -383,7 +383,7 @@
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 		    <Projectile_Damage>25.0</Projectile_Damage>
-			<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Attachment_Bone>HP_MC75_TB_BONE_04</Attachment_Bone>
             <Collision_Mesh>HP_MC75_TB_BONE_04</Collision_Mesh>
 

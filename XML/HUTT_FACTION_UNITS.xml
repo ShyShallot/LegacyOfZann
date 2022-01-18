@@ -34,7 +34,7 @@
 		<OverrideDeceleration> .05 </OverrideDeceleration>
 
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
-		<Armor_Type> Armor_Corellian_Corvette </Armor_Type>
+		<Armor_Type> Armor_Corvette </Armor_Type>
         <Shield_Armor_Type>Shield_Corvette</Shield_Armor_Type>
 		<Max_Thrust>0.5</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
@@ -193,7 +193,7 @@
 		<Tech_Level>9</Tech_Level>
 		<IsBuildable>No</IsBuildable>
 
-		<Armor_Type> Armor_Corellian_Corvette </Armor_Type>
+		<Armor_Type> Armor_Corvette </Armor_Type>
         <Shield_Armor_Type>Shield_Corvette</Shield_Armor_Type>
 
 		<Tactical_Health>600</Tactical_Health>
@@ -345,7 +345,7 @@
 		<Tech_Level>9</Tech_Level>
 		<IsBuildable>No</IsBuildable>
 
-		<Armor_Type> Armor_Missile_Cruiser </Armor_Type>
+		<Armor_Type> Armor_Light_Frigate </Armor_Type>
         <Shield_Armor_Type>Shield_Corvette</Shield_Armor_Type>
 
 		<Tactical_Health>650</Tactical_Health>
@@ -726,7 +726,7 @@
 		<Affiliation>Hutts</Affiliation>
 		<IsBuildable>No</IsBuildable>
 
-		<Armor_Type> Armor_Nebulon_B </Armor_Type>
+		<Armor_Type> Armor_Frigate </Armor_Type>
 
 		<Autoresolve_Health>3200</Autoresolve_Health>
 		<Tactical_Health>3200</Tactical_Health>

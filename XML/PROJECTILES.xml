@@ -48,6 +48,7 @@
 
 
 	<Projectile Name="Proj_Ship_Small_Laser_Cannon_Generic" Description="Generic small space-based laser bolt template">
+		<Damage_Type>Damage_Light</Damage_Type>
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Projectile_Custom_Render>1</Projectile_Custom_Render>
 		<Projectile_Width>1.0</Projectile_Width>
@@ -108,6 +109,7 @@
 	</Projectile>
 	
 	<Projectile Name="Proj_Ship_Medium_Laser_Cannon_Red">
+		<Damage_Type>Damage_Light</Damage_Type>
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>w_laser_g.ALO</Space_Model_Name>
 		<Scale_Factor>0.25</Scale_Factor>
@@ -201,6 +203,7 @@
 		<Max_Speed>25.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Damage_Type>Damage_Light</Damage_Type>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
 		<Projectile_Damage>11.0</Projectile_Damage>
@@ -410,7 +413,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_Con_Missile </Damage_Type>
+		<Damage_Type> Damage_Missile </Damage_Type>
 		<Max_Speed>7.0</Max_Speed>
 		<Max_Rate_Of_Turn>25.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -445,7 +448,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_Con_Missile </Damage_Type>
+		<Damage_Type> Damage_Missile_Heavy </Damage_Type>
 		<Max_Speed>6.0</Max_Speed>
 		<Max_Rate_Of_Turn>25.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -480,7 +483,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_Con_Missile </Damage_Type>
+		<Damage_Type> Damage_Missile_Heavy </Damage_Type>
 		<Max_Speed>7.0</Max_Speed>
 		<Max_Rate_Of_Turn>25.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -549,7 +552,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>w_turbolaser_g.ALO</Space_Model_Name>
 		<Scale_Factor>0.4</Scale_Factor>
-		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Damage_Type> Damage_Medium </Damage_Type>
 		<Max_Speed>25.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -574,7 +577,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>w_turbolaser_r.ALO</Space_Model_Name>
 		<Scale_Factor>0.4</Scale_Factor>
-		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Damage_Type> Damage_Medium </Damage_Type>
 		<Max_Speed>20.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -604,7 +607,7 @@
 		<Projectile_Texture_Slot>2,0</Projectile_Texture_Slot>
 		<Projectile_Laser_Color>110,50,173,255</Projectile_Laser_Color>
 		<Scale_Factor>2.0</Scale_Factor>
-		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Damage_Type> Damage_Heavy </Damage_Type>
 		<Max_Speed>9.0</Max_Speed>
 		<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -642,7 +645,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>w_turbolaser_r.ALO</Space_Model_Name>
 		<Scale_Factor>0.4</Scale_Factor>
-		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Damage_Type> Damage_Medium </Damage_Type>
 		<Max_Speed>25.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -700,7 +703,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
-		<Damage_Type> Damage_Diamond_Missile </Damage_Type>
+		<Damage_Type> Damage_Missile_Heavy </Damage_Type>
 		<Max_Speed>7.5</Max_Speed>
 		<Max_Rate_Of_Turn>30</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -739,7 +742,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
 		<Scale_Factor>4.0</Scale_Factor>
-		<Damage_Type> Damage_Diamond_Missile </Damage_Type>
+		<Damage_Type> Damage_Missile_Heavy </Damage_Type>
 		<Max_Speed>15.5</Max_Speed>
 		<Max_Rate_Of_Turn>20</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
@@ -1945,7 +1948,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_concussion_missile.alo</Land_Model_Name>
 		<Scale_Factor>0.3</Scale_Factor>
-		<Damage_Type> Damage_Con_Missile_T4B </Damage_Type>
+		<Damage_Type> Damage_Missile </Damage_Type>
 		<Max_Speed>6.5</Max_Speed>
 		<Max_Rate_Of_Turn>30</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -3402,7 +3405,7 @@
 		<Land_Model_Name>p_greenglow.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		
-		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Damage_Type> Damage_Medium </Damage_Type>
 		<AI_Combat_Power>200</AI_Combat_Power>
 		
 		<Max_Speed>25.0</Max_Speed>
@@ -3848,7 +3851,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
 		<Scale_Factor>4</Scale_Factor>
-		<Damage_Type> Damage_Diamond_Missile </Damage_Type>
+		<Damage_Type> Damage_Missile_Heavy </Damage_Type>
 		<Max_Speed>20</Max_Speed>
 		<Max_Rate_Of_Turn>360</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -4084,7 +4087,7 @@
 		<Max_Speed>7.0</Max_Speed>
 		<Max_Rate_Of_Turn>30</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type> Damage_Con_Missile_GRND </Damage_Type>
+		<Damage_Type> Damage_Missile </Damage_Type>
 		<Projectile_Category>ROCKET</Projectile_Category>
 		<Projectile_Rocket_Curve_Distance>70</Projectile_Rocket_Curve_Distance>
 		<Projectile_Rocket_Curve_Offset>15</Projectile_Rocket_Curve_Offset>

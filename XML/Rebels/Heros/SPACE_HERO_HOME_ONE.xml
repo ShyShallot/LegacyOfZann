@@ -37,7 +37,7 @@
 		<OverrideDeceleration> .1 </OverrideDeceleration>
 		<Layer_Z_Adjust> -290 </Layer_Z_Adjust>
 
-		<Armor_Type> Armor_Calamari_Cruiser </Armor_Type>
+		<Armor_Type> Armor_Capital </Armor_Type>
 
 		<Death_Clone>Damage_Normal, Home_One_Death_Clone</Death_Clone>
 

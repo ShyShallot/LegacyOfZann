@@ -29,7 +29,7 @@
 		<OverrideAcceleration> .12 </OverrideAcceleration>
 		<OverrideDeceleration> .12 </OverrideDeceleration>
 
-		<Armor_Type> Armor_Corellian_Gunboat </Armor_Type>
+		<Armor_Type> Armor_Corvette </Armor_Type>
 		<Max_Thrust>0.5</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>0.9</Hyperspace_Speed>

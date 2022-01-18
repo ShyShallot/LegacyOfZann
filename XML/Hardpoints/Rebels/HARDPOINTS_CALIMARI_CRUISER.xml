@@ -95,7 +95,7 @@
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 		<Projectile_Damage>20.0</Projectile_Damage>
-			<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Model_To_Attach>RV_MonCalCruiser_HP00_B-L.alo</Model_To_Attach>
             <Attachment_Bone>HP_B-L_BONE</Attachment_Bone>
             <Collision_Mesh>HP_B-L_COLL</Collision_Mesh>
@@ -138,7 +138,7 @@
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 		<Projectile_Damage>20.0</Projectile_Damage>
-			<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Model_To_Attach>RV_MonCalCruiser_HP00_B-R.alo</Model_To_Attach>
             <Attachment_Bone>HP_B-R_BONE</Attachment_Bone>
             <Collision_Mesh>HP_B-R_COLL</Collision_Mesh>
@@ -181,7 +181,7 @@
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 		<Projectile_Damage>20.0</Projectile_Damage>
-			<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Model_To_Attach>RV_MonCalCruiser_HP00_M-L.alo</Model_To_Attach>
             <Attachment_Bone>HP_M-L_BONE</Attachment_Bone>
             <Collision_Mesh>HP_M-L_COLL</Collision_Mesh>
@@ -224,7 +224,7 @@
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 		    <Projectile_Damage>20.0</Projectile_Damage>
-			<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Model_To_Attach>RV_MonCalCruiser_HP00_M-R.alo</Model_To_Attach>
             <Attachment_Bone>HP_M-R_BONE</Attachment_Bone>
             <Collision_Mesh>HP_M-R_COLL</Collision_Mesh>

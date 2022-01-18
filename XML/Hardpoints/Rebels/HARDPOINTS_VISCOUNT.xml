@@ -10,7 +10,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
 			<Model_To_Attach></Model_To_Attach>
             <Attachment_Bone>HP_TL01</Attachment_Bone>
             <Collision_Mesh>HP_TL01</Collision_Mesh>
@@ -52,7 +52,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
 			<Model_To_Attach></Model_To_Attach>
             <Attachment_Bone>HP_TL02</Attachment_Bone>
             <Collision_Mesh>HP_TL02</Collision_Mesh>
@@ -94,7 +94,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
 			<Model_To_Attach></Model_To_Attach>
             <Attachment_Bone>HP_TL03</Attachment_Bone>
             <Collision_Mesh>HP_TL03</Collision_Mesh>
@@ -136,7 +136,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
 			<Model_To_Attach></Model_To_Attach>
             <Attachment_Bone>HP_TL04</Attachment_Bone>
             <Collision_Mesh>HP_TL04</Collision_Mesh>
@@ -178,7 +178,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
 			<Model_To_Attach></Model_To_Attach>
             <Attachment_Bone>HP_TL05</Attachment_Bone>
             <Collision_Mesh>HP_TL05</Collision_Mesh>
@@ -220,7 +220,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
 			<Model_To_Attach></Model_To_Attach>
             <Attachment_Bone>HP_TL06</Attachment_Bone>
             <Collision_Mesh>HP_TL06</Collision_Mesh>
@@ -262,7 +262,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
 			<Model_To_Attach></Model_To_Attach>
             <Attachment_Bone>HP_TL07</Attachment_Bone>
             <Collision_Mesh>HP_TL07</Collision_Mesh>
@@ -304,7 +304,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
 			<Model_To_Attach></Model_To_Attach>
             <Attachment_Bone>HP_TL08</Attachment_Bone>
             <Collision_Mesh>HP_TL08</Collision_Mesh>
@@ -346,7 +346,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
 			<Model_To_Attach></Model_To_Attach>
             <Attachment_Bone>HP_TL09</Attachment_Bone>
             <Collision_Mesh>HP_TL09</Collision_Mesh>
@@ -388,7 +388,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
 			<Model_To_Attach></Model_To_Attach>
             <Attachment_Bone>HP_TL10</Attachment_Bone>
             <Collision_Mesh>HP_TL10</Collision_Mesh>
@@ -430,7 +430,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
 			<Model_To_Attach></Model_To_Attach>
             <Attachment_Bone>HP_TL11</Attachment_Bone>
             <Collision_Mesh>HP_TL11</Collision_Mesh>
@@ -472,7 +472,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
 			<Model_To_Attach></Model_To_Attach>
             <Attachment_Bone>HP_TL12</Attachment_Bone>
             <Collision_Mesh>HP_TL12</Collision_Mesh>
@@ -514,7 +514,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
 			<Model_To_Attach></Model_To_Attach>
             <Attachment_Bone>HP_TL13</Attachment_Bone>
             <Collision_Mesh>HP_TL13</Collision_Mesh>
@@ -556,7 +556,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
 			<Model_To_Attach></Model_To_Attach>
             <Attachment_Bone>HP_TL14</Attachment_Bone>
             <Collision_Mesh>HP_TL14</Collision_Mesh>
@@ -598,7 +598,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
 			<Model_To_Attach></Model_To_Attach>
             <Attachment_Bone>HP_TL15</Attachment_Bone>
             <Collision_Mesh>HP_TL15</Collision_Mesh>
@@ -640,7 +640,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
 			<Model_To_Attach></Model_To_Attach>
             <Attachment_Bone>HP_TL16</Attachment_Bone>
             <Collision_Mesh>HP_TL16</Collision_Mesh>
@@ -682,7 +682,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
 			<Model_To_Attach></Model_To_Attach>
             <Attachment_Bone>HP_TL17</Attachment_Bone>
             <Collision_Mesh>HP_TL17</Collision_Mesh>
@@ -724,7 +724,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
 			<Model_To_Attach></Model_To_Attach>
             <Attachment_Bone>HP_TL18</Attachment_Bone>
             <Collision_Mesh>HP_TL18</Collision_Mesh>
@@ -766,7 +766,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
 			<Model_To_Attach></Model_To_Attach>
             <Attachment_Bone>HP_TL19</Attachment_Bone>
             <Collision_Mesh>HP_TL19</Collision_Mesh>
@@ -808,7 +808,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
 			<Model_To_Attach></Model_To_Attach>
             <Attachment_Bone>HP_TL20</Attachment_Bone>
             <Collision_Mesh>HP_TL20</Collision_Mesh>
@@ -858,7 +858,7 @@
 
 			<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Interdictor </Damage_Type>
+			<Damage_Type> Damage_Frigate </Damage_Type>
             <Fire_Bone_A>HP_LC01</Fire_Bone_A>
             <Fire_Bone_B>HP_LC01</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
@@ -900,7 +900,7 @@
 
 			<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Interdictor </Damage_Type>
+			<Damage_Type> Damage_Frigate </Damage_Type>
             <Fire_Bone_A>HP_LC02</Fire_Bone_A>
             <Fire_Bone_B>HP_LC02</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
@@ -942,7 +942,7 @@
 
 			<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Interdictor </Damage_Type>
+			<Damage_Type> Damage_Frigate </Damage_Type>
             <Fire_Bone_A>HP_LC03</Fire_Bone_A>
             <Fire_Bone_B>HP_LC03</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
@@ -984,7 +984,7 @@
 
 			<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Interdictor </Damage_Type>
+			<Damage_Type> Damage_Frigate </Damage_Type>
             <Fire_Bone_A>HP_LC04</Fire_Bone_A>
             <Fire_Bone_B>HP_LC04</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
@@ -1026,7 +1026,7 @@
 
 			<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Interdictor </Damage_Type>
+			<Damage_Type> Damage_Frigate </Damage_Type>
             <Fire_Bone_A>HP_LC05</Fire_Bone_A>
             <Fire_Bone_B>HP_LC05</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
@@ -1068,7 +1068,7 @@
 
 			<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Interdictor </Damage_Type>
+			<Damage_Type> Damage_Frigate </Damage_Type>
             <Fire_Bone_A>HP_LC06</Fire_Bone_A>
             <Fire_Bone_B>HP_LC06</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
@@ -1110,7 +1110,7 @@
 
 			<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Interdictor </Damage_Type>
+			<Damage_Type> Damage_Frigate </Damage_Type>
             <Fire_Bone_A>HP_LC07</Fire_Bone_A>
             <Fire_Bone_B>HP_LC07</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
@@ -1152,7 +1152,7 @@
 
 			<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Interdictor </Damage_Type>
+			<Damage_Type> Damage_Frigate </Damage_Type>
             <Fire_Bone_A>HP_LC08</Fire_Bone_A>
             <Fire_Bone_B>HP_LC08</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
@@ -1194,7 +1194,7 @@
 
 			<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Interdictor </Damage_Type>
+			<Damage_Type> Damage_Frigate </Damage_Type>
             <Fire_Bone_A>HP_LC09</Fire_Bone_A>
             <Fire_Bone_B>HP_LC09</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
@@ -1236,7 +1236,7 @@
 
 			<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Interdictor </Damage_Type>
+			<Damage_Type> Damage_Frigate </Damage_Type>
             <Fire_Bone_A>HP_LC10</Fire_Bone_A>
             <Fire_Bone_B>HP_LC10</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
@@ -1278,7 +1278,7 @@
 
 			<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Interdictor </Damage_Type>
+			<Damage_Type> Damage_Frigate </Damage_Type>
             <Fire_Bone_A>HP_LC11</Fire_Bone_A>
             <Fire_Bone_B>HP_LC11</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
@@ -1320,7 +1320,7 @@
 
 			<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Interdictor </Damage_Type>
+			<Damage_Type> Damage_Frigate </Damage_Type>
             <Fire_Bone_A>HP_LC012</Fire_Bone_A>
             <Fire_Bone_B>HP_LC12</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
@@ -1362,7 +1362,7 @@
 
 			<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Interdictor </Damage_Type>
+			<Damage_Type> Damage_Frigate </Damage_Type>
             <Fire_Bone_A>HP_LC13</Fire_Bone_A>
             <Fire_Bone_B>HP_LC13</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
@@ -1404,7 +1404,7 @@
 
 			<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Interdictor </Damage_Type>
+			<Damage_Type> Damage_Frigate </Damage_Type>
             <Fire_Bone_A>HP_LC14</Fire_Bone_A>
             <Fire_Bone_B>HP_LC14</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>

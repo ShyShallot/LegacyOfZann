@@ -95,6 +95,8 @@
         <Story_Tag>Send_Tarkin_To_Planet_Start</Story_Tag>
     </Event>
     
+    <!-- Was Experiencing Crash Issues so main part of this mission is handled in STORY\ScienceSystem.lua-->
+
     <Event Name="Send_Tarkin_Succeed">
         <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
         <Event_Param2>SEND_TARKIN_COMPLETE</Event_Param2>
@@ -102,11 +104,27 @@
         <Reward_Param1>Send_Tarkin_To_Planet_Start</Reward_Param1>
     </Event>
 
-    <Event Name="Send_Tarkin_Mission_Remove">
+    <Event Name="Build_Prototype_Unit_00">
         <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
-        <Event_Param2>SEND_TARKIN_MISSION_REMOVE</Event_Param2>
-        <Reward_Type>REMOVE_STORY_GOAL</Reward_Type>
-        <Reward_Param1>Send_Tarkin_To_Planet_Start</Reward_Param1>
+        <Event_Param2>START_PROTOUNIT_MISSION</Event_Param2>
+        <Story_Dialog>Custom\Dialog_Empire_Science</Story_Dialog>
+        <Story_Chapter>5</Story_Chapter>
+        <Story_Dialog_Popup>False</Story_Dialog_Popup>
+        <Story_Tag>Build_Prototype_Unit_00</Story_Tag>
     </Event>
-    
+
+    <Event Name="Build_Prototype_Unit_01">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+        <Event_Param1/>
+        <Prereq>Build_Prototype_Unit_00</Prereq>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PROTOTYPE_UNIT_CONSTRUCTED</Reward_Param1>
+    </Event>
+
+    <Event Name="Build_Prototype_Unit_03">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>COMPLETE_PROTOUNIT_MISSION</Event_Param2>
+        <Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+        <Reward_Param1>Build_Prototype_Unit_00</Reward_Param1>
+    </Event>
 </Story>

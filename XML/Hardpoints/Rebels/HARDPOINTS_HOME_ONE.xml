@@ -71,7 +71,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_HomeOne_Weapon_TBL_BL </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Fire_Bone_A>FP_TBL_BL_00</Fire_Bone_A>
             <Fire_Bone_B>FP_TBL_BL_01</Fire_Bone_B>
             <Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -114,7 +114,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_HomeOne_Weapon_TBL_BR </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Fire_Bone_A>FP_TBL_BR_00</Fire_Bone_A>
             <Fire_Bone_B>FP_TBL_BR_01</Fire_Bone_B>
             <Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -157,7 +157,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_HomeOne_Weapon_TBL_FL </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Fire_Bone_A>FP_TBL_FL_00</Fire_Bone_A>
             <Fire_Bone_B>FP_TBL_FL_01</Fire_Bone_B>
             <Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -200,7 +200,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_HomeOne_Weapon_TBL_FR </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+			<Damage_Type> Damage_Captial </Damage_Type>
             <Fire_Bone_A>FP_TBL_FR_00</Fire_Bone_A>
             <Fire_Bone_B>FP_TBL_FR_01</Fire_Bone_B>
             <Fire_Cone_Width>170.0</Fire_Cone_Width>

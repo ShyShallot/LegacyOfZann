@@ -27,7 +27,7 @@
 		<OverrideAcceleration> .065 </OverrideAcceleration>
 		<OverrideDeceleration> .065 </OverrideDeceleration>
 
-		<Armor_Type> Armor_Tartan </Armor_Type>
+		<Armor_Type> Armor_Corvette </Armor_Type>
         <Shield_Armor_Type>Shield_Corvette</Shield_Armor_Type>
 		<Max_Thrust>0.8</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>

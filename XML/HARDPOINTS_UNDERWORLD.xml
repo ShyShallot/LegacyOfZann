@@ -406,7 +406,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_InterceptorIV_BL </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Acclamator </Damage_Type>
+			<Damage_Type> Damage_Frigate </Damage_Type>
             <Fire_Bone_A>FP_B-L_00</Fire_Bone_A>
             <Fire_Bone_B>FP_B-L_01</Fire_Bone_B>
             <Fire_Cone_Width>150</Fire_Cone_Width>
@@ -447,7 +447,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_InterceptorIV_BR </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Acclamator </Damage_Type>
+			<Damage_Type> Damage_Frigate </Damage_Type>
             <Fire_Bone_A>FP_B-R_00</Fire_Bone_A>
             <Fire_Bone_B>FP_B-R_01</Fire_Bone_B>
             <Fire_Cone_Width>150</Fire_Cone_Width>
@@ -630,7 +630,7 @@
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Special_Death</Death_Explosion_SFXEvent>
 
-		<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+		<Damage_Type> Damage_Captial </Damage_Type>
 		<Model_To_Attach>UV_KraytClassDestroyer_HP_SW_00.alo</Model_To_Attach>
 		<Attachment_Bone>HP_SW_00_BONE</Attachment_Bone>
 		<Collision_Mesh>HP_SW_00_COLL</Collision_Mesh>
@@ -679,7 +679,7 @@
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-		<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+		<Damage_Type> Damage_Captial </Damage_Type>
 		<Model_To_Attach>UV_KraytClassDestroyer_HP_LC_L_00.alo</Model_To_Attach>
 		<Attachment_Bone>HP_LC_L_00_BONE</Attachment_Bone>
 		<Collision_Mesh>HP_LC_L_00_COLL</Collision_Mesh>
@@ -722,7 +722,7 @@
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-		<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+		<Damage_Type> Damage_Captial </Damage_Type>
 		<Model_To_Attach>UV_KraytClassDestroyer_HP_LC_L_00_Tyber.alo</Model_To_Attach>
 		<Attachment_Bone>HP_LC_L_00_BONE</Attachment_Bone>
 		<Collision_Mesh>HP_LC_L_00_COLL</Collision_Mesh>
@@ -764,7 +764,7 @@
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-		<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+		<Damage_Type> Damage_Captial </Damage_Type>
 		<Model_To_Attach>UV_KraytClassDestroyer_HP_LC_R_00.alo</Model_To_Attach>
 		<Attachment_Bone>HP_LC_R_00_BONE</Attachment_Bone>
 		<Collision_Mesh>HP_LC_R_00_COLL</Collision_Mesh>
@@ -807,7 +807,7 @@
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-		<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+		<Damage_Type> Damage_Captial </Damage_Type>
 		<Model_To_Attach>UV_KraytClassDestroyer_HP_LC_R_00_Tyber.alo</Model_To_Attach>
 		<Attachment_Bone>HP_LC_R_00_BONE</Attachment_Bone>
 		<Collision_Mesh>HP_LC_R_00_COLL</Collision_Mesh>
@@ -848,7 +848,7 @@
 	  <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
 	  <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-	  <Damage_Type> Damage_Star_Destroyer </Damage_Type>
+	  <Damage_Type> Damage_Captial </Damage_Type>
 	  <Attachment_Bone>HP_LC_F_MG_Bone</Attachment_Bone>
 	  <Collision_Mesh>HP_LC_F_MG_COLL</Collision_Mesh>
 	  <Damage_Particles>HP_LC_F_MG_EmitDamage</Damage_Particles>

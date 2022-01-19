@@ -37,9 +37,9 @@ function Definitions()
         ["cooldown_time"] = WeekTime() * 5 -- lock missions for 5 weeks
     }
     research_mission_units = {
-        ["Prototype_Titan_ISD"] = Find_Object_Type("Titan_Star_Destroyer_Prototype"),
-        ["MK2_Star_Destroyer"] = Find_Object_Type("Star_Destroyer_2_Prototype"),
-        ["Stealth_TIE_Prototype"] = Find_Object_Type("TIE_Phantom_Squadron_Prototype")
+        ["Titan_Star_Destroyer"] = Find_Object_Type("Titan_Star_Destroyer"),
+        ["MK2_Star_Destroyer"] = Find_Object_Type("Star_Destroyer_2"),
+        ["Stealth_TIE_Prototype"] = Find_Object_Type("TIE_Phantom_Squadron")
     }
     level_data = {
         [1] = {
@@ -90,6 +90,9 @@ end
 
 function State_Init(message)
 	if message == OnEnter then
+        if(tech_level == 5) then
+            ScriptExit()
+        end
         DebugMessage("%s -- Setting Init Values", tostring(Script))
         GlobalValue.Set("Science_Level", 0) -- We need these as global values, 1 so that we can set them from any other script and 2 so that they can be as easily changes as a normal var
         GlobalValue.Set("Next_Tech_Up_At", 0) -- Although we a func for this in our level_data we dont have one to init
@@ -97,9 +100,6 @@ function State_Init(message)
         GlobalValue.Set("Tech_Upgrade_Done", 0)
         player = Find_Player("Empire") -- define are player so that we can actually do things :) Also i think the Faction Name has to be exact from the XML definiton but too lazy to check
         tech_level = player.Get_Tech_Level() -- Get our Tech Level so that we can properly define our starting Science Level
-        if(tech_level == 5) then
-            ScriptExit()
-        end
         plot = Get_Story_Plot("StoryMissions\\Custom\\STORY_SANDBOX_EMPIRE_SCIENCE_LIB.XML") -- Please note that the .XML HAS TO BE CAPITILIZED if not it wont find the file
         event = plot.Get_Event("Empire_Science_Dis")
         Sleep(1)
@@ -107,6 +107,7 @@ function State_Init(message)
         Sleep(1)
         Set_Display_Level(level_data.level(), level_data.Next_Level())
         Lock_Tech_Levels()
+        Lock_Science_Units()
         Toggle_Research_Upgrade(true)
 	end
     if message == OnUpdate then
@@ -151,6 +152,13 @@ end
 function Lock_Tech_Levels() -- This isnt really needed as a sepearte function but too lazy to move stuff around
     for i=2,5,1 do -- Start at 2 as that is the first tech upgrade and stop at 5
         player.Lock_Tech(tech_upgrades["tech_" .. i .. "_upgrade"]) -- .. is to combine 2 strings but since i isnt a string but rather a number it gets auto converted into a string
+    end
+end
+
+function Lock_Science_Units()
+    for i=1,table.getn(research_mission_units),1 do
+        player.Lock_Tech(Find_Object_Type(research_mission_units[i].Get_Type().Get_Name() .. "_Prototype"))
+        Game_Message("Locked: " .. tostring(research_mission_units[i]))
     end
 end
 
@@ -367,6 +375,9 @@ function Check_Current_Mission()
             Mission_Cooldown()
             last_researched_week = CurrentWeekRounded()
             Create_Thread("Research_Cooldown")
+            local tarkin = Find_First_Object("Grand_Moff_Tarkin")
+            tarkin.Play_SFX_Event("EHD_Mission_Updated")
+            Story_Event("FLASH_MISSION_DIAG")
             return -- since we reset current_mission we have to return so that the if statement for checking if we failed the mission gets canceled
         end
         if CurrentWeekRounded() > (current_mission["start"] + current_mission["timetocomplete"]) then
@@ -413,7 +424,6 @@ function Science_Level_Chooser() -- This function is a fucking mess and i dont f
         return
     end
     if research_mission_data["cooldown_active"] and not science_research_data["cooldown_active"] and not research_mission_data["active"] and not science_research_data["active"] then
-        Game_Message("Research Funding is now Available, Check a planet with a Research Facility")
         Toggle_Research_Upgrade()
         return
     end
@@ -427,7 +437,6 @@ function Science_Level_Chooser() -- This function is a fucking mess and i dont f
             Research_Mission_Handler()
             return
         else 
-            Game_Message("Research Funding is now Available, Check a planet with a Research Facility")
             Toggle_Research_Upgrade()
             return
         end

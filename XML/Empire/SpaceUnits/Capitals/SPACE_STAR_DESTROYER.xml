@@ -458,8 +458,6 @@
 		<Population_Value>6</Population_Value>
 
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
-
-
 		<Encyclopedia_Text> TEXT_TOOLTIP_STAR_DESTROYER_2</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
@@ -473,5 +471,17 @@
 		<Population_Value>16</Population_Value>
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</SpaceUnit>
+
+	<SpaceUnit Name="Star_Destroyer_2_Prototype">
+		<Variant_Of_Existing_Type>Star_Destroyer_2</Variant_Of_Existing_Type>
+		<Shield_Points>9500</Shield_Points>
+		<Text_ID>TEXT_UNIT_STAR_DESTROYER_2_PROTO</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_STAR_DESTROYER_2_PROTO</Encyclopedia_Text>
+		<Max_Speed>0.7</Max_Speed>
+		<Max_Rate_Of_Turn>0.85</Max_Rate_Of_Turn>
+		<Build_Cost_Credits>18500</Build_Cost_Credits>
+		<AI_Combat_Power>8000</AI_Combat_Power>
+		<Build_Time_Seconds>100</Build_Time_Seconds>
 	</SpaceUnit>
 </Star_Destroyer_Data>

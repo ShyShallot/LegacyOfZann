@@ -377,8 +377,8 @@
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
 		<Death_Clone>Damage_Normal, Star_Destroyer_Death_Clone</Death_Clone>
-		<Space_FOW_Reveal_Range>2100.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2350.0</Targeting_Max_Attack_Distance>
+		<Space_FOW_Reveal_Range>1850.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>1440.0</Targeting_Max_Attack_Distance>
 		<Targeting_Min_Attack_Distance>350.0</Targeting_Min_Attack_Distance>
 
 		<HardPoints> 

@@ -18,7 +18,7 @@
 		<Select_Box_Scale>800</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Scale_Factor>0.95</Scale_Factor>
+		<Scale_Factor>0.6</Scale_Factor>
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -27,8 +27,8 @@
 		<Armor_Type> Armor_Capital </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 
-		<Max_Speed>2.1</Max_Speed>
-		<Max_Rate_Of_Turn>0.8</Max_Rate_Of_Turn>
+		<Max_Speed>1.7</Max_Speed>
+		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
 		<Layer_Z_Adjust>-430.0</Layer_Z_Adjust>
@@ -84,8 +84,8 @@
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
 		<Death_Clone>Damage_Normal, Star_Destroyer_Death_Clone</Death_Clone>
-		<Space_FOW_Reveal_Range>3000.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2850.0</Targeting_Max_Attack_Distance>
+		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>1450.0</Targeting_Max_Attack_Distance>
 		<Targeting_Min_Attack_Distance>285.0</Targeting_Min_Attack_Distance>
 
 		<HardPoints> 

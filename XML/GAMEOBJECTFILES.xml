@@ -71,7 +71,7 @@
 	<File>Props_Generic.xml</File>
 	<File>Props_Story.xml</File>	
 
-	<File>CIN_SpaceUnitsCapital.xml</File>
+	<!--<File>CIN_SpaceUnitsCapital.xml</File>
 	<File>CIN_SpaceUnitsFighters.xml</File>
 	<File>CIN_SpaceUnitsCorvettes.xml</File>
 	<File>CIN_SpaceUnitsFrigates.xml</File>
@@ -81,7 +81,7 @@
 	<File>CIN_TransportUnits.xml</File>
 	<File>CIN_Projectiles.xml</File>
 	<File>CIN_GroundProps.xml</File>
-	<File>CIN_GroundTurrets.xml</File>
+	<File>CIN_GroundTurrets.xml</File>-->
 
 	<File>MOV_Cinematics.xml</File>
 
@@ -100,7 +100,7 @@
 	<File>Empire\Heros\SPACE_HERO_DARTH_VADER.xml</File>
 	<File>Empire\Heros\SPACE_HERO_BOBA_FETT.xml</File>
 	<File>Empire\Heros\SPACE_HERO_PIETT.xml</File>
-	<File>Empire\Heros\LAND_HERO_VEERS_AT_AT.xml</File>
+	<File>Empire\Heros\LAND_VEERS_AT_AT.xml</File>
 
 	<!-- SSD Class-->
 	<File>Empire\SpaceUnits\Supers\SPACE_EXECUTOR_SSD.xml</File>
@@ -181,12 +181,12 @@
 	<!-- Expansion Units: Underworld -->
 	<File>Underworld\Space_Station.xml</File>
 	<File>UnitFiles\Units_Land_Pirates.xml</File>
-	<File>UnitFiles\Units_Hero_Underworld_IG88.xml</File>
-	<File>UnitFiles\Units_Hero_Underworld_Bossk.xml</File>
-	<File>UnitFiles\Units_Hero_Underworld_Tyber_Zann.xml</File>
-	<File>UnitFiles\Units_Hero_Underworld_Silri.xml</File>
-	<File>UnitFiles\Units_Hero_Underworld_Urai_Fen.xml</File>
-	<File>UnitFiles\Units_Hero_Underworld_Hando.XML</File>
+	<File>Underworld\Hero\Units_Hero_Underworld_IG88.xml</File>
+	<File>Underworld\Hero\Units_Hero_Underworld_Bossk.xml</File>
+	<File>Underworld\Hero\Units_Hero_Underworld_Tyber_Zann.xml</File>
+	<File>Underworld\Hero\Units_Hero_Underworld_Silri.xml</File>
+	<File>Underworld\Hero\Units_Hero_Underworld_Urai_Fen.xml</File>
+	<File>Underworld\Hero\Units_Hero_Underworld_Hando.XML</File>
 
 	<File>UnitFiles\Units_Land_Underworld_MercenaryInf.xml</File>
 	<File>UnitFiles\Units_Land_Underworld_DisruptorInf.xml</File>
@@ -201,19 +201,19 @@
 	<File>UnitFiles\Units_Land_Underworld_Ewok_Bomber.xml</File>
 	<File>UnitFiles\UNITS_LAND_UNDERWORLD_MANDO.xml</File>
 
-	<File>Underworld\Fighters\Units_Space_Underworld_StarViper.xml</File>
-	<File>Underworld\Fighters\Units_Space_Underworld_Skipray.xml</File>
-	<File>Underworld\Corvette\Units_Space_Underworld_Crusader_Gunship.xml</File>
-	<File>Underworld\Frigate\Units_Space_Underworld_Interceptor4.xml</File>
-	<File>Underworld\Frigate\Units_Space_Underworld_Vengeance.xml</File>	
-	<File>Underworld\Capital\Units_Space_Underworld_Kadalbe_Battleship.xml</File>
-	<File>Underworld\Capital\Units_Space_Underworld_Krayt_Destroyer.xml</File>
-	<File>Underworld\Misc\Units_Space_Underworld_Buzz_Droids.xml</File>
-	<File>Underworld\Frigate\Units_Space_Underworld_Corona.xml</File>
-	<File>Underworld\Frigate\Units_Space_Underworld_Munificent.xml</File>
-	<File>Underworld\Capital\Units_Space_Underworld_Providence.XML</File>
-	<File>Underworld\Super\Units_Space_Underworld_KANDOSII.xml</File>
-	<File>Underworld\Fighters\Units_Space_Underworld_Tri_Fighter.xml</File>
+	<File>Underworld\Space\Fighters\Units_Space_Underworld_StarViper.xml</File>
+	<File>Underworld\Space\Fighters\Units_Space_Underworld_Skipray.xml</File>
+	<File>Underworld\Space\Corvette\Units_Space_Underworld_Crusader_Gunship.xml</File>
+	<File>Underworld\Space\Frigate\Units_Space_Underworld_Interceptor4.xml</File>
+	<File>Underworld\Space\Frigate\Units_Space_Underworld_Vengeance.xml</File>	
+	<File>Underworld\Space\Capital\Units_Space_Underworld_Kadalbe_Battleship.xml</File>
+	<File>Underworld\Space\Capital\Units_Space_Underworld_Krayt_Destroyer.xml</File>
+	<File>Underworld\Space\Misc\Units_Space_Underworld_Buzz_Droids.xml</File>
+	<File>Underworld\Space\Frigate\Units_Space_Underworld_Corona.xml</File>
+	<File>Underworld\Space\Frigate\Units_Space_Underworld_Munificent.xml</File>
+	<File>Underworld\Space\Capital\Units_Space_Underworld_Providence.XML</File>
+	<File>Underworld\Space\Super\Units_Space_Underworld_KANDOSII.xml</File>
+	<File>Underworld\Space\Fighters\Units_Space_Underworld_Tri_Fighter.xml</File>
 
 	<File>SpecialStructures_Underworld.xml</File>
 
@@ -223,17 +223,17 @@
 
 	<File>UnitFiles\Units_Space_Neutral_Eclipse.xml</File>
 	<File>Hutt_Faction_Units.xml</File>
-	<File>GroundBuildablesHutts.xml</File>
+	<File>GroundFiles\GroundBuildablesHutts.xml</File>
 	<File>UnitFiles\UNITS_SPACE_NETURAL_POP_CAP.xml</File>
 
 	<!-- Expansion General Files -->
 	
-	<File>SpaceProps_Underworld.xml</File>
+	<File>SpaceFiles\SpaceProps_Underworld.xml</File>
 	<File>Underworld_TransportUnits.xml</File>
 	<File>Minor_Heroes_Expansion.xml</File>
 	<File>Props_Felucia.xml</File>
-	<File>GroundBuildablesUnderworld.xml</File>
-	<File>GroundStructures_Underworld.xml</File>
+	<File>GroundFiles\GroundBuildablesUnderworld.xml</File>
+	<File>GroundFiles\GroundStructures_Underworld.xml</File>
 	<File>Mobile_Defense_Units.XML</File>
 	<File>Multiplayer_Structure_Markers.XML</File>
 	<File>UpgradeObjects_Underworld.XML</File>

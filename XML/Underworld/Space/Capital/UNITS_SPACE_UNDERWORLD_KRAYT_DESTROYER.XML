@@ -224,7 +224,7 @@
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>5500</Build_Cost_Credits>
 		<AI_Combat_Power>5500</AI_Combat_Power>
-		<Build_Time_Seconds>7-</Build_Time_Seconds>
+		<Build_Time_Seconds>7</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
 

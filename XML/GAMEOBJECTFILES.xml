@@ -71,7 +71,7 @@
 	<File>Props_Generic.xml</File>
 	<File>Props_Story.xml</File>	
 
-	<!--<File>CIN_SpaceUnitsCapital.xml</File>
+	<File>CIN_SpaceUnitsCapital.xml</File>
 	<File>CIN_SpaceUnitsFighters.xml</File>
 	<File>CIN_SpaceUnitsCorvettes.xml</File>
 	<File>CIN_SpaceUnitsFrigates.xml</File>
@@ -81,14 +81,14 @@
 	<File>CIN_TransportUnits.xml</File>
 	<File>CIN_Projectiles.xml</File>
 	<File>CIN_GroundProps.xml</File>
-	<File>CIN_GroundTurrets.xml</File>-->
+	<File>CIN_GroundTurrets.xml</File>
 
 	<File>MOV_Cinematics.xml</File>
 
 
-
-
-
+	<!-- Base Units-->
+	<File>Base\Empire\Base_Corvette.xml</File>
+	<File>Base\Empire\Base_Frigate.xml</File>
 
 	<!-- Empire Units -->
 

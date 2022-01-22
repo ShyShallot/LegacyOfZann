@@ -1,13 +1,9 @@
-<Event Name="REMOVE_MISSION">
-        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
-        <Event_Param2>REMOVE_STORY_EVENT</Event_Param2>
-        <Reward_Type>REMOVE_STORY_GOAL</Reward_Type>
-        <Reward_Param1/>
-</Event>
-
-<Event Name="FLASH_MISSION_DIAG">
-        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
-        <Event_Param2>FLASH_MISSION_DIAG</Event_Param2>
-        <Reward_Type>FLASH_GUI</Reward_Type>
-        <Reward_Param1>b_story_arc_g</Reward_Param1>
-</Event>
+<?xml version="1.0" ?>
+<Story>
+        <Event Name="REMOVE_MISSION">
+                <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+                <Event_Param2>REMOVE_STORY_EVENT</Event_Param2>
+                <Reward_Type>REMOVE_STORY_GOAL</Reward_Type>
+                <Reward_Param1/>
+        </Event>
+</Story>

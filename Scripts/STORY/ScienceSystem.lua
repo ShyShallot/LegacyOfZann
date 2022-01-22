@@ -377,7 +377,6 @@ function Check_Current_Mission()
             Create_Thread("Research_Cooldown")
             local tarkin = Find_First_Object("Grand_Moff_Tarkin")
             tarkin.Play_SFX_Event("EHD_Mission_Updated")
-            Story_Event("FLASH_MISSION_DIAG")
             return -- since we reset current_mission we have to return so that the if statement for checking if we failed the mission gets canceled
         end
         if CurrentWeekRounded() > (current_mission["start"] + current_mission["timetocomplete"]) then

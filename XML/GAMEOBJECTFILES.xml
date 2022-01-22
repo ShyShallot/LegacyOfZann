@@ -123,6 +123,7 @@
 	<!--Corvettes-->
 	<File>Empire\SpaceUnits\Corvettes\SPACE_BROADSIDE_CRUISER.xml</File>
 	<File>Empire\SpaceUnits\Corvettes\SPACE_TARTAN_CORVETTE.xml</File>
+	<File>Empire\SpaceUnits\Corvettes\SPACE_ARQUITENS.xml</File>
 
 	<!-- Fighters -->
 	<File>Empire\SpaceUnits\Fighters\SPACE_TIE_BOMBER.xml</File>

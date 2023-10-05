@@ -59,7 +59,7 @@ function State_Init(message)
 			-- Register a prox event that looks for any nearby units
 			empire_player = Find_Player("Empire")
 			underworld_player = Find_Player("Underworld")
-			random_var = GameRandom(2,10)
+			random_var = EvenMoreRandom(2,10)
 			Register_Timer(Respawn, random_var)
 			last_droid = nil
 		elseif message == OnUpdate then

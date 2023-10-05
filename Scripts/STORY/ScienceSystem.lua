@@ -7,6 +7,40 @@ require("LOZGalacticFuncs")
 -- This Script Handles the Science System for the Empire
 -- Do not use the Science system with the AI as thats a fuck ton of more bullshit, we can just have the AI tech normally via upgrades
 -- Thats why the Tech Upgrades are only locked from the script
+
+--[[ mission ideas via chatgpt
+
+    Stealth Technology Research: Players must infiltrate an enemy research facility to steal data on advanced stealth technology. Successfully completing the mission could grant the player the ability to cloak their ships temporarily.
+
+    Hyperdrive Efficiency Study: Investigate a mysterious anomaly in deep space that might hold secrets to improving hyperdrive technology. Successful research could result in faster ship travel and better evasion of enemy fleets.
+
+    Prototype Testing: Players must protect a team of scientists conducting field tests on experimental ships. These ships might include prototypes with advanced weaponry, shielding, or speed enhancements.
+
+    Mining Asteroid Fields: Send fleets to mine valuable asteroids for resources needed for ship construction. Along the way, players may encounter pirates or other factions trying to claim the asteroids for themselves.
+
+    Holographic Decoy Development: Players must secure a research lab specializing in holographic technology. Success in this mission could unlock the ability to create holographic decoy ships to confuse enemy fleets.
+
+    Capture Diplomatic Shuttle: Intercept and board an enemy diplomatic shuttle to retrieve important data or diplomats who possess information about enemy ship technology.
+
+    Derelict Ship Salvage: Investigate a derelict capital ship drifting in space. Salvage valuable components and technology from the wreckage, potentially improving your own fleet's capabilities.
+
+    Scientific Outpost Defense: Defend a scientific outpost conducting crucial ship-related research from an enemy attack. Success ensures the safety of your scientists and research data.
+
+    Rebel Spy Infiltration: Infiltrate an enemy research facility with a spy to gather data on their ship upgrades. This information can be used to counter their advancements.
+
+    Alliance with a Neutral Faction: Negotiate with a neutral faction with advanced ship technology to gain access to their research and possibly form an alliance for mutual benefit.
+
+    Artificial Intelligence Development: Secure a droid factory and obtain research on advanced AI systems. This can lead to the creation of more efficient and autonomous ship systems.
+
+    Mysterious Alien Artifact: Investigate a mysterious alien artifact discovered in deep space. It might hold the key to unlocking exotic ship technologies or weaponry.
+
+    Deep Space Probe Mission: Send a specialized probe into uncharted space regions to gather data on cosmic phenomena that could be used for ship upgrades or navigation.
+
+    Advanced Weaponry Lab Raid: Launch a raid on an enemy weapons research lab to capture or sabotage their advanced weapon prototypes.
+
+    Naval Academy Training: Establish a naval academy to train new officers and pilots, improving your fleet's overall effectiveness.
+]]
+
 function Definitions()
     DebugMessage("%s -- In Definitions", tostring(Script))
 	ServiceRate = 1 
@@ -168,6 +202,7 @@ function Toggle_Research_Upgrade(bool)
         science_research_data["active"] = false
         science_research_data["locked"] = true
     else
+        local tarkin = Find_First_Object("Grand_Moff_Tarkin")
         player.Unlock_Tech(tech_upgrades["research_upgrade"])
         science_research_data["active"] = true
         science_research_data["locked"] = false
@@ -253,16 +288,15 @@ end
 
 function Research_Mission_Handler() -- Todo, cause just having research upgrade stuff would be boring and too linear with less chances of fucking up :)
     DebugMessage("%s -- Research Missions Table Length: %s", tostring(Script), tostring(table.getn(research_mission_data["missions"])))
-    local random_mission = GameRandom(1, table.getn(research_mission_data["missions"]))
+    local random_mission = EvenMoreRandom(1, table.getn(research_mission_data["missions"]))
     DebugMessage("%s -- Random Mission: %s", tostring(Script), tostring(random_mission))
     _G[research_mission_data["missions"][random_mission]]()
 end
 
 function Build_A_Unit()
     DebugMessage("%s -- Running Build A Unit Mission", tostring(Script))
-    research_mission_data["active"] = Toggle_Research_Upgrade
-    local randomUnitIndex = Game_Random(1, table.getn(research_mission_units))
-    local randomUnit = research_mission_units[randomUnitIndex]
+    research_mission_data["active"] = true
+    local randomUnit = research_mission_units[getRandomStringKey(research_mission_units)]
     if type(randomUnit) == nil or type(randomUnit) == "nil" then
         ScriptError("%s -- Error Cant Find Unit: %s, either unit doesnt exist in files or is miss-spelled in the array.", tostring(Script), tostring(randomUnit))
         return
@@ -270,14 +304,14 @@ function Build_A_Unit()
     local build_amount = 1
     DebugMessage("%s -- Selected Random Unit: %s", tostring(Script), tostring(randomUnit))
     local curWeek = CurrentWeekRounded()
-    current_mission = {["mission"] = "Build_Prototype_Unit_00", ["flag"] = "Build_Prototype_Unit_01", ["goal"] = randomUnit, ["start"] = curWeek, ["timetocomplete"] = 20, ["reward"] = "Build_Prototype_Unit_03", ["failfunc"] = "Proto_Fail", ["winfunc"] = "Proto_Complete"}
+    current_mission = {["mission"] = "Build_Prototype_Unit_00", ["flag"] = "Proto_Units_Built", ["goal"] = randomUnit, ["start"] = curWeek, ["timetocomplete"] = 20, ["reward"] = "Build_Prototype_Unit_03", ["failfunc"] = "Proto_Fail", ["winfunc"] = "Proto_Complete"}
     proto_dialog = plot.Get_Event(current_mission["mission"])
     proto_dialog.Clear_Dialog_Text()
-    proto_dialog.Add_Dialog_Text("Prototype Unit to Contruct: " .. tostring(Return_Name(randomUnit)))
+    proto_dialog.Add_Dialog_Text("Prototype Unit to Contruct: " .. tostring(randomUnit.Get_Name()))
     proto_dialog.Add_Dialog_Text("Amount to Construct: " .. build_amount)
     proto_dialog.Add_Dialog_Text("TEXT_STORY_EMPIRE_SCIENCE_TIME_LIMIT", tostring(current_mission["timetocomplete"]))
     proto_dialog.Add_Dialog_Text("TEXT_STORY_EMPIRE_SCIENCE_MISSION_STATUS", "In Progress")
-    proto_mission = plot.Get_Event(current_mission["flag"])
+    proto_mission = plot.Get_Event("Build_Prototype_Unit_01")
     proto_mission.Set_Event_Parameter(0, randomUnit)
     proto_mission.Set_Event_Parameter(1, build_amount)
     Sleep(1)
@@ -297,12 +331,12 @@ function Send_Tarkin_To_Planet()
             DebugMessage("%s -- Adding %s to Imperial Planet List", tostring(Script), tostring(p))
         end
     end
-    local random_planet_index = GameRandom(1, table.getn(imperial_planets))
+    local random_planet_index = EvenMoreRandom(1, table.getn(imperial_planets))
     DebugMessage("%s -- Random Planet Index: %s", tostring(Script), tostring(random_planet_index))
     local random_planet = imperial_planets[random_planet_index]
     if tarkin.Get_Planet_Location().Get_Type().Get_Name() == random_planet then
         DebugMessage("%s -- Random Planet is Equal to Tarkins Current Planet, Recalcuating", tostring(Script))
-        local random_planet_index = GameRandom(1, table.getn(imperial_planets))
+        local random_planet_index = EvenMoreRandom(1, table.getn(imperial_planets))
         DebugMessage("%s -- Random Planet Index: %s", tostring(Script), tostring(random_planet_index))
         local random_planet = imperial_planets[random_planet_index]
     end
@@ -368,15 +402,13 @@ function Check_Current_Mission()
             if current_mission["reward"] then
                 Story_Event(current_mission["reward"])
             end
-            Create_Thread("Remove_Story_Mission", current_mission["mission"])
+            --Create_Thread("Remove_Story_Mission", current_mission["mission"])
             level_data.Add_Level() -- Due to the way the function works if there is no value provided it falls back to the default increase value which is defined in the level_data array
             current_mission = {}
             research_mission_data["active"] = false
             Mission_Cooldown()
             last_researched_week = CurrentWeekRounded()
             Create_Thread("Research_Cooldown")
-            local tarkin = Find_First_Object("Grand_Moff_Tarkin")
-            tarkin.Play_SFX_Event("EHD_Mission_Updated")
             return -- since we reset current_mission we have to return so that the if statement for checking if we failed the mission gets canceled
         end
         if CurrentWeekRounded() > (current_mission["start"] + current_mission["timetocomplete"]) then
@@ -394,7 +426,7 @@ function Check_Current_Mission()
 end
 
 function Mission_Fail()
-    Create_Thread("Remove_Story_Mission", current_mission["mission"])
+    --Create_Thread("Remove_Story_Mission", current_mission["mission"])
     level_data.Add_Level(-1)
 end
 
@@ -431,7 +463,7 @@ function Science_Level_Chooser() -- This function is a fucking mess and i dont f
         return
     end
     if not science_research_data["cooldown_active"] and not research_mission_data["cooldown_active"] and not research_mission_data["active"] and science_research_data["locked"] then
-        if Return_Chance(research_mission_data["chance"], 1.25) then
+        if Return_Chance(research_mission_data["chance"], 1) then
             Game_Message("A Science Mission is now Available, Check your Mission Logs")
             Research_Mission_Handler()
             return
@@ -453,28 +485,37 @@ end
 function Has_Tarkin_Arrived() -- this func is a mess cause Story Scripting was being a pain in the ass
     local tarkin = Find_First_Object("Grand_Moff_Tarkin") -- Trying to find the Team Returned Nil, so if you want the team Object copy below with the Get_Parent_Object
     local tarkin_planet = tarkin.Get_Planet_Location() -- Get his planet location
-    if TestValid(tarkin_planet) then -- if he is on a planet
-        if tarkin.Get_Planet_Location().Get_Type().Get_Name() == current_mission["goal"] then 
-            DebugMessage("%s -- Tarkins Parent Object: %s", tostring(Script), tostring(tarkin.Get_Parent_Object()))
-            local tarkin_parent = tarkin.Get_Parent_Object()
-            if TestValid(tarkin_parent) then -- If we got Tarkins Parent Object successfully
-                local tarkin_planet = tarkin_parent.Get_Parent_Object() -- Get Tarkins Parent Object Parent Object, this is a weird ass workaround to a CTD i was too frustrated to figure out
-                if TestValid(tarkin_planet) then
-                    DebugMessage("%s -- Tarkin Teams Parent Object: %s", tostring(Script), tostring(tarkin_planet))
-                    if tarkin_planet.Get_Type().Get_Name() == current_mission["goal"] then -- This is to make sure he is on the Ground, as the Parent Object of a Land Team returns the Planet, if the team object is in Space it Returns Galactic Fleet
-                        DebugMessage("%s -- Tarkin Has Arrived to Goal Planet", tostring(Script))
-                        return true
-                    end
-                end
-            end
-        end
+    if not TestValid(tarkin_planet) then -- if he is on a planet
+        return
     end
+    if tarkin.Get_Planet_Location().Get_Type().Get_Name() ~= current_mission["goal"] then 
+        return
+    end
+    DebugMessage("%s -- Tarkins Parent Object: %s", tostring(Script), tostring(tarkin.Get_Parent_Object()))
+    local tarkin_parent = tarkin.Get_Parent_Object()
+    if not TestValid(tarkin_parent) then -- If we got Tarkins Parent Object successfully
+        return
+    end
+    local tarkin_planet = tarkin_parent.Get_Parent_Object() -- Get Tarkins Parent Object Parent Object, this is a weird ass workaround to a CTD i was too frustrated to figure out
+    if not TestValid(tarkin_planet) then
+        return
+    end
+    DebugMessage("%s -- Tarkin Teams Parent Object: %s", tostring(Script), tostring(tarkin_planet))
+    if tarkin_planet.Get_Type().Get_Name() == current_mission["goal"] then -- This is to make sure he is on the Ground, as the Parent Object of a Land Team returns the Planet, if the team object is in Space it Returns Galactic Fleet
+        DebugMessage("%s -- Tarkin Has Arrived to Goal Planet", tostring(Script))
+        return true
+    end
+end
+
+
+function Proto_Units_Built()
+    return Check_Story_Flag(player,"PROTOTYPE_UNIT_CONSTRUCTED",nil,true)
 end
 
 function Remove_Story_Mission(story_event) -- Gets Ran in a Thread so it doesnt interupt any other script function
     DebugMessage("%s -- Starting Remove Event Timer", tostring(Script))
     Sleep(10)
-    Remove_Mission(story_event)
+    --Remove_Mission(story_event)
     DebugMessage("%s -- Removed Story Mission Dialog", tostring(Script))
 end
 

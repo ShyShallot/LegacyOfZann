@@ -124,85 +124,49 @@ end
 
 function Calculate_Planet_Slice_Values(planetC)
     tech_diff, tech_avail = Define_Planet_Table()
-    for planet, diff in pairs(tech_diff) do
-        if planetC.Get_Type().Get_Name() == planet then
-            planet_diff = diff
-        end
+    if tech_diff[planetC.Get_Type().Get_Name()] ~= nil then
+        planet_diff = tech_diff[planetC.Get_Type().Get_Name()]
     end
-    for planet, avail in pairs(tech_avail) do
-        if planetC.Get_Type().Get_Name() == planet then
-            planet_avail = avail
-        end
+    if tech_avail[planetC.Get_Type().Get_Name()] ~= nil then
+        planet_avail = tech_avail[planetC.Get_Type().Get_Name()]
     end
     if planet_diff ~= nil and planet_avail ~= nil then
         return planet_diff, planet_avail
     end
 end
 
-function Calculate_Slice_Chances(diff, avail)
-    if diff == 0 then
-        diff_chance = 1.0
-    elseif diff == 1 then
-        diff_chance = 0.8
-    elseif diff == 2 then
-        diff_chance = 0.6
-    elseif diff == 3 then
-        diff_chance = 0.5
-    elseif diff == 4 then
-        diff_chance = 0.35
-    elseif diff == 5 then
-        diff_chance = 0.2
+function Calculate_Slice_Chances(diff, avail, flags)
+
+    diff_chance = {1.0, 0.8, 0.6, 0.5, 0.35, 0.2}
+
+    avail_chance = {0.2, 0.35, 0.5, 0.65, 0.8, 1.0}
+    
+    addtional_modifier = 1
+
+    if flags.IS_PIRATE then
+        addtional_modifier = addtional_modifier - 0.05
     end
 
-    if avail == 0 then
-        avail_chance = 0.1
-    elseif avail == 1 then
-        avail_chance = 0.25
-    elseif avail == 2 then
-        avail_chance = 0.4
-    elseif avail == 3 then
-        avail_chance = 0.5
-    elseif avail == 4 then
-        avail_chance = 0.8
-    elseif avail == 5 then
-        avail_chance = 1.0
-    end
-    
-    final_slice_chance  = diff_chance * avail_chance
-    if Return_Chance(final_slice_chance) == true then
+    final_slice_chance  = (diff_chance[diff+1] * avail_chance[avail+1]) * addtional_modifier
+    if Return_Chance(final_slice_chance) then
         return true
     end
+    return false
 end
 
-function Calculate_Sleep_Time(diff, avail)
-    if diff == 0 then
-        sleepTime = 20
-    elseif diff == 1 then
-        sleepTime = 30
-    elseif diff == 2 then
-        sleepTime = 35
-    elseif diff == 3 then
-        sleepTime = 40
-    elseif diff == 4 then
-        sleepTime = 50
-    elseif diff == 5 then
-        sleepTime = 60
-    end
+function Calculate_Sleep_Time(diff, avail, flags)
 
-    if avail == 0 then
-        mutliplier = 2.0
-    elseif avail == 1 then
-        mutliplier = 1.5
-    elseif avail == 2 then
-        mutliplier = 1.25
-    elseif avail == 3 then
-        mutliplier = 1
-    elseif avail == 4 then
-        mutliplier = 0.8
-    elseif avail == 5 then
-        mutliplier = 0.65
+    diff_sleep_time = { 20, 30, 35, 40, 50, 60}
+
+    avil_multiplier = {2.0 ,1.5 ,1.25 ,1 ,0.8 ,0.65}
+
+    addtional_modifier = 0
+
+    if flags.IS_PIRATE then
+        addtional_modifier = addtional_modifier + 25
     end
     
-    final_sleep_time = sleepTime * mutliplier
+    final_sleep_time = (diff_sleep_time[diff+1] * avil_multiplier[avail+1]) + addtional_modifier;
+
     return final_sleep_time
 end

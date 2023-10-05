@@ -540,7 +540,7 @@ function GalacticAttackAllowed(difficulty, ai_territories_just_gained)
         if player_gains_before_attacking == 0 then
 		
 			-- Establish how far the player can go unresponded
-			player_gains_before_attacking = GameRandom(min_player_wins_unresponded, max_player_wins_unresponded)
+			player_gains_before_attacking = EvenMoreRandom(min_player_wins_unresponded, max_player_wins_unresponded)
 			GlobalValue.Set(PlayerSpecificName(PlayerObject, "player_gains_before_attacking"), player_gains_before_attacking)
 			--MessageBox("%s -- Determined %d player gains allowed and recording current player territories.", tostring(Script), player_gains_before_attacking)
 
@@ -558,7 +558,7 @@ function GalacticAttackAllowed(difficulty, ai_territories_just_gained)
 		if player_territories_gained >= player_gains_before_attacking then
 		
 			-- Player has won all that he's allowed without AI response, time to start attacking again
-			num_ai_attacks_left = GameRandom(0, max_player_wins_unresponded - 1)
+			num_ai_attacks_left = EvenMoreRandom(0, max_player_wins_unresponded - 1)
 			GlobalValue.Set(PlayerSpecificName(PlayerObject, "num_ai_attacks_left"), num_ai_attacks_left)
 
 			-- Also reset the losses allowed, so that it will be randomized next time

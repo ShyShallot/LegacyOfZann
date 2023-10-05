@@ -917,7 +917,7 @@
 		<Additional_Population_Capacity>20</Additional_Population_Capacity>
 
 		<Abilities SubObjectList="Yes">
-			<Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+			<Planet_Income_Bonus_Ability Name="Rebel_Mining_Income_Bonus">
 				<!--<Specific_Mod_Source_Text>AOTR_TEXT_ECONOMY_STEUERN</Specific_Mod_Source_Text>-->
 				<!-- No Percentage due to Upkeep, Causes Unwanted Negative Income, Use Absolute Income -->
 				<Percentage_Income_Modifier>0</Percentage_Income_Modifier>
@@ -1121,6 +1121,12 @@
 		</Abilities>
 	</StarBase>
 
+	<StarBase Name="Rebel_Star_Base_5_Starting">
+		<Variant_Of_Existing_Type>Rebel_Star_Base_5</Variant_Of_Existing_Type>
+		<Additional_Population_Capacity>85</Additional_Population_Capacity>
+	
+	</StarBase>
+
 	<StarBase Name="Rebel_Dummmy_Star_Base_4">
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
 
@@ -1204,6 +1210,8 @@
 
 	
 	</StarBase>
+
+	
 
 	<StarBase Name="Rebel_Star_Base_5_Death_Clone">
 		<Text_ID>TEXT_REBEL_STAR_BASE_5</Text_ID>

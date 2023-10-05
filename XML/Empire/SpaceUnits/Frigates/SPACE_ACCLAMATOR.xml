@@ -32,10 +32,17 @@
 		</Health_Data>
 		
 		<Galactic_Data>
-			<Build_Cost_Credits>2350</Build_Cost_Credits>
-			<Build_Time_Seconds>18</Build_Time_Seconds>
-			<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		</Galactic_Data>
+            <Tech_Level>1</Tech_Level> <!-- Tech Level 0-5 that is required to construct it-->
+		    <Required_Timeline>0</Required_Timeline> <!-- Unsure-->
+		    <Required_Ground_Base_Level>0</Required_Ground_Base_Level> <!-- Unfinished Petro stuff, leave at 0-->
+		    <Required_Star_Base_Level>2</Required_Star_Base_Level> <!-- Space Station Level Required-->
+		    <Required_Special_Structures /> <!-- Any Structure either Space and Ground that has to be on/around the planet-->
+		    <Required_Planets /> <!-- Is Only buildable on this planet(s)-->
+            <!-- Costs-->
+            <Build_Cost_Credits>2850</Build_Cost_Credits>
+            <Build_Time_Seconds>18</Build_Time_Seconds>
+		    <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units> <!-- If no it shows in Ground Units-->
+        </Galactic_Data>
 		
 		<Targeting_Data>
 			<Targeting_Max_Attack_Distance>1200.0</Targeting_Max_Attack_Distance>

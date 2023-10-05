@@ -119,14 +119,14 @@
 		<Prereq>Empire_AI_Heroes_03 Galactic_Conquest_Started</Prereq>
 	</Event>
 
-	<Event Name="Empire_Tech_Pop_Cap_01">
+	<!--<Event Name="Empire_Tech_Pop_Cap_01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>UNIQUE_UNIT</Reward_Type>
 		<Reward_Param1>Empire_Dummmy_Star_Base_1</Reward_Param1>
 		<Reward_Param2>Hoth</Reward_Param2>
 		<Prereq>Empire_AI_Heroes_03 Galactic_Conquest_Started</Prereq>
 	
-	</Event>
+	</Event>-->
 
 
 	<!-- Spawn Time Era 2 Heroes -->
@@ -144,14 +144,14 @@
 		<Prereq>Empire_AI_Heroes_05 Galactic_Conquest_Started</Prereq>
 	</Event>
 
-	<Event Name="Empire_Tech_Pop_Cap_02">
+	<!--<Event Name="Empire_Tech_Pop_Cap_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>UNIQUE_UNIT</Reward_Type>
 		<Reward_Param1>Empire_Dummmy_Star_Base_2</Reward_Param1>
 		<Reward_Param2>Hoth</Reward_Param2>
 		<Prereq>Empire_AI_Heroes_05 Galactic_Conquest_Started</Prereq>
 	
-	</Event>
+	</Event>-->
 
 
 	<!-- Spawn Time Era 3 Heroes -->
@@ -169,14 +169,14 @@
 		<Prereq>Empire_AI_Heroes_07 Galactic_Conquest_Started</Prereq>
 	</Event>
 
-	<Event Name="Empire_Tech_Pop_Cap_03">
+	<!--<Event Name="Empire_Tech_Pop_Cap_03">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>UNIQUE_UNIT</Reward_Type>
 		<Reward_Param1>Empire_Dummmy_Star_Base_3</Reward_Param1>
 		<Reward_Param2>Hoth</Reward_Param2>
 		<Prereq>Empire_AI_Heroes_07 Galactic_Conquest_Started</Prereq>
 	
-	</Event>
+	</Event>-->
 
 
 	<!-- Spawn Time Era 4 Heroes -->
@@ -186,14 +186,14 @@
 		<Event_Param1>4</Event_Param1>
 	</Event>
 
-	<Event Name="Empire_Tech_Pop_Cap_04">
+	<!--<Event Name="Empire_Tech_Pop_Cap_04">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>UNIQUE_UNIT</Reward_Type>
 		<Reward_Param1>Empire_Dummmy_Star_Base_4</Reward_Param1>
 		<Reward_Param2>Hoth</Reward_Param2>
 		<Prereq>Empire_AI_Heroes_09 Galactic_Conquest_Started</Prereq>
 	
-	</Event>
+	</Event>-->
 
 	<Event Name="Empire_Tech_5">
 		<Event_Type>STORY_TECH_LEVEL</Event_Type>
@@ -216,14 +216,14 @@
 		<Prereq>Empire_Unlock_Executor_00</Prereq>
 	</Event>
 
-	<Event Name="Empire_Tech_Pop_Cap_05">
+	<!--<Event Name="Empire_Tech_Pop_Cap_05">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>UNIQUE_UNIT</Reward_Type>
 		<Reward_Param1>Empire_Dummmy_Star_Base_5</Reward_Param1>
 		<Reward_Param2>Hoth</Reward_Param2>
 		<Prereq>Empire_Tech_5</Prereq>
 	
-	</Event>
+	</Event>-->
 
 
 </Story>

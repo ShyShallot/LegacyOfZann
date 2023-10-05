@@ -87,7 +87,7 @@ function State_Init(message)
 		-- Prevent the enemy from retreating, if they're trying to
 		if (enemy_is_retreating ~= 0) and (not interdicting) then
 			interdicting = true
-			Sleep(GameRandom(3,8))
+			Sleep(EvenMoreRandom(3,8))
 			--MessageBox("trying to interdict")
 			Object.Activate_Ability("INTERDICT", true)
 			Register_Timer(Cancel_Interdiction, 20)

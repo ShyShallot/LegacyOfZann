@@ -15,8 +15,6 @@ function State_Init(message)
         --DebugMessage("%s -- In OnEnter, Running rest of Script", tostring(Script))
         GlobalValue.Set("Total_Slice_Amount", 0)
         GlobalValue.Set("IS_REBEL_ISD_LOCKED", 0)
-
-
     elseif message == OnUpdate then -- This is Ran based off of the Service Rate
         --DebugMessage("%s -- Defining Plots and Events", tostring(Script))
         plot = Get_Story_Plot("StoryMissions\\Custom\\STORY_SANDBOX_REBEL_SLICE.XML") -- Get Plot file for Text Event
@@ -31,34 +29,28 @@ function State_Init(message)
 
         --DebugMessage("%s -- Setting Respawn Time Per Tech", tostring(Script))
         -- Because the way Rebel Tech works: 0 is Tech Level 1 and so on
-        if player.Get_Tech_Level() == 0 then -- Get Respawn Time Per each Tech Level 
-            respawnPerTech = 25 -- Was 85
-        elseif player.Get_Tech_Level() == 1 then
-            respawnPerTech = 45 -- Was 125
-        elseif player.Get_Tech_Level() == 2 then
-            respawnPerTech = 60 -- Was 195
-        elseif player.Get_Tech_Level() == 3 then
-            respawnPerTech = 110 -- Was 245
-        end
+        respawnTimePerTechLevel = 
+        {
+            25, -- Tech 1
+            35,
+            50,
+            60 -- tech 4
+        }
 
-        if last_planet_diff == 0 then
-            respawnMulti = 0.75
-        elseif last_planet_diff == 1 then
-            respawnMulti = 0.85
-        elseif last_planet_diff == 2 then
-            respawnMulti = 1
-        elseif last_planet_diff == 3 then
-            respawnMulti = 1.15
-        elseif last_planet_diff == 4 then
-            respawnMulti = 1.25
-        elseif last_planet_diff == 5 then
-            respawnMulti = 1.4
-        end
+        respawnMultiplier = 
+        {
+            0.75, -- Planet diff 0
+            0.85,
+            1,
+            1.15,
+            1.25,
+            1.4 -- Planet diff 5
+        }
 
         if are_droids_Dead == 1 then
             --DebugMessage("%s -- Droid Team is dead, sleeping per Tech Level for Respawn", tostring(Script))
-            Game_Message("Tech Slice Failed, C3PO and R2D2 will return in " .. respawnPerTech * respawnMulti .. " Seconds.")
-            Sleep(respawnPerTech * respawnMulti)
+            Game_Message("Tech Slice Failed, C3PO and R2D2 will return in " .. respawnTimePerTechLevel[player.Get_Tech_Level()+1] * respawnMultiplier[last_planet_diff+1] .. " Seconds.")
+            Sleep(respawnTimePerTechLevel[player.Get_Tech_Level()+1] * respawnMultiplier[last_planet_diff+1])
            -- DebugMessage("%s -- Respawned the Droids", tostring(Script))
             Story_Event("REBEL_SLICE_RESPAWN")
             Game_Message("LOZ_REBEL_SLICE_RESPAWN")
@@ -66,6 +58,7 @@ function State_Init(message)
         end
 
         if are_droids_Dead == 2 then
+            Game_Message("RD2D and C3PO can't steal tech from a pirate planet, and have traveled to the nearest Rebel System")
            -- DebugMessage("%s -- Special Respawn, From Pirate Planet", tostring(Script))
             --DebugMessage("%s -- Respawned the Droids", tostring(Script))
             Story_Event("REBEL_SLICE_RESPAWN")

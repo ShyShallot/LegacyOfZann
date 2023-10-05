@@ -67,7 +67,7 @@ function ReserveForce_Thread()
 	--Use the Normal version of Needs_Magic_Space_Defense (just in case the units we spawned don't pull us past the
 	--Hard threshold)
 	wait_start_time = GetCurrentTime()
-	wait_duration = GameRandom(120, 360) -- Wait Between 2 and 6 Days
+	wait_duration = EvenMoreRandom(120, 360) -- Wait Between 2 and 6 Days
 	while (GetCurrentTime() - wait_start_time < wait_duration) and 
 			(EvaluatePerception("Needs_Magic_Space_Defense", PlayerObject, Target) == 0.0) do
 		Sleep(1)

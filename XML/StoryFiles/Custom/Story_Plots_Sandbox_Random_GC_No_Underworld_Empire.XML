@@ -1,8 +1,12 @@
 <?xml version="1.0" ?>
 
 <Story_Mode_Plots>
+	
 	<Lua_Script>Story_Sandbox_Random_Unit_Spawn_Nun</Lua_Script>
 	<Active_Plot>StoryMissions\Custom\STORY_SANDBOX_RANDOM_EMPIRE.XML</Active_Plot>
 	<Active_Plot>StoryMissions\Custom\STORY_UNLOCK_ECLIPSE.XML</Active_Plot>
+	<Lua_Script>ScienceSystem</Lua_Script>
+	<Active_Plot>StoryMissions\Custom\STORY_SANDBOX_EMPIRE_SCIENCE_LIB.XML</Active_Plot>
+	<Active_Plot>StoryMissions\Custom\STORY_SANDBOX_MISSION_LIB.XML</Active_Plot>
 	<Active_Plot>StoryMissions\GALACTIC_FUNCTIONS.XML</Active_Plot>
 </Story_Mode_Plots>

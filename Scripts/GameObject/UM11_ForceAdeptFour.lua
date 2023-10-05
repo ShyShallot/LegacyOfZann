@@ -109,7 +109,7 @@ function AdeptFour_AI()
 		warptimer = warptimer + 1
 		if not noteleports then 
 			if warptimer/5 > Object.Get_Hull() then
-				rand_index = GameRandom(1,6)
+				rand_index = EvenMoreRandom(1,6)
 				Object.Suspend_Locomotor(true)
 				Object.Play_Animation("Idle",true,0)
 				Object.Attach_Particle_Effect("BOTHAN_STUN_GAS")

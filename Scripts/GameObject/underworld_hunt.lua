@@ -79,7 +79,7 @@ end
 
 function hunt(faction)
 	if faction == Find_Player("Underworld") then
-		rand_num = GameRandom(1,2)
+		rand_num = EvenMoreRandom(1,2)
 		if rand_num == 1 then
 			faction = empire_player
 		end

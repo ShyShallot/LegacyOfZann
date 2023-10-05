@@ -15,7 +15,7 @@ function Return_Chance(value_to_check, factor) -- Returns true or false
             return true 
         end
     elseif value_to_check <= 100 and value_to_check >= 1 then
-        chance = GameRandom(0, 100) 
+        chance = EvenMoreRandom(0, 100) 
         chance = chance / factor
         if chance <= value_to_check then 
             return true
@@ -98,4 +98,41 @@ function tableMerge(t1, t2) -- Credit to RCIX for this function: https://stackov
         end
     end
     return t1
+end
+
+function tableLength(table)
+    local count = 0
+    for _ in pairs(table) do
+        count = count + 1
+    end
+    return count
+end
+
+function getRandomStringKey(Table)
+    local keys = {}
+    for key, _ in pairs(Table) do
+        if type(key) == "string" then
+            table.insert(keys, key)
+        end
+    end
+
+    if table.getn(keys) > 0 then
+        local randomIndex = EvenMoreRandom(1, table.getn(keys))
+        return keys[randomIndex]
+    else
+        return nil -- Return nil if there are no string keys in the table
+    end
+end
+
+function EvenMoreRandom(min,max,count) -- the GameRandom tends to be consistant despite being random, usual min max value, with the count being the amount of random numbers generated to then be randomly chosen
+    if count == 0 or count == nil then
+        count = 5
+    end
+    DebugMessage("%s -- Min: %s, Max: %s, Count: %s", tostring(Script),min,max,count)
+    local values = {}
+    for i = 1, count, 1 do
+        values[i] = GameRandom(min,max)
+        DebugMessage("%s -- Random Num: %s", tostring(Script),values[i])
+    end
+    return values[GameRandom(1,count)]
 end

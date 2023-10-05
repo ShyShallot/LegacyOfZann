@@ -47,18 +47,18 @@ function Spawn_Player_Underworld()
     end
     underworld_start_table = {
         {
-            [Find_Object_Type("Kedalbe_Battleship")] = 1,
-            [Find_Object_Type("Vengeance_Frigate")] = GameRandom(1,3),
-            [Find_Object_Type("StarViper_Squadron")] = GameRandom(2,3),
-            [Find_Object_Type("Skipray_Squadron")] = GameRandom(3,6),
+            ["Kedalbe_Battleship"] = 1,
+            ["Vengeance_Frigate"] = EvenMoreRandom(1,3),
+            ["StarViper_Squadron"] = EvenMoreRandom(2,3),
+            ["Skipray_Squadron"] = EvenMoreRandom(3,6),
         },
         {
-            [Find_Object_Type("U_Ground_Droid_Works")] = 1,
-            [Find_Object_Type("U_Ground_Palace")] = 1,
-            [Find_Object_Type("U_Ground_Vehicle_Factory")] = 1,
-            [Find_Object_Type("REBEL_GROUND_MINING_FACILITY")] = 1,
-            [Find_Object_Type("Underworld_Merc_Squad")] = GameRandom(2,5),
-            [Find_Object_Type("MZ8_Pulse_Cannon_Tank_Company")] = 2
+            ["U_Ground_Droid_Works"] = 1,
+            ["U_Ground_Palace"] = 1,
+            ["U_Ground_Vehicle_Factory"] = 1,
+            ["REBEL_GROUND_MINING_FACILITY"] = 1,
+            ["Underworld_Merc_Squad"] = EvenMoreRandom(2,5),
+            ["MZ8_Pulse_Cannon_Tank_Company"] = 2
         }
     }
     space_units = underworld_start_table[1]

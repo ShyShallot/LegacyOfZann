@@ -1009,7 +1009,7 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Prev_Level_Base>Empire_Star_Base_4</Prev_Level_Base>
 		<Next_Level_Base />
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Ground_Base_Level/>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<CategoryMask> Capital </CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -1156,6 +1156,12 @@
 			</Planet_Income_Bonus_Ability>
 		</Abilities>
 
+	</StarBase>
+
+	<StarBase Name="Empire_Star_Base_5_Starting">
+		<Variant_Of_Existing_Type>Empire_Star_Base_5</Variant_Of_Existing_Type>
+		<Additional_Population_Capacity>85</Additional_Population_Capacity>
+	
 	</StarBase>
 
 	<StarBase Name="Empire_Star_Base_5_Death_Clone">

@@ -3,6 +3,12 @@ require("PGStateMachine")
 require("PGBase")
 require("PGSpawnUnits")
 require("LOZFunctions")
+
+spawningDone = false
+
+function isSpawningDone() 
+    return spawningDone
+end
 -- Please Note this script is a total fucking mess, it works and i dont want to spend 2 more days re-writing it
 -- This script File is the main Function File for the Rebel Slice Mechanic
 
@@ -42,7 +48,7 @@ function Despawn_Starting_Structure(player)
 end
 
 empire_structures = {"E_GROUND_BARRACKS","E_GROUND_LIGHT_VEHICLE_FACTORY","EMPIRE_GROUND_MINING_FACILITY"}
-empire_starbase = "Empire_Star_Base_5"
+empire_starbase = "Empire_Star_Base_5_Starting"
 empire_units = {
     ["STAR_DESTROYER"] = 1, 
     ["ACCLAMATOR_ASSAULT_SHIP"] = 2, 
@@ -52,7 +58,7 @@ empire_units = {
     ["IMPERIAL_HEAVY_SCOUT_SQUAD"] = 2
 }
 rebel_structures = {"R_GROUND_BARRACKS","R_GROUND_LIGHT_VEHICLE_FACTORY","REBEL_GROUND_MINING_FACILITY"}
-rebel_starbase = "Rebel_Star_Base_5"
+rebel_starbase = "Rebel_Star_Base_5_Starting"
 rebel_units = {
     ["CALAMARI_CRUISER"] = 1,
     ["NEBULON_B_FRIGATE"] = 2,
@@ -67,10 +73,8 @@ function Spawn_Random_Units()
     --Planet_List() This is only used for Debugging, do not renable unless needed
     empire = Find_Player("EMPIRE")
     rebel = Find_Player("REBEL")
-    Spawn_Faction_Starting(empire, empire_structures, empire_starbase, empire_units)
-    Sleep(1)
-    Spawn_Faction_Starting(rebel, rebel_structures, rebel_starbase, rebel_units)
-    Sleep(2)
+    Spawn_Faction_Starting(empire, empire_structures, empire_units,empire_starbase)
+    Spawn_Faction_Starting(rebel, rebel_structures, rebel_units,rebel_starbase)
     Spawn_Player_Pirates() -- Always spawn pirates last, as they fill in the gaps
     DebugMessage("%s -- All Done", tostring(Script))
 end
@@ -80,19 +84,16 @@ function Spawn_Player_Pirates()
     local Hplayer = Find_Human_Player()
     Despawn_Starting_Structure(player)
     DebugMessage("%s -- Despawning pirate structure", tostring(Script))
-    Sleep(1)
-    
     pirate_start_table = {
         {
-            [Find_Object_Type("PIRATE_ASTEROID_BASE")] = 1,
-            [Find_Object_Type("PIRATE_FRIGATE")] = 1,
-            [Find_Object_Type("PIRATE_CORONA_FRIGATE")] = 2,
-            [Find_Object_Type("Z95_HEADHUNTER_SQUADRON")] = 2,
+            ["PIRATE_FRIGATE"] = {1,5}, -- Min, Max for random amount
+            ["PIRATE_CORONA_FRIGATE"] = {1,2},
+            ["Z95_HEADHUNTER_SQUADRON"] = {3,5},
         },
         {
-            [Find_Object_Type("PIRATE_COMMAND_CENTER")] = 1,
-            [Find_Object_Type("PIRATE_SKIFF_TEAM")] = 2,
-            [Find_Object_Type("PIRATE_SOLDIER_SQUAD")] = 3,
+            ["PIRATE_COMMAND_CENTER"] = 1,
+            ["PIRATE_SKIFF_TEAM"] = {2,5},
+            ["PIRATE_SOLDIER_SQUAD"] = {5,7},
         }
     }
     space_units = pirate_start_table[1]
@@ -103,15 +104,15 @@ function Spawn_Player_Pirates()
     local finalplanetfill = planetcount * piratecontrol
     DebugMessage("%s -- Total Planets to fill", tostring(finalplanetfill))
     local planets_left = finalplanetfill
-    Sleep(1)
     for k, planet in pairs(planets) do
         if TestValid(planet) and Return_Faction(planet) == "NEUTRAL" and planets_left >= 1 then
             DebugMessage("%s -- Planet Valid for spawning", tostring(Script))
             if Return_Faction(planet) == "NEUTRAL" and (Return_Faction(planet) ~= "REBEL" or Return_Faction(planet) ~= "EMPIRE") then   
                 DebugMessage("%s -- Planet Valid for spawn", tostring(Script))
                 planet.Change_Owner(player)
-                Spawn_Space_Units(space_units, planet, player)
-                Spawn_Ground_Units(ground_units, planet, player)
+                Spawn_Unit(Find_Object_Type("PIRATE_ASTEROID_BASE"),planet,player)
+                Spawn_Unit_List(space_units, planet, player)
+                Spawn_Unit_List(ground_units, planet, player)
                 planets_left = planets_left - 1
                 DebugMessage("%s -- Planets left to take over", tostring(planets_left))
             else
@@ -120,24 +121,23 @@ function Spawn_Player_Pirates()
         end
     end
     DebugMessage("%s -- All Done spawning Pirates", tostring(Script))
+    spawningDone = true
 end
 
-function Spawn_Faction_Starting(faction, structures, starbase, units)
+function Spawn_Faction_Starting(faction, structures, units, starbase)
     Despawn_Starting_Structure(faction)
     DebugMessage("%s -- Despawning %s Structure", tostring(Script), tostring(faction.Get_Faction_Name()))
-    Sleep(1)
     planet_start = Random_Planet_Select()
     if TestValid(planet_start) then
         if Return_Faction(planet_start) == "NEUTRAL" then   
             DebugMessage("%s -- Planet Valid for spawn", tostring(Script))
             planet_start.Change_Owner(faction)
-        end
+            Spawn_Unit(Find_Object_Type(starbase),planet_start,faction)
+        end 
     else
         return
     end
-    Sleep(1)
-    Spawn_Unit(starbase, planet_start, faction)
-    Spawn_Unit_List(structures, planet_start, faction)
+    Spawn_Structure_List(structures, planet_start, faction)
     Spawn_Unit_List(units, planet_start, faction)
 end
 
@@ -145,7 +145,8 @@ function Random_Planet_Select()
     DebugMessage("%s -- Selecting Random Planet", tostring(Script))
     local planets = FindPlanet.Get_All_Planets()
     local totalplanets = table.getn(planets)
-    local selectRandom = GameRandom(1, totalplanets) -- Lua starts index at 1 cause why not
+    DebugMessage("%s -- Number of Planets", tostring(totalplanets))
+    local selectRandom = EvenMoreRandom(1, totalplanets,30) -- Lua starts index at 1 cause why not
     DebugMessage("%s -- Random Selected Index", tostring(selectRandom))
     randomPlanet = planets[selectRandom]
     DebugMessage("%s -- Random Planet", tostring(randomPlanet))
@@ -155,11 +156,17 @@ end
 
 function Spawn_Unit_List(unit_list, planet, player)
     local x = 0
+    DebugMessage("%s -- Unit List", tostring(unit_list))
     for unit, amount in pairs(unit_list) do
-        unitO = Find_Object_Type(unit)
-        DebugMessage("%s -- Unit to Spawn", tostring(unit.Get_Name()))
+        DebugMessage("%s -- Unit to Spawn", tostring(unit))
         DebugMessage("%s -- Amount to spawn", tostring(amount))
         DebugMessage("%s -- Spawning Space Units", tostring(Script))
+        unitO = Find_Object_Type(unit)
+        if type(amount) == "table" then
+            DebugMessage("%s -- Amount is a table", tostring(Script))
+            amount = EvenMoreRandom(amount[1],amount[2],10)
+            DebugMessage("%s -- Amount of Random Units", tostring(amount))
+        end
         if amount == 1 then
             Spawn_Unit(unitO, planet, player)
         else
@@ -171,16 +178,24 @@ function Spawn_Unit_List(unit_list, planet, player)
     end
 end
 
+
+function Spawn_Structure_List(struct_list, planet,player)
+    for i=table.getn(struct_list),1,-1 do
+        struct = Find_Object_Type(struct_list[i])
+        Spawn_Unit(struct,planet,player)
+    end
+end
+
 function Pirate_Control_Threshold(player)
     
     if player.Get_Difficulty() == "Easy" then
-        pirate_control_threshold = 0.4 -- Pirates control x% of the Map on start
+        pirate_control_threshold = 0.5 -- Pirates control x% of the Map on start
         DebugMessage("%s -- Difficulty is Easy, Pirate Control Treshold", tostring(pirate_control_threshold))
     elseif player.Get_Difficulty() == "Hard" then
-        pirate_control_threshold = 0.75
+        pirate_control_threshold = 0.8
         DebugMessage("%s -- Difficulty is Hard, Pirate Control Treshold", tostring(pirate_control_threshold))
     else
-        pirate_control_threshold = 0.55
+        pirate_control_threshold = 0.95
         DebugMessage("%s -- Difficulty is Normal, Pirate Control Treshold", tostring(pirate_control_threshold))
     end
     if pirate_control_threshold ~= nil then

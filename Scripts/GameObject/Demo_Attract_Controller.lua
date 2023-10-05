@@ -116,7 +116,7 @@ function Move_Fleet(list, loc_list)
 				(unit.Get_Type() == x_wing) and not
 				(unit.Get_Type() == b_wing) then
 				
-				rand_loc = GameRandom(1,3)
+				rand_loc = EvenMoreRandom(1,3)
 				unit.Attack_Move(loc_list[rand_loc].Get_Position())
 			end
 		end

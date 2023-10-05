@@ -176,21 +176,21 @@ function Move_Air_Units1(group)
 end
 
 function Move_IG88(unit)	
-	rand_loc = GameRandom(1,3)
+	rand_loc = EvenMoreRandom(1,3)
 	if TestValid(unit) then
 		unit.Attack_Move(dest0_list[rand_loc].Get_Position())
 	end
 end
 
 function Move_Bossk(unit)	
-	rand_loc = GameRandom(1,3)
+	rand_loc = EvenMoreRandom(1,3)
 	if TestValid(unit) then
 		unit.Attack_Move(dest1_list[rand_loc].Get_Position())
 	end
 end
 
 function Move_Destroyer_group(group)	
-	rand_loc = GameRandom(1,3)
+	rand_loc = EvenMoreRandom(1,3)
 	for k, unit in pairs(group) do
 		
 		if TestValid(unit) then
@@ -198,13 +198,13 @@ function Move_Destroyer_group(group)
 		end
 	end
 		
---	sleeptimer = GameRandom(8, 11)
+--	sleeptimer = EvenMoreRandom(8, 11)
 --	Sleep(sleeptimer)
 --	Deploy_Destroyer_group(group, dest0_list[rand_loc])
 end
 
 function Move_Destroyer_group1(group)	
-	rand_loc = GameRandom(1,3)
+	rand_loc = EvenMoreRandom(1,3)
 	for k, unit in pairs(group) do
 		
 		if TestValid(unit) then
@@ -212,7 +212,7 @@ function Move_Destroyer_group1(group)
 		end
 	end
 		
---	sleeptimer = GameRandom(12, 14)
+--	sleeptimer = EvenMoreRandom(12, 14)
 --	Sleep(sleeptimer)
 --	Deploy_Destroyer_group(group, dest0_list[rand_loc])
 end

@@ -66,7 +66,7 @@ function ReserveForce_Thread()
 	
 	--Sleep forever on easy so that we can't repeat the spawn
 	wait_start_time = GetCurrentTime()
-	wait_duration = GameRandom(480, 900) -- Wait Between 8 and 15 Days
+	wait_duration = EvenMoreRandom(480, 900) -- Wait Between 8 and 15 Days
 	while (GetCurrentTime() - wait_start_time < wait_duration) do
 		Sleep(1)
 	end

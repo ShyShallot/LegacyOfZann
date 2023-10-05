@@ -72,10 +72,11 @@
 	<!-- Spawn Starting Heroes -->
 
 	<Event Name="Spawn_Station">
-    		<Event_Type>STORY_TRIGGER</Event_Type>
-            <Reward_Type>UNIQUE_UNIT</Reward_Type>
+    		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+            <Event_Param2>SPAWN_STATION</Event_Param2>
+			<Reward_Type>UNIQUE_UNIT</Reward_Type>
             <Reward_Param1>Rebel_Star_Base_5</Reward_Param1>
-			<Prereq>Galactic_Conquest_Started</Prereq>
+
     </Event>
 
 	<Event Name="Rebel_AI_Heroes_01">
@@ -110,14 +111,14 @@
 		<Prereq>Rebel_AI_Heroes_03 Galactic_Conquest_Started</Prereq>
 	</Event>
 
-	<Event Name="Rebel_Tech_Pop_Cap_01">
+	<!--<Event Name="Rebel_Tech_Pop_Cap_01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>UNIQUE_UNIT</Reward_Type>
 		<Reward_Param1>Rebel_Dummmy_Star_Base_1</Reward_Param1>
 		<Reward_Param2>Hoth</Reward_Param2>
 		<Prereq>Rebel_AI_Heroes_03 Galactic_Conquest_Started</Prereq>
 	
-	</Event>
+	</Event>-->
 
 
 	<!-- Spawn Tech 2 Heroes -->
@@ -135,14 +136,14 @@
 		<Prereq>Rebel_AI_Heroes_05 Galactic_Conquest_Started</Prereq>
 	</Event>
 
-	<Event Name="Rebel_Tech_Pop_Cap_02">
+	<!--<Event Name="Rebel_Tech_Pop_Cap_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>UNIQUE_UNIT</Reward_Type>
 		<Reward_Param1>Rebel_Dummmy_Star_Base_2</Reward_Param1>
 		<Reward_Param2>Hoth</Reward_Param2>
 		<Prereq>Rebel_AI_Heroes_05 Galactic_Conquest_Started</Prereq>
 	
-	</Event>
+	</Event>-->
 
 	<!-- Spawn Tech 3 Heroes -->
 
@@ -159,14 +160,14 @@
 		<Prereq>Rebel_AI_Heroes_07 Galactic_Conquest_Started</Prereq>
 	</Event>
 
-	<Event Name="Rebel_Tech_Pop_Cap_03">
+	<!--<Event Name="Rebel_Tech_Pop_Cap_03">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>UNIQUE_UNIT</Reward_Type>
 		<Reward_Param1>Rebel_Dummmy_Star_Base_3</Reward_Param1>
 		<Reward_Param2>Hoth</Reward_Param2>
 		<Prereq>Rebel_AI_Heroes_07 Galactic_Conquest_Started</Prereq>
 	
-	</Event>
+	</Event>-->
 
 	<!-- Spawn Tech 4 Heroes -->
 
@@ -191,14 +192,14 @@
 		<Prereq>Rebel_AI_Heroes_09 Galactic_Conquest_Started</Prereq>
 	</Event>
 
-	<Event Name="Rebel_Tech_Pop_Cap_04">
+	<!--<Event Name="Rebel_Tech_Pop_Cap_04">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>UNIQUE_UNIT</Reward_Type>
 		<Reward_Param1>Rebel_Dummmy_Star_Base_4</Reward_Param1>
 		<Reward_Param2>Hoth</Reward_Param2>
 		<Prereq>Rebel_AI_Heroes_09 Galactic_Conquest_Started</Prereq>
 	 
-	</Event>
+	</Event>-->
 
 
 </Story>
